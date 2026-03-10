@@ -1,0 +1,16 @@
+# 排除构建无关文件，但必须保留 data/ 供 SSR 和 copy-data 使用
+node_modules
+dist
+.astro
+.git
+.gitignore
+.idea
+.vscode
+.env
+.env.*
+*.log
+.DS_Store
+Thumbs.db
+
+# exports 可排除，data 绝不能排除
+exports

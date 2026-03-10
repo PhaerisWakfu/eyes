@@ -177,4 +177,10 @@ eyes/
    - Markdown：`exports/2026-03-09.md`  
    - 配图：`data/assets/2026-03-09/` 下，Markdown 中引用 `../data/assets/2026-03-09/xxx.jpg`
 
+6. **部署后白屏**  
+   - 构建时 SSR 需要读取 `data/enriched/` 或 `data/raw/` 下的 `.json`，否则页面只显示「加载中…」或空白。  
+   - 确保 `data/` 已提交到 git（`.gitignore` 只排除 `public/data/`，不排除 `data/`）。  
+   - 若使用 Docker 构建，`.dockerignore` 已配置为**不排除** `data/`；若自定义了 `.dockerignore`，务必保留 `data/`。  
+   - 首次部署前至少执行一次 `npm run fetch` 并提交 `data/raw/` 中的文件。
+
 以上步骤足够完成「抓数据 → 可选增强 → 本地看站 → 打包/部署」全流程；不熟悉前端也只需按顺序执行命令即可。
