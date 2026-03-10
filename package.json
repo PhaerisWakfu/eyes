@@ -10,7 +10,7 @@
     "copy-data": "tsx scripts/copy-data.ts",
     "download-images": "tsx scripts/download-images.ts",
     "download-images:verbose": "tsx scripts/download-images.ts --verbose",
-    "build": "npm run download-images && npm run copy-data && astro build",
+    "build": "npm run copy-data && astro build",
     "preview": "astro preview"
   },
   "dependencies": {

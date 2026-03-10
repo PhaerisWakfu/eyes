@@ -79,7 +79,7 @@ npm run dev
 
 ### 4. 可选：下载配图到本地
 
-配图会保存到 `data/assets/{日期}/`（按日期分文件夹）。若 enriched 里填了 `image` URL，脚本会下载；若未填，会尝试从原文页面抓取 og:image。构建前会自动执行，也可单独运行：
+配图会保存到 `data/assets/{日期}/`（按日期分文件夹）。若 enriched 里填了 `image` URL，脚本会下载；若未填，会尝试从原文页面抓取 og:image。**构建时不会自动下载**，仅复制 `data/assets` 中已有图片；需在构建前手动执行：
 
 ```bash
 npm run download-images
@@ -95,7 +95,7 @@ npm run download-images
 npm run build
 ```
 
-构建时会依次执行：`download-images`（下载配图）→ `copy-data`（复制数据到 public）→ `astro build`。
+构建时依次执行：`copy-data`（复制 data 含 assets 到 public）→ `astro build`。配图需提前运行 `npm run download-images`。
 
 生成完成后，可在本地先预览打包结果：
 
