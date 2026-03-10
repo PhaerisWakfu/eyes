@@ -1,0 +1,20 @@
+---
+interface Props {
+  source: string;
+}
+
+const { source } = Astro.props;
+
+const labels: Record<string, string> = {
+  hackernews: "HN",
+  lobsters: "LB",
+  "github-trending": "GH",
+  producthunt: "PH",
+  devto: "DT",
+  changelog: "CL",
+};
+
+const label = labels[source] || source.toUpperCase().slice(0, 2);
+---
+
+<span class="source-badge" data-source={source}>{label}</span>

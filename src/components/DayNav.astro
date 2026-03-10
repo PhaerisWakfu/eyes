@@ -1,0 +1,23 @@
+---
+interface Props {
+  date: string;
+  prev: string | null;
+  next: string | null;
+}
+
+const { date, prev, next } = Astro.props;
+---
+
+<div class="day-nav">
+  {prev ? (
+    <a href={`/day/${prev}`}>← {prev}</a>
+  ) : (
+    <span></span>
+  )}
+  <span class="current-date">{date}</span>
+  {next ? (
+    <a href={`/day/${next}`}>{next} →</a>
+  ) : (
+    <span></span>
+  )}
+</div>

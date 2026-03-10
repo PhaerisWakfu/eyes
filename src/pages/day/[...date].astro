@@ -1,0 +1,42 @@
+---
+import Base from "../../layouts/Base.astro";
+import DayNav from "../../components/DayNav.astro";
+import ItemRow from "../../components/ItemRow.astro";
+import { getDailyData, getAvailableDates, getAdjacentDates } from "../../lib/data";
+
+const MAX_DISPLAY = 20;
+
+export function getStaticPaths() {
+  const dates = getAvailableDates();
+  return dates.map((date) => ({ params: { date } }));
+}
+
+const { date } = Astro.params;
+const data = date ? getDailyData(date) : null;
+const { prev, next } = date ? getAdjacentDates(date) : { prev: null, next: null };
+
+const rawItems = data?.items ?? [];
+const items = [...rawItems]
+  .sort((a, b) => {
+    const scoreA = (a as { valueScore?: number }).valueScore ?? 0;
+    const scoreB = (b as { valueScore?: number }).valueScore ?? 0;
+    return scoreB - scoreA;
+  })
+  .slice(0, MAX_DISPLAY);
+---
+
+<Base title={`Eyes — ${date}`}>
+  {date && <DayNav date={date} prev={prev} next={next} />}
+  {items.length > 0 ? (
+    <ol class="item-list">
+      {items.map((item, idx) => (
+        <ItemRow rank={idx + 1} item={item} />
+      ))}
+    </ol>
+  ) : (
+    <div class="empty-state">
+      <p><strong>{date} 暂无数据</strong></p>
+      <p>运行 <code>npm run fetch {date}</code> 抓取该日数据</p>
+    </div>
+  )}
+</Base>

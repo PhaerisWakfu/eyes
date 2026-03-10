@@ -1,0 +1,365 @@
+{
+  "date": "2026-03-09",
+  "fetchedAt": "2026-03-10T03:39:20.608Z",
+  "enrichedAt": "2026-03-10T12:00:00.000Z",
+  "items": [
+    {
+      "id": "hn-47310160",
+      "title": "Is legal the same as legitimate: AI reimplementation and the erosion of copyleft",
+      "url": "https://writings.hongminhee.org/2026/03/legal-vs-legitimate/",
+      "source": "hackernews",
+      "score": 377,
+      "comments": 412,
+      "commentsUrl": "https://news.ycombinator.com/item?id=47310160",
+      "createdAt": "2026-03-09T15:12:53.000Z",
+      "summary_zh": "文章讨论一个很多人关心的问题：当 AI 用「重新实现」的方式复刻开源项目时，法律上可能没侵权，但在开源社区看来算不算正当？作者认为这种趋势正在侵蚀 copyleft 的精神，让「合法」和「大家心里认的正当」越来越不是一回事。对做开源、用法务或关心 AI 与版权的人都有参考价值。",
+      "title_zh": "合法就等于正当吗？AI 重写与 copyleft 的式微",
+      "tags": [
+        "思考",
+        "AI/ML",
+        "开源"
+      ],
+      "valueScore": 9,
+      "insight": "对开源维护者与法务：厘清合规与社区共识之间的张力"
+    },
+    {
+      "id": "hn-47311484",
+      "title": "JSLinux Now Supports x86_64",
+      "url": "https://bellard.org/jslinux/",
+      "source": "hackernews",
+      "score": 262,
+      "comments": 74,
+      "commentsUrl": "https://news.ycombinator.com/item?id=47311484",
+      "createdAt": "2026-03-09T16:43:39.000Z",
+      "summary_zh": "Fabrice Bellard 在浏览器里用纯 JavaScript 跑了一个完整的 Linux，现在支持 x86_64。不装虚拟机、不装系统，打开网页就能体验。对普通人来说是「黑科技」展示，对开发者则能看到 JS 和浏览器的能力边界被推到什么程度。",
+      "title_zh": "JSLinux 现已支持 x86_64",
+      "tags": [
+        "开源",
+        "基础设施",
+        "Web"
+      ],
+      "valueScore": 8,
+      "insight": "对前端与系统爱好者：理解 JS 与浏览器的能力边界"
+    },
+    {
+      "id": "gh-karpathy-nanochat",
+      "title": "karpathy/nanochat",
+      "url": "https://github.com/karpathy/nanochat",
+      "source": "github-trending",
+      "score": 0,
+      "description": "The best ChatGPT that $100 can buy. [Python]",
+      "createdAt": "2026-03-10T03:39:14.472Z",
+      "summary_zh": "Karpathy 开源的项目：用大约一百美元就能跑起来的「本地版 ChatGPT」，强调性价比和可复现。核心思想是让普通人也能在自家机器上玩转大模型，不依赖大厂 API。对想低成本玩 LLM 的人非常实用。",
+      "title_zh": "nanochat：百元级最佳 ChatGPT",
+      "tags": [
+        "AI/ML",
+        "开源"
+      ],
+      "valueScore": 8,
+      "insight": "做端侧或低成本 LLM 应用时的参考实现与思路"
+    },
+    {
+      "id": "hn-47312728",
+      "title": "Show HN: The Mog Programming Language",
+      "url": "https://moglang.org",
+      "source": "hackernews",
+      "score": 126,
+      "comments": 64,
+      "commentsUrl": "https://news.ycombinator.com/item?id=47312728",
+      "createdAt": "2026-03-09T17:57:00.000Z",
+      "summary_zh": "Mog 是一门新推出的编程语言，面向数据和并发场景，语法简洁，还提供在线 Playground 方便试玩。作者分享了设计动机和与现有语言的取舍。对编程语言爱好者来说是一个值得围观的新选项。",
+      "title_zh": "Show HN：编程语言 Mog",
+      "tags": [
+        "开发工具",
+        "开源"
+      ],
+      "valueScore": 7,
+      "insight": "对语言与运行时爱好者：了解新语言的设计取舍"
+    },
+    {
+      "id": "hn-47311657",
+      "title": "Launch HN: Terminal Use (YC W26) – Vercel for filesystem-based agents",
+      "url": "https://news.ycombinator.com/item?id=47311657",
+      "source": "hackernews",
+      "score": 93,
+      "comments": 60,
+      "commentsUrl": "https://news.ycombinator.com/item?id=47311657",
+      "createdAt": "2026-03-09T16:53:52.000Z",
+      "summary_zh": "YC W26 项目 Terminal Use 想做「基于文件系统的 AI Agent 的 Vercel」：帮你把这类 Agent 部署、跑起来，省去自己搞基础设施的麻烦。团队在 HN 上介绍了产品思路和当前进展。做 Agent 应用或创业的人可以关注这个方向。",
+      "title_zh": "Launch HN: Terminal Use (YC W26)——面向文件系统 Agent 的部署平台",
+      "tags": [
+        "创业",
+        "AI/ML",
+        "基础设施"
+      ],
+      "valueScore": 7,
+      "insight": "做 Agent 基础设施或创业时可参考的产品方向"
+    },
+    {
+      "id": "lb-dnqcvh",
+      "title": "Your LLM Doesn't Write Correct Code. It Writes Plausible Code",
+      "url": "https://blog.katanaquant.com/p/your-llm-doesnt-write-correct-code",
+      "source": "lobsters",
+      "score": 46,
+      "comments": 7,
+      "commentsUrl": "https://lobste.rs/s/dnqcvh/your_llm_doesn_t_write_correct_code_it",
+      "createdAt": "2026-03-09T08:55:14.000-05:00",
+      "summary_zh": "文章的核心观点是：大模型生成的代码往往是「看起来对」的代码，而不是真的逻辑正确、可长期维护的代码。作者提醒大家别被表面正确骗了，必须靠测试和审查把关。对用 AI 写代码的团队是一剂清醒剂。",
+      "title_zh": "LLM 写的是「像对的」代码，不是「对的」代码",
+      "tags": [
+        "AI/ML",
+        "思考"
+      ],
+      "valueScore": 7,
+      "insight": "用 AI 写代码的团队：必须建立验证与审查习惯"
+    },
+    {
+      "id": "dt-3331135",
+      "title": "Running LLMs On-Device in Android: GGUF Models, NNAPI, and the Real Performance Tradeoffs",
+      "url": "https://dev.to/software_mvp-factory/running-llms-on-device-in-android-gguf-models-nnapi-and-the-real-performance-tradeoffs-5bfc",
+      "source": "devto",
+      "score": 2,
+      "comments": 0,
+      "commentsUrl": "https://dev.to/software_mvp-factory/running-llms-on-device-in-android-5bfc#comments",
+      "description": "A deep technical walkthrough of shipping on-device LLM inference in production Android apps...",
+      "createdAt": "2026-03-09T14:30:11Z",
+      "summary_zh": "一篇偏实战的技术长文：在 Android 上跑端侧大模型，涉及 GGUF、NNAPI、显存占用和在中等机型上的性能取舍。对做移动端 AI 或端侧推理的工程师是实打实的参考，能少走弯路。",
+      "title_zh": "在 Android 上跑端侧 LLM：GGUF、NNAPI 与真实性能取舍",
+      "tags": [
+        "AI/ML",
+        "移动端",
+        "基础设施"
+      ],
+      "valueScore": 7,
+      "insight": "做端侧 AI 或移动开发的工程师可直接参考实现与取舍"
+    },
+    {
+      "id": "dt-3331644",
+      "title": "AI Agents Don't Need to Touch the UI. WebMCP Is the Third Way.",
+      "url": "https://dev.to/n_asuy/ai-agents-dont-need-to-touch-the-ui-webmcp-is-the-third-way-4fhp",
+      "source": "devto",
+      "score": 2,
+      "comments": 2,
+      "commentsUrl": "https://dev.to/n_asuy/ai-agents-dont-need-to-touch-the-ui-webmcp-is-the-third-way-4fhp#comments",
+      "description": "AI agents can interact with websites in two ways. UI actuation — simulating clicks and keystrokes —...",
+      "createdAt": "2026-03-09T17:48:57Z",
+      "summary_zh": "目前 Agent 和网页交互要么模拟点击、要么走 API。文章提出 WebMCP：通过一套协议让 Agent 直接和网页「对话」，不用真的去点界面。对做浏览器自动化或 Agent 架构的人是一个新思路。",
+      "title_zh": "AI Agent 不必碰 UI，WebMCP 是第三条路",
+      "tags": [
+        "AI/ML",
+        "Web"
+      ],
+      "valueScore": 7,
+      "insight": "做 Agent 与浏览器自动化时的架构与协议参考"
+    },
+    {
+      "id": "gh-666ghj-BettaFish",
+      "title": "666ghj/BettaFish",
+      "url": "https://github.com/666ghj/BettaFish",
+      "source": "github-trending",
+      "score": 0,
+      "description": "微舆：人人可用的多Agent舆情分析助手，打破信息茧房，还原舆情原貌，预测未来走向，辅助决策！从0实现，不依赖任何框架。 [Python]",
+      "createdAt": "2026-03-10T03:39:14.472Z",
+      "summary_zh": "BettaFish（微舆）是一个多 Agent 舆情分析助手，从零实现、不依赖现成框架，目标是通过多源信息打破信息茧房、还原舆情、预测走向并辅助决策。对做舆情分析或多 Agent 系统的国内团队有参考价值。",
+      "title_zh": "BettaFish：多 Agent 舆情分析助手",
+      "tags": [
+        "AI/ML",
+        "开源",
+        "数据"
+      ],
+      "valueScore": 7,
+      "insight": "做舆情或多 Agent 系统的团队可参考架构与目标设定"
+    },
+    {
+      "id": "gh-NousResearch-hermes-agent",
+      "title": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "source": "github-trending",
+      "score": 0,
+      "description": "The agent that grows with you [Python]",
+      "createdAt": "2026-03-10T03:39:14.472Z",
+      "summary_zh": "Nous Research 开源的 Agent 框架，主打「和你一起成长」：能随着使用和反馈越用越贴合你的需求。适合想做一个可长期用、可定制的个人或企业 Agent 的开发者。",
+      "title_zh": "hermes-agent：与你一起成长的 Agent",
+      "tags": [
+        "AI/ML",
+        "开源"
+      ],
+      "valueScore": 7,
+      "insight": "做个人或企业 Agent 时的框架与产品思路参考"
+    },
+    {
+      "id": "gh-alibaba-page-agent",
+      "title": "alibaba/page-agent",
+      "url": "https://github.com/alibaba/page-agent",
+      "source": "github-trending",
+      "score": 0,
+      "description": "JavaScript in-page GUI agent. Control web interfaces with natural language. [TypeScript]",
+      "createdAt": "2026-03-10T03:39:14.472Z",
+      "summary_zh": "阿里开源的「页面内 Agent」：用自然语言就能控制当前网页上的界面，不用写自动化脚本。TypeScript 实现，适合做浏览器自动化、可访问性工具或「用说话操作网页」类产品的人参考。",
+      "title_zh": "page-agent：用自然语言控制页面的 GUI Agent",
+      "tags": [
+        "AI/ML",
+        "Web",
+        "开源"
+      ],
+      "valueScore": 7,
+      "insight": "做浏览器自动化或对话式操作网页时的工程参考"
+    },
+    {
+      "id": "gh-alirezarezvani-claude-skills",
+      "title": "alirezarezvani/claude-skills",
+      "url": "https://github.com/alirezarezvani/claude-skills",
+      "source": "github-trending",
+      "score": 0,
+      "description": "169 production-ready skills &amp; plugins for Claude Code, OpenAI Codex, and OpenClaw...",
+      "createdAt": "2026-03-10T03:39:14.472Z",
+      "summary_zh": "为 Claude Code、Codex、OpenClaw 等准备的 169 个即用型技能和插件，覆盖工程、营销、产品、合规、管理建议等。通过插件市场即可安装。用这些 AI 编程工具的人可以大幅少写重复劳动。",
+      "title_zh": "claude-skills：169 个 Claude/Codex 即用技能与插件",
+      "tags": [
+        "AI/ML",
+        "开发工具",
+        "开源"
+      ],
+      "valueScore": 7,
+      "insight": "用 Claude Code 或 Codex 的开发者可直接提效"
+    },
+    {
+      "id": "gh-teng-lin-notebooklm-py",
+      "title": "teng-lin/notebooklm-py",
+      "url": "https://github.com/teng-lin/notebooklm-py",
+      "source": "github-trending",
+      "score": 0,
+      "description": "Unofficial Python API and agentic skill for Google NotebookLM...",
+      "createdAt": "2026-03-10T03:39:14.472Z",
+      "summary_zh": "Google NotebookLM 的非官方 Python 接口和 Agent 技能，可以用代码、命令行或通过 Claude/Codex 等调用 NotebookLM 的能力，包括一些网页版没有开放的功能。做研究或 Agent 的人可以当桥梁用。",
+      "title_zh": "notebooklm-py：NotebookLM 的 Python/CLI/Agent 接口",
+      "tags": [
+        "AI/ML",
+        "开发工具",
+        "开源"
+      ],
+      "valueScore": 7,
+      "insight": "用 NotebookLM 做研究或接 Agent 时的实用桥梁"
+    },
+    {
+      "id": "ch-changelog.com/16/2802",
+      "title": "Linus Torvalds gets the AI coding bug",
+      "url": "https://changelog.com/news/176",
+      "source": "changelog",
+      "description": "Linus Torvalds pushes AI generated code, Jordan Fulghum thinks this is the year of self-hosting...",
+      "createdAt": "2026-01-12T19:35:00.000Z",
+      "summary_zh": "Linus 开始推 AI 生成代码、自托管之年、FracturedJson、「足够好」的软件会泛滥、以及为什么泛泛的设计建议没用。对关心内核和 AI 协作、或行业风向的人是一期有标志意义的周报。",
+      "title_zh": "Linus Torvalds 染上 AI 写代码瘾",
+      "tags": [
+        "AI/ML",
+        "行业动态",
+        "思考"
+      ],
+      "valueScore": 7,
+      "insight": "关注内核与 AI 协作的开发者可当风向标"
+    },
+    {
+      "id": "ch-changelog.com/16/2781",
+      "title": "This new AI role is exploding",
+      "url": "https://changelog.com/news/169",
+      "source": "changelog",
+      "description": "A new AI-led tech role has emerged with a massive increase of job postings...",
+      "createdAt": "2025-11-10T20:00:00.000Z",
+      "summary_zh": "一种以 AI 为核心的新岗位在招聘里暴增。还聊了年轻开发者不愿忍 AWS 的痛、为什么你应该写一个 Agent、死框架论、别搞 vibe coding 等。对求职、转岗或关心行业趋势的人有参考。",
+      "title_zh": "这类新 AI 岗位正在爆发",
+      "tags": [
+        "职业",
+        "AI/ML",
+        "行业动态"
+      ],
+      "valueScore": 7,
+      "insight": "求职与转型中的开发者可当趋势参考"
+    },
+    {
+      "id": "ch-changelog.com/16/2762",
+      "title": "Hiring only senior engineers is killing companies",
+      "url": "https://changelog.com/news/163",
+      "source": "changelog",
+      "description": "Andrew Churchill thinks companies should really be hiring junior engineers...",
+      "createdAt": "2025-09-30T01:30:00.000Z",
+      "summary_zh": "观点很直接：只招资深工程师正在拖垮很多公司，应该多招 junior。还涉及 Chrome DevTools MCP、GitHub 防 npm 攻击路线图、日程时间线 App 等。对招人和带团队的人是一剂提醒。",
+      "title_zh": "只招资深工程师正在害死公司",
+      "tags": [
+        "职业",
+        "行业动态",
+        "思考"
+      ],
+      "valueScore": 7,
+      "insight": "招聘与团队建设的 TL/HR 可当反面教材与反思"
+    },
+    {
+      "id": "hn-47315128",
+      "title": "OpenAI is walking away from expanding its Stargate data center with Oracle",
+      "url": "https://www.cnbc.com/2026/03/09/oracle-is-building-yesterdays-data-centers-with-tomorrows-debt.html",
+      "source": "hackernews",
+      "score": 263,
+      "comments": 142,
+      "commentsUrl": "https://news.ycombinator.com/item?id=47315128",
+      "createdAt": "2026-03-09T20:36:43.000Z",
+      "summary_zh": "OpenAI 决定不再和 Oracle 一起扩建传说中的 Stargate 超大数据中心。报道从 Oracle 的数据中心策略和债务结构切入，解释为什么这次合作告吹、对 AI 基建格局有什么影响。关心大厂基建和商业动向的读者可以快速了解来龙去脉。",
+      "title_zh": "OpenAI 终止与 Oracle 的 Stargate 数据中心扩建合作",
+      "tags": [
+        "行业动态",
+        "AI/ML"
+      ],
+      "valueScore": 6
+    },
+    {
+      "id": "dt-3331372",
+      "title": "Congrats to the GitHub Copilot CLI Challenge Winners!",
+      "url": "https://dev.to/devteam/congrats-to-the-github-copilot-cli-challenge-winners-2240",
+      "source": "devto",
+      "score": 88,
+      "comments": 31,
+      "commentsUrl": "https://dev.to/devteam/congrats-to-the-github-copilot-cli-challenge-winners-2240#comments",
+      "description": "The results are in! Thank you all so much for your patience as we reviewed over 400 submissions for...",
+      "createdAt": "2026-03-09T18:28:59Z",
+      "summary_zh": "GitHub 官方公布了 Copilot CLI 挑战赛的获奖名单，从四百多份提交里评出了优胜项目。文章简要回顾了比赛和评审过程。想了解 Copilot 生态和 CLI 工具创意的开发者可以一看。",
+      "title_zh": "GitHub Copilot CLI 挑战赛获奖名单公布",
+      "tags": [
+        "开发工具",
+        "AI/ML"
+      ],
+      "valueScore": 6
+    },
+    {
+      "id": "lb-o8vbb7",
+      "title": "Production query plans without production data",
+      "url": "https://boringsql.com/posts/portable-stats/",
+      "source": "lobsters",
+      "score": 46,
+      "comments": 7,
+      "commentsUrl": "https://lobste.rs/s/o8vbb7/production_query_plans_without",
+      "createdAt": "2026-03-09T05:52:19.000-05:00",
+      "summary_zh": "讲的是如何在不动生产数据的前提下，用「可移植的统计信息」在别处复现出接近生产环境的查询计划。对做数据库优化、在测试环境排障的工程师很有用，思路是把统计信息抽出来带着走。",
+      "title_zh": "无生产数据也能得到生产级查询计划",
+      "tags": [
+        "基础设施",
+        "数据"
+      ],
+      "valueScore": 6
+    },
+    {
+      "id": "lb-jreqtw",
+      "title": "Returning To Rails in 2026",
+      "url": "https://www.markround.com/blog/2026/03/05/returning-to-rails-in-2026/",
+      "source": "lobsters",
+      "score": 37,
+      "comments": 19,
+      "commentsUrl": "https://lobste.rs/s/jreqtw/returning_rails_2026",
+      "createdAt": "2026-03-09T05:33:30.000-05:00",
+      "summary_zh": "作者在 2026 年重新选择用 Rails 做主要技术栈，文章里写了他再次选用 Rails 的理由、和别的框架对比后的感受，以及实际用下来的体验。对在选型或关心 Web 框架的人有参考价值。",
+      "title_zh": "2026 年再选 Rails",
+      "tags": [
+        "Web",
+        "开发工具"
+      ],
+      "valueScore": 6
+    }
+  ]
+}

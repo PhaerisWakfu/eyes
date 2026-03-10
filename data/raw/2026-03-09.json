@@ -1,0 +1,599 @@
+{
+  "date": "2026-03-09",
+  "fetchedAt": "2026-03-10T03:39:20.608Z",
+  "items": [
+    {
+      "id": "hn-47310160",
+      "title": "Is legal the same as legitimate: AI reimplementation and the erosion of copyleft",
+      "url": "https://writings.hongminhee.org/2026/03/legal-vs-legitimate/",
+      "source": "hackernews",
+      "score": 377,
+      "comments": 412,
+      "commentsUrl": "https://news.ycombinator.com/item?id=47310160",
+      "createdAt": "2026-03-09T15:12:53.000Z"
+    },
+    {
+      "id": "hn-47315128",
+      "title": "OpenAI is walking away from expanding its Stargate data center with Oracle",
+      "url": "https://www.cnbc.com/2026/03/09/oracle-is-building-yesterdays-data-centers-with-tomorrows-debt.html",
+      "source": "hackernews",
+      "score": 263,
+      "comments": 142,
+      "commentsUrl": "https://news.ycombinator.com/item?id=47315128",
+      "createdAt": "2026-03-09T20:36:43.000Z"
+    },
+    {
+      "id": "hn-47311484",
+      "title": "JSLinux Now Supports x86_64",
+      "url": "https://bellard.org/jslinux/",
+      "source": "hackernews",
+      "score": 262,
+      "comments": 74,
+      "commentsUrl": "https://news.ycombinator.com/item?id=47311484",
+      "createdAt": "2026-03-09T16:43:39.000Z"
+    },
+    {
+      "id": "hn-47312329",
+      "title": "Fixfest is a global gathering of repairers, tinkerers, and activists",
+      "url": "https://fixfest.therestartproject.org/",
+      "source": "hackernews",
+      "score": 158,
+      "comments": 19,
+      "commentsUrl": "https://news.ycombinator.com/item?id=47312329",
+      "createdAt": "2026-03-09T17:34:27.000Z"
+    },
+    {
+      "id": "hn-47312728",
+      "title": "Show HN: The Mog Programming Language",
+      "url": "https://moglang.org",
+      "source": "hackernews",
+      "score": 126,
+      "comments": 64,
+      "commentsUrl": "https://news.ycombinator.com/item?id=47312728",
+      "createdAt": "2026-03-09T17:57:00.000Z"
+    },
+    {
+      "id": "hn-47311657",
+      "title": "Launch HN: Terminal Use (YC W26) – Vercel for filesystem-based agents",
+      "url": "https://news.ycombinator.com/item?id=47311657",
+      "source": "hackernews",
+      "score": 93,
+      "comments": 60,
+      "commentsUrl": "https://news.ycombinator.com/item?id=47311657",
+      "createdAt": "2026-03-09T16:53:52.000Z"
+    },
+    {
+      "id": "dt-3331372",
+      "title": "Congrats to the GitHub Copilot CLI Challenge Winners!",
+      "url": "https://dev.to/devteam/congrats-to-the-github-copilot-cli-challenge-winners-2240",
+      "source": "devto",
+      "score": 88,
+      "comments": 31,
+      "commentsUrl": "https://dev.to/devteam/congrats-to-the-github-copilot-cli-challenge-winners-2240#comments",
+      "description": "The results are in! Thank you all so much for your patience as we reviewed over 400 submissions for...",
+      "createdAt": "2026-03-09T18:28:59Z"
+    },
+    {
+      "id": "lb-kgpyat",
+      "title": "Put the ZIP code first",
+      "url": "https://zipcodefirst.com/",
+      "source": "lobsters",
+      "score": 82,
+      "comments": 60,
+      "commentsUrl": "https://lobste.rs/s/kgpyat/put_zip_code_first",
+      "createdAt": "2026-03-08T06:10:14.000-05:00"
+    },
+    {
+      "id": "hn-47315079",
+      "title": "The first airplane fatality",
+      "url": "https://www.amusingplanet.com/2026/03/thomas-selfridge-first-airplane-fatality.html",
+      "source": "hackernews",
+      "score": 65,
+      "comments": 14,
+      "commentsUrl": "https://news.ycombinator.com/item?id=47315079",
+      "createdAt": "2026-03-09T20:32:45.000Z"
+    },
+    {
+      "id": "dt-3327960",
+      "title": "Criei uma pipeline de planejamento no OpenCode e olha no que deu",
+      "url": "https://dev.to/clintonrocha98/sistema-de-planejamento-estruturado-no-opencode-16pb",
+      "source": "devto",
+      "score": 53,
+      "comments": 1,
+      "commentsUrl": "https://dev.to/clintonrocha98/sistema-de-planejamento-estruturado-no-opencode-16pb#comments",
+      "description": "Você é como eu e vem buscando formas de otimizar o uso de ferramentas como o OpenCode? Talvez este...",
+      "createdAt": "2026-03-09T04:37:00Z"
+    },
+    {
+      "id": "lb-dnqcvh",
+      "title": "Your LLM Doesn't Write Correct Code. It Writes Plausible Code",
+      "url": "https://blog.katanaquant.com/p/your-llm-doesnt-write-correct-code",
+      "source": "lobsters",
+      "score": 46,
+      "comments": 7,
+      "commentsUrl": "https://lobste.rs/s/dnqcvh/your_llm_doesn_t_write_correct_code_it",
+      "createdAt": "2026-03-09T08:55:14.000-05:00"
+    },
+    {
+      "id": "lb-o8vbb7",
+      "title": "Production query plans without production data",
+      "url": "https://boringsql.com/posts/portable-stats/",
+      "source": "lobsters",
+      "score": 46,
+      "comments": 7,
+      "commentsUrl": "https://lobste.rs/s/o8vbb7/production_query_plans_without",
+      "createdAt": "2026-03-09T05:52:19.000-05:00"
+    },
+    {
+      "id": "hn-47317739",
+      "title": "The “JVG algorithm” only wins on tiny numbers",
+      "url": "https://scottaaronson.blog/?p=9615",
+      "source": "hackernews",
+      "score": 38,
+      "comments": 19,
+      "commentsUrl": "https://news.ycombinator.com/item?id=47317739",
+      "createdAt": "2026-03-10T00:35:19.000Z"
+    },
+    {
+      "id": "lb-jreqtw",
+      "title": "Returning To Rails in 2026",
+      "url": "https://www.markround.com/blog/2026/03/05/returning-to-rails-in-2026/",
+      "source": "lobsters",
+      "score": 37,
+      "comments": 19,
+      "commentsUrl": "https://lobste.rs/s/jreqtw/returning_rails_2026",
+      "createdAt": "2026-03-09T05:33:30.000-05:00"
+    },
+    {
+      "id": "dt-3328692",
+      "title": "I Planned an Exit Strategy. I Stayed the Whole Time.",
+      "url": "https://dev.to/earlgreyhot1701d/i-planned-an-exit-strategy-i-stayed-the-whole-time-4ejh",
+      "source": "devto",
+      "score": 26,
+      "comments": 2,
+      "commentsUrl": "https://dev.to/earlgreyhot1701d/i-planned-an-exit-strategy-i-stayed-the-whole-time-4ejh#comments",
+      "description": "This is a submission for the 2026 WeCoded Challenge: Echoes of Experience     I told my wife to keep...",
+      "createdAt": "2026-03-09T03:37:29Z"
+    },
+    {
+      "id": "dt-3329436",
+      "title": "From a Confused Graduate to a DevOps Engineer",
+      "url": "https://dev.to/mahinshanazeer/from-a-confused-graduate-to-a-devops-engineer-4dfh",
+      "source": "devto",
+      "score": 15,
+      "comments": 0,
+      "commentsUrl": "https://dev.to/mahinshanazeer/from-a-confused-graduate-to-a-devops-engineer-4dfh#comments",
+      "description": "This is a submission for the 2026 WeCoded Challenge: Echoes of Experience  After graduating with a...",
+      "createdAt": "2026-03-09T06:50:36Z"
+    },
+    {
+      "id": "hn-47318421",
+      "title": "We Tried Paying Artists Royalties on AI-Generated Work – Learnings",
+      "url": "https://www.kapwing.com/blog/learnings-from-paying-artists-royalties-for-ai-generated-art/",
+      "source": "hackernews",
+      "score": 12,
+      "comments": 0,
+      "commentsUrl": "https://news.ycombinator.com/item?id=47318421",
+      "createdAt": "2026-03-10T02:24:52.000Z"
+    },
+    {
+      "id": "dt-3330870",
+      "title": "I got tired of color contrast tools that break brand colors. So I built my own.",
+      "url": "https://dev.to/danishmk1286/i-got-tired-of-color-contrast-tools-that-break-brand-colors-so-i-built-my-own-4ani",
+      "source": "devto",
+      "score": 11,
+      "comments": 3,
+      "commentsUrl": "https://dev.to/danishmk1286/i-got-tired-of-color-contrast-tools-that-break-brand-colors-so-i-built-my-own-4ani#comments",
+      "description": "You run a contrast check. It fails. You change the color. It passes WCAG. But now it looks nothing...",
+      "createdAt": "2026-03-09T13:20:00Z"
+    },
+    {
+      "id": "lb-q60htr",
+      "title": "JSLinux now supports x86_64",
+      "url": "https://bellard.org/jslinux/",
+      "source": "lobsters",
+      "score": 8,
+      "comments": 1,
+      "commentsUrl": "https://lobste.rs/s/q60htr/jslinux_now_supports_x86_64",
+      "createdAt": "2026-03-09T17:27:20.000-05:00"
+    },
+    {
+      "id": "dt-3328794",
+      "title": "From NEET Aspirant to Writing Code: A Journey I Never Planned",
+      "url": "https://dev.to/preeti_yadav/from-neet-aspirant-to-writing-code-a-journey-i-never-planned-l59",
+      "source": "devto",
+      "score": 8,
+      "comments": 0,
+      "commentsUrl": "https://dev.to/preeti_yadav/from-neet-aspirant-to-writing-code-a-journey-i-never-planned-l59#comments",
+      "description": "This is a submission for the 2026 WeCoded Challenge: Echoes of Experience  If someone had told me a...",
+      "createdAt": "2026-03-09T04:12:46Z"
+    },
+    {
+      "id": "dt-3328691",
+      "title": "One Sentence From My Senior Engineer Changed How I Think About Software",
+      "url": "https://dev.to/siti_aisyahmatzainal_73/one-sentence-from-my-senior-engineer-changed-how-i-think-about-software-4oe3",
+      "source": "devto",
+      "score": 7,
+      "comments": 1,
+      "commentsUrl": "https://dev.to/siti_aisyahmatzainal_73/one-sentence-from-my-senior-engineer-changed-how-i-think-about-software-4oe3#comments",
+      "description": "This is a submission for the 2026 WeCoded Challenge: Echoes of Experience           One Sentence From...",
+      "createdAt": "2026-03-09T03:36:02Z"
+    },
+    {
+      "id": "lb-0r64cv",
+      "title": "AWS SDK for Rust: Using S3-Compatible APIs with Other Clouds",
+      "url": "https://rup12.net/posts/s3-api-compatibility-is-awesome",
+      "source": "lobsters",
+      "score": 5,
+      "comments": 0,
+      "commentsUrl": "https://lobste.rs/s/0r64cv/aws_sdk_for_rust_using_s3_compatible_apis",
+      "createdAt": "2026-03-09T14:02:27.000-05:00"
+    },
+    {
+      "id": "lb-6pvtem",
+      "title": "AI will fuck you up if you’re not on board",
+      "url": "https://rmoff.net/2026/03/06/ai-will-fuck-you-up-if-youre-not-on-board/",
+      "source": "lobsters",
+      "score": 5,
+      "comments": 40,
+      "commentsUrl": "https://lobste.rs/s/6pvtem/ai_will_fuck_you_up_if_you_re_not_on_board",
+      "createdAt": "2026-03-09T04:43:51.000-05:00"
+    },
+    {
+      "id": "dt-3271946",
+      "title": "Mapping the Territory",
+      "url": "https://dev.to/tico/mapping-the-territory-3n55",
+      "source": "devto",
+      "score": 5,
+      "comments": 1,
+      "commentsUrl": "https://dev.to/tico/mapping-the-territory-3n55#comments",
+      "description": "We thought the \"Multi-Repo Verse\" would save us from spaghetti code. Instead, we traded a tangled web...",
+      "createdAt": "2026-03-09T13:07:12Z"
+    },
+    {
+      "id": "dt-3330674",
+      "title": "I built a startup validator that queries 40+ live sources. Here's what I learned.",
+      "url": "https://dev.to/vxncxnx/i-scanned-2500-startup-ideas-with-ai-here-is-what-the-data-says-about-why-most-fail-nh3",
+      "source": "devto",
+      "score": 3,
+      "comments": 0,
+      "commentsUrl": "https://dev.to/vxncxnx/i-scanned-2500-startup-ideas-with-ai-here-is-what-the-data-says-about-why-most-fail-nh3#comments",
+      "description": "I kept watching friends burn 6 months building things nobody wanted. Every time I asked \"who's your...",
+      "createdAt": "2026-03-09T12:00:39Z"
+    },
+    {
+      "id": "dt-3305714",
+      "title": "Unlocking AI Resilience: Mastering State Persistence with LangGraph and PostgreSQL",
+      "url": "https://dev.to/programmingcentral/unlocking-ai-resilience-mastering-state-persistence-with-langgraph-and-postgresql-50h0",
+      "source": "devto",
+      "score": 3,
+      "comments": 2,
+      "commentsUrl": "https://dev.to/programmingcentral/unlocking-ai-resilience-mastering-state-persistence-with-langgraph-and-postgresql-50h0#comments",
+      "description": "Imagine building an autonomous AI agent that can conduct deep research, manage complex workflows, or...",
+      "createdAt": "2026-03-09T20:00:00Z"
+    },
+    {
+      "id": "dt-3331164",
+      "title": "Building a Text-to-Speech Engine in Pure C",
+      "url": "https://dev.to/gabrielemastrapasqua/building-a-text-to-speech-engine-in-pure-c-59h4",
+      "source": "devto",
+      "score": 2,
+      "comments": 0,
+      "commentsUrl": "https://dev.to/gabrielemastrapasqua/building-a-text-to-speech-engine-in-pure-c-59h4#comments",
+      "description": "Building a minimal Text-to-Speech engine in pure C using Qwen3-TTS without ML frameworks.",
+      "createdAt": "2026-03-09T14:49:04Z"
+    },
+    {
+      "id": "dt-3331135",
+      "title": "Running LLMs On-Device in Android: GGUF Models, NNAPI, and the Real Performance Tradeoffs",
+      "url": "https://dev.to/software_mvp-factory/running-llms-on-device-in-android-gguf-models-nnapi-and-the-real-performance-tradeoffs-5bfc",
+      "source": "devto",
+      "score": 2,
+      "comments": 0,
+      "commentsUrl": "https://dev.to/software_mvp-factory/running-llms-on-device-in-android-gguf-models-nnapi-and-the-real-performance-tradeoffs-5bfc#comments",
+      "description": "A deep technical walkthrough of shipping on-device LLM inference in production Android apps — covering model quantization formats (GGUF, QLoRA), hardware acceleration via NNAPI and GPU delegates, memory pressure management on mid-range devices, and benchmarking methodology that actually reflects use",
+      "createdAt": "2026-03-09T14:30:11Z"
+    },
+    {
+      "id": "dt-3331644",
+      "title": "AI Agents Don't Need to Touch the UI. WebMCP Is the Third Way.",
+      "url": "https://dev.to/n_asuy/ai-agents-dont-need-to-touch-the-ui-webmcp-is-the-third-way-4fhp",
+      "source": "devto",
+      "score": 2,
+      "comments": 2,
+      "commentsUrl": "https://dev.to/n_asuy/ai-agents-dont-need-to-touch-the-ui-webmcp-is-the-third-way-4fhp#comments",
+      "description": "AI agents can interact with websites in two ways. UI actuation — simulating clicks and keystrokes —...",
+      "createdAt": "2026-03-09T17:48:57Z"
+    },
+    {
+      "id": "dt-3331228",
+      "title": "I implemented Deep Q-Networks in pure PowerShell 5.1 — and connected them to real Windows enterprise data",
+      "url": "https://dev.to/jupyterps/i-implemented-deep-q-networks-in-pure-powershell-51-and-connected-them-to-real-windows-5hak",
+      "source": "devto",
+      "score": 1,
+      "comments": 0,
+      "commentsUrl": "https://dev.to/jupyterps/i-implemented-deep-q-networks-in-pure-powershell-51-and-connected-them-to-real-windows-5hak#comments",
+      "description": "Yes, really. No Python. No TensorFlow. No cloud.  VBAF is a full reinforcement learning framework...",
+      "createdAt": "2026-03-09T15:09:21Z"
+    },
+    {
+      "id": "gh-GoogleCloudPlatform-generative-ai",
+      "title": "GoogleCloudPlatform/generative-ai",
+      "url": "https://github.com/GoogleCloudPlatform/generative-ai",
+      "source": "github-trending",
+      "score": 0,
+      "description": "Sample code and notebooks for Generative AI on Google Cloud, with Gemini on Vertex AI [Jupyter Notebook]",
+      "createdAt": "2026-03-10T03:39:14.472Z"
+    },
+    {
+      "id": "gh-openclaw-openclaw",
+      "title": "openclaw/openclaw",
+      "url": "https://github.com/openclaw/openclaw",
+      "source": "github-trending",
+      "score": 0,
+      "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 [TypeScript]",
+      "createdAt": "2026-03-10T03:39:14.472Z"
+    },
+    {
+      "id": "gh-666ghj-MiroFish",
+      "title": "666ghj/MiroFish",
+      "url": "https://github.com/666ghj/MiroFish",
+      "source": "github-trending",
+      "score": 0,
+      "description": "A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物 [Python]",
+      "createdAt": "2026-03-10T03:39:14.472Z"
+    },
+    {
+      "id": "gh-karpathy-nanochat",
+      "title": "karpathy/nanochat",
+      "url": "https://github.com/karpathy/nanochat",
+      "source": "github-trending",
+      "score": 0,
+      "description": "The best ChatGPT that $100 can buy. [Python]",
+      "createdAt": "2026-03-10T03:39:14.472Z"
+    },
+    {
+      "id": "gh-666ghj-BettaFish",
+      "title": "666ghj/BettaFish",
+      "url": "https://github.com/666ghj/BettaFish",
+      "source": "github-trending",
+      "score": 0,
+      "description": "微舆：人人可用的多Agent舆情分析助手，打破信息茧房，还原舆情原貌，预测未来走向，辅助决策！从0实现，不依赖任何框架。 [Python]",
+      "createdAt": "2026-03-10T03:39:14.472Z"
+    },
+    {
+      "id": "gh-NousResearch-hermes-agent",
+      "title": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "source": "github-trending",
+      "score": 0,
+      "description": "The agent that grows with you [Python]",
+      "createdAt": "2026-03-10T03:39:14.472Z"
+    },
+    {
+      "id": "gh-pbakaus-impeccable",
+      "title": "pbakaus/impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
+      "source": "github-trending",
+      "score": 0,
+      "description": "The design language that makes your AI harness better at design. [JavaScript]",
+      "createdAt": "2026-03-10T03:39:14.472Z"
+    },
+    {
+      "id": "gh-msitarzewski-agency-agents",
+      "title": "msitarzewski/agency-agents",
+      "url": "https://github.com/msitarzewski/agency-agents",
+      "source": "github-trending",
+      "score": 0,
+      "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables. [Shell]",
+      "createdAt": "2026-03-10T03:39:14.472Z"
+    },
+    {
+      "id": "gh-alibaba-page-agent",
+      "title": "alibaba/page-agent",
+      "url": "https://github.com/alibaba/page-agent",
+      "source": "github-trending",
+      "score": 0,
+      "description": "JavaScript in-page GUI agent. Control web interfaces with natural language. [TypeScript]",
+      "createdAt": "2026-03-10T03:39:14.472Z"
+    },
+    {
+      "id": "gh-alirezarezvani-claude-skills",
+      "title": "alirezarezvani/claude-skills",
+      "url": "https://github.com/alirezarezvani/claude-skills",
+      "source": "github-trending",
+      "score": 0,
+      "description": "169 production-ready skills &amp; plugins for Claude Code, OpenAI Codex, and OpenClaw — engineering, marketing, product, compliance, C-level advisory, and more. Install via /plugin marketplace. [Python]",
+      "createdAt": "2026-03-10T03:39:14.472Z"
+    },
+    {
+      "id": "gh-Raphire-Win11Debloat",
+      "title": "Raphire/Win11Debloat",
+      "url": "https://github.com/Raphire/Win11Debloat",
+      "source": "github-trending",
+      "score": 0,
+      "description": "A simple, lightweight PowerShell script that allows you to remove pre-installed apps, disable telemetry, as well as perform various other changes to declutter and customize your Windows experience. Win11Debloat works for both Windows 10 and Windows 11. [PowerShell]",
+      "createdAt": "2026-03-10T03:39:14.472Z"
+    },
+    {
+      "id": "gh-teng-lin-notebooklm-py",
+      "title": "teng-lin/notebooklm-py",
+      "url": "https://github.com/teng-lin/notebooklm-py",
+      "source": "github-trending",
+      "score": 0,
+      "description": "Unofficial Python API and agentic skill for Google NotebookLM. Full programmatic access to NotebookLM's features—including capabilities the web UI doesn't expose—via Python, CLI, and AI agents like Claude Code, Codex, and OpenClaw. [Python]",
+      "createdAt": "2026-03-10T03:39:14.472Z"
+    },
+    {
+      "id": "dt-3332583",
+      "title": "I built a VS Code extension that lets you chat with your database - everything runs locally",
+      "url": "https://dev.to/hitesh1326/i-built-a-vs-code-extension-that-lets-you-chat-with-your-database-everything-runs-locally-2kio",
+      "source": "devto",
+      "score": 0,
+      "comments": 0,
+      "commentsUrl": "https://dev.to/hitesh1326/i-built-a-vs-code-extension-that-lets-you-chat-with-your-database-everything-runs-locally-2kio#comments",
+      "description": "I spent a week onboarding into a project with a SQL Server database I'd never seen before. Dozens of...",
+      "createdAt": "2026-03-10T00:39:59Z"
+    },
+    {
+      "id": "ch-changelog.com/16/2818",
+      "title": "The mythical agent-month",
+      "url": "https://changelog.com/news/182",
+      "source": "changelog",
+      "description": "Wes McKinney on the mythical agent-month, install Peon Ping to employ a Peon today, Andreas Kling explains why Ladybird is adopting Rust, Cloudflare has a new MCP server that's quite efficient, and Elliot Bonneville thinks the only moat left is money.",
+      "createdAt": "2026-02-23T20:45:00.000Z"
+    },
+    {
+      "id": "ch-changelog.com/16/2816",
+      "title": "All the Claw things",
+      "url": "https://changelog.com/news/181",
+      "source": "changelog",
+      "description": "Peter Steinberger joins OpenAI, ZeroClaw is \"claw done right\", MimiClaw runs on a $5 chip, Steve Yegge on managing the AI Vampire, and the day the telnet died.",
+      "createdAt": "2026-02-16T19:30:00.000Z"
+    },
+    {
+      "id": "ch-changelog.com/16/2813",
+      "title": "Vouch for an open source web of trust",
+      "url": "https://changelog.com/news/180",
+      "source": "changelog",
+      "description": "Mitchell Hashimoto's trust management system for open source, Nicholas Carlini has a team of Claudes build a C compiler, Stephan Schwab recounts the history of attempted developer replacement, NanClaw is an alternative to OpenClaw, and Sophie Koonin can't wrap her head around so many people going so",
+      "createdAt": "2026-02-09T19:00:00.000Z"
+    },
+    {
+      "id": "ch-changelog.com/16/2811",
+      "title": "The tech monoculture is finally breaking",
+      "url": "https://changelog.com/news/179",
+      "source": "changelog",
+      "description": "Jason Willems believes the tech monoculture is finally breaking, Don Ho shares some bad Notepad++ news, Tailscale's Avery Pennarun pens a great downtime apology, Milan Milanović explains why you can only code 4 hours per day, and Addy Osmani on managing comprehension debt when leaning on AI to code.",
+      "createdAt": "2026-02-02T20:30:00.000Z"
+    },
+    {
+      "id": "ch-changelog.com/16/2808",
+      "title": "Clawdbot triggers a run on Mac Minis",
+      "url": "https://changelog.com/news/178",
+      "source": "changelog",
+      "description": "Clawdbot drives Mac Mini sales, Swizec Teller on the future of software engineering being SRE, Daniel Stenberg decided to end curl's bug bounty program, zerobrew takes some of the best ideas from uv and applies them to Homebrew, and Phil Eaton on LLMs and your career.",
+      "createdAt": "2026-01-26T20:00:00.000Z"
+    },
+    {
+      "id": "ch-changelog.com/16/2804",
+      "title": "Agent psychosis: are we going insane?",
+      "url": "https://changelog.com/news/177",
+      "source": "changelog",
+      "description": "Armin Ronacher thinks AI agent psychosis might be driving us insane, Dan Abramov explains how AT Protocol is a social filesystem, RepoBar keeps your GitHub work in view without opening a browser, Ethan McCue shares some life altering Postgres patterns, and Lea Verou says web dependencies are broken ",
+      "createdAt": "2026-01-19T20:30:00.000Z"
+    },
+    {
+      "id": "ch-changelog.com/16/2802",
+      "title": "Linus Torvalds gets the AI coding bug",
+      "url": "https://changelog.com/news/176",
+      "source": "changelog",
+      "description": "Linus Torvalds pushes AI generated code, Jordan Fulghum thinks this is the year of self-hosting, FracturedJson formats for compact / human readability, Scott Werner believes a flood of adequate software is coming, and Sean Goedecke explains why generic software design advice is useless.",
+      "createdAt": "2026-01-12T19:35:00.000Z"
+    },
+    {
+      "id": "ch-changelog.com/16/2800",
+      "title": "The move faster manifesto",
+      "url": "https://changelog.com/news/175",
+      "source": "changelog",
+      "description": "Brian Guthrie lists his seven rules for moving faster in software, Continuous-Claude-v2 is a context management system for Claude Code, Gas Town is Steve Yegge's multi-agent orchestrator for Claude Code, Paul Dix sees a great engineering divergence in 2026, and Mattias Geniar thinks web development ",
+      "createdAt": "2026-01-05T20:00:00.000Z"
+    },
+    {
+      "id": "ch-changelog.com/16/2798",
+      "title": "The code, prose & pods that shaped 2025",
+      "url": "https://changelog.com/news/174",
+      "source": "changelog",
+      "description": "This episodes diverges from our traditional fare. I’ve reviewed the 49 previous editions and picked (IMHO) the coolest code, best prose & my favorite podcast episode from each month!",
+      "createdAt": "2025-12-15T20:00:00.000Z"
+    },
+    {
+      "id": "ch-changelog.com/16/2796",
+      "title": "The \"confident idiot\" problem",
+      "url": "https://changelog.com/news/173",
+      "source": "changelog",
+      "description": "Why AI needs hard rules (not vibe checks), what Anthropic's acquisition of Bun's creators tells us about the AI takeover, Jonah Glover couldn't get Claude to recreate Space Jam's 1996 website, Google finally unkills something, and Bazzite is a distro for the next generation of Linux gaming.",
+      "createdAt": "2025-12-08T20:00:00.000Z"
+    },
+    {
+      "id": "ch-changelog.com/16/2791",
+      "title": "What actually makes you senior",
+      "url": "https://changelog.com/news/172",
+      "source": "changelog",
+      "description": "Matheus Lima on what makes senior developers actually senior, Tega Brain created a browser extension for avoiding AI slop, Andrew Kelley moves Zig from GitHub to Codeberg, Matias Heikkilä says there's no free lunch for vibe coding, and your SSD data at rest might be at risk.",
+      "createdAt": "2025-12-01T20:30:00.000Z"
+    },
+    {
+      "id": "ch-changelog.com/16/2787",
+      "title": "What is a tech bubble anyway?",
+      "url": "https://changelog.com/news/171",
+      "source": "changelog",
+      "description": "Cedric Chin says comparisons of our current AI *maybe-bubble* to the dot-com bubble and the 2008 GFC are limiting, Matthew Prince does a post-mortem on last week's Cloudflare outage, \"hl\" is a fast / powerful log viewer for humans, Enthusiast Guy's Continuum 93 is a fantasy computer emulator, and a ",
+      "createdAt": "2025-11-24T20:45:00.000Z"
+    },
+    {
+      "id": "ch-changelog.com/16/2784",
+      "title": "Why is Zig so cool?",
+      "url": "https://changelog.com/news/170",
+      "source": "changelog",
+      "description": "Nilo Stolte explains why Zig is \"a totally new way to write programs\", George Mack gives twelve actionable ways to be more creative, Mario Zechner shares his findings on using MCP vs Bash tools, Josh Collinsworth compares creating AI art to medieval alchemy, LibrePods unlocks AirPods features for An",
+      "createdAt": "2025-11-17T20:30:00.000Z"
+    },
+    {
+      "id": "ch-changelog.com/16/2781",
+      "title": "This new AI role is exploding",
+      "url": "https://changelog.com/news/169",
+      "source": "changelog",
+      "description": "A new AI-led tech role has emerged with a massive increase of job postings, Corey Quinn explains why younger devs won't tolerate pain in the AWS, Thomas Ptacek makes the case that you should write an agent, Paul Kinlan goes deeper on his dead framework theory, and Andrew Gallagher says to stop vibe ",
+      "createdAt": "2025-11-10T20:00:00.000Z"
+    },
+    {
+      "id": "ch-changelog.com/16/2779",
+      "title": "The overlooked power of URLs",
+      "url": "https://changelog.com/news/168",
+      "source": "changelog",
+      "description": "Ahmad Alfy explains how URLs are state containers, Shrivu Shankar shares how he uses every Claude Code feature, Yusuf Aytas laments how AI broke technical interviews, Wu Xiaoyun tells how he saved TikTok $300k during his internship, and TOON is a new serialization format to save us some LLM tokens.",
+      "createdAt": "2025-11-03T20:00:00.000Z"
+    },
+    {
+      "id": "ch-changelog.com/16/2776",
+      "title": "Code like a surgeon",
+      "url": "https://changelog.com/news/167",
+      "source": "changelog",
+      "description": "The Dead Internet Theory dies, Geoffrey Litt tries to code like a surgeon, Matt Sephton thinks spreadsheets are great for UI design, Nate Meyvis advocates for front-end maximalism, Hemant Pandey thinks 9-5 employment is a great option for most, David Miranda compares React to Backbone in 2025.",
+      "createdAt": "2025-10-27T19:45:00.000Z"
+    },
+    {
+      "id": "ch-changelog.com/16/2773",
+      "title": "The science behind developer flow states",
+      "url": "https://changelog.com/news/166",
+      "source": "changelog",
+      "description": "Csaba Okrona lays out exactly what Flow is (then shows you how to engineer your way back to it), a smart vacuum turned against an innocent hacker, Matz and the Ruby core team step up to steward RubyGems, Simon Willison things Claude Skills could be bigger than MCP, and Luke Plant looks at technical ",
+      "createdAt": "2025-10-20T19:00:00.000Z"
+    },
+    {
+      "id": "ch-changelog.com/16/2770",
+      "title": "The great software quality collapse",
+      "url": "https://changelog.com/news/165",
+      "source": "changelog",
+      "description": "Denis Stetskov describes how we've \"normalized catastrophe\" in the software industry, Meta is officially handing React and React Native over to a foundation, The New Stack reports on GitHub's Azure migration priority, Miguel Grinberg benchmarks Python 3.14, and The Oatmeal's Matthew Inman published ",
+      "createdAt": "2025-10-13T18:00:00.000Z"
+    },
+    {
+      "id": "ch-changelog.com/16/2766",
+      "title": "The best coders should exit the feed",
+      "url": "https://changelog.com/news/164",
+      "source": "changelog",
+      "description": "Abner Coimbre makes a compelling case why our biggest technical talent should abandon for-profit social platforms, Noah Brier creates a Claude Code and Obsidian starter kit, Bharath Natarajan documents the Vercel vs Cloudflare fight, Toolbrew is a well-designed website brimming with common utilities",
+      "createdAt": "2025-10-06T18:45:00.000Z"
+    },
+    {
+      "id": "ch-changelog.com/16/2762",
+      "title": "Hiring only senior engineers is killing companies",
+      "url": "https://changelog.com/news/163",
+      "source": "changelog",
+      "description": "Andrew Churchill thinks companies should really be hiring junior engineers, Addy Osmani announces Chrome DevTools MCP, GitHub lays out a roadmap to fend off npm attacks, Jerry Liu builds an app that generates a timeline of your day's activities, and Sean Goedecke attempts to define \"good taste\" in t",
+      "createdAt": "2025-09-30T01:30:00.000Z"
+    }
+  ]
+}

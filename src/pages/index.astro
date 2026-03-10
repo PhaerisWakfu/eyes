@@ -1,0 +1,20 @@
+---
+import Base from "../layouts/Base.astro";
+import DayNav from "../components/DayNav.astro";
+import FilterBar from "../components/FilterBar.astro";
+import ItemRow from "../components/ItemRow.astro";
+import { getLatestDate, getDailyData, getAdjacentDates } from "../lib/data";
+
+const latestDate = getLatestDate();
+
+if (latestDate) {
+  return Astro.redirect(`/day/${latestDate}`);
+}
+---
+
+<Base title="Eyes — 技术洞察与商业模式">
+  <div class="empty-state">
+    <p><strong>还没有数据</strong></p>
+    <p>运行 <code>npm run fetch</code> 抓取第一天的数据</p>
+  </div>
+</Base>

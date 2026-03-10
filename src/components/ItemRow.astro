@@ -1,0 +1,43 @@
+---
+import { getDomain } from "../lib/data";
+
+interface Props {
+  rank: number;
+  item: {
+    id: string;
+    title: string;
+    url: string;
+    source: string;
+    score?: number;
+    comments?: number;
+    commentsUrl?: string;
+    description?: string;
+    summary_zh?: string;
+    title_zh?: string;
+    tags?: string[];
+    valueScore?: number;
+    insight?: string;
+  };
+}
+
+const { rank, item } = Astro.props;
+const domain = getDomain(item.url);
+---
+
+<li class="item-row">
+  <div class="item-main">
+    <span class="item-rank">{rank}.</span>
+    <a href={item.url} target="_blank" rel="noopener" class="item-title" title={item.title}>
+      {item.title_zh || item.title}
+    </a>
+    {domain && <span class="item-domain">({domain})</span>}
+  </div>
+  <div class="item-summary">
+    {item.summary_zh || (item.description ? `${item.description.slice(0, 80)}${item.description.length > 80 ? "…" : ""}` : "暂无简介")}
+  </div>
+  {item.tags && item.tags.length > 0 && (
+    <div class="item-tags">
+      {item.tags.map((tag) => <span class="tag">{tag}</span>)}
+    </div>
+  )}
+</li>
