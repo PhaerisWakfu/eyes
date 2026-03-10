@@ -7,7 +7,8 @@
     "fetch": "tsx scripts/fetch.ts",
     "wechat": "tsx scripts/wechat-export.ts",
     "dev": "astro dev",
-    "build": "astro build",
+    "copy-data": "tsx scripts/copy-data.ts",
+    "build": "npm run copy-data && astro build",
     "preview": "astro preview"
   },
   "dependencies": {

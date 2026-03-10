@@ -3,18 +3,15 @@ import "../styles/global.css";
 
 interface Props {
   title?: string;
-  currentDate?: string;
-  recentDates?: string[];
 }
-
-const { title = "Eyes", currentDate, recentDates = [] } = Astro.props;
+const { title = "Eyes" } = Astro.props;
 ---
 
 <!doctype html>
 <html lang="zh-CN">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
     <title>{title}</title>
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
   </head>
@@ -22,19 +19,7 @@ const { title = "Eyes", currentDate, recentDates = [] } = Astro.props;
     <header class="site-header">
       <div class="inner">
         <a href="/" class="logo">Eyes</a>
-        {recentDates.length > 0 && (
-          <nav class="date-switch" aria-label="最近日报">
-            {recentDates.map((d) => (
-              <a
-                href={`/day/${d}`}
-                class={d === currentDate ? "date-pill active" : "date-pill"}
-                aria-current={d === currentDate ? "date" : undefined}
-              >
-                {d}
-              </a>
-            ))}
-          </nav>
-        )}
+        <nav class="date-switch" aria-label="最近日报"></nav>
       </div>
     </header>
     <main class="container">
