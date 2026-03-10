@@ -1,13 +1,32 @@
 ---
 import Base from "../layouts/Base.astro";
+import ItemRow from "../components/ItemRow.astro";
+import { getLatestDate, getDailyData } from "../lib/data";
+
+const MAX_DISPLAY = 20;
+const latestDate = getLatestDate();
+const data = latestDate ? getDailyData(latestDate) : null;
+const rawItems = data?.items ?? [];
+const items = [...rawItems]
+  .sort((a, b) => ((b as { valueScore?: number }).valueScore ?? 0) - ((a as { valueScore?: number }).valueScore ?? 0))
+  .slice(0, MAX_DISPLAY);
 ---
 
-<Base title="Eyes">
-  <div id="day-content">
-    <p class="empty-state">加载中…</p>
+<Base title={latestDate ? `Eyes — ${latestDate}` : "Eyes"}>
+  <div id="day-content" data-ssr-date={latestDate ?? ""}>
+    {items.length > 0 ? (
+      <ol class="item-list">
+        {items.map((item, idx) => (
+          <ItemRow rank={idx + 1} item={item} />
+        ))}
+      </ol>
+    ) : (
+      <p class="empty-state">加载中…</p>
+    )}
   </div>
-  <script>
+  <script is:inline>
     (function () {
+      try {
       const MAX_DISPLAY = 20;
       const RECENT_DAYS = 3;
 
@@ -32,6 +51,7 @@ import Base from "../layouts/Base.astro";
 
       const contentEl = document.getElementById("day-content");
       const navEl = document.querySelector(".date-switch");
+      if (!contentEl) return;
 
       function esc(s) {
         if (s == null) return "";
@@ -73,6 +93,7 @@ import Base from "../layouts/Base.astro";
       }
 
       async function loadDate(d) {
+        try {
         let res = await fetch(`/data/enriched/${d}.json`);
         if (!res.ok) res = await fetch(`/data/raw/${d}.json`);
         if (!res.ok) {
@@ -101,10 +122,18 @@ import Base from "../layouts/Base.astro";
 
         contentEl.innerHTML = html;
         document.title = `Eyes — ${d}`;
+        } catch (err) {
+          contentEl.innerHTML = `<div class="empty-state"><p>加载失败，请刷新重试</p><p style="font-size:11px;color:#999">${esc(err && err.message || String(err))}</p></div>`;
+        }
       }
 
       renderPills();
       loadDate(targetDate);
+      } catch (e) {
+        var el = document.getElementById("day-content");
+        if (el) el.innerHTML = '<div class="empty-state"><p>加载失败，请刷新重试</p><p style="font-size:11px;color:#999">' + (e && e.message ? e.message : '') + '</p></div>';
+        console.error(e);
+      }
     })();
   </script>
 </Base>

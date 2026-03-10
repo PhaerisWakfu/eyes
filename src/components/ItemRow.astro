@@ -17,14 +17,23 @@ interface Props {
     tags?: string[];
     valueScore?: number;
     insight?: string;
+    image?: string;
   };
 }
 
 const { rank, item } = Astro.props;
 const domain = getDomain(item.url);
+const imgSrc = item.image
+  ? (item.image.startsWith("http") ? item.image : `/data/${item.image}`)
+  : null;
 ---
 
 <li class="item-row">
+  {imgSrc && (
+    <div class="item-image">
+      <img src={imgSrc} alt="" loading="lazy" />
+    </div>
+  )}
   <div class="item-main">
     <span class="item-rank">{rank}.</span>
     <a href={item.url} target="_blank" rel="noopener" class="item-title" title={item.title}>
