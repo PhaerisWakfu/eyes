@@ -25,13 +25,20 @@ type AnyDaily = {
 const MAX_EXPORT = 20;
 
 function usage() {
-  console.log("用法：npm run wechat -- 2026-03-09");
+  console.log("用法：npm run wechat [日期]");
+  console.log("      不传日期时默认导出昨天，如：npm run wechat -- 2026-03-09");
   console.log("说明：读取 data/enriched 或 data/raw，导出 Markdown 到 exports/{date}.md，图片引用 data/assets/");
+}
+
+function yesterday(): string {
+  const d = new Date();
+  d.setDate(d.getDate() - 1);
+  return d.toISOString().slice(0, 10);
 }
 
 function pickDateArg(): string | null {
   const arg = process.argv[2];
-  if (!arg) return null;
+  if (!arg) return yesterday();
   return /^\d{4}-\d{2}-\d{2}$/.test(arg) ? arg : null;
 }
 
@@ -79,6 +86,7 @@ function main() {
     usage();
     process.exit(1);
   }
+  console.log(`导出日期：${date}`);
 
   const daily = readDaily(date);
   const items = [...(daily.items || [])]
@@ -90,8 +98,8 @@ function main() {
   const outPath = resolve(outDir, `${date}.md`);
 
   let md = "";
-  md += `# 今日精选（${date}）\n\n`;
-  md += `> 说明：本文由 Eyes 自动聚合与整理，面向国内读者做了中文简介与重点提炼。\n\n`;
+  md += `# 昨日旧闻（${date}）\n\n`;
+  md += `> 说明：本文由 Eyes 自动聚合与整理。\n\n`;
 
   for (let i = 0; i < items.length; i++) {
     const item = items[i];
@@ -122,7 +130,9 @@ function main() {
   console.log(`✓ 已导出：${outPath}`);
 }
 
-main().catch((err) => {
+try {
+  main();
+} catch (err) {
   console.error("导出失败：", err);
   process.exit(1);
-});
+}

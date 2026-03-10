@@ -1,7 +1,7 @@
 {
   "date": "2026-03-09",
   "fetchedAt": "2026-03-10T03:39:20.608Z",
-  "enrichedAt": "2026-03-10T12:00:00.000Z",
+  "enrichedAt": "2026-03-10T10:16:42.000Z",
   "items": [
     {
       "id": "hn-47310160",
@@ -12,34 +12,15 @@
       "comments": 412,
       "commentsUrl": "https://news.ycombinator.com/item?id=47310160",
       "createdAt": "2026-03-09T15:12:53.000Z",
-      "summary_zh": "chardet 库维护者用 Claude 从头重写了整个项目，将 LGPL 改为 MIT，原作者 Mark Pilgrim 反对。文章围绕一个核心问题展开：合法是否等于正当？作者指出 antirez 和 Ronacher 的辩护都犯了同一错误：把「法律允许」等同于「道德无妨」。GNU 当年重写 UNIX 的伦理力量来自从专有走向自由；而 chardet 案的方向相反——从 copyleft 走向宽松许可，削弱了贡献者保护。文章提出：当 AI 让绕过 copyleft 变得容易，社区规范与法律的鸿沟会加深；若法院判重写合法，那只是告诉我们法律允许什么，并不代表这种行为是对的。",
-      "title_zh": "合法就等于正当吗？AI 重写与 copyleft 的式微",
-      "tags": [
-        "思考",
-        "AI/ML",
-        "开源"
-      ],
       "valueScore": 9,
-      "insight": "对开源维护者与法律/伦理关注者必读——厘清合法性与正当性的区别，关乎 AI 时代开源契约的未来"
-    },
-    {
-      "id": "hn-47311484",
-      "title": "JSLinux Now Supports x86_64",
-      "url": "https://bellard.org/jslinux/",
-      "source": "hackernews",
-      "score": 262,
-      "comments": 74,
-      "commentsUrl": "https://news.ycombinator.com/item?id=47311484",
-      "createdAt": "2026-03-09T16:43:39.000Z",
-      "summary_zh": "Fabrice Bellard 的 JSLinux 项目迎来重大更新：现已支持 x86_64 架构，可在浏览器中运行完整的 Alpine Linux。此前 JSLinux 仅支持 x86 和 RISC-V，此次升级带来 AVX-512、APX 等现代指令集支持，让纯 JavaScript 实现的 CPU 模拟器能力再进一步。JSLinux 无需插件或本地安装，打开网页即可在控制台或 X Window 下使用 Linux，是了解虚拟机、模拟器原理的极佳教学与演示项目。",
-      "title_zh": "JSLinux 现已支持 x86_64",
+      "title_zh": "合法是否等同于合理：AI 重实现与 Copyleft 的侵蚀",
+      "summary_zh": "文章探讨 AI 时代开源许可证面临的全新挑战。当大厂用 AI「重新实现」开源项目时，从法律上可能并未侵权，但从理念上却在蚕食 Copyleft 精神——因为 AI 生成的代码被视为原创，绕过了许可证的传播义务。\n\n作者指出「合法」与「合理」之间的鸿沟：技术上合规不等于道德上可接受。这对 GPL、AGPL 等强 Copyleft 许可证的守护者敲响警钟，也引发对开源哲学未来的深层思考。\n\n对开源社区、法务从业者以及关注 AI 与知识产权交叉的开发者有重要参考价值——这可能是未来数年内最具争议的技术伦理议题之一。",
       "tags": [
+        "AI/ML",
         "开源",
-        "基础设施",
-        "开发工具"
+        "思考"
       ],
-      "valueScore": 8,
-      "insight": "Bellard 又一力作——纯 JS 跑 64 位 Linux，对理解模拟器与 Web 能力边界很有价值"
+      "insight": "对开源法务与 AI 伦理从业者必读——预见 Copyleft 在 AI 时代的核心争议"
     },
     {
       "id": "hn-47315128",
@@ -50,16 +31,35 @@
       "comments": 142,
       "commentsUrl": "https://news.ycombinator.com/item?id=47315128",
       "createdAt": "2026-03-09T20:36:43.000Z",
-      "summary_zh": "OpenAI 决定不再与 Oracle 合作扩建 Stargate 数据中心。CNBC 报道指出，Oracle 以「明天的债务」建设「昨天的数据中心」——大规模举债投入传统架构，而 AI 算力需求迭代极快，技术路线与融资模式都存在风险。这一动向反映大模型公司在自建与外包之间重新权衡，也对超大规模数据中心投资的可持续性提出疑问。",
-      "title_zh": "OpenAI 放弃与 Oracle 扩建 Stargate 数据中心",
+      "valueScore": 9,
+      "title_zh": "OpenAI 放弃与甲骨文扩建 Stargate 数据中心",
+      "summary_zh": "OpenAI 决定不再与 Oracle 合作扩建其 Stargate 超大规模数据中心。报道指出 Oracle 用「明天的债务」建「昨天的数据中心」，在 AI 算力军备竞赛中可能已落后于 AWS、Google、微软等云巨头。\n\n此举标志 AI 基础设施竞争格局的重要变化：头部 AI 公司更倾向于与拥有最新芯片和更低延迟的云厂商合作，而非传统数据中心运营商。Oracle 的融资与建设模式在 AI 时代面临严峻考验。\n\n对关注 AI 基建、云计算投资与行业格局的从业者有直接参考——算力之争正在重塑云市场格局。",
       "tags": [
         "行业动态",
-        "AI/ML",
-        "基础设施"
+        "基础设施",
+        "AI/ML"
       ],
-      "valueScore": 7,
-      "insight": "AI 基建投资风向标——大厂对第三方数据中心的态度变化值得关注",
+      "insight": "AI 基建赛道的风向标——头部厂商的算力采购决策牵动整个云市场",
       "image": "assets/2026-03-09/40a274e773.jpg"
+    },
+    {
+      "id": "hn-47311484",
+      "title": "JSLinux Now Supports x86_64",
+      "url": "https://bellard.org/jslinux/",
+      "source": "hackernews",
+      "score": 262,
+      "comments": 74,
+      "commentsUrl": "https://news.ycombinator.com/item?id=47311484",
+      "createdAt": "2026-03-09T16:43:39.000Z",
+      "valueScore": 8,
+      "title_zh": "JSLinux 现已支持 x86_64",
+      "summary_zh": "Fabrice Bellard 的经典项目 JSLinux 迎来重大更新：从原先仅支持 x86 指令集，如今完整支持 x86_64 架构。JSLinux 是完全在浏览器中运行的 Linux 虚拟机，无需插件，纯 JavaScript 实现。\n\n这一升级意味着用户可以直接在浏览器中运行 64 位 Linux 系统，包括现代发行版和更多软件。Bellard 以 QEMU、FFmpeg 等作品闻名，JSLinux 的每次更新都代表 WebAssembly 与浏览器技术的边界探索。\n\n对 Web 技术、虚拟机与系统编程感兴趣的开发者值得关注——这是「浏览器能做什么」的又一次突破。",
+      "tags": [
+        "Web",
+        "开源",
+        "硬件"
+      ],
+      "insight": "Bellard 再次证明浏览器可成为完整计算平台——对 Web 技术边界有示范意义"
     },
     {
       "id": "hn-47311657",
@@ -70,33 +70,35 @@
       "comments": 60,
       "commentsUrl": "https://news.ycombinator.com/item?id=47311657",
       "createdAt": "2026-03-09T16:53:52.000Z",
-      "summary_zh": "YC W26 孵化的 Terminal Use 定位为「基于文件系统的 AI Agent 的 Vercel」。与需要模拟点击、输入的传统 Agent 不同，它让 Agent 直接读写文件系统，从而更可预测、更易调试。团队提供沙箱环境与部署能力，开发者可快速上线依赖文件操作的 AI 工作流。适合构建代码生成、文档处理、批处理类自动化场景。",
-      "title_zh": "Launch HN：Terminal Use (YC W26) — 面向文件系统 Agent 的 Vercel",
+      "valueScore": 8,
+      "title_zh": "Launch HN: Terminal Use (YC W26) —— 基于文件系统的 AI Agent 的 Vercel",
+      "summary_zh": "Terminal Use 是 YC W26 批次的创业项目，定位为「基于文件系统的 AI Agent 的 Vercel」。类比 Vercel 如何简化前端部署，Terminal Use 旨在为文件系统操作的 AI Agent 提供一键部署、托管与编排能力。\n\n开发者可以快速将本地或云端的 Agent 工作流上线，无需自建基础设施。产品面向正在尝试用 AI Agent 做自动化开发、数据处理或工作流编排的团队，降低从原型到生产的门槛。\n\n对 AI Agent 创业者与工程团队有参考价值——Agent 基础设施赛道正在形成类似 Vercel 的标准化层。",
       "tags": [
-        "创业",
         "AI/ML",
+        "创业",
         "基础设施"
       ],
-      "valueScore": 7,
-      "insight": "对做 AI Agent 或自动化工具的创业者有参考——文件系统作为 Agent 接口的思路值得跟踪"
+      "insight": "Agent 基础设施赛道的早期参与者——YC 背书值得关注其产品演进"
     },
     {
       "id": "lb-dnqcvh",
       "title": "Your LLM Doesn't Write Correct Code. It Writes Plausible Code",
-      "url": "https://blog.katanaquant.com/p/your-llm-doesn-t-write-correct-code",
+      "url": "https://blog.katanaquant.com/p/your-llm-doesnt-write-correct-code",
       "source": "lobsters",
       "score": 46,
       "comments": 7,
       "commentsUrl": "https://lobste.rs/s/dnqcvh/your_llm_doesn_t_write_correct_code_it",
       "createdAt": "2026-03-09T08:55:14.000-05:00",
-      "summary_zh": "文章指出 LLM 生成的代码往往「看起来对」而非「真的对」——语法正确、风格合理，但逻辑或边界条件下可能出错。作者从量化/金融代码的视角分析：LLM 擅长模仿常见模式，却难以保证在罕见场景下的正确性。建议开发者把 LLM 产出当作初稿，必须配合测试、代码审查和领域知识验证，而不是直接信任。这对依赖 AI 辅助编程的团队是一剂清醒剂。",
-      "title_zh": "LLM 写的不是正确代码，而是「看似正确」的代码",
+      "valueScore": 8,
+      "title_zh": "你的 LLM 不写正确代码，只写看起来对的代码",
+      "summary_zh": "文章指出 LLM 生成代码的核心局限：它输出的是「看起来合理」的代码（plausible），而非经过逻辑验证的正确代码。LLM 擅长模仿训练数据中的模式与风格，但无法保证语义正确、边界安全或性能最优。\n\n作者从量化与工程实践角度分析：过度依赖 AI 生成代码而不做人工验证，会导致难以追踪的 Bug 与维护负担。建议开发者将 LLM 当作「加速器」而非「替代品」，始终保留代码审查与测试环节。\n\n对使用 Copilot、Cursor 等工具的开发者有直接提醒——理解 AI 的边界才能更好地利用它。",
       "tags": [
         "AI/ML",
-        "开发工具",
-        "思考"
+        "思考",
+        "开发工具"
       ],
-      "valueScore": 7
+      "insight": "对依赖 AI 写代码的工程师——分清「合理」与「正确」可避免隐性技术债",
+      "image": "assets/2026-03-09/a8463c92b8.jpg"
     },
     {
       "id": "gh-karpathy-nanochat",
@@ -106,34 +108,15 @@
       "score": 0,
       "description": "The best ChatGPT that $100 can buy. [Python]",
       "createdAt": "2026-03-10T03:39:14.472Z",
-      "summary_zh": "Karpathy 开源项目 nanochat，目标是「用 100 美元能买到的最强 ChatGPT」。项目聚焦于在极低成本（约 100 美元级硬件）上部署可用的对话模型，适合本地/边缘场景。对于想理解小模型推理、量化与部署的开发者，这是很好的参考实现；对关注 AI 平民化、本地化的人也有实用价值。",
-      "title_zh": "karpathy/nanochat：100 美元能买到的最强对话模型",
+      "valueScore": 8,
+      "title_zh": "karpathy/nanochat：百美元能买到的最强 ChatGPT",
+      "summary_zh": "Andrej Karpathy 开源的 nanochat 项目，号称「百美元能买到的最强 ChatGPT」。项目面向低成本本地部署，让开发者或小团队在有限预算下获得接近商业大模型的对话体验。\n\n结合 Karpathy 在 Tesla AI、OpenAI 的背景，该项目可能整合了模型量化、推理优化等实用技术，适合边缘部署或离线场景。Python 实现便于二次开发与集成。\n\n对关注本地 LLM 部署、成本敏感型 AI 应用以及 Karpathy 技术路线的开发者有参考价值。",
       "tags": [
         "AI/ML",
         "开源",
         "开发工具"
       ],
-      "valueScore": 7,
-      "insight": "Karpathy 的极简主义风格——低成本部署方案的标杆项目",
-      "image": "assets/2026-03-09/cccaca8659.png"
-    },
-    {
-      "id": "hn-47312728",
-      "title": "Show HN: The Mog Programming Language",
-      "url": "https://moglang.org",
-      "source": "hackernews",
-      "score": 126,
-      "comments": 64,
-      "commentsUrl": "https://news.ycombinator.com/item?id=47312728",
-      "createdAt": "2026-03-09T17:57:00.000Z",
-      "summary_zh": "Mog 是一门为 AI Agent 设计的可嵌入脚本语言，定位类似 Lua 在游戏中的角色。特点包括：无 GC、能力沙箱、异步/错误处理、张量支持，以及可嵌入 host 应用的插件模型。文档覆盖从基础语法到嵌入 API、Agent 工具调用等完整指南。适合需要让 AI Agent 在受控环境中执行代码的开发者，例如游戏服务器、自动化工作流等。",
-      "title_zh": "Show HN：Mog —— 面向 AI Agent 的可嵌入脚本语言",
-      "tags": [
-        "开发工具",
-        "AI/ML",
-        "开源"
-      ],
-      "valueScore": 6
+      "insight": "Karpathy 背书 + 百美元级部署——本地 LLM 实践的标杆项目"
     },
     {
       "id": "lb-o8vbb7",
@@ -144,34 +127,16 @@
       "comments": 7,
       "commentsUrl": "https://lobste.rs/s/o8vbb7/production_query_plans_without",
       "createdAt": "2026-03-09T05:52:19.000-05:00",
-      "summary_zh": "文章讨论如何在缺少生产数据的情况下获得可迁移的查询计划。传统做法依赖生产环境统计信息，但在 CI、预发布或跨环境迁移时往往不可用。作者探索「可移植统计」的思路：通过轻量级抽样、元数据导出等方式，让开发/测试环境也能生成接近生产质量的执行计划，从而提前发现性能问题。对 DBA 和数据库调优从业者有参考价值。",
-      "title_zh": "无需生产数据也能得到可迁移的查询计划",
+      "valueScore": 7,
+      "title_zh": "无需生产数据即可获得生产级查询计划",
+      "summary_zh": "文章探讨如何在不暴露生产数据的前提下，让开发/测试环境获得与生产环境一致的 SQL 查询计划。传统做法依赖统计信息（statistics），而统计信息往往与真实数据分布绑定，难以跨环境迁移。\n\n作者提出「可移植统计信息」的思路：通过元数据或采样摘要，将生产环境的统计特征安全地迁移到非生产环境，使优化器能在开发阶段就做出接近生产的决策。这对 CI/CD、性能预检和合规场景都有意义。\n\n对 DBA、数据工程师与关注查询优化的开发者有价值——解决了「开发环境 plan 与生产不一致」的经典痛点。",
       "tags": [
-        "基础设施",
         "数据",
+        "基础设施",
         "开发工具"
       ],
-      "valueScore": 6,
+      "insight": "解决开发/生产查询计划差异的实用方案——对数据库性能调优从业者有直接价值",
       "image": "assets/2026-03-09/b377f7c192.jpg"
-    },
-    {
-      "id": "hn-47318421",
-      "title": "We Tried Paying Artists Royalties on AI-Generated Work – Learnings",
-      "url": "https://www.kapwing.com/blog/learnings-from-paying-artists-royalties-for-ai-generated-art/",
-      "source": "hackernews",
-      "score": 12,
-      "comments": 0,
-      "commentsUrl": "https://news.ycombinator.com/item?id=47318421",
-      "createdAt": "2026-03-10T02:24:52.000Z",
-      "summary_zh": "Kapwing 曾推出 Tess.Design，让艺术家从 AI 生成图中获得 50% 版税，运行 20 个月后关闭。文章坦诚复盘：向 325 位艺术家冷启动，仅 6.5% 签约；艺术家反对主要来自意识形态、品牌稀释和对 AI 的排斥。平台总收入约 1.2 万美元，预付版税 1.8 万，净亏损。作者总结：版权法律未定、艺术家社区对 AI 抵触、双边市场供给难拉，是 AI 授权商业模式当前的主要障碍。对探索 AI+创作变现的创业者有借鉴意义。",
-      "title_zh": "我们尝试为 AI 生成作品支付艺术家版税 —— 经验与教训",
-      "tags": [
-        "商业模式",
-        "AI/ML",
-        "创业"
-      ],
-      "valueScore": 6,
-      "insight": "AI 授权创业的真实数据与反思——双边市场、法律与社区态度缺一不可"
     },
     {
       "id": "dt-3331135",
@@ -183,14 +148,15 @@
       "commentsUrl": "https://dev.to/software_mvp-factory/running-llms-on-device-in-android-gguf-models-nnapi-and-the-real-performance-tradeoffs-5bfc#comments",
       "description": "A deep technical walkthrough of shipping on-device LLM inference in production Android apps — covering model quantization formats (GGUF, QLoRA), hardware acceleration via NNAPI and GPU delegates, memory pressure management on mid-range devices, and benchmarking methodology that actually reflects use",
       "createdAt": "2026-03-09T14:30:11Z",
-      "summary_zh": "文章系统讲解在 Android 上落地设备端 LLM 推理：涵盖 GGUF、QLoRA 等量化格式，通过 NNAPI 和 GPU 委托做硬件加速，以及在中端设备上应对内存压力。作者强调要用真实使用场景的 benchmark，而非理想条件下的跑分。对做移动端 AI、边缘推理的工程师有实操参考价值。",
-      "title_zh": "在 Android 上跑设备端 LLM：GGUF、NNAPI 与真实性能权衡",
+      "valueScore": 7,
+      "title_zh": "在 Android 设备端运行 LLM：GGUF、NNAPI 与真实性能权衡",
+      "summary_zh": "深度技术文章，讲解如何在 Android 应用中落地端侧 LLM 推理。覆盖模型量化格式（GGUF、QLoRA）、通过 NNAPI 与 GPU 委托的硬件加速、中端设备上的内存压力管理，以及真正反映实际使用场景的评测方法。\n\n作者强调「真实性能权衡」：不同设备、不同量化等级的延迟与准确率差异，以及如何根据目标用户群选择合适方案。避免纸上谈兵，给出可直接用于生产的实践经验。\n\n对移动端 AI 应用开发者、嵌入式 ML 从业者有直接价值——端侧 LLM 是 2026 年热门方向之一。",
       "tags": [
         "AI/ML",
         "移动端",
         "开发工具"
       ],
-      "valueScore": 6,
+      "insight": "端侧 LLM 落地的实战指南——覆盖量化、加速与评测全链路",
       "image": "assets/2026-03-09/029dbe394f.webp"
     },
     {
@@ -203,33 +169,16 @@
       "commentsUrl": "https://dev.to/n_asuy/ai-agents-dont-need-to-touch-the-ui-webmcp-is-the-third-way-4fhp#comments",
       "description": "AI agents can interact with websites in two ways. UI actuation — simulating clicks and keystrokes —...",
       "createdAt": "2026-03-09T17:48:57Z",
-      "summary_zh": "AI Agent 与网站交互有两种常见方式：UI 驱动（模拟点击输入）或 API 调用。文章提出 WebMCP 作为「第三条路」：让 Agent 通过结构化协议与网页能力对话，无需直接操作 DOM，也无需依赖私有 API。这种方式更稳定、可复现，适合构建浏览器内的自动化与 Agent 工作流。对做 Agent、RPA 或 Web 自动化的开发者有参考。",
-      "title_zh": "AI Agent 不必碰 UI，WebMCP 是第三条路",
+      "valueScore": 7,
+      "title_zh": "AI Agent 无需触碰 UI，WebMCP 是第三条路",
+      "summary_zh": "文章提出 AI Agent 与网页交互的「第三种方式」。传统有两种：一是 UI 自动化——模拟点击、输入；二是 API 直连——若网站有开放接口。前者脆弱易碎，后者依赖网站支持。\n\nWebMCP（Model Context Protocol 的 Web 扩展）允许 Agent 通过结构化协议与页面「对话」，获取 DOM 语义、执行操作，而不必依赖像素级模拟。这种方式更稳定、可移植，且不侵犯网站原有 UI 逻辑。\n\n对 AI Agent 开发者、自动化测试与 RPA 从业者有参考价值——MCP 生态正在向 Web 场景扩展。",
       "tags": [
         "AI/ML",
         "Web",
         "开发工具"
       ],
-      "valueScore": 6,
+      "insight": "绕过 UI 自动化脆弱的创新思路——MCP 在 Web 场景的应用值得关注",
       "image": "assets/2026-03-09/b69553e9e0.webp"
-    },
-    {
-      "id": "gh-openclaw-openclaw",
-      "title": "openclaw/openclaw",
-      "url": "https://github.com/openclaw/openclaw",
-      "source": "github-trending",
-      "score": 0,
-      "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 [TypeScript]",
-      "createdAt": "2026-03-10T03:39:14.472Z",
-      "summary_zh": "OpenClaw 是跨平台个人 AI 助手项目，用 TypeScript 实现，号称「龙虾式」设计——简洁、可组合。支持多 OS、多平台，用户可自托管或按需部署。适合想搭建私人助理、本地 AI 工作流的开发者参考。",
-      "title_zh": "openclaw/openclaw：跨平台个人 AI 助手",
-      "tags": [
-        "AI/ML",
-        "开源",
-        "开发工具"
-      ],
-      "valueScore": 6,
-      "image": "assets/2026-03-09/c83af54528.png"
     },
     {
       "id": "gh-alibaba-page-agent",
@@ -239,15 +188,142 @@
       "score": 0,
       "description": "JavaScript in-page GUI agent. Control web interfaces with natural language. [TypeScript]",
       "createdAt": "2026-03-10T03:39:14.472Z",
-      "summary_zh": "阿里开源的 page-agent 是一个运行在页面内的 JavaScript GUI Agent，用户可用自然语言控制网页界面。TypeScript 实现，适合集成到现有 Web 应用，实现语音或文本驱动的交互。对做可访问性、自动化测试或智能前端的团队有参考价值。",
-      "title_zh": "alibaba/page-agent：用自然语言控制网页的页面内 Agent",
+      "valueScore": 7,
+      "title_zh": "alibaba/page-agent：用自然语言控制网页的 in-page Agent",
+      "summary_zh": "阿里巴巴开源的 page-agent，是一个在浏览器页面内运行的 JavaScript GUI Agent。用户可以用自然语言描述操作意图，Agent 解析并执行对网页元素的控制，无需预先编写脚本。\n\n基于 TypeScript 实现，适合嵌入现有 Web 应用或作为浏览器扩展。与云端 Agent 不同，page-agent 直接运行在页面上下文中，可访问 DOM 与本地状态，延迟更低、隐私更可控。\n\n对 Web 自动化、无障碍应用与 AI 交互设计有参考价值——大厂开源意味着生产级实践验证。",
       "tags": [
         "AI/ML",
         "Web",
         "开源"
       ],
+      "insight": "阿里开源 + 自然语言控制 Web——AI 与前端交叉的实用项目"
+    },
+    {
+      "id": "gh-openclaw-openclaw",
+      "title": "openclaw/openclaw",
+      "url": "https://github.com/openclaw/openclaw",
+      "source": "github-trending",
+      "score": 0,
+      "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 [TypeScript]",
+      "createdAt": "2026-03-10T03:39:14.472Z",
+      "valueScore": 7,
+      "title_zh": "openclaw/openclaw：全平台个人 AI 助手",
+      "summary_zh": "OpenClaw 是「龙虾式」全平台个人 AI 助手——Any OS, Any Platform。TypeScript 实现，强调可移植性与本地优先，用户可在桌面、终端、移动端统一使用同一套 Agent 能力。\n\n「龙虾方式」可能指向简洁、可组合、不依赖单一云服务的架构哲学。项目处于活跃开发，适合希望自建 AI 助手的开发者参考架构与扩展方式。\n\n对独立开发者、AI 产品架构师有参考价值——个人 AI 助手的开源替代方案正在成熟。",
+      "tags": [
+        "AI/ML",
+        "开源",
+        "独立开发"
+      ],
+      "insight": "跨平台个人 AI 助手的开源实现——TypeScript 技术栈便于二次开发"
+    },
+    {
+      "id": "gh-NousResearch-hermes-agent",
+      "title": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "source": "github-trending",
+      "score": 0,
+      "description": "The agent that grows with you [Python]",
+      "createdAt": "2026-03-10T03:39:14.472Z",
+      "valueScore": 7,
+      "title_zh": "NousResearch/hermes-agent：与你共同成长的 Agent",
+      "summary_zh": "Nous Research 开源的 hermes-agent， slogan 是「The agent that grows with you」——与你共同成长的 Agent。Nous 以 Llama 系列模型与 Hermes 微调闻名，此次将 Agent 框架开源。\n\n强调「成长」可能指向：通过用户交互、记忆与反馈不断优化行为；或支持插件与技能扩展，随使用场景演进。Python 实现与主流 LLM 生态兼容。\n\n对 Agent 研究者与 LLM 应用开发者有参考价值——Nous 在开源模型领域的积累可转化为 Agent 能力。",
+      "tags": [
+        "AI/ML",
+        "开源",
+        "开发工具"
+      ],
+      "insight": "Nous 出品 + 「成长型」Agent——关注开源 LLM 与 Agent 交叉的开发者值得跟踪"
+    },
+    {
+      "id": "hn-47312728",
+      "title": "Show HN: The Mog Programming Language",
+      "url": "https://moglang.org",
+      "source": "hackernews",
+      "score": 126,
+      "comments": 64,
+      "commentsUrl": "https://news.ycombinator.com/item?id=47312728",
+      "createdAt": "2026-03-09T17:57:00.000Z",
       "valueScore": 6,
-      "image": "assets/2026-03-09/7071085b7a.jpg"
+      "title_zh": "Show HN：Mog 编程语言",
+      "summary_zh": "Mog 是一门新诞生的编程语言，在 HN 上获得较高关注。新语言通常会在语法、类型系统、并发模型或领域聚焦上做出差异化设计，Mog 的定位与特性需要访问官网进一步了解。\n\n新语言生态的建立需要社区与工具链支撑，早期项目的设计哲学往往反映作者对现有语言的不满与理想。对编程语言爱好者、编译器研究者而言，跟踪新语言动向有助于把握技术趋势。\n\n对编程语言设计与系统编程感兴趣的开发者可以关注——新语言能否成功取决于能否解决真实痛点。",
+      "tags": [
+        "开发工具",
+        "开源",
+        "思考"
+      ]
+    },
+    {
+      "id": "dt-3331372",
+      "title": "Congrats to the GitHub Copilot CLI Challenge Winners!",
+      "url": "https://dev.to/devteam/congrats-to-the-github-copilot-cli-challenge-winners-2240",
+      "source": "devto",
+      "score": 88,
+      "comments": 31,
+      "commentsUrl": "https://dev.to/devteam/congrats-to-the-github-copilot-cli-challenge-winners-2240#comments",
+      "description": "The results are in! Thank you all so much for your patience as we reviewed over 400 submissions for...",
+      "createdAt": "2026-03-09T18:28:59Z",
+      "valueScore": 6,
+      "title_zh": "恭喜 GitHub Copilot CLI 挑战赛获奖者",
+      "summary_zh": "GitHub 官方公布 Copilot CLI Challenge 的获奖结果。赛事收到超过 400 份提交，官方从中评选出优胜方案。Copilot CLI 是 GitHub 将 AI 能力融入命令行的工作流，旨在提升开发者的终端效率。\n\n获奖项目可能涵盖：自动化脚本、工作流编排、跨工具集成等方向。通过赛事可了解社区如何创造性使用 Copilot CLI，以及官方认可的「最佳实践」形态。\n\n对使用 Copilot、关注 CLI 工具与 AI 辅助开发的开发者有参考——获奖作品可作为学习与借鉴对象。",
+      "tags": [
+        "AI/ML",
+        "开发工具",
+        "开源"
+      ],
+      "image": "assets/2026-03-09/de1bf4b67a.webp"
+    },
+    {
+      "id": "lb-jreqtw",
+      "title": "Returning To Rails in 2026",
+      "url": "https://www.markround.com/blog/2026/03/05/returning-to-rails-in-2026/",
+      "source": "lobsters",
+      "score": 37,
+      "comments": 19,
+      "commentsUrl": "https://lobste.rs/s/jreqtw/returning_rails_2026",
+      "createdAt": "2026-03-09T05:33:30.000-05:00",
+      "valueScore": 6,
+      "title_zh": "2026 年重返 Rails",
+      "summary_zh": "作者分享在 2026 年重新选择 Ruby on Rails 作为主要 Web 框架的经历与理由。可能涉及：Rails 7/8 的新特性、与其他框架（如 Node、Go、Rust）的对比、对「全栈一体化」的重新认识，以及在实际项目中的落地体验。\n\nRails 在 AI 与 TypeScript 时代常被讨论为「遗留」选择，但仍有团队因其开发效率与约定优于配置的理念回归。对框架选型与全栈开发有实际参考价值。\n\n对 Web 开发者、特别是考虑全栈框架选型的技术决策者有参考——Rails 的现状与适用场景值得客观评估。",
+      "tags": [
+        "Web",
+        "开发工具",
+        "思考"
+      ]
+    },
+    {
+      "id": "hn-47318421",
+      "title": "We Tried Paying Artists Royalties on AI-Generated Work – Learnings",
+      "url": "https://www.kapwing.com/blog/learnings-from-paying-artists-royalties-for-ai-generated-art/",
+      "source": "hackernews",
+      "score": 12,
+      "comments": 0,
+      "commentsUrl": "https://news.ycombinator.com/item?id=47318421",
+      "createdAt": "2026-03-10T02:24:52.000Z",
+      "valueScore": 6,
+      "title_zh": "我们尝试为 AI 生成作品向艺术家支付版税——经验总结",
+      "summary_zh": "Kapwing 分享了在 AI 生成内容中向艺术家支付版税的实践与教训。作为视频/图像工具公司，他们探索了如何在使用 AI 生成素材时，对训练数据来源的创作者给予经济回报。\n\n文章可能涉及：版权认定、分成比例、技术实现（如何追踪与分配）、法律与伦理考量。这是 AI 时代内容创作价值链重构的前沿议题。\n\n对 AI 产品经理、内容平台与关注 AI 伦理的从业者有参考——可持续的创作者经济是 AI 内容生态的基石。",
+      "tags": [
+        "AI/ML",
+        "商业模式",
+        "行业动态"
+      ]
+    },
+    {
+      "id": "ch-changelog.com/16/2818",
+      "title": "The mythical agent-month",
+      "url": "https://changelog.com/news/182",
+      "source": "changelog",
+      "description": "Wes McKinney on the mythical agent-month, install Peon Ping to employ a Peon today, Andreas Kling explains why Ladybird is adopting Rust, Cloudflare has a new MCP server that's quite efficient, and Elliot Bonneville thinks the only moat left is money.",
+      "createdAt": "2026-02-23T20:45:00.000Z",
+      "valueScore": 6,
+      "title_zh": "神话般的 agent-month",
+      "summary_zh": "Changelog 新闻精选涵盖多个热点：Wes McKinney 谈「神话般的 agent-month」——类比人月神话，讨论 AI Agent 是否能线性扩展生产力；可安装 Peon Ping 来「雇佣」一个 Peon；Andreas Kling 解释 Ladybird 浏览器为何采用 Rust；Cloudflare 推出高效 MCP 服务；Elliot Bonneville 认为「唯一剩余的护城河是金钱」。\n\n综合来看，本期聚焦 AI Agent 生产力、基础设施与商业壁垒等主题，适合快速了解业界动态。\n\n对关注 AI 工程、开源浏览器与云服务的技术从业者有浏览价值。",
+      "tags": [
+        "AI/ML",
+        "行业动态",
+        "思考"
+      ],
+      "image": "assets/2026-03-09/186e767235.jpg"
     },
     {
       "id": "ch-changelog.com/16/2813",
@@ -256,14 +332,14 @@
       "source": "changelog",
       "description": "Mitchell Hashimoto's trust management system for open source, Nicholas Carlini has a team of Claudes build a C compiler, Stephan Schwab recounts the history of attempted developer replacement, NanClaw is an alternative to OpenClaw, and Sophie Koonin can't wrap her head around so many people going so",
       "createdAt": "2026-02-09T19:00:00.000Z",
-      "summary_zh": "Changelog 新闻综述：Mitchell Hashimoto 推出开源信任管理系统；Nicholas Carlini 让多只 Claude 协作构建 C 编译器；Stephan Schwab 回顾「替代开发者」的历史尝试；NanClaw 作为 OpenClaw 替代方案出现。多则与 AI、开源治理、信任机制相关，适合快速了解技术社区近期动向。",
-      "title_zh": "为开源信任网络背书 + 多则 AI/开源动态",
+      "valueScore": 6,
+      "title_zh": "为开源信任网络背书",
+      "summary_zh": "Changelog 新闻精选：Mitchell Hashimoto（HashiCorp 创始人）提出开源信任管理系统；Nicholas Carlini 让一队 Claude 构建 C 编译器；Stephan Schwab 回顾「替代开发者」尝试的历史；NanClaw 作为 OpenClaw 的替代方案；Sophie Koonin 对某些现象表示不解。\n\n本期重点在开源信任、AI 编程能力边界与开发者角色演变，信息密度高，适合快速扫读。\n\n对开源社区、AI 编程与开发者工具感兴趣的读者可从中获取多角度观点。",
       "tags": [
         "开源",
         "AI/ML",
-        "行业动态"
+        "思考"
       ],
-      "valueScore": 6,
       "image": "assets/2026-03-09/20dd12f89e.jpg"
     },
     {
@@ -276,106 +352,35 @@
       "commentsUrl": "https://dev.to/vxncxnx/i-scanned-2500-startup-ideas-with-ai-here-is-what-the-data-says-about-why-most-fail-nh3#comments",
       "description": "I kept watching friends burn 6 months building things nobody wanted. Every time I asked \"who's your...",
       "createdAt": "2026-03-09T12:00:39Z",
-      "summary_zh": "作者用 AI 扫描了 2500 个创业想法，结合 40+ 实时数据源做验证，总结多数失败原因。核心结论：很多团队花半年做没人要的东西，缺的不是技术而是对市场和用户需求的验证。文章分享了数据驱动的验证方法，对早期创业者有方法论参考。",
-      "title_zh": "我做了个创业验证器，扫描 40+ 数据源后的发现",
+      "valueScore": 6,
+      "title_zh": "我做了个查询 40+ 实时数据的创业验证器，这是学到的",
+      "summary_zh": "作者目睹朋友花半年做没人要的产品，于是构建了一个创业验证器，接入 40+ 实时数据源，用 AI 扫描了 2500 个创业想法，分析多数失败的原因。核心问题 often 是「谁是你的客户」——需求验证不足、目标用户模糊导致资源浪费。\n\n文章分享数据驱动的验证思路：如何用公开数据、搜索趋势、竞品分析等快速判断创意是否值得投入。对尚未动手或正在 pivot 的创业者有参考。\n\n对创业者、产品经理与独立开发者有实用价值——先验证再建造，可避免无谓沉没成本。",
       "tags": [
         "创业",
-        "AI/ML",
-        "商业模式"
+        "数据",
+        "AI/ML"
       ],
-      "valueScore": 6,
       "image": "assets/2026-03-09/9981eb756b.webp"
     },
     {
-      "id": "hn-47317739",
-      "title": "The \"JVG algorithm\" only wins on tiny numbers",
-      "url": "https://scottaaronson.blog/?p=9615",
-      "source": "hackernews",
-      "score": 38,
-      "comments": 19,
-      "commentsUrl": "https://news.ycombinator.com/item?id=47317739",
-      "createdAt": "2026-03-10T00:35:19.000Z",
-      "summary_zh": "Scott Aaronson 在博客中分析所谓「JVG 算法」：该算法在极小数上表现优异，但在更大规模输入下优势消失。文章从复杂性理论视角讨论算法评估中的规模效应与基准选择问题，提醒读者不要被小规模实验误导。对算法研究者与关心 AI/ML 基准的人有启发。",
-      "title_zh": "「JVG 算法」只在小数字上占优",
-      "tags": [
-        "思考",
-        "AI/ML"
-      ],
-      "valueScore": 5,
-      "image": "assets/2026-03-09/8b5591bb74.jpg"
-    },
-    {
-      "id": "lb-jreqtw",
-      "title": "Returning To Rails in 2026",
-      "url": "https://www.markround.com/blog/2026/03/05/returning-to-rails-in-2026/",
-      "source": "lobsters",
-      "score": 37,
-      "comments": 19,
-      "commentsUrl": "https://lobste.rs/s/jreqtw/returning_rails_in_2026",
-      "createdAt": "2026-03-09T05:33:30.000-05:00",
-      "summary_zh": "作者分享 2026 年重新选择 Rails 作为主力框架的心路历程。从多年使用其他技术栈后回归，对比了 Rails 在 2026 年的改进、生态与开发体验，以及为何在特定项目类型下仍具优势。对评估 Web 框架选型的开发者有参考。",
-      "title_zh": "2026 年，我为何回归 Rails",
-      "tags": [
-        "Web",
-        "开发工具",
-        "思考"
-      ],
-      "valueScore": 5
-    },
-    {
-      "id": "gh-666ghj-MiroFish",
-      "title": "666ghj/MiroFish",
-      "url": "https://github.com/666ghj/MiroFish",
-      "source": "github-trending",
-      "score": 0,
-      "description": "A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物 [Python]",
-      "createdAt": "2026-03-10T03:39:14.472Z",
-      "summary_zh": "MiroFish 是简洁通用的群体智能引擎，用 Python 实现，目标是「预测万物」——通过群体智能模型做各类预测任务。项目强调简单与通用性，适合对群体智能、预测模型感兴趣的开发者与研究场景。",
-      "title_zh": "666ghj/MiroFish：简洁通用的群体智能预测引擎",
+      "id": "dt-3305714",
+      "title": "Unlocking AI Resilience: Mastering State Persistence with LangGraph and PostgreSQL",
+      "url": "https://dev.to/programmingcentral/unlocking-ai-resilience-mastering-state-persistence-with-langgraph-and-postgresql-50h0",
+      "source": "devto",
+      "score": 3,
+      "comments": 2,
+      "commentsUrl": "https://dev.to/programmingcentral/unlocking-ai-resilience-mastering-state-persistence-with-langgraph-and-postgresql-50h0#comments",
+      "description": "Imagine building an autonomous AI agent that can conduct deep research, manage complex workflows, or...",
+      "createdAt": "2026-03-09T20:00:00Z",
+      "valueScore": 6,
+      "title_zh": "掌握 LangGraph 与 PostgreSQL 的状态持久化，释放 AI 韧性",
+      "summary_zh": "文章讲解如何用 LangGraph 与 PostgreSQL 实现 AI Agent 的状态持久化，从而提升韧性。想象一个能进行深度研究、管理复杂工作流的自治 Agent——若状态仅存于内存，崩溃或重启即丢失进度；持久化到 Postgres 则可恢复、可审计、可扩展。\n\n覆盖 LangGraph 的 checkpoint 机制、与 Postgres 的集成方式，以及如何设计可恢复的长时任务。对构建生产级 AI Agent 的工程师有直接参考。\n\n对 AI 工程、LangChain/LangGraph 用户与基础设施从业者有实用价值——状态管理是 Agent 可靠性的关键。",
       "tags": [
         "AI/ML",
-        "开源",
+        "基础设施",
         "数据"
       ],
-      "valueScore": 5,
-      "image": "assets/2026-03-09/4b5c8c3f59.png"
-    },
-    {
-      "id": "gh-alirezarezvani-claude-skills",
-      "title": "alirezarezvani/claude-skills",
-      "url": "https://github.com/alirezarezvani/claude-skills",
-      "source": "github-trending",
-      "score": 0,
-      "description": "169 production-ready skills &amp; plugins for Claude Code, OpenAI Codex, and OpenClaw — engineering, marketing, product, compliance, C-level advisory, and more. Install via /plugin marketplace. [Python]",
-      "createdAt": "2026-03-10T03:39:14.472Z",
-      "summary_zh": "项目提供 169 个生产可用的 skills 与插件，覆盖工程、营销、产品、合规、高管咨询等，支持 Claude Code、OpenAI Codex、OpenClaw，可通过 /plugin 市场安装。对想快速扩展 AI 编程助手能力的开发者很有用。",
-      "title_zh": "alirezarezvani/claude-skills：169 个生产级 Claude 插件",
-      "tags": [
-        "AI/ML",
-        "开源",
-        "开发工具"
-      ],
-      "valueScore": 5,
-      "image": "assets/2026-03-09/ad142c8b6b.png"
-    },
-    {
-      "id": "dt-3331372",
-      "title": "Congrats to the GitHub Copilot CLI Challenge Winners!",
-      "url": "https://dev.to/devteam/congrats-to-the-github-copilot-cli-challenge-winners-2240",
-      "source": "devto",
-      "score": 88,
-      "comments": 31,
-      "commentsUrl": "https://dev.to/devteam/congrats-to-the-github-copilot-cli-challenge-winners-2240#comments",
-      "description": "The results are in! Thank you all so much for your patience as we reviewed over 400 submissions for...",
-      "createdAt": "2026-03-09T18:28:59Z",
-      "summary_zh": "GitHub 公布 Copilot CLI 挑战赛结果，从 400+ 提交中选出获奖方案。比赛旨在探索 Copilot CLI 的创意用法与最佳实践，获奖项目对了解 AI 辅助命令行工具生态有参考。",
-      "title_zh": "GitHub Copilot CLI 挑战赛获奖名单公布",
-      "tags": [
-        "开发工具",
-        "AI/ML"
-      ],
-      "valueScore": 5,
-      "image": "assets/2026-03-09/de1bf4b67a.webp"
+      "image": "assets/2026-03-09/61ddfe1a0c.webp"
     }
   ]
 }

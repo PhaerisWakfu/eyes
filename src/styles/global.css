@@ -140,7 +140,9 @@ a:hover {
 }
 
 .item-row + .item-row {
-  border-top: none;
+  margin-top: 28px;
+  padding-top: 28px;
+  border-top: 1px solid var(--border);
 }
 
 .item-image {
@@ -258,6 +260,7 @@ a:hover {
   color: var(--text-secondary);
   line-height: 1.5;
   max-width: 70ch;
+  white-space: pre-line; /* 保留 \n 换行，分段显示 */
 }
 
 .item-summary-label {
