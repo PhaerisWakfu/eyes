@@ -1,10 +1,10 @@
 ---
 import Base from "../../layouts/Base.astro";
-import DayNav from "../../components/DayNav.astro";
 import ItemRow from "../../components/ItemRow.astro";
-import { getDailyData, getAvailableDates, getAdjacentDates } from "../../lib/data";
+import { getDailyData, getAvailableDates } from "../../lib/data";
 
 const MAX_DISPLAY = 20;
+const RECENT_DAYS = 3;
 
 export function getStaticPaths() {
   const dates = getAvailableDates();
@@ -13,7 +13,7 @@ export function getStaticPaths() {
 
 const { date } = Astro.params;
 const data = date ? getDailyData(date) : null;
-const { prev, next } = date ? getAdjacentDates(date) : { prev: null, next: null };
+const recentDates = getAvailableDates().slice(0, RECENT_DAYS);
 
 const rawItems = data?.items ?? [];
 const items = [...rawItems]
@@ -25,8 +25,7 @@ const items = [...rawItems]
   .slice(0, MAX_DISPLAY);
 ---
 
-<Base title={`Eyes — ${date}`}>
-  {date && <DayNav date={date} prev={prev} next={next} />}
+<Base title={`Eyes — ${date}`} currentDate={date} recentDates={recentDates}>
   {items.length > 0 ? (
     <ol class="item-list">
       {items.map((item, idx) => (

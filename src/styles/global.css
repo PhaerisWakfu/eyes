@@ -54,8 +54,8 @@ a:hover {
 /* Header */
 .site-header {
   background: var(--bg-header);
-  padding: 4px 8px;
-  margin-bottom: 10px;
+  padding: 2px 8px;
+  margin-bottom: 8px;
 }
 
 .site-header .inner {
@@ -71,42 +71,41 @@ a:hover {
   font-weight: bold;
   font-size: 15px;
   text-decoration: none;
-  border: 1px solid #fff;
-  padding: 1px 4px;
 }
 
 .site-header .logo:hover {
   text-decoration: none;
 }
 
-.site-header nav {
+/* Header date switcher */
+.date-switch {
   display: flex;
-  gap: 8px;
-  font-size: 13px;
+  gap: 0;
+  flex-wrap: wrap;
+  font-size: 11px;
+  margin-left: 8px;
 }
 
-.site-header nav a {
+.date-pill {
   color: #000;
+  text-decoration: none;
+  padding: 0 6px;
 }
 
-/* Day navigation */
-.day-nav {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  padding: 8px 0;
-  font-size: 13px;
-  border-bottom: 1px solid var(--border);
-  margin-bottom: 8px;
+.date-pill:hover {
+  text-decoration: underline;
 }
 
-.day-nav .current-date {
+.date-pill.active {
+  color: #fff;
   font-weight: bold;
 }
 
-.day-nav a {
-  color: var(--text-tertiary);
+.date-switch .date-pill + .date-pill {
+  border-left: 1px solid rgba(0, 0, 0, 0.25);
 }
+
+/* Day navigation (legacy) */
 
 /* Item list */
 .item-list {
@@ -143,7 +142,7 @@ a:hover {
 }
 
 .item-domain {
-  font-size: 11px;
+  font-size: 10px;
   color: var(--text-tertiary);
   white-space: nowrap;
 }
@@ -206,7 +205,7 @@ a:hover {
 /* Tags */
 .tag {
   display: inline-block;
-  font-size: 10px;
+  font-size: 9px;
   padding: 0 4px;
   background: var(--badge-bg);
   border-radius: 2px;
@@ -223,7 +222,7 @@ a:hover {
 
 .item-summary {
   padding-left: calc(2.5ch + 6px);
-  font-size: 12px;
+  font-size: 11px;
   color: var(--text-secondary);
   line-height: 1.5;
   max-width: 70ch;

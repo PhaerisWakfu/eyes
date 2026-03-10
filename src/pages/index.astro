@@ -1,9 +1,6 @@
 ---
 import Base from "../layouts/Base.astro";
-import DayNav from "../components/DayNav.astro";
-import FilterBar from "../components/FilterBar.astro";
-import ItemRow from "../components/ItemRow.astro";
-import { getLatestDate, getDailyData, getAdjacentDates } from "../lib/data";
+import { getLatestDate } from "../lib/data";
 
 const latestDate = getLatestDate();
 

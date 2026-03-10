@@ -3,9 +3,11 @@ import "../styles/global.css";
 
 interface Props {
   title?: string;
+  currentDate?: string;
+  recentDates?: string[];
 }
 
-const { title = "Eyes" } = Astro.props;
+const { title = "Eyes", currentDate, recentDates = [] } = Astro.props;
 ---
 
 <!doctype html>
@@ -20,6 +22,19 @@ const { title = "Eyes" } = Astro.props;
     <header class="site-header">
       <div class="inner">
         <a href="/" class="logo">Eyes</a>
+        {recentDates.length > 0 && (
+          <nav class="date-switch" aria-label="最近日报">
+            {recentDates.map((d) => (
+              <a
+                href={`/day/${d}`}
+                class={d === currentDate ? "date-pill active" : "date-pill"}
+                aria-current={d === currentDate ? "date" : undefined}
+              >
+                {d}
+              </a>
+            ))}
+          </nav>
+        )}
       </div>
     </header>
     <main class="container">
