@@ -82,13 +82,20 @@ import Base from "../layouts/Base.astro";
         const { items = [] } = await res.json();
         const sorted = [...items].sort((a, b) => (b.valueScore ?? 0) - (a.valueScore ?? 0)).slice(0, MAX_DISPLAY);
 
+        const imgUrl = (item) => {
+          if (!item.image) return null;
+          if (item.image.startsWith("http")) return item.image;
+          return "/data/" + item.image;
+        };
         const html = sorted.length
           ? "<ol class=\"item-list\">" + sorted.map((item, idx) => {
               const title = item.title_zh || item.title;
               const summary = item.summary_zh || (item.description ? item.description.slice(0, 80) + (item.description.length > 80 ? "…" : "") : "暂无简介");
               const tags = (item.tags || []).map(t => `<span class="tag">${esc(t)}</span>`).join("");
               const dom = domain(item.url);
-              return `<li class="item-row"><div class="item-main"><span class="item-rank">${idx + 1}.</span><a href="${esc(item.url)}" target="_blank" rel="noopener" class="item-title">${esc(title)}</a>${dom ? ` <span class="item-domain">(${esc(dom)})</span>` : ""}</div><div class="item-summary">${esc(summary)}</div>${tags ? `<div class="item-tags">${tags}</div>` : ""}</li>`;
+              const img = imgUrl(item);
+              const imgHtml = img ? `<div class="item-image"><img src="${esc(img)}" alt="" loading="lazy" /></div>` : "";
+              return `<li class="item-row"><div class="item-main"><span class="item-rank">${idx + 1}.</span><a href="${esc(item.url)}" target="_blank" rel="noopener" class="item-title">${esc(title)}</a>${dom ? ` <span class="item-domain">(${esc(dom)})</span>` : ""}</div>${imgHtml}<div class="item-summary">${esc(summary)}</div>${tags ? `<div class="item-tags">${tags}</div>` : ""}</li>`;
             }).join("") + "</ol>"
           : `<div class="empty-state"><p><strong>${esc(d)} 暂无数据</strong></p></div>`;
 

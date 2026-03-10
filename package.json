@@ -6,9 +6,11 @@
   "scripts": {
     "fetch": "tsx scripts/fetch.ts",
     "wechat": "tsx scripts/wechat-export.ts",
-    "dev": "astro dev",
+    "dev": "npm run copy-data && astro dev",
     "copy-data": "tsx scripts/copy-data.ts",
-    "build": "npm run copy-data && astro build",
+    "download-images": "tsx scripts/download-images.ts",
+    "download-images:verbose": "tsx scripts/download-images.ts --verbose",
+    "build": "npm run download-images && npm run copy-data && astro build",
     "preview": "astro preview"
   },
   "dependencies": {

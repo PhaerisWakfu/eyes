@@ -72,18 +72,30 @@ npm run dev
 
 用浏览器打开 **http://localhost:4321/** 即可：
 
-- 首页会跳转到「最新有数据的那一天」；
-- 地址栏可手动改成 `/day/2026-03-09` 这种格式看指定日期。
+- 首页默认显示 **T-1（昨天）** 的日报，刷新即按当天时间重新计算；
+- 顶栏日期可切换 T-1 / T-2 / T-3 查看。
 
 关掉网站：在运行 `npm run dev` 的终端里按 `Ctrl + C`。
 
-### 4. 打包成静态网站（用于部署）
+### 4. 可选：下载配图到本地
+
+配图会保存到 `data/assets/{日期}/`（按日期分文件夹）。若 enriched 里填了 `image` URL，脚本会下载；若未填，会尝试从原文页面抓取 og:image。构建前会自动执行，也可单独运行：
+
+```bash
+npm run download-images
+```
+
+调试时可加 `--verbose`：`npm run download-images:verbose`
+
+### 5. 打包成静态网站（用于部署）
 
 不依赖 Node 的「成品」网站会生成到 `dist/` 目录：
 
 ```bash
 npm run build
 ```
+
+构建时会依次执行：`download-images`（下载配图）→ `copy-data`（复制数据到 public）→ `astro build`。
 
 生成完成后，可在本地先预览打包结果：
 
@@ -102,8 +114,10 @@ npm run preview
 | `npm install` | 安装依赖（首次或报错时执行） |
 | `npm run fetch` | 抓取前一天数据到 `data/raw/` |
 | `npm run fetch 2026-03-08` | 抓取指定日期数据 |
-| `npm run wechat -- 2026-03-09` | 导出公众号可复制的 Markdown（自动下载配图） |
-| `npm run dev` | 启动本地开发服务器，边改边看 |
+| `npm run download-images` | 下载配图到 `data/assets/{日期}/`，更新 enriched 中的 `image` 为本地路径 |
+| `npm run download-images:verbose` | 同上，带详细日志 |
+| `npm run wechat -- 2026-03-09` | 导出公众号 Markdown 到 `exports/2026-03-09.md`，图片引用 `data/assets/{日期}/` |
+| `npm run dev` | 启动本地开发服务器（会先复制 data 到 public） |
 | `npm run build` | 打包成静态站到 `dist/` |
 | `npm run preview` | 预览打包后的网站 |
 
@@ -115,12 +129,15 @@ npm run preview
 eyes/
 ├── data/
 │   ├── raw/           # 抓取的原始数据（按日期 .json）
-│   └── enriched/     # Agent 增强后的数据（按日期 .json，仅 Top20）
+│   ├── enriched/     # Agent 增强后的数据（按日期 .json，仅 Top20）
+│   └── assets/       # 下载的配图，按日期分目录（如 assets/2026-03-09/）
 ├── scripts/
-│   ├── fetch.ts      # 抓取脚本，npm run fetch 会跑它
-│   └── wechat-export.ts # 导出公众号 Markdown（带本地配图）
+│   ├── fetch.ts           # 抓取脚本，npm run fetch 会跑它
+│   ├── download-images.ts # 将图片 URL 或 og:image 下载到 data/assets/{日期}/
+│   └── wechat-export.ts   # 导出公众号 Markdown 到 exports/{date}.md
 ├── src/               # 前端页面与组件（Astro）
-├── exports/           # 导出的公众号稿件与配图（默认已在 .gitignore 忽略）
+├── exports/           # 导出的公众号 Markdown（如 2026-03-09.md）
+├── public/            # 静态资源；build 时会将 data 复制到 public/data
 ├── AGENT_PLAYBOOK.md  # 给 AI 看的增强说明
 ├── package.json      # 依赖与脚本定义
 └── README.md         # 本说明
@@ -154,10 +171,10 @@ eyes/
    需在 Product Hunt 申请 Developer Token，在环境变量里设置 `PH_TOKEN=你的token` 后再执行 `npm run fetch`。
 
 4. **导出公众号 Markdown 没有配图**  
-   `npm run wechat -- 2026-03-09` 会尝试从原文页面抓 `og:image/twitter:image` 作为配图并下载到本地；部分网站没有设置或做了限制，会导出无图版本（不影响复制发布）。
+   配图由 `npm run download-images` 下载到 `data/assets/{日期}/`（构建时会自动执行）；enriched 中可填 `image` URL，或脚本会尝试从原文页面抓取 og:image。部分网站没有设置或做了限制，会导出无图版本。
 
 5. **导出的文件在哪里？**  
-   - Markdown：`exports/wechat/2026-03-09/2026-03-09.md`  
-   - 配图：`exports/wechat/2026-03-09/assets/`
+   - Markdown：`exports/2026-03-09.md`  
+   - 配图：`data/assets/2026-03-09/` 下，Markdown 中引用 `../data/assets/2026-03-09/xxx.jpg`
 
 以上步骤足够完成「抓数据 → 可选增强 → 本地看站 → 打包/部署」全流程；不熟悉前端也只需按顺序执行命令即可。

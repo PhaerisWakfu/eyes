@@ -66,6 +66,8 @@
 - 尽量给文章/项目补一张配图，用来提升阅读吸引力
 - 优先顺序：原文 `og:image` / `twitter:image` → 文章头图 → 项目 Logo
 - 只填图片 URL；如果找不到就留空，不要编造
+- 构建前会运行 `npm run download-images`：将 URL 下载到 `data/assets/{日期}/` 并更新为本地路径 `assets/{日期}/{hash}.{ext}`
+- 若未填 `image`，脚本会尝试从 `item.url` 的页面抓取 og:image（部分站点无或有限制，可能失败）
 
 #### `title_zh`（选填 — 标题中文翻译）
 

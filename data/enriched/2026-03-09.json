@@ -14,7 +14,11 @@
       "createdAt": "2026-03-09T15:12:53.000Z",
       "summary_zh": "chardet 库维护者用 Claude 从头重写了整个项目，将 LGPL 改为 MIT，原作者 Mark Pilgrim 反对。文章围绕一个核心问题展开：合法是否等于正当？作者指出 antirez 和 Ronacher 的辩护都犯了同一错误：把「法律允许」等同于「道德无妨」。GNU 当年重写 UNIX 的伦理力量来自从专有走向自由；而 chardet 案的方向相反——从 copyleft 走向宽松许可，削弱了贡献者保护。文章提出：当 AI 让绕过 copyleft 变得容易，社区规范与法律的鸿沟会加深；若法院判重写合法，那只是告诉我们法律允许什么，并不代表这种行为是对的。",
       "title_zh": "合法就等于正当吗？AI 重写与 copyleft 的式微",
-      "tags": ["思考", "AI/ML", "开源"],
+      "tags": [
+        "思考",
+        "AI/ML",
+        "开源"
+      ],
       "valueScore": 9,
       "insight": "对开源维护者与法律/伦理关注者必读——厘清合法性与正当性的区别，关乎 AI 时代开源契约的未来"
     },
@@ -29,7 +33,11 @@
       "createdAt": "2026-03-09T16:43:39.000Z",
       "summary_zh": "Fabrice Bellard 的 JSLinux 项目迎来重大更新：现已支持 x86_64 架构，可在浏览器中运行完整的 Alpine Linux。此前 JSLinux 仅支持 x86 和 RISC-V，此次升级带来 AVX-512、APX 等现代指令集支持，让纯 JavaScript 实现的 CPU 模拟器能力再进一步。JSLinux 无需插件或本地安装，打开网页即可在控制台或 X Window 下使用 Linux，是了解虚拟机、模拟器原理的极佳教学与演示项目。",
       "title_zh": "JSLinux 现已支持 x86_64",
-      "tags": ["开源", "基础设施", "开发工具"],
+      "tags": [
+        "开源",
+        "基础设施",
+        "开发工具"
+      ],
       "valueScore": 8,
       "insight": "Bellard 又一力作——纯 JS 跑 64 位 Linux，对理解模拟器与 Web 能力边界很有价值"
     },
@@ -44,9 +52,14 @@
       "createdAt": "2026-03-09T20:36:43.000Z",
       "summary_zh": "OpenAI 决定不再与 Oracle 合作扩建 Stargate 数据中心。CNBC 报道指出，Oracle 以「明天的债务」建设「昨天的数据中心」——大规模举债投入传统架构，而 AI 算力需求迭代极快，技术路线与融资模式都存在风险。这一动向反映大模型公司在自建与外包之间重新权衡，也对超大规模数据中心投资的可持续性提出疑问。",
       "title_zh": "OpenAI 放弃与 Oracle 扩建 Stargate 数据中心",
-      "tags": ["行业动态", "AI/ML", "基础设施"],
+      "tags": [
+        "行业动态",
+        "AI/ML",
+        "基础设施"
+      ],
       "valueScore": 7,
-      "insight": "AI 基建投资风向标——大厂对第三方数据中心的态度变化值得关注"
+      "insight": "AI 基建投资风向标——大厂对第三方数据中心的态度变化值得关注",
+      "image": "assets/2026-03-09/40a274e773.jpg"
     },
     {
       "id": "hn-47311657",
@@ -59,7 +72,11 @@
       "createdAt": "2026-03-09T16:53:52.000Z",
       "summary_zh": "YC W26 孵化的 Terminal Use 定位为「基于文件系统的 AI Agent 的 Vercel」。与需要模拟点击、输入的传统 Agent 不同，它让 Agent 直接读写文件系统，从而更可预测、更易调试。团队提供沙箱环境与部署能力，开发者可快速上线依赖文件操作的 AI 工作流。适合构建代码生成、文档处理、批处理类自动化场景。",
       "title_zh": "Launch HN：Terminal Use (YC W26) — 面向文件系统 Agent 的 Vercel",
-      "tags": ["创业", "AI/ML", "基础设施"],
+      "tags": [
+        "创业",
+        "AI/ML",
+        "基础设施"
+      ],
       "valueScore": 7,
       "insight": "对做 AI Agent 或自动化工具的创业者有参考——文件系统作为 Agent 接口的思路值得跟踪"
     },
@@ -74,7 +91,11 @@
       "createdAt": "2026-03-09T08:55:14.000-05:00",
       "summary_zh": "文章指出 LLM 生成的代码往往「看起来对」而非「真的对」——语法正确、风格合理，但逻辑或边界条件下可能出错。作者从量化/金融代码的视角分析：LLM 擅长模仿常见模式，却难以保证在罕见场景下的正确性。建议开发者把 LLM 产出当作初稿，必须配合测试、代码审查和领域知识验证，而不是直接信任。这对依赖 AI 辅助编程的团队是一剂清醒剂。",
       "title_zh": "LLM 写的不是正确代码，而是「看似正确」的代码",
-      "tags": ["AI/ML", "开发工具", "思考"],
+      "tags": [
+        "AI/ML",
+        "开发工具",
+        "思考"
+      ],
       "valueScore": 7
     },
     {
@@ -87,9 +108,14 @@
       "createdAt": "2026-03-10T03:39:14.472Z",
       "summary_zh": "Karpathy 开源项目 nanochat，目标是「用 100 美元能买到的最强 ChatGPT」。项目聚焦于在极低成本（约 100 美元级硬件）上部署可用的对话模型，适合本地/边缘场景。对于想理解小模型推理、量化与部署的开发者，这是很好的参考实现；对关注 AI 平民化、本地化的人也有实用价值。",
       "title_zh": "karpathy/nanochat：100 美元能买到的最强对话模型",
-      "tags": ["AI/ML", "开源", "开发工具"],
+      "tags": [
+        "AI/ML",
+        "开源",
+        "开发工具"
+      ],
       "valueScore": 7,
-      "insight": "Karpathy 的极简主义风格——低成本部署方案的标杆项目"
+      "insight": "Karpathy 的极简主义风格——低成本部署方案的标杆项目",
+      "image": "assets/2026-03-09/cccaca8659.png"
     },
     {
       "id": "hn-47312728",
@@ -102,7 +128,11 @@
       "createdAt": "2026-03-09T17:57:00.000Z",
       "summary_zh": "Mog 是一门为 AI Agent 设计的可嵌入脚本语言，定位类似 Lua 在游戏中的角色。特点包括：无 GC、能力沙箱、异步/错误处理、张量支持，以及可嵌入 host 应用的插件模型。文档覆盖从基础语法到嵌入 API、Agent 工具调用等完整指南。适合需要让 AI Agent 在受控环境中执行代码的开发者，例如游戏服务器、自动化工作流等。",
       "title_zh": "Show HN：Mog —— 面向 AI Agent 的可嵌入脚本语言",
-      "tags": ["开发工具", "AI/ML", "开源"],
+      "tags": [
+        "开发工具",
+        "AI/ML",
+        "开源"
+      ],
       "valueScore": 6
     },
     {
@@ -116,8 +146,13 @@
       "createdAt": "2026-03-09T05:52:19.000-05:00",
       "summary_zh": "文章讨论如何在缺少生产数据的情况下获得可迁移的查询计划。传统做法依赖生产环境统计信息，但在 CI、预发布或跨环境迁移时往往不可用。作者探索「可移植统计」的思路：通过轻量级抽样、元数据导出等方式，让开发/测试环境也能生成接近生产质量的执行计划，从而提前发现性能问题。对 DBA 和数据库调优从业者有参考价值。",
       "title_zh": "无需生产数据也能得到可迁移的查询计划",
-      "tags": ["基础设施", "数据", "开发工具"],
-      "valueScore": 6
+      "tags": [
+        "基础设施",
+        "数据",
+        "开发工具"
+      ],
+      "valueScore": 6,
+      "image": "assets/2026-03-09/b377f7c192.jpg"
     },
     {
       "id": "hn-47318421",
@@ -130,7 +165,11 @@
       "createdAt": "2026-03-10T02:24:52.000Z",
       "summary_zh": "Kapwing 曾推出 Tess.Design，让艺术家从 AI 生成图中获得 50% 版税，运行 20 个月后关闭。文章坦诚复盘：向 325 位艺术家冷启动，仅 6.5% 签约；艺术家反对主要来自意识形态、品牌稀释和对 AI 的排斥。平台总收入约 1.2 万美元，预付版税 1.8 万，净亏损。作者总结：版权法律未定、艺术家社区对 AI 抵触、双边市场供给难拉，是 AI 授权商业模式当前的主要障碍。对探索 AI+创作变现的创业者有借鉴意义。",
       "title_zh": "我们尝试为 AI 生成作品支付艺术家版税 —— 经验与教训",
-      "tags": ["商业模式", "AI/ML", "创业"],
+      "tags": [
+        "商业模式",
+        "AI/ML",
+        "创业"
+      ],
       "valueScore": 6,
       "insight": "AI 授权创业的真实数据与反思——双边市场、法律与社区态度缺一不可"
     },
@@ -146,8 +185,13 @@
       "createdAt": "2026-03-09T14:30:11Z",
       "summary_zh": "文章系统讲解在 Android 上落地设备端 LLM 推理：涵盖 GGUF、QLoRA 等量化格式，通过 NNAPI 和 GPU 委托做硬件加速，以及在中端设备上应对内存压力。作者强调要用真实使用场景的 benchmark，而非理想条件下的跑分。对做移动端 AI、边缘推理的工程师有实操参考价值。",
       "title_zh": "在 Android 上跑设备端 LLM：GGUF、NNAPI 与真实性能权衡",
-      "tags": ["AI/ML", "移动端", "开发工具"],
-      "valueScore": 6
+      "tags": [
+        "AI/ML",
+        "移动端",
+        "开发工具"
+      ],
+      "valueScore": 6,
+      "image": "assets/2026-03-09/029dbe394f.webp"
     },
     {
       "id": "dt-3331644",
@@ -161,8 +205,13 @@
       "createdAt": "2026-03-09T17:48:57Z",
       "summary_zh": "AI Agent 与网站交互有两种常见方式：UI 驱动（模拟点击输入）或 API 调用。文章提出 WebMCP 作为「第三条路」：让 Agent 通过结构化协议与网页能力对话，无需直接操作 DOM，也无需依赖私有 API。这种方式更稳定、可复现，适合构建浏览器内的自动化与 Agent 工作流。对做 Agent、RPA 或 Web 自动化的开发者有参考。",
       "title_zh": "AI Agent 不必碰 UI，WebMCP 是第三条路",
-      "tags": ["AI/ML", "Web", "开发工具"],
-      "valueScore": 6
+      "tags": [
+        "AI/ML",
+        "Web",
+        "开发工具"
+      ],
+      "valueScore": 6,
+      "image": "assets/2026-03-09/b69553e9e0.webp"
     },
     {
       "id": "gh-openclaw-openclaw",
@@ -174,8 +223,13 @@
       "createdAt": "2026-03-10T03:39:14.472Z",
       "summary_zh": "OpenClaw 是跨平台个人 AI 助手项目，用 TypeScript 实现，号称「龙虾式」设计——简洁、可组合。支持多 OS、多平台，用户可自托管或按需部署。适合想搭建私人助理、本地 AI 工作流的开发者参考。",
       "title_zh": "openclaw/openclaw：跨平台个人 AI 助手",
-      "tags": ["AI/ML", "开源", "开发工具"],
-      "valueScore": 6
+      "tags": [
+        "AI/ML",
+        "开源",
+        "开发工具"
+      ],
+      "valueScore": 6,
+      "image": "assets/2026-03-09/c83af54528.png"
     },
     {
       "id": "gh-alibaba-page-agent",
@@ -187,8 +241,13 @@
       "createdAt": "2026-03-10T03:39:14.472Z",
       "summary_zh": "阿里开源的 page-agent 是一个运行在页面内的 JavaScript GUI Agent，用户可用自然语言控制网页界面。TypeScript 实现，适合集成到现有 Web 应用，实现语音或文本驱动的交互。对做可访问性、自动化测试或智能前端的团队有参考价值。",
       "title_zh": "alibaba/page-agent：用自然语言控制网页的页面内 Agent",
-      "tags": ["AI/ML", "Web", "开源"],
-      "valueScore": 6
+      "tags": [
+        "AI/ML",
+        "Web",
+        "开源"
+      ],
+      "valueScore": 6,
+      "image": "assets/2026-03-09/7071085b7a.jpg"
     },
     {
       "id": "ch-changelog.com/16/2813",
@@ -199,8 +258,13 @@
       "createdAt": "2026-02-09T19:00:00.000Z",
       "summary_zh": "Changelog 新闻综述：Mitchell Hashimoto 推出开源信任管理系统；Nicholas Carlini 让多只 Claude 协作构建 C 编译器；Stephan Schwab 回顾「替代开发者」的历史尝试；NanClaw 作为 OpenClaw 替代方案出现。多则与 AI、开源治理、信任机制相关，适合快速了解技术社区近期动向。",
       "title_zh": "为开源信任网络背书 + 多则 AI/开源动态",
-      "tags": ["开源", "AI/ML", "行业动态"],
-      "valueScore": 6
+      "tags": [
+        "开源",
+        "AI/ML",
+        "行业动态"
+      ],
+      "valueScore": 6,
+      "image": "assets/2026-03-09/20dd12f89e.jpg"
     },
     {
       "id": "dt-3330674",
@@ -214,8 +278,13 @@
       "createdAt": "2026-03-09T12:00:39Z",
       "summary_zh": "作者用 AI 扫描了 2500 个创业想法，结合 40+ 实时数据源做验证，总结多数失败原因。核心结论：很多团队花半年做没人要的东西，缺的不是技术而是对市场和用户需求的验证。文章分享了数据驱动的验证方法，对早期创业者有方法论参考。",
       "title_zh": "我做了个创业验证器，扫描 40+ 数据源后的发现",
-      "tags": ["创业", "AI/ML", "商业模式"],
-      "valueScore": 6
+      "tags": [
+        "创业",
+        "AI/ML",
+        "商业模式"
+      ],
+      "valueScore": 6,
+      "image": "assets/2026-03-09/9981eb756b.webp"
     },
     {
       "id": "hn-47317739",
@@ -228,8 +297,12 @@
       "createdAt": "2026-03-10T00:35:19.000Z",
       "summary_zh": "Scott Aaronson 在博客中分析所谓「JVG 算法」：该算法在极小数上表现优异，但在更大规模输入下优势消失。文章从复杂性理论视角讨论算法评估中的规模效应与基准选择问题，提醒读者不要被小规模实验误导。对算法研究者与关心 AI/ML 基准的人有启发。",
       "title_zh": "「JVG 算法」只在小数字上占优",
-      "tags": ["思考", "AI/ML"],
-      "valueScore": 5
+      "tags": [
+        "思考",
+        "AI/ML"
+      ],
+      "valueScore": 5,
+      "image": "assets/2026-03-09/8b5591bb74.jpg"
     },
     {
       "id": "lb-jreqtw",
@@ -242,7 +315,11 @@
       "createdAt": "2026-03-09T05:33:30.000-05:00",
       "summary_zh": "作者分享 2026 年重新选择 Rails 作为主力框架的心路历程。从多年使用其他技术栈后回归，对比了 Rails 在 2026 年的改进、生态与开发体验，以及为何在特定项目类型下仍具优势。对评估 Web 框架选型的开发者有参考。",
       "title_zh": "2026 年，我为何回归 Rails",
-      "tags": ["Web", "开发工具", "思考"],
+      "tags": [
+        "Web",
+        "开发工具",
+        "思考"
+      ],
       "valueScore": 5
     },
     {
@@ -255,8 +332,13 @@
       "createdAt": "2026-03-10T03:39:14.472Z",
       "summary_zh": "MiroFish 是简洁通用的群体智能引擎，用 Python 实现，目标是「预测万物」——通过群体智能模型做各类预测任务。项目强调简单与通用性，适合对群体智能、预测模型感兴趣的开发者与研究场景。",
       "title_zh": "666ghj/MiroFish：简洁通用的群体智能预测引擎",
-      "tags": ["AI/ML", "开源", "数据"],
-      "valueScore": 5
+      "tags": [
+        "AI/ML",
+        "开源",
+        "数据"
+      ],
+      "valueScore": 5,
+      "image": "assets/2026-03-09/4b5c8c3f59.png"
     },
     {
       "id": "gh-alirezarezvani-claude-skills",
@@ -268,8 +350,13 @@
       "createdAt": "2026-03-10T03:39:14.472Z",
       "summary_zh": "项目提供 169 个生产可用的 skills 与插件，覆盖工程、营销、产品、合规、高管咨询等，支持 Claude Code、OpenAI Codex、OpenClaw，可通过 /plugin 市场安装。对想快速扩展 AI 编程助手能力的开发者很有用。",
       "title_zh": "alirezarezvani/claude-skills：169 个生产级 Claude 插件",
-      "tags": ["AI/ML", "开源", "开发工具"],
-      "valueScore": 5
+      "tags": [
+        "AI/ML",
+        "开源",
+        "开发工具"
+      ],
+      "valueScore": 5,
+      "image": "assets/2026-03-09/ad142c8b6b.png"
     },
     {
       "id": "dt-3331372",
@@ -283,8 +370,12 @@
       "createdAt": "2026-03-09T18:28:59Z",
       "summary_zh": "GitHub 公布 Copilot CLI 挑战赛结果，从 400+ 提交中选出获奖方案。比赛旨在探索 Copilot CLI 的创意用法与最佳实践，获奖项目对了解 AI 辅助命令行工具生态有参考。",
       "title_zh": "GitHub Copilot CLI 挑战赛获奖名单公布",
-      "tags": ["开发工具", "AI/ML"],
-      "valueScore": 5
+      "tags": [
+        "开发工具",
+        "AI/ML"
+      ],
+      "valueScore": 5,
+      "image": "assets/2026-03-09/de1bf4b67a.webp"
     }
   ]
 }

@@ -16,4 +16,11 @@ for (const dir of ["enriched", "raw"]) {
     }
   }
 }
-console.log("[copy-data] 已复制 data 到 public/data");
+
+const assetsSrc = resolve(root, "data", "assets");
+if (existsSync(assetsSrc)) {
+  const assetsDst = resolve(publicData, "assets");
+  mkdirSync(assetsDst, { recursive: true });
+  cpSync(assetsSrc, assetsDst, { recursive: true });
+}
+console.log("[copy-data] 已复制 data（含 assets）到 public/data");
