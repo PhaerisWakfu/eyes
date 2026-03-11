@@ -94,13 +94,20 @@ const items = [...rawItems]
 
       async function loadDate(d) {
         try {
-        let res = await fetch(`/data/enriched/${d}.json`);
-        if (!res.ok) res = await fetch(`/data/raw/${d}.json`);
-        if (!res.ok) {
+        async function fetchAndParse(url) {
+          const r = await fetch(url);
+          if (!r.ok) return null;
+          const text = await r.text();
+          if (!text || !text.trim()) return null;
+          try { return JSON.parse(text); } catch { return null; }
+        }
+        let data = await fetchAndParse(`/data/enriched/${d}.json`);
+        if (!data) data = await fetchAndParse(`/data/raw/${d}.json`);
+        if (!data) {
           contentEl.innerHTML = `<div class="empty-state"><p><strong>${esc(d)} 暂无数据</strong></p></div>`;
           return;
         }
-        const { items = [] } = await res.json();
+        const { items = [] } = data;
         const sorted = [...items].sort((a, b) => (b.valueScore ?? 0) - (a.valueScore ?? 0)).slice(0, MAX_DISPLAY);
 
         const imgUrl = (item) => {
