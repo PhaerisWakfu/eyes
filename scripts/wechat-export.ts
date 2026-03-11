@@ -54,9 +54,9 @@ function safeMd(text: string): string {
   return text.replace(/\r\n/g, "\n").trim();
 }
 
-function formatTags(tags?: string[]): string {
-  if (!tags || tags.length === 0) return "";
-  return tags.map((t) => `#${t}`).join(" ");
+/** 标题中的 ] 需转义，否则会破坏 Markdown 链接 */
+function escapeLinkText(text: string): string {
+  return text.replace(/\]/g, "\\]");
 }
 
 function toPlainText(html: string): string {
@@ -97,14 +97,33 @@ function main() {
   mkdirSync(outDir, { recursive: true });
   const outPath = resolve(outDir, `${date}.md`);
 
+  const firstWithImage = items.find((it) => it.image);
+  const frontMatterTitle = firstWithImage
+    ? (firstWithImage.title_zh || firstWithImage.title)
+    : items[0]
+      ? (items[0].title_zh || items[0].title)
+      : `昨日旧闻（${date}）`;
+  const frontMatterCover = firstWithImage
+    ? imagePathForMd(firstWithImage.image!)
+    : "";
+
+  function yamlEscape(s: string): string {
+    return s.replace(/"/g, '\\"');
+  }
   let md = "";
+  md += "---\n";
+  md += `title: "${yamlEscape(safeMd(frontMatterTitle))}"\n`;
+  md += frontMatterCover ? `cover: ${frontMatterCover}\n` : "";
+  md += "author: 啾伯特\n";
+  md += "source_url: https://eyes.phaeris.xyz\n";
+  md += "---\n\n";
   md += `# 昨日旧闻（${date}）\n\n`;
-  md += `> 说明：本文由 Eyes 自动聚合与整理。\n\n`;
+  md += `> 拒绝信息过载，洞悉技术趋势。\n\n`;
 
   for (let i = 0; i < items.length; i++) {
     const item = items[i];
     const title = item.title_zh || item.title;
-    md += `## ${i + 1}. ${safeMd(title)}\n\n`;
+    md += `## ${i + 1}. [${escapeLinkText(safeMd(title))}](${item.url})\n\n`;
 
     if (item.image) {
       md += `![配图](${imagePathForMd(item.image)})\n\n`;
@@ -117,12 +136,6 @@ function main() {
         : "（暂无简介）";
     md += `${safeMd(summary)}\n\n`;
 
-    const tagsLine = formatTags(item.tags);
-    if (tagsLine) {
-      md += `**标签：** ${tagsLine}\n\n`;
-    }
-
-    md += `**原文：** ${item.url}\n\n`;
     md += `---\n\n`;
   }
 
