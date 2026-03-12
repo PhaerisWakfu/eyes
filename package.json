@@ -11,6 +11,7 @@
     "download-images": "tsx scripts/download-images.ts",
     "download-images:verbose": "tsx scripts/download-images.ts --verbose",
     "build": "npm run copy-data && astro build",
+    "postbuild": "tsx scripts/cf-assetsignore.ts",
     "preview": "astro preview",
     "preview:cf": "npm run build && wrangler dev",
     "deploy": "npm run build && wrangler deploy"
