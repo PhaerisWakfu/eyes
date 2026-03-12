@@ -70,6 +70,14 @@ function toPlainText(html: string): string {
 }
 
 /**
+ * 是否为 webp 格式（微信不支持，导出时不配图）
+ */
+function isWebp(image: string): boolean {
+  const lower = image.toLowerCase();
+  return lower.endsWith(".webp") || lower.includes(".webp?");
+}
+
+/**
  * 将 item.image 转为 Markdown 可引用的路径。
  * - 本地路径 assets/xxx.webp -> ../data/assets/xxx.webp（相对 exports/）
  * - 外部 URL -> 原样
@@ -98,7 +106,7 @@ function main() {
   mkdirSync(outDir, { recursive: true });
   const outPath = resolve(outDir, `${date}.md`);
 
-  const firstWithImage = items.find((it) => it.image);
+  const firstWithImage = items.find((it) => it.image && !isWebp(it.image));
   const frontMatterTitle = firstWithImage
     ? (firstWithImage.title_zh || firstWithImage.title)
     : items[0]
@@ -126,7 +134,7 @@ function main() {
     const title = item.title_zh || item.title;
     md += `## ${i + 1}. [${escapeLinkText(safeMd(title))}](${item.url})\n\n`;
 
-    if (item.image) {
+    if (item.image && !isWebp(item.image)) {
       md += `![配图](${imagePathForMd(item.image)})\n\n`;
     }
 
