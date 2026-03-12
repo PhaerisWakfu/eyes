@@ -13,6 +13,7 @@ type AnyItem = {
   tags?: string[];
   valueScore?: number;
   image?: string;
+  commentary?: string;
 };
 
 type AnyDaily = {
@@ -135,6 +136,10 @@ function main() {
         ? toPlainText(item.description)
         : "（暂无简介）";
     md += `${safeMd(summary)}\n\n`;
+
+    if (item.commentary) {
+      md += `**点评：** ${safeMd(item.commentary)}\n\n`;
+    }
 
     md += `---\n\n`;
   }

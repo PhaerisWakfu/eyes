@@ -263,6 +263,17 @@ a:hover {
   white-space: pre-line; /* 保留 \n 换行，分段显示 */
 }
 
+/* 点评：在简介后面，偏人文风格 */
+.item-commentary {
+  padding-left: calc(2.5ch + 6px);
+  margin-top: 6px;
+  font-size: 12px;
+  color: var(--text-tertiary);
+  font-style: italic;
+  line-height: 1.5;
+  max-width: 70ch;
+}
+
 .item-summary-label {
   color: var(--text-tertiary);
   font-size: 11px;

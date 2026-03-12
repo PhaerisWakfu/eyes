@@ -18,6 +18,7 @@ interface Props {
     valueScore?: number;
     insight?: string;
     image?: string;
+    commentary?: string;
   };
 }
 
@@ -44,6 +45,9 @@ const imgSrc = item.image
   <div class="item-summary">
     {item.summary_zh || (item.description ? `${item.description.slice(0, 80)}${item.description.length > 80 ? "…" : ""}` : "暂无简介")}
   </div>
+  {item.commentary && (
+    <div class="item-commentary">{item.commentary}</div>
+  )}
   {item.tags && item.tags.length > 0 && (
     <div class="item-tags">
       {item.tags.map((tag) => <span class="tag">{tag}</span>)}
