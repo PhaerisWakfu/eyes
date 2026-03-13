@@ -132,7 +132,7 @@ function main() {
   for (let i = 0; i < items.length; i++) {
     const item = items[i];
     const title = item.title_zh || item.title;
-    md += `## ${i + 1}. [${escapeLinkText(safeMd(title))}](${item.url})\n\n`;
+    md += `## [${escapeLinkText(safeMd(title))}](${item.url})\n\n`;
 
     if (item.image && !isWebp(item.image)) {
       md += `![配图](${imagePathForMd(item.image)})\n\n`;
@@ -146,7 +146,7 @@ function main() {
     md += `${safeMd(summary)}\n\n`;
 
     if (item.commentary) {
-      md += `**点评：** ${safeMd(item.commentary)}\n\n`;
+      md += `**啾伯特：** ${safeMd(item.commentary)}\n\n`;
     }
 
     md += `---\n\n`;
