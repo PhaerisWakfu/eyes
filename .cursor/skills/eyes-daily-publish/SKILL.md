@@ -29,12 +29,16 @@ npm run fetch
 - 会抓取**前一天**的数据并写入 `data/raw/{DATE}.json`。
 - 若需指定日期可执行：`npm run fetch 2026-03-10`（本流程中统一用「昨天」即可）。
 
-### 3. 按 AGENT_PLAYBOOK 做增量增强（第一步）
+### 3. 按 AGENT_PLAYBOOK 做增量增强（必须由 Agent 完成）
 
-对 `data/raw/{DATE}.json` 按 **AGENT_PLAYBOOK.md** 执行增强，输出到 `data/enriched/{DATE}.json`：
+对 `data/raw/{DATE}.json` 按 **AGENT_PLAYBOOK.md** 执行增强，输出到 `data/enriched/{DATE}.json`。
 
-1. **阶段 A**：对当日 `items` **全部条目**只打 `valueScore`（1–10），不写简介/翻译/配图/标签。
-2. **阶段 B**：按 `valueScore` 降序取 **Top20**，仅对 Top20 生成 `summary_zh`、`title_zh`、`tags`、`image`、`insight`、`commentary` 等完整字段。
+**重要**：`data/enriched/{DATE}.json` **必须由 Agent 基于自身能力生成**，包括对每条内容的理解、价值判断、中文简介撰写、标签选择、点评与配图建议等；**不得使用固定规则或脚本**批量生成，否则无法保证分析质量与点评人味。
+
+执行要点：
+
+1. **阶段 A**：对当日 `items` **全部条目**逐条分析并打 `valueScore`（1–10），不写简介/翻译/配图/标签。
+2. **阶段 B**：按 `valueScore` 降序取 **Top20**，仅对 Top20 逐条生成 `summary_zh`、`title_zh`、`tags`、`image`、`insight`、`commentary` 等完整字段（需结合原文理解与 AGENT_PLAYBOOK 的标签体系、点评要求）。
 3. 将增强后的 **Top20** 写入 `data/enriched/{DATE}.json`，保留 `date`、`fetchedAt`、`enrichedAt` 等元数据。
 
 详细字段要求、标签体系、质量要求见 [AGENT_PLAYBOOK.md](../../../AGENT_PLAYBOOK.md)。
@@ -44,15 +48,15 @@ npm run fetch
 在项目根目录执行：
 
 ```bash
-npm run download-images
+npm run download-images -- {DATE}
 ```
 
 - 将 enriched 中的 `image` URL（或从原文 og:image）下载到 `data/assets/{DATE}/`，并更新为本地路径。
 - 导出公众号 Markdown 时会引用这些本地路径。
 
-### 5. 导出公众号 Markdown
+### 5. 导出公众号 Markdown（必须等待配图下载完成）
 
-在项目根目录执行（传入日期以与前面步骤一致）：
+等待第四步所有配图下载完成后，在项目根目录执行（传入日期以与前面步骤一致）：
 
 ```bash
 npm run wechat -- {DATE}
@@ -78,6 +82,10 @@ npm run wechat -- {DATE}
 - [ ] `data/assets/{DATE}/` 下已有配图（若 enriched 中填了 image）
 - [ ] `exports/{DATE}.md` 已生成且图片路径正确
 - [ ] wenyan-mcp `publish_article` 已使用主题 **phycat** 成功发布
+
+## 注意事项
+
+- **Enriched 必须由 Agent 生成**：Step 3 的 `data/enriched/{DATE}.json` 需依赖 Agent 的分析、点评、打标签等能力逐条生成，不得用固定脚本或规则批量产出，以保证简介深度、标签准确与点评质量。
 
 ## 常见问题
 

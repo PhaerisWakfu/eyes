@@ -65,10 +65,11 @@ async function main() {
 
   allItems.sort((a, b) => (b.score ?? 0) - (a.score ?? 0));
 
+  const itemsForRaw = allItems.map(({ comments, commentsUrl, ...rest }) => rest);
   const dailyData: DailyData = {
     date,
     fetchedAt: new Date().toISOString(),
-    items: allItems,
+    items: itemsForRaw,
   };
 
   const rawDir = resolve(PROJECT_ROOT, "data", "raw");

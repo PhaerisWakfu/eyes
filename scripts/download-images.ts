@@ -21,6 +21,24 @@ const ASSETS_DIR = resolve(ROOT, "data", "assets");
 const ENRICHED_DIR = resolve(ROOT, "data", "enriched");
 const VERBOSE = process.argv.includes("--verbose") || process.argv.includes("-v");
 
+function usage() {
+  console.log("用法：npm run download-images [日期]");
+  console.log("      不传日期时默认只跑昨天，如：npm run download-images -- 2026-03-09");
+}
+
+function yesterday(): string {
+  const d = new Date();
+  d.setDate(d.getDate() - 1);
+  return d.toISOString().slice(0, 10);
+}
+
+function pickDateArg(): string | null {
+  const args = process.argv.slice(2).filter((a) => a !== "--verbose" && a !== "-v");
+  const arg = args[0];
+  if (!arg) return yesterday();
+  return /^\d{4}-\d{2}-\d{2}$/.test(arg) ? arg : null;
+}
+
 function extractOgImage(html: string): string | null {
   const candidates = [
     /<meta[^>]+property=["']og:image["'][^>]+content=["']([^"']+)["'][^>]*>/i,
@@ -156,19 +174,30 @@ function migrateOldAssets() {
 }
 
 async function main() {
+  const targetDate = pickDateArg();
+  if (!targetDate) {
+    usage();
+    process.exit(1);
+  }
+
   if (!existsSync(ENRICHED_DIR)) {
     console.log("[download-images] 无 data/enriched 目录，跳过");
     return;
   }
 
+  const file = `${targetDate}.json`;
+  const path = resolve(ENRICHED_DIR, file);
+  if (!existsSync(path)) {
+    console.log(`[download-images] 无 ${file}，跳过`);
+    return;
+  }
+
   mkdirSync(ASSETS_DIR, { recursive: true });
   migrateOldAssets();
-  const files = readdirSync(ENRICHED_DIR).filter((f) => f.endsWith(".json"));
-  let totalDownloaded = 0;
 
-  for (const file of files) {
-    const date = file.replace(".json", "");
-    const path = resolve(ENRICHED_DIR, file);
+  let totalDownloaded = 0;
+  {
+    const date = targetDate;
     const daily: AnyDaily = JSON.parse(readFileSync(path, "utf-8"));
     let changed = false;
     let downloaded = 0;
