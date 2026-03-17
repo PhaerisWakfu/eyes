@@ -15,6 +15,16 @@ const RSS_SOURCES: RSSSourceConfig[] = [
     feedUrl: "https://changelog.com/news/feed",
     limit: 20,
   },
+  {
+    name: "arxiv",
+    feedUrl: "https://rss.arxiv.org/rss/cs.AI+cs.LG",
+    limit: 15,
+  },
+  {
+    name: "hf-papers",
+    feedUrl: "https://papers.takara.ai/api/feed",
+    limit: 15,
+  },
 ];
 
 function createRSSFetcher(config: RSSSourceConfig): SourceFetcher {

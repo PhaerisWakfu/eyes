@@ -4,7 +4,9 @@ export type Source =
   | "lobsters"
   | "github-trending"
   | "devto"
-  | "changelog";
+  | "changelog"
+  | "arxiv"
+  | "hf-papers";
 
 export interface FetchedItem {
   id: string;

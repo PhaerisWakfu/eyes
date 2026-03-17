@@ -1,0 +1,787 @@
+{
+  "date": "2026-03-16",
+  "fetchedAt": "2026-03-17T01:39:43.943Z",
+  "items": [
+    {
+      "id": "hn-47397797",
+      "title": "MoD sources warn Palantir role at heart of government is threat to UK security",
+      "url": "https://www.thenerve.news/p/palantir-technologies-uk-mod-sources-government-data-insights-security-state-secrets",
+      "source": "hackernews",
+      "score": 588,
+      "createdAt": "2026-03-16T11:57:33.000Z"
+    },
+    {
+      "id": "hn-47404796",
+      "title": "Leanstral: Open-source agent for trustworthy coding and formal proof engineering",
+      "url": "https://mistral.ai/news/leanstral",
+      "source": "hackernews",
+      "score": 289,
+      "createdAt": "2026-03-16T20:59:40.000Z"
+    },
+    {
+      "id": "hn-47398681",
+      "title": "AirPods Max 2",
+      "url": "https://www.apple.com/airpods-max/",
+      "source": "hackernews",
+      "score": 203,
+      "createdAt": "2026-03-16T13:22:03.000Z"
+    },
+    {
+      "id": "hn-47396264",
+      "title": "Starlink Mini as a failover",
+      "url": "https://www.jackpearce.co.uk/posts/starlink-failover/",
+      "source": "hackernews",
+      "score": 194,
+      "createdAt": "2026-03-16T08:07:29.000Z"
+    },
+    {
+      "id": "hn-47400868",
+      "title": "Show HN: Claude Code skills that build complete Godot games",
+      "url": "https://github.com/htdt/godogen",
+      "source": "hackernews",
+      "score": 158,
+      "createdAt": "2026-03-16T16:07:29.000Z"
+    },
+    {
+      "id": "hn-47404074",
+      "title": "Nvidia Launches Vera CPU, Purpose-Built for Agentic AI",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-launches-vera-cpu-purpose-built-for-agentic-ai",
+      "source": "hackernews",
+      "score": 125,
+      "createdAt": "2026-03-16T20:01:02.000Z"
+    },
+    {
+      "id": "hn-47400261",
+      "title": "Apideck CLI – An AI-agent interface with much lower context consumption than MCP",
+      "url": "https://www.apideck.com/blog/mcp-server-eating-context-window-cli-alternative",
+      "source": "hackernews",
+      "score": 119,
+      "createdAt": "2026-03-16T15:25:36.000Z"
+    },
+    {
+      "id": "hn-47401901",
+      "title": "Language Model Teams as Distrbuted Systems",
+      "url": "https://arxiv.org/abs/2603.12229",
+      "source": "hackernews",
+      "score": 68,
+      "createdAt": "2026-03-16T17:19:13.000Z"
+    },
+    {
+      "id": "dt-3357241",
+      "title": "I Think a Lot of Developers Are Quietly Grieving the Old Internet",
+      "url": "https://dev.to/the_nortern_dev/i-think-a-lot-of-developers-are-quietly-grieving-the-old-internet-3d8",
+      "source": "devto",
+      "score": 65,
+      "description": "I think a lot of developers are carrying a kind of grief right now, but rarely naming it.  Not...",
+      "createdAt": "2026-03-16T06:35:16Z"
+    },
+    {
+      "id": "hn-47401042",
+      "title": "Launch HN: Voygr (YC W26) – A better maps API for agents and AI apps",
+      "url": "https://news.ycombinator.com/item?id=47401042",
+      "source": "hackernews",
+      "score": 64,
+      "createdAt": "2026-03-16T16:21:07.000Z"
+    },
+    {
+      "id": "lb-6ge7xn",
+      "title": "AI is making CEOs delusional",
+      "url": "https://www.youtube.com/watch?v=Q6nem-F8AG8",
+      "source": "lobsters",
+      "score": 26,
+      "createdAt": "2026-03-16T11:04:48.000-05:00"
+    },
+    {
+      "id": "lb-mbljtb",
+      "title": "Introducing pgtui, a Postgres TUI client",
+      "url": "https://kdwarn.net/programming/blog/227",
+      "source": "lobsters",
+      "score": 25,
+      "createdAt": "2026-03-16T00:08:26.000-05:00"
+    },
+    {
+      "id": "lb-tqjosq",
+      "title": "How Can Governments Pay Open Source Maintainers?",
+      "url": "https://shkspr.mobi/blog/2026/03/how-can-governments-pay-open-source-maintainers/",
+      "source": "lobsters",
+      "score": 19,
+      "createdAt": "2026-03-16T04:08:43.000-05:00"
+    },
+    {
+      "id": "lb-4l6adm",
+      "title": "The two worlds of programming: why developers who make the same observations about LLMs come to opposite conclusions",
+      "url": "https://www.baldurbjarnason.com/2026/the-two-worlds-of-programming/",
+      "source": "lobsters",
+      "score": 15,
+      "createdAt": "2026-03-16T10:05:11.000-05:00"
+    },
+    {
+      "id": "dt-3358198",
+      "title": "Maybe there's a little time left",
+      "url": "https://dev.to/moopet/maybe-theres-a-little-time-left-1ml3",
+      "source": "devto",
+      "score": 13,
+      "description": "When everything's AI, nothing's AI",
+      "createdAt": "2026-03-16T10:29:12Z"
+    },
+    {
+      "id": "dt-3359471",
+      "title": "Your MCP Server Is Eating Your Context Window. There's a Simpler Way",
+      "url": "https://dev.to/amzani/your-mcp-server-is-eating-your-context-window-theres-a-simpler-way-3ja2",
+      "source": "devto",
+      "score": 11,
+      "description": "TL;DR: MCP tool definitions can burn 55,000+ tokens before an agent processes a single user message....",
+      "createdAt": "2026-03-16T15:16:26Z"
+    },
+    {
+      "id": "dt-3357267",
+      "title": "I built an open-source \"focus group simulator\" that spawns 1,000 AI customers to roast your startup idea",
+      "url": "https://dev.to/nghiahsgs/i-built-an-open-source-focus-group-simulator-that-spawns-1000-ai-customers-to-roast-your-startup-1c5o",
+      "source": "devto",
+      "score": 11,
+      "description": "The Problem  Every founder has been there: you spend 3 months building something, launch it, and......",
+      "createdAt": "2026-03-16T06:29:54Z"
+    },
+    {
+      "id": "dt-2833388",
+      "title": "4 Tips to Avoid Rushing to Code (and Building the Wrong Thing)",
+      "url": "https://dev.to/canro91/4-tips-to-avoid-rushing-to-code-and-building-the-wrong-thing-2p3o",
+      "source": "devto",
+      "score": 10,
+      "description": "You spent days on your JIRA ticket... only to be told to redo it after your team lead reviewed your...",
+      "createdAt": "2026-03-16T05:00:00Z"
+    },
+    {
+      "id": "lb-o9zwv3",
+      "title": "Video Encoding and Decoding with Vulkan Compute Shaders in FFmpeg",
+      "url": "https://www.khronos.org/blog/video-encoding-and-decoding-with-vulkan-compute-shaders-in-ffmpeg",
+      "source": "lobsters",
+      "score": 9,
+      "createdAt": "2026-03-16T15:04:10.000-05:00"
+    },
+    {
+      "id": "lb-wus9u4",
+      "title": "Modeling Token Buckets in PlusCal and TLA+",
+      "url": "http://muratbuffalo.blogspot.com/2026/03/modeling-token-buckets-in-pluscal-and.html",
+      "source": "lobsters",
+      "score": 8,
+      "createdAt": "2026-03-16T12:47:57.000-05:00"
+    },
+    {
+      "id": "dt-3358008",
+      "title": "neither naive nor nostalgic",
+      "url": "https://dev.to/ingosteinke/neither-naive-nor-nostalgic-1mmp",
+      "source": "devto",
+      "score": 7,
+      "description": "Do we have to choose between becoming nostalgic or going all in embracing new technology? Some think...",
+      "createdAt": "2026-03-16T09:43:35Z"
+    },
+    {
+      "id": "lb-1br6fz",
+      "title": "Free airport ride exchange platform",
+      "url": "https://airportswap.com/",
+      "source": "lobsters",
+      "score": 5,
+      "description": "<p>I've been living in Denver for a few years and the prices for simple airport rides are kind of crazy.</p>\n<p>In an effort to build/expand community - I built Airport Swap.  It is a platform to exchange rides to/from the airport <em>for free</em>.  Give a ride to get a ride!</p>\n<p>Airport Swap is was built with the intention of building (or finding) community or relying on a circle of trust to choose drivers/riders (friends of friends pretty much).  Connecting people on their street, in their building, or from a board game group they attended before is the goal.</p>\n<p>Looking for any feedback :)</p>\n<p>Cheers!</p>\n",
+      "createdAt": "2026-03-16T16:01:10.000-05:00"
+    },
+    {
+      "id": "dt-3356760",
+      "title": "I Built an AI Agent That Writes My Daily Standup in Notion Automatically",
+      "url": "https://dev.to/elpic/i-built-an-ai-agent-that-writes-my-daily-standup-in-notion-automatically-43o4",
+      "source": "devto",
+      "score": 5,
+      "description": "This is a submission for the Notion MCP Challenge           What I Built   Notion of Progress is an...",
+      "createdAt": "2026-03-16T03:06:49Z"
+    },
+    {
+      "id": "dt-3356671",
+      "title": "I Over-Engineered My First Project: Bridging TypeScript and Zig with Bun! 🚀",
+      "url": "https://dev.to/owenbellowen/i-over-engineered-my-first-project-bridging-typescript-and-zig-with-bun-2h8n",
+      "source": "devto",
+      "score": 4,
+      "description": "Hello, hello! It's me Owen again!  I've been inactive for awhile and thought maybe I should post...",
+      "createdAt": "2026-03-16T02:29:06Z"
+    },
+    {
+      "id": "lb-b7ufpg",
+      "title": "Lightweight Linux flow data collector",
+      "url": "https://github.com/stepbrobd/rfm",
+      "source": "lobsters",
+      "score": 1,
+      "createdAt": "2026-03-16T19:18:22.000-05:00"
+    },
+    {
+      "id": "dt-3357224",
+      "title": "I Built an AI That Argues Back at Your Startup Pitch in Real Time",
+      "url": "https://dev.to/25th/i-built-an-ai-that-argues-back-at-your-startup-pitch-in-real-time-4409",
+      "source": "devto",
+      "score": 1,
+      "description": "This article was created for the purposes of entering the Gemini Live Agent Challenge 2026....",
+      "createdAt": "2026-03-16T06:18:17Z"
+    },
+    {
+      "id": "gh-666ghj-MiroFish",
+      "title": "666ghj/MiroFish",
+      "url": "https://github.com/666ghj/MiroFish",
+      "source": "github-trending",
+      "score": 0,
+      "description": "A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物 [Python]",
+      "createdAt": "2026-03-17T01:39:39.481Z"
+    },
+    {
+      "id": "gh-thedotmack-claude-mem",
+      "title": "thedotmack/claude-mem",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "source": "github-trending",
+      "score": 0,
+      "description": "A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions. [TypeScript]",
+      "createdAt": "2026-03-17T01:39:39.481Z"
+    },
+    {
+      "id": "gh-Crosstalk-Solutions-project-nomad",
+      "title": "Crosstalk-Solutions/project-nomad",
+      "url": "https://github.com/Crosstalk-Solutions/project-nomad",
+      "source": "github-trending",
+      "score": 0,
+      "description": "Project N.O.M.A.D, is a self-contained, offline survival computer packed with critical tools, knowledge, and AI to keep you informed and empowered—anytime, anywhere. [TypeScript]",
+      "createdAt": "2026-03-17T01:39:39.481Z"
+    },
+    {
+      "id": "gh-obra-superpowers",
+      "title": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "source": "github-trending",
+      "score": 0,
+      "description": "An agentic skills framework &amp; software development methodology that works. [Shell]",
+      "createdAt": "2026-03-17T01:39:39.481Z"
+    },
+    {
+      "id": "gh-abhigyanpatwari-GitNexus",
+      "title": "abhigyanpatwari/GitNexus",
+      "url": "https://github.com/abhigyanpatwari/GitNexus",
+      "source": "github-trending",
+      "score": 0,
+      "description": "GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a GitHub repo or ZIP file, and get an interactive knowledge graph wit a built in Graph RAG Agent. Perfect for code exploration [TypeScript]",
+      "createdAt": "2026-03-17T01:39:39.481Z"
+    },
+    {
+      "id": "gh-lightpanda-io-browser",
+      "title": "lightpanda-io/browser",
+      "url": "https://github.com/lightpanda-io/browser",
+      "source": "github-trending",
+      "score": 0,
+      "description": "Lightpanda: the headless browser designed for AI and automation [Zig]",
+      "createdAt": "2026-03-17T01:39:39.481Z"
+    },
+    {
+      "id": "gh-volcengine-OpenViking",
+      "title": "volcengine/OpenViking",
+      "url": "https://github.com/volcengine/OpenViking",
+      "source": "github-trending",
+      "score": 0,
+      "description": "OpenViking is an open-source context database designed specifically for AI Agents(such as openclaw). OpenViking unifies the management of context (memory, resources, and skills) that Agents need through a file system paradigm, enabling hierarchical context delivery and self-evolving. [Python]",
+      "createdAt": "2026-03-17T01:39:39.481Z"
+    },
+    {
+      "id": "gh-shareAI-lab-learn-claude-code",
+      "title": "shareAI-lab/learn-claude-code",
+      "url": "https://github.com/shareAI-lab/learn-claude-code",
+      "source": "github-trending",
+      "score": 0,
+      "description": "Bash is all you need - A nano Claude Code–like agent, built from 0 to 1 [TypeScript]",
+      "createdAt": "2026-03-17T01:39:39.481Z"
+    },
+    {
+      "id": "gh-p-e-w-heretic",
+      "title": "p-e-w/heretic",
+      "url": "https://github.com/p-e-w/heretic",
+      "source": "github-trending",
+      "score": 0,
+      "description": "Fully automatic censorship removal for language models [Python]",
+      "createdAt": "2026-03-17T01:39:39.481Z"
+    },
+    {
+      "id": "gh-langchain-ai-deepagents",
+      "title": "langchain-ai/deepagents",
+      "url": "https://github.com/langchain-ai/deepagents",
+      "source": "github-trending",
+      "score": 0,
+      "description": "Agent harness built with LangChain and LangGraph. Equipped with a planning tool, a filesystem backend, and the ability to spawn subagents - well-equipped to handle complex agentic tasks. [Python]",
+      "createdAt": "2026-03-17T01:39:39.481Z"
+    },
+    {
+      "id": "gh-YishenTu-claudian",
+      "title": "YishenTu/claudian",
+      "url": "https://github.com/YishenTu/claudian",
+      "source": "github-trending",
+      "score": 0,
+      "description": "An Obsidian plugin that embeds Claude Code as an AI collaborator in your vault [TypeScript]",
+      "createdAt": "2026-03-17T01:39:39.481Z"
+    },
+    {
+      "id": "gh-voidzero-dev-vite-plus",
+      "title": "voidzero-dev/vite-plus",
+      "url": "https://github.com/voidzero-dev/vite-plus",
+      "source": "github-trending",
+      "score": 0,
+      "description": "Vite+ is the unified toolchain and entry point for web development. It manages your runtime, package manager, and frontend toolchain in one place. [Rust]",
+      "createdAt": "2026-03-17T01:39:39.481Z"
+    },
+    {
+      "id": "dt-3360507",
+      "title": "How I built sandboxes that boot in 28ms using Firecracker snapshots",
+      "url": "https://dev.to/adwitiya/how-i-built-sandboxes-that-boot-in-28ms-using-firecracker-snapshots-i0k",
+      "source": "devto",
+      "score": 0,
+      "description": "A deep-dive into building a sandbox orchestrator that gives AI agents their own isolated machines....",
+      "createdAt": "2026-03-16T22:38:05Z"
+    },
+    {
+      "id": "dt-3360535",
+      "title": "Waypoint — Building a Universal Intent Layer for the Web",
+      "url": "https://dev.to/prof2k/waypoint-building-a-universal-intent-layer-for-the-web-55a5",
+      "source": "devto",
+      "score": 0,
+      "description": "This article was written as part of my submission for the Google Gemini Live Agent Challenge....",
+      "createdAt": "2026-03-16T23:08:48Z"
+    },
+    {
+      "id": "dt-3360672",
+      "title": "Why Istio's Metrics Merging Breaks in Multi-Container Pods (And How to Fix It)",
+      "url": "https://dev.to/kaiohenricunha/why-istios-metrics-merging-breaks-in-multi-container-pods-and-how-to-fix-it-3l6f",
+      "source": "devto",
+      "score": 0,
+      "description": "If you run multi-container pods under Istio with STRICT mTLS, you're probably missing...",
+      "createdAt": "2026-03-17T00:07:31Z"
+    },
+    {
+      "id": "dt-3360434",
+      "title": "Building Heritage Keeper: A Gemini Live Agent for Family Story Preservatio",
+      "url": "https://dev.to/billkhiz/building-heritage-keeper-a-gemini-live-agent-for-family-story-preservatio-57fk",
+      "source": "devto",
+      "score": 0,
+      "description": "How I used the Gemini Live API with native audio, function calling, and Google Search grounding to...",
+      "createdAt": "2026-03-16T21:36:00Z"
+    },
+    {
+      "id": "dt-3359804",
+      "title": "Why I Built kcore: Proxmox Broke My Automation One Too Many Times",
+      "url": "https://dev.to/rtacconi/why-i-built-kcore-proxmox-broke-my-automation-one-too-many-times-2453",
+      "source": "devto",
+      "score": 0,
+      "description": "After years running Proxmox in production, every automation attempt hit the same walls: an API bolted...",
+      "createdAt": "2026-03-16T17:30:52Z"
+    },
+    {
+      "id": "dt-3359830",
+      "title": "AWS CDK Constructs Explained: L1, L2, and L3 with Python",
+      "url": "https://dev.to/aws-builders/aws-cdk-constructs-explained-l1-l2-and-l3-with-python-4ie8",
+      "source": "devto",
+      "score": 0,
+      "description": "If you've ever looked at two CDK stacks doing the same thing and wondered why one is 200 lines and...",
+      "createdAt": "2026-03-16T17:42:14Z"
+    },
+    {
+      "id": "dt-3360509",
+      "title": "\"Building a Real-Time AI Tutor with Gemini Live\"",
+      "url": "https://dev.to/peterwck/building-a-real-time-ai-tutor-with-gemini-live-2laf",
+      "source": "devto",
+      "score": 0,
+      "description": "The Idea Most AI tutors are still built around one-way explanation. They deliver information, but...",
+      "createdAt": "2026-03-16T22:37:10Z"
+    },
+    {
+      "id": "ch-changelog.com/16/2825",
+      "title": "Big change brings big change",
+      "url": "https://changelog.com/news/183",
+      "source": "changelog",
+      "description": "This week's been wild — Iran bombed AWS data centers to take down Claude, OpenAI dropped GPT-5.4 (and it's seriously good for coding), and living brain cells are literally playing DOOM. We've also got a heartfelt take on what it feels like to be a 10x engineer in the age of AI, plus some cool new to",
+      "createdAt": "2026-03-10T20:00:00.000Z"
+    },
+    {
+      "id": "ch-changelog.com/16/2818",
+      "title": "The mythical agent-month",
+      "url": "https://changelog.com/news/182",
+      "source": "changelog",
+      "description": "Wes McKinney on the mythical agent-month, install Peon Ping to employ a Peon today, Andreas Kling explains why Ladybird is adopting Rust, Cloudflare has a new MCP server that's quite efficient, and Elliot Bonneville thinks the only moat left is money.",
+      "createdAt": "2026-02-23T20:45:00.000Z"
+    },
+    {
+      "id": "ch-changelog.com/16/2816",
+      "title": "All the Claw things",
+      "url": "https://changelog.com/news/181",
+      "source": "changelog",
+      "description": "Peter Steinberger joins OpenAI, ZeroClaw is \"claw done right\", MimiClaw runs on a $5 chip, Steve Yegge on managing the AI Vampire, and the day the telnet died.",
+      "createdAt": "2026-02-16T19:30:00.000Z"
+    },
+    {
+      "id": "ch-changelog.com/16/2813",
+      "title": "Vouch for an open source web of trust",
+      "url": "https://changelog.com/news/180",
+      "source": "changelog",
+      "description": "Mitchell Hashimoto's trust management system for open source, Nicholas Carlini has a team of Claudes build a C compiler, Stephan Schwab recounts the history of attempted developer replacement, NanClaw is an alternative to OpenClaw, and Sophie Koonin can't wrap her head around so many people going so",
+      "createdAt": "2026-02-09T19:00:00.000Z"
+    },
+    {
+      "id": "ch-changelog.com/16/2811",
+      "title": "The tech monoculture is finally breaking",
+      "url": "https://changelog.com/news/179",
+      "source": "changelog",
+      "description": "Jason Willems believes the tech monoculture is finally breaking, Don Ho shares some bad Notepad++ news, Tailscale's Avery Pennarun pens a great downtime apology, Milan Milanović explains why you can only code 4 hours per day, and Addy Osmani on managing comprehension debt when leaning on AI to code.",
+      "createdAt": "2026-02-02T20:30:00.000Z"
+    },
+    {
+      "id": "ch-changelog.com/16/2808",
+      "title": "Clawdbot triggers a run on Mac Minis",
+      "url": "https://changelog.com/news/178",
+      "source": "changelog",
+      "description": "Clawdbot drives Mac Mini sales, Swizec Teller on the future of software engineering being SRE, Daniel Stenberg decided to end curl's bug bounty program, zerobrew takes some of the best ideas from uv and applies them to Homebrew, and Phil Eaton on LLMs and your career.",
+      "createdAt": "2026-01-26T20:00:00.000Z"
+    },
+    {
+      "id": "ch-changelog.com/16/2804",
+      "title": "Agent psychosis: are we going insane?",
+      "url": "https://changelog.com/news/177",
+      "source": "changelog",
+      "description": "Armin Ronacher thinks AI agent psychosis might be driving us insane, Dan Abramov explains how AT Protocol is a social filesystem, RepoBar keeps your GitHub work in view without opening a browser, Ethan McCue shares some life altering Postgres patterns, and Lea Verou says web dependencies are broken ",
+      "createdAt": "2026-01-19T20:30:00.000Z"
+    },
+    {
+      "id": "ch-changelog.com/16/2802",
+      "title": "Linus Torvalds gets the AI coding bug",
+      "url": "https://changelog.com/news/176",
+      "source": "changelog",
+      "description": "Linus Torvalds pushes AI generated code, Jordan Fulghum thinks this is the year of self-hosting, FracturedJson formats for compact / human readability, Scott Werner believes a flood of adequate software is coming, and Sean Goedecke explains why generic software design advice is useless.",
+      "createdAt": "2026-01-12T19:35:00.000Z"
+    },
+    {
+      "id": "ch-changelog.com/16/2800",
+      "title": "The move faster manifesto",
+      "url": "https://changelog.com/news/175",
+      "source": "changelog",
+      "description": "Brian Guthrie lists his seven rules for moving faster in software, Continuous-Claude-v2 is a context management system for Claude Code, Gas Town is Steve Yegge's multi-agent orchestrator for Claude Code, Paul Dix sees a great engineering divergence in 2026, and Mattias Geniar thinks web development ",
+      "createdAt": "2026-01-05T20:00:00.000Z"
+    },
+    {
+      "id": "ch-changelog.com/16/2798",
+      "title": "The code, prose & pods that shaped 2025",
+      "url": "https://changelog.com/news/174",
+      "source": "changelog",
+      "description": "This episodes diverges from our traditional fare. I’ve reviewed the 49 previous editions and picked (IMHO) the coolest code, best prose & my favorite podcast episode from each month!",
+      "createdAt": "2025-12-15T20:00:00.000Z"
+    },
+    {
+      "id": "ch-changelog.com/16/2796",
+      "title": "The \"confident idiot\" problem",
+      "url": "https://changelog.com/news/173",
+      "source": "changelog",
+      "description": "Why AI needs hard rules (not vibe checks), what Anthropic's acquisition of Bun's creators tells us about the AI takeover, Jonah Glover couldn't get Claude to recreate Space Jam's 1996 website, Google finally unkills something, and Bazzite is a distro for the next generation of Linux gaming.",
+      "createdAt": "2025-12-08T20:00:00.000Z"
+    },
+    {
+      "id": "ch-changelog.com/16/2791",
+      "title": "What actually makes you senior",
+      "url": "https://changelog.com/news/172",
+      "source": "changelog",
+      "description": "Matheus Lima on what makes senior developers actually senior, Tega Brain created a browser extension for avoiding AI slop, Andrew Kelley moves Zig from GitHub to Codeberg, Matias Heikkilä says there's no free lunch for vibe coding, and your SSD data at rest might be at risk.",
+      "createdAt": "2025-12-01T20:30:00.000Z"
+    },
+    {
+      "id": "ch-changelog.com/16/2787",
+      "title": "What is a tech bubble anyway?",
+      "url": "https://changelog.com/news/171",
+      "source": "changelog",
+      "description": "Cedric Chin says comparisons of our current AI *maybe-bubble* to the dot-com bubble and the 2008 GFC are limiting, Matthew Prince does a post-mortem on last week's Cloudflare outage, \"hl\" is a fast / powerful log viewer for humans, Enthusiast Guy's Continuum 93 is a fantasy computer emulator, and a ",
+      "createdAt": "2025-11-24T20:45:00.000Z"
+    },
+    {
+      "id": "ch-changelog.com/16/2784",
+      "title": "Why is Zig so cool?",
+      "url": "https://changelog.com/news/170",
+      "source": "changelog",
+      "description": "Nilo Stolte explains why Zig is \"a totally new way to write programs\", George Mack gives twelve actionable ways to be more creative, Mario Zechner shares his findings on using MCP vs Bash tools, Josh Collinsworth compares creating AI art to medieval alchemy, LibrePods unlocks AirPods features for An",
+      "createdAt": "2025-11-17T20:30:00.000Z"
+    },
+    {
+      "id": "ch-changelog.com/16/2781",
+      "title": "This new AI role is exploding",
+      "url": "https://changelog.com/news/169",
+      "source": "changelog",
+      "description": "A new AI-led tech role has emerged with a massive increase of job postings, Corey Quinn explains why younger devs won't tolerate pain in the AWS, Thomas Ptacek makes the case that you should write an agent, Paul Kinlan goes deeper on his dead framework theory, and Andrew Gallagher says to stop vibe ",
+      "createdAt": "2025-11-10T20:00:00.000Z"
+    },
+    {
+      "id": "ch-changelog.com/16/2779",
+      "title": "The overlooked power of URLs",
+      "url": "https://changelog.com/news/168",
+      "source": "changelog",
+      "description": "Ahmad Alfy explains how URLs are state containers, Shrivu Shankar shares how he uses every Claude Code feature, Yusuf Aytas laments how AI broke technical interviews, Wu Xiaoyun tells how he saved TikTok $300k during his internship, and TOON is a new serialization format to save us some LLM tokens.",
+      "createdAt": "2025-11-03T20:00:00.000Z"
+    },
+    {
+      "id": "ch-changelog.com/16/2776",
+      "title": "Code like a surgeon",
+      "url": "https://changelog.com/news/167",
+      "source": "changelog",
+      "description": "The Dead Internet Theory dies, Geoffrey Litt tries to code like a surgeon, Matt Sephton thinks spreadsheets are great for UI design, Nate Meyvis advocates for front-end maximalism, Hemant Pandey thinks 9-5 employment is a great option for most, David Miranda compares React to Backbone in 2025.",
+      "createdAt": "2025-10-27T19:45:00.000Z"
+    },
+    {
+      "id": "ch-changelog.com/16/2773",
+      "title": "The science behind developer flow states",
+      "url": "https://changelog.com/news/166",
+      "source": "changelog",
+      "description": "Csaba Okrona lays out exactly what Flow is (then shows you how to engineer your way back to it), a smart vacuum turned against an innocent hacker, Matz and the Ruby core team step up to steward RubyGems, Simon Willison things Claude Skills could be bigger than MCP, and Luke Plant looks at technical ",
+      "createdAt": "2025-10-20T19:00:00.000Z"
+    },
+    {
+      "id": "ch-changelog.com/16/2770",
+      "title": "The great software quality collapse",
+      "url": "https://changelog.com/news/165",
+      "source": "changelog",
+      "description": "Denis Stetskov describes how we've \"normalized catastrophe\" in the software industry, Meta is officially handing React and React Native over to a foundation, The New Stack reports on GitHub's Azure migration priority, Miguel Grinberg benchmarks Python 3.14, and The Oatmeal's Matthew Inman published ",
+      "createdAt": "2025-10-13T18:00:00.000Z"
+    },
+    {
+      "id": "ch-changelog.com/16/2766",
+      "title": "The best coders should exit the feed",
+      "url": "https://changelog.com/news/164",
+      "source": "changelog",
+      "description": "Abner Coimbre makes a compelling case why our biggest technical talent should abandon for-profit social platforms, Noah Brier creates a Claude Code and Obsidian starter kit, Bharath Natarajan documents the Vercel vs Cloudflare fight, Toolbrew is a well-designed website brimming with common utilities",
+      "createdAt": "2025-10-06T18:45:00.000Z"
+    },
+    {
+      "id": "ar-oai:arXiv.org:2603.12276v1",
+      "title": "No More DeLuLu: Physics-Inspired Kernel Networks for Geometrically-Grounded Neural Computation",
+      "url": "https://arxiv.org/abs/2603.12276",
+      "source": "arxiv",
+      "description": "arXiv:2603.12276v1 Announce Type: new \nAbstract: We introduce the yat-product, a kernel operator combining quadratic alignment with inverse-square proximity. We prove it is a Mercer kernel, analytic, Lipschitz on bounded domains, and self-regularizing, admitting a unique RKHS embedding. Neural Matte",
+      "createdAt": "2026-03-16T04:00:00.000Z"
+    },
+    {
+      "id": "ar-oai:arXiv.org:2603.12287v1",
+      "title": "Context-Enriched Natural Language Descriptions of Vessel Trajectories",
+      "url": "https://arxiv.org/abs/2603.12287",
+      "source": "arxiv",
+      "description": "arXiv:2603.12287v1 Announce Type: new \nAbstract: We address the problem of transforming raw vessel trajectory data collected from AIS into structured and semantically enriched representations interpretable by humans and directly usable by machine reasoning systems. We propose a context-aware traject",
+      "createdAt": "2026-03-16T04:00:00.000Z"
+    },
+    {
+      "id": "ar-oai:arXiv.org:2603.12288v1",
+      "title": "From Garbage to Gold: A Data-Architectural Theory of Predictive Robustness",
+      "url": "https://arxiv.org/abs/2603.12288",
+      "source": "arxiv",
+      "description": "arXiv:2603.12288v1 Announce Type: new \nAbstract: Tabular machine learning presents a paradox: modern models achieve state-of-the-art performance using high-dimensional (high-D), collinear, error-prone data, defying the \"Garbage In, Garbage Out\" mantra. To help resolve this, we synthesize principles ",
+      "createdAt": "2026-03-16T04:00:00.000Z"
+    },
+    {
+      "id": "ar-oai:arXiv.org:2603.12293v1",
+      "title": "Multi-objective Genetic Programming with Multi-view Multi-level Feature for Enhanced Protein Secondary Structure Prediction",
+      "url": "https://arxiv.org/abs/2603.12293",
+      "source": "arxiv",
+      "description": "arXiv:2603.12293v1 Announce Type: new \nAbstract: Predicting protein secondary structure is essential for understanding protein function and advancing drug discovery. However, the intricate sequence-structure relationship poses significant challenges for accurate modeling. To address these, we propos",
+      "createdAt": "2026-03-16T04:00:00.000Z"
+    },
+    {
+      "id": "ar-oai:arXiv.org:2603.12296v1",
+      "title": "Synthetic Data Generation for Brain-Computer Interfaces: Overview, Benchmarking, and Future Directions",
+      "url": "https://arxiv.org/abs/2603.12296",
+      "source": "arxiv",
+      "description": "arXiv:2603.12296v1 Announce Type: new \nAbstract: Deep learning has achieved transformative performance across diverse domains, largely driven by the large-scale, high-quality training data. In contrast, the development of brain-computer interfaces (BCIs) is fundamentally constrained by the limited, ",
+      "createdAt": "2026-03-16T04:00:00.000Z"
+    },
+    {
+      "id": "ar-oai:arXiv.org:2603.12298v1",
+      "title": "Global Evolutionary Steering: Refining Activation Steering Control via Cross-Layer Consistency",
+      "url": "https://arxiv.org/abs/2603.12298",
+      "source": "arxiv",
+      "description": "arXiv:2603.12298v1 Announce Type: new \nAbstract: Activation engineering enables precise control over Large Language Models (LLMs) without the computational cost of fine-tuning. However, existing methods deriving vectors from static activation differences are susceptible to high-dimensional noise and",
+      "createdAt": "2026-03-16T04:00:00.000Z"
+    },
+    {
+      "id": "ar-oai:arXiv.org:2603.12304v1",
+      "title": "A Geometrically-Grounded Drive for MDL-Based Optimization in Deep Learning",
+      "url": "https://arxiv.org/abs/2603.12304",
+      "source": "arxiv",
+      "description": "arXiv:2603.12304v1 Announce Type: new \nAbstract: This paper introduces a novel optimization framework that fundamentally integrates the Minimum Description Length (MDL) principle into the training dynamics of deep neural networks. Moving beyond its conventional role as a model selection criterion, w",
+      "createdAt": "2026-03-16T04:00:00.000Z"
+    },
+    {
+      "id": "ar-oai:arXiv.org:2603.12305v1",
+      "title": "HCP-DCNet: A Hierarchical Causal Primitive Dynamic Composition Network for Self-Improving Causal Understanding",
+      "url": "https://arxiv.org/abs/2603.12305",
+      "source": "arxiv",
+      "description": "arXiv:2603.12305v1 Announce Type: new \nAbstract: The ability to understand and reason about cause and effect -- encompassing interventions, counterfactuals, and underlying mechanisms -- is a cornerstone of robust artificial intelligence. While deep learning excels at pattern recognition, it fundamen",
+      "createdAt": "2026-03-16T04:00:00.000Z"
+    },
+    {
+      "id": "ar-oai:arXiv.org:2603.12324v1",
+      "title": "Thermodynamics of Reinforcement Learning Curricula",
+      "url": "https://arxiv.org/abs/2603.12324",
+      "source": "arxiv",
+      "description": "arXiv:2603.12324v1 Announce Type: new \nAbstract: Connections between statistical mechanics and machine learning have repeatedly proven fruitful, providing insight into optimization, generalization, and representation learning. In this work, we follow this tradition by leveraging results from non-equ",
+      "createdAt": "2026-03-16T04:00:00.000Z"
+    },
+    {
+      "id": "ar-oai:arXiv.org:2603.12325v1",
+      "title": "Maximum Entropy Exploration Without the Rollouts",
+      "url": "https://arxiv.org/abs/2603.12325",
+      "source": "arxiv",
+      "description": "arXiv:2603.12325v1 Announce Type: new \nAbstract: Efficient exploration remains a central challenge in reinforcement learning, serving as a useful pretraining objective for data collection, particularly when an external reward function is unavailable. A principled formulation of the exploration probl",
+      "createdAt": "2026-03-16T04:00:00.000Z"
+    },
+    {
+      "id": "ar-oai:arXiv.org:2603.12344v1",
+      "title": "Generalist Large Language Models for Molecular Property Prediction: Distilling Knowledge from Specialist Models",
+      "url": "https://arxiv.org/abs/2603.12344",
+      "source": "arxiv",
+      "description": "arXiv:2603.12344v1 Announce Type: new \nAbstract: Molecular Property Prediction (MPP) is a central task in drug discovery. While Large Language Models (LLMs) show promise as generalist models for MPP, their current performance remains below the threshold for practical adoption. We propose TreeKD, a n",
+      "createdAt": "2026-03-16T04:00:00.000Z"
+    },
+    {
+      "id": "ar-oai:arXiv.org:2603.12349v1",
+      "title": "Budget-Sensitive Discovery Scoring: A Formally Verified Framework for Evaluating AI-Guided Scientific Selection",
+      "url": "https://arxiv.org/abs/2603.12349",
+      "source": "arxiv",
+      "description": "arXiv:2603.12349v1 Announce Type: new \nAbstract: Scientific discovery increasingly relies on AI systems to select candidates for expensive experimental validation, yet no principled, budget-aware evaluation framework exists for comparing selection strategies -- a gap intensified by large language mo",
+      "createdAt": "2026-03-16T04:00:00.000Z"
+    },
+    {
+      "id": "ar-oai:arXiv.org:2603.12366v1",
+      "title": "Sinkhorn-Drifting Generative Models",
+      "url": "https://arxiv.org/abs/2603.12366",
+      "source": "arxiv",
+      "description": "arXiv:2603.12366v1 Announce Type: new \nAbstract: We establish a theoretical link between the recently proposed \"drifting\" generative dynamics and gradient flows induced by the Sinkhorn divergence. In a particle discretization, the drift field admits a cross-minus-self decomposition: an attractive te",
+      "createdAt": "2026-03-16T04:00:00.000Z"
+    },
+    {
+      "id": "ar-oai:arXiv.org:2603.12372v1",
+      "title": "Efficient Reasoning with Balanced Thinking",
+      "url": "https://arxiv.org/abs/2603.12372",
+      "source": "arxiv",
+      "description": "arXiv:2603.12372v1 Announce Type: new \nAbstract: Large Reasoning Models (LRMs) have shown remarkable reasoning capabilities, yet they often suffer from overthinking, expending redundant computational steps on simple problems, or underthinking, failing to explore sufficient reasoning paths despite in",
+      "createdAt": "2026-03-16T04:00:00.000Z"
+    },
+    {
+      "id": "hf-https://tldr.takara.ai/p/2603.09231",
+      "title": "Cognitively Layered Data Synthesis for Domain Adaptation of LLMs to Space Situational Awareness",
+      "url": "https://tldr.takara.ai/p/2603.09231",
+      "source": "hf-papers",
+      "description": "Large language models (LLMs) demonstrate exceptional performance on general-purpose tasks. however, transferring them to complex engineering domains such as space situational awareness (SSA) remains challenging owing to insufficient structural alignment with mission chains, the absence of higher-ord",
+      "createdAt": "2026-03-10T06:04:53.000Z"
+    },
+    {
+      "id": "hf-https://tldr.takara.ai/p/2603.08048",
+      "title": "S2S-FDD: Bridging Industrial Time Series and Natural Language for Explainable Zero-shot Fault Diagnosis",
+      "url": "https://tldr.takara.ai/p/2603.08048",
+      "source": "hf-papers",
+      "description": "Fault diagnosis is critical for the safe operation of industrial systems. Conventional diagnosis models typically produce abstract outputs such as anomaly scores or fault categories, failing to answer critical operational questions like \"Why\" or \"How to repair\". While large language models (LLMs) of",
+      "createdAt": "2026-03-09T07:38:56.000Z"
+    },
+    {
+      "id": "hf-https://tldr.takara.ai/p/2603.08221",
+      "title": "SplitAgent: A Privacy-Preserving Distributed Architecture for Enterprise-Cloud Agent Collaboration",
+      "url": "https://tldr.takara.ai/p/2603.08221",
+      "source": "hf-papers",
+      "description": "Enterprise adoption of cloud-based AI agents faces a fundamental privacy dilemma: leveraging powerful cloud models requires sharing sensitive data, while local processing limits capability. Current agent frameworks like MCP and A2A assume complete data sharing, making them unsuitable for enterprise ",
+      "createdAt": "2026-03-09T10:51:31.000Z"
+    },
+    {
+      "id": "hf-https://tldr.takara.ai/p/2603.09236",
+      "title": "BridgeDiff: Bridging Human Observations and Flat-Garment Synthesis for Virtual Try-Off",
+      "url": "https://tldr.takara.ai/p/2603.09236",
+      "source": "hf-papers",
+      "description": "Virtual try-off (VTOFF) aims to recover canonical flat-garment representations from images of dressed persons for standardized display and downstream virtual try-on. Prior methods often treat VTOFF as direct image translation driven by local masks or text-only prompts, overlooking the gap between on",
+      "createdAt": "2026-03-10T06:12:32.000Z"
+    },
+    {
+      "id": "hf-https://tldr.takara.ai/p/2603.09742",
+      "title": "Upper Generalization Bounds for Neural Oscillators",
+      "url": "https://tldr.takara.ai/p/2603.09742",
+      "source": "hf-papers",
+      "description": "Neural oscillators that originate from the second-order ordinary differential equations (ODEs) have shown competitive performance in learning mappings between dynamic loads and responses of complex nonlinear structural systems. Despite this empirical success, theoretically quantifying the generaliza",
+      "createdAt": "2026-03-10T14:47:23.000Z"
+    },
+    {
+      "id": "hf-https://tldr.takara.ai/p/2603.09349",
+      "title": "TA-GGAD: Testing-time Adaptive Graph Model for Generalist Graph Anomaly Detection",
+      "url": "https://tldr.takara.ai/p/2603.09349",
+      "source": "hf-papers",
+      "description": "A significant number of anomalous nodes in the real world, such as fake news, noncompliant users, malicious transactions, and malicious posts, severely compromises the health of the graph data ecosystem and urgently requires effective identification and processing. With anomalies that span multiple ",
+      "createdAt": "2026-03-10T08:30:19.000Z"
+    },
+    {
+      "id": "hf-https://tldr.takara.ai/p/2603.07988",
+      "title": "TeamHOI: Learning a Unified Policy for Cooperative Human-Object Interactions with Any Team Size",
+      "url": "https://tldr.takara.ai/p/2603.07988",
+      "source": "hf-papers",
+      "description": "Physics-based humanoid control has achieved remarkable progress in enabling realistic and high-performing single-agent behaviors, yet extending these capabilities to cooperative human-object interaction (HOI) remains challenging. We present TeamHOI, a framework that enables a single decentralized po",
+      "createdAt": "2026-03-09T05:52:13.000Z"
+    },
+    {
+      "id": "hf-https://tldr.takara.ai/p/2603.11395",
+      "title": "ARROW: Augmented Replay for RObust World models",
+      "url": "https://tldr.takara.ai/p/2603.11395",
+      "source": "hf-papers",
+      "description": "Continual reinforcement learning challenges agents to acquire new skills while retaining previously learned ones with the goal of improving performance in both past and future tasks. Most existing approaches rely on model-free methods with replay buffers to mitigate catastrophic forgetting; however,",
+      "createdAt": "2026-03-12T00:15:11.000Z"
+    },
+    {
+      "id": "hf-https://tldr.takara.ai/p/2603.10588",
+      "title": "Does LLM Alignment Really Need Diversity? An Empirical Study of Adapting RLVR Methods for Moral Reasoning",
+      "url": "https://tldr.takara.ai/p/2603.10588",
+      "source": "hf-papers",
+      "description": "Reinforcement learning with verifiable rewards (RLVR) has achieved remarkable success in logical reasoning tasks, yet whether large language model (LLM) alignment requires fundamentally different approaches remains unclear. Given the apparent tolerance for multiple valid responses in moral reasoning",
+      "createdAt": "2026-03-11T09:45:30.000Z"
+    },
+    {
+      "id": "hf-https://tldr.takara.ai/p/2603.10494",
+      "title": "VERI-DPO: Evidence-Aware Alignment for Clinical Summarization via Claim Verification and Direct Preference Optimization",
+      "url": "https://tldr.takara.ai/p/2603.10494",
+      "source": "hf-papers",
+      "description": "Brief Hospital Course (BHC) narratives must be clinically useful yet faithful to fragmented EHR evidence. LLM-based clinical summarizers still introduce unsupported statements, and alignment can encourage omissions (\"say-less\" degeneration). We introduce VERI-DPO, which uses claim verification to mi",
+      "createdAt": "2026-03-11T07:41:58.000Z"
+    },
+    {
+      "id": "hf-https://tldr.takara.ai/p/2603.11482",
+      "title": "AnimeScore: A Preference-Based Dataset and Framework for Evaluating Anime-Like Speech Style",
+      "url": "https://tldr.takara.ai/p/2603.11482",
+      "source": "hf-papers",
+      "description": "Evaluating 'anime-like' voices currently relies on costly subjective judgments, yet no standardized objective metric exists. A key challenge is that anime-likeness, unlike naturalness, lacks a shared absolute scale, making conventional Mean Opinion Score (MOS) protocols unreliable. To address this g",
+      "createdAt": "2026-03-12T03:07:42.000Z"
+    },
+    {
+      "id": "hf-https://tldr.takara.ai/p/2603.08999",
+      "title": "Learning When to Sample: Confidence-Aware Self-Consistency for Efficient LLM Chain-of-Thought Reasoning",
+      "url": "https://tldr.takara.ai/p/2603.08999",
+      "source": "hf-papers",
+      "description": "Large language models (LLMs) achieve strong reasoning performance through chain-of-thought (CoT) reasoning, yet often generate unnecessarily long reasoning paths that incur high inference cost. Recent self-consistency-based approaches further improve accuracy but require sampling and aggregating mul",
+      "createdAt": "2026-03-09T22:34:06.000Z"
+    },
+    {
+      "id": "hf-https://tldr.takara.ai/p/2603.08130",
+      "title": "Explainable Condition Monitoring via Probabilistic Anomaly Detection Applied to Helicopter Transmissions",
+      "url": "https://tldr.takara.ai/p/2603.08130",
+      "source": "hf-papers",
+      "description": "We present a novel Explainable methodology for Condition Monitoring, relying on healthy data only. Since faults are rare events, we propose to focus on learning the probability distribution of healthy observations only, and detect Anomalies at runtime. This objective is achieved via the definition o",
+      "createdAt": "2026-03-09T09:09:01.000Z"
+    },
+    {
+      "id": "hf-https://tldr.takara.ai/p/2603.10091",
+      "title": "Multi-Stream Perturbation Attack: Breaking Safety Alignment of Thinking LLMs Through Concurrent Task Interference",
+      "url": "https://tldr.takara.ai/p/2603.10091",
+      "source": "hf-papers",
+      "description": "The widespread adoption of thinking mode in large language models (LLMs) has significantly enhanced complex task processing capabilities while introducing new security risks. When subjected to jailbreak attacks, the step-by-step reasoning process may cause models to generate more detailed harmful co",
+      "createdAt": "2026-03-10T15:40:49.000Z"
+    },
+    {
+      "id": "hf-https://tldr.takara.ai/p/2603.08096",
+      "title": "TrianguLang: Geometry-Aware Semantic Consensus for Pose-Free 3D Localization",
+      "url": "https://tldr.takara.ai/p/2603.08096",
+      "source": "hf-papers",
+      "description": "Localizing objects and parts from natural language in 3D space is essential for robotics, AR, and embodied AI, yet existing methods face a trade-off between the accuracy and geometric consistency of per-scene optimization and the efficiency of feed-forward inference. We present TrianguLang, a feed-f",
+      "createdAt": "2026-03-09T08:37:05.000Z"
+    }
+  ]
+}
