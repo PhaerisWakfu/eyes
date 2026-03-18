@@ -1,4 +1,4 @@
-import { writeFileSync, mkdirSync, existsSync } from "node:fs";
+import { writeFileSync, mkdirSync, existsSync, readdirSync, readFileSync } from "node:fs";
 import { resolve, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 import type { DailyData, SourceFetcher, FetchedItem } from "./types.ts";
@@ -13,6 +13,9 @@ import { rssFetchers } from "./sources/rss.ts";
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const PROJECT_ROOT = resolve(__dirname, "..");
 
+/** 去重时参考过去 N 天的 raw + enriched，避免同一 URL 多日重复 */
+const DEDUPE_DAYS = 7;
+
 const ALL_SOURCES: SourceFetcher[] = [
   hackernews,
   lobsters,
@@ -21,6 +24,37 @@ const ALL_SOURCES: SourceFetcher[] = [
   devto,
   ...rssFetchers,
 ];
+
+/** 收集过去 N 天内 raw/enriched 已出现过的 URL（不含 targetDate） */
+function getSeenUrls(targetDate: string): Set<string> {
+  const seen = new Set<string>();
+  const rawDir = resolve(PROJECT_ROOT, "data", "raw");
+  const enrichedDir = resolve(PROJECT_ROOT, "data", "enriched");
+  const dirs = [
+    ...(existsSync(rawDir) ? [{ dir: rawDir, name: "raw" }] : []),
+    ...(existsSync(enrichedDir) ? [{ dir: enrichedDir, name: "enriched" }] : []),
+  ];
+  const target = new Date(targetDate);
+  for (const { dir } of dirs) {
+    const files = readdirSync(dir).filter((f) => f.endsWith(".json") && /^\d{4}-\d{2}-\d{2}\.json$/.test(f));
+    for (const f of files) {
+      const fileDate = f.slice(0, 10);
+      if (fileDate === targetDate) continue; // 排除当天
+      const fd = new Date(fileDate);
+      const diffDays = (target.getTime() - fd.getTime()) / (1000 * 60 * 60 * 24);
+      if (diffDays > DEDUPE_DAYS) continue;
+      try {
+        const json = JSON.parse(readFileSync(resolve(dir, f), "utf-8"));
+        for (const it of json.items || []) {
+          if (it.url) seen.add(it.url);
+        }
+      } catch {
+        /* ignore */
+      }
+    }
+  }
+  return seen;
+}
 
 function getTargetDate(): string {
   const arg = process.argv[2];
@@ -64,6 +98,14 @@ async function main() {
   }
 
   allItems.sort((a, b) => (b.score ?? 0) - (a.score ?? 0));
+
+  const seenUrls = getSeenUrls(date);
+  const beforeDedupe = allItems.length;
+  allItems = allItems.filter((it) => !seenUrls.has(it.url));
+  const deduped = beforeDedupe - allItems.length;
+  if (deduped > 0) {
+    console.log(`  [Dedupe] 排除过去 ${DEDUPE_DAYS} 天内已出现的 URL: ${allItems.length} 条（排除 ${deduped} 条重复）`);
+  }
 
   const itemsForRaw = allItems.map(({ comments, commentsUrl, ...rest }) => rest);
   const dailyData: DailyData = {
