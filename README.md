@@ -1,6 +1,6 @@
 # Eyes — 技术洞察与商业模式聚合
 
-从 Hacker News、Lobsters、GitHub Trending、DEV.to、Changelog 等来源聚合科技与商业相关内容，面向国内用户，支持中文简介与标签。
+从 Hacker News、Lobsters、GitHub Trending、DEV.to、Changelog、arXiv、论文聚合等来源聚合科技与商业相关内容，面向国内用户，支持中文简介与标签。
 
 ---
 
@@ -36,6 +36,7 @@ npm run fetch
 ```
 
 - 会从各数据源拉取内容，并按「科技 / 技术 / AI / 商业模式」过滤。
+- 抓取时会**排除过去 7 天内** raw/enriched 已出现的 URL，减少日间重复。
 - 结果保存在 `data/raw/YYYY-MM-DD.json`（例如 `data/raw/2026-03-09.json`）。
 
 若要抓取**指定日期**，在命令后加日期：
@@ -85,7 +86,7 @@ npm run dev
 npm run download-images
 ```
 
-调试时可加 `--verbose`：`npm run download-images:verbose`
+不传日期时默认处理昨天；可指定日期：`npm run download-images -- 2026-03-09`。调试时可加 `--verbose`：`npm run download-images:verbose`
 
 ### 5. 打包成静态网站（用于部署）
 
@@ -114,7 +115,8 @@ npm run preview
 | `npm install` | 安装依赖（首次或报错时执行） |
 | `npm run fetch` | 抓取前一天数据到 `data/raw/` |
 | `npm run fetch 2026-03-08` | 抓取指定日期数据 |
-| `npm run download-images` | 下载配图到 `data/assets/{日期}/`，更新 enriched 中的 `image` 为本地路径 |
+| `npm run download-images` | 下载配图到 `data/assets/{日期}/`，更新 enriched 中的 `image` 为本地路径；不传日期默认昨天 |
+| `npm run download-images -- 2026-03-09` | 下载指定日期的配图 |
 | `npm run download-images:verbose` | 同上，带详细日志 |
 | `npm run wechat -- 2026-03-09` | 导出公众号 Markdown 到 `exports/2026-03-09.md`，图片引用 `data/assets/{日期}/` |
 | `npm run dev` | 启动本地开发服务器（会先复制 data 到 public） |
@@ -132,7 +134,8 @@ eyes/
 │   ├── enriched/     # Agent 增强后的数据（按日期 .json，仅 Top20）
 │   └── assets/       # 下载的配图，按日期分目录（如 assets/2026-03-09/）
 ├── scripts/
-│   ├── fetch.ts           # 抓取脚本，npm run fetch 会跑它
+│   ├── fetch.ts           # 抓取脚本（含 7 天 URL 去重）
+│   ├── copy-data.ts       # 将 data/ 复制到 public/data（build/dev 时自动执行）
 │   ├── download-images.ts # 将图片 URL 或 og:image 下载到 data/assets/{日期}/
 │   └── wechat-export.ts   # 导出公众号 Markdown 到 exports/{date}.md
 ├── src/               # 前端页面与组件（Astro）
@@ -171,7 +174,7 @@ eyes/
    需在 Product Hunt 申请 Developer Token，在环境变量里设置 `PH_TOKEN=你的token` 后再执行 `npm run fetch`。
 
 4. **导出公众号 Markdown 没有配图**  
-   配图由 `npm run download-images` 下载到 `data/assets/{日期}/`（构建时会自动执行）；enriched 中可填 `image` URL，或脚本会尝试从原文页面抓取 og:image。部分网站没有设置或做了限制，会导出无图版本。
+   配图需在构建前手动执行 `npm run download-images`（或带日期 `npm run download-images -- 2026-03-09`）下载到 `data/assets/{日期}/`；enriched 中可填 `image` URL，或脚本会尝试从原文页面抓取 og:image。部分网站没有设置或做了限制，会导出无图版本。
 
 5. **导出的文件在哪里？**  
    - Markdown：`exports/2026-03-09.md`  
