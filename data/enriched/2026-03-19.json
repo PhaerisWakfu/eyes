@@ -1,0 +1,391 @@
+{
+  "date": "2026-03-19",
+  "fetchedAt": "2026-03-20T02:06:51.390Z",
+  "enrichedAt": "2026-03-20T02:30:00.000Z",
+  "items": [
+    {
+      "id": "lb-nfkpw4",
+      "title": "AI's impact on mathematics is analogous to the car's impact on cities",
+      "url": "https://mathstodon.xyz/@tao/116252708577614828",
+      "source": "lobsters",
+      "score": 29,
+      "createdAt": "2026-03-19T07:32:27.000-05:00",
+      "summary_zh": "陶哲轩（Terence Tao）在 Mathstodon 上分享了对 AI 与数学关系的思考：AI 对数学的影响，类似于汽车对城市的影响。\n\n汽车没有让城市消失，而是重塑了城市的形态、交通和生活方式。同理，AI 不会取代数学，但会改变数学家的工作方式、问题选择和研究节奏。这种类比既避免了「AI 取代一切」的恐慌，也避免了「AI 无关紧要」的轻视，对理解技术变革的渐进性很有启发。",
+      "title_zh": "AI 对数学的影响，类似汽车对城市的影响",
+      "tags": [
+        "AI/ML",
+        "思考",
+        "行业动态"
+      ],
+      "valueScore": 9,
+      "insight": "对技术从业者和研究者——从顶尖数学家视角理解 AI 的定位。",
+      "commentary": "陶哲轩的类比太精准了：汽车改变了城市，但城市还在。这种「重塑而非取代」的框架，比二元对立好太多。",
+      "image": ""
+    },
+    {
+      "id": "ar-oai:arXiv.org:2603.17019v1",
+      "title": "Transformers Can Learn Rules They've Never Seen: Proof of Computation Beyond Interpolation",
+      "url": "https://arxiv.org/abs/2603.17019",
+      "source": "arxiv",
+      "description": "arXiv:2603.17019v1 Announce Type: new \nAbstract: A central question in the LLM debate is whether transformers can infer rules absent from training, or whether apparent generalisation reduces to similarity-based interpolation over observed examples. We test a strong interpolation-only hypothesis in t",
+      "createdAt": "2026-03-19T04:00:00.000Z",
+      "summary_zh": "论文针对 LLM 核心争议：Transformer 能否学习训练中从未见过的规则，还是只是基于相似性的插值？\n\n作者通过严格实验设计，测试「仅插值」假设，给出了 Transformer 能够进行超越插值的计算的证据。这对理解大模型泛化能力的本质、以及「涌现」是否真实存在，有重要理论价值。",
+      "title_zh": "Transformer 能学习从未见过的规则：超越插值的计算证明",
+      "tags": [
+        "AI/ML",
+        "思考"
+      ],
+      "valueScore": 9,
+      "insight": "对 LLM 研究者和从业者——直接回应「大模型是否真在推理」的争论。",
+      "commentary": "插值 vs 泛化这仗打了很久，这篇用实验说话，值得关注。",
+      "image": "assets/2026-03-19/88f5088404.png"
+    },
+    {
+      "id": "hf-https://tldr.takara.ai/p/2603.17787",
+      "title": "Governed Memory: A Production Architecture for Multi-Agent Workflows",
+      "url": "https://tldr.takara.ai/p/2603.17787",
+      "source": "hf-papers",
+      "description": "Enterprise AI deploys dozens of autonomous agent nodes across workflows, each acting on the same entities with no shared memory and no common governance. We identify five structural challenges arising from this memory governance gap: memory silos across agent workflows; governance fragmentation acro",
+      "createdAt": "2026-03-18T14:49:31.000Z",
+      "summary_zh": "企业级多 Agent 工作流中，各 Agent 节点各自为政、缺乏共享记忆和统一治理，导致记忆孤岛、治理碎片化等问题。\n\n论文提出 Governed Memory 架构，针对多 Agent 协作中的五大结构性挑战，设计可落地的生产级方案。对正在部署 Agent 的企业和做 Agent 基础设施的团队，有直接参考价值。",
+      "title_zh": "Governed Memory：多 Agent 工作流的生产级架构",
+      "tags": [
+        "AI/ML",
+        "基础设施",
+        "SaaS"
+      ],
+      "valueScore": 9,
+      "insight": "对企业 AI 架构师——多 Agent 协作的记忆与治理是下一个关键战场。",
+      "commentary": "Agent 多了以后，谁记得什么、谁有权改什么，这问题迟早要解决。这篇来得正是时候。",
+      "image": "assets/2026-03-19/224e7a3f59.png"
+    },
+    {
+      "id": "hn-47448524",
+      "title": "Claude Code: Channels",
+      "url": "https://code.claude.com/docs/en/channels",
+      "source": "hackernews",
+      "score": 152,
+      "createdAt": "2026-03-20T00:22:08.000Z",
+      "summary_zh": "Anthropic 官方文档介绍 Claude Code 的 Channels 功能，用于在编码场景中组织和管理对话与上下文。\n\n作为 Claude Code 的核心能力之一，Channels 帮助开发者将不同任务、项目或会话分开管理，提升与 AI 编程助手的协作效率。HN 热度高（152 分），反映开发者对官方能力更新的关注。",
+      "title_zh": "Claude Code：Channels 功能文档",
+      "tags": [
+        "AI/ML",
+        "开发工具"
+      ],
+      "valueScore": 8,
+      "insight": "对使用 Claude Code 的开发者——官方能力更新，值得跟进。",
+      "commentary": "HN 上唯一一条还能冲到 150+，说明大家对 Claude Code 的期待很高。",
+      "image": ""
+    },
+    {
+      "id": "lb-gqdltt",
+      "title": "Comprehension Debt - the hidden cost of AI generated code",
+      "url": "https://addyosmani.com/blog/comprehension-debt/",
+      "source": "lobsters",
+      "score": 15,
+      "createdAt": "2026-03-19T06:21:38.000-05:00",
+      "summary_zh": "Addy Osmani（Chrome 团队工程总监）提出「理解债」（Comprehension Debt）概念：AI 生成代码带来的隐性成本。\n\n与「技术债」不同，理解债指团队对 AI 产出代码缺乏深度理解，导致维护困难、调试缓慢、知识断层。文章从工程实践角度分析这一问题，并提出应对策略。对大量采用 AI 辅助编程的团队，有警醒和参考价值。",
+      "title_zh": "理解债：AI 生成代码的隐性成本",
+      "tags": [
+        "AI/ML",
+        "思考",
+        "开发工具"
+      ],
+      "valueScore": 8,
+      "insight": "对技术负责人和团队——正视 AI 编程带来的新一类债务。",
+      "commentary": "Addy Osmani 提这个概念，分量够。理解债比技术债更隐蔽，等爆雷就晚了。",
+      "image": "assets/2026-03-19/955f4f77f6.jpg"
+    },
+    {
+      "id": "dt-3369727",
+      "title": "The Mental Model I Use Before Touching Any Codebase",
+      "url": "https://dev.to/lessonsfromproduction/the-mental-model-i-use-before-touching-any-codebase-10bj",
+      "source": "devto",
+      "score": 6,
+      "description": "After 25+ years in the IT industry, here's the structured thinking framework I use before writing a single line of code — and why skipping it is the most expensive mistake junior developers make.",
+      "createdAt": "2026-03-19T02:43:00Z",
+      "summary_zh": "作者拥有 25 年以上 IT 经验，分享在写任何一行代码之前使用的结构化思考框架。\n\n核心观点：跳过这一步是初级开发者最昂贵的错误。文章提供可操作的思维模型，帮助在动手前理清目标、依赖和风险。对需要快速接手陌生代码库的开发者，有直接实用价值。",
+      "title_zh": "动手写代码前，我用的思维模型",
+      "tags": [
+        "思考",
+        "开发工具",
+        "职业"
+      ],
+      "valueScore": 8,
+      "insight": "对初级和中级开发者——避免「上来就改」的常见陷阱。",
+      "commentary": "25 年经验浓缩成一套思维框架，这种文章最实在。",
+      "image": "assets/2026-03-19/fec8a73276.webp"
+    },
+    {
+      "id": "hf-https://tldr.takara.ai/p/2603.17823",
+      "title": "Discovering Decoupled Functional Modules in Large Language Models",
+      "url": "https://tldr.takara.ai/p/2603.17823",
+      "source": "hf-papers",
+      "description": "Understanding the internal functional organization of Large Language Models (LLMs) is crucial for improving their trustworthiness and performance. However, how LLMs organize different functions into modules remains highly unexplored. To bridge this gap, we formulate a functional module discovery pro",
+      "createdAt": "2026-03-18T15:13:02.000Z",
+      "summary_zh": "理解 LLM 内部功能组织对提升可信度和性能至关重要，但 LLM 如何将不同功能组织成模块仍鲜有研究。\n\n论文提出功能模块发现方法，将 LLM 内部解耦为可识别的功能模块。这对模型可解释性、可控性和效率优化都有意义，是理解「黑盒」的重要一步。",
+      "title_zh": "发现大语言模型中的解耦功能模块",
+      "tags": [
+        "AI/ML",
+        "思考"
+      ],
+      "valueScore": 8,
+      "insight": "对 LLM 研究者——可解释性方向的重要进展。",
+      "commentary": "能把 LLM 内部拆成功能模块，离「理解它在干什么」又近了一步。",
+      "image": "assets/2026-03-19/8fad5fb8d2.png"
+    },
+    {
+      "id": "hf-https://tldr.takara.ai/p/2603.17484",
+      "title": "Learning When to Attend: Conditional Memory Access for Long-Context LLMs",
+      "url": "https://tldr.takara.ai/p/2603.17484",
+      "source": "hf-papers",
+      "description": "Language models struggle to generalize beyond pretraining context lengths, limiting long-horizon reasoning and retrieval. Continued pretraining on long-context data can help but is expensive due to the quadratic scaling of Attention. We observe that most tokens do not require (Global) Attention over",
+      "createdAt": "2026-03-18T08:48:18.000Z",
+      "summary_zh": "语言模型难以超越预训练上下文长度泛化，限制长程推理和检索。持续在长上下文数据上预训练有效但昂贵，因为 Attention 的二次方缩放。\n\n论文观察到大多数 token 不需要全局 Attention，提出条件记忆访问机制，在保持性能的同时降低长上下文成本。对做 RAG、长文档推理的团队有参考价值。",
+      "title_zh": "学习何时关注：长上下文 LLM 的条件记忆访问",
+      "tags": [
+        "AI/ML",
+        "基础设施"
+      ],
+      "valueScore": 8,
+      "insight": "对长上下文和 RAG 从业者——降低 Attention 成本的新思路。",
+      "commentary": "不是所有 token 都需要全局关注，这直觉对，但做成系统不容易。",
+      "image": "assets/2026-03-19/e61c52390c.png"
+    },
+    {
+      "id": "dt-3307073",
+      "title": "Vibe-coding in Google AI Studio: my tips to prompt better and create amazing apps",
+      "url": "https://dev.to/googleai/vibe-coding-in-google-ai-studio-my-tips-to-prompt-better-and-create-amazing-apps-3kcp",
+      "source": "devto",
+      "score": 36,
+      "description": "You might already know Google AI Studio as a sandbox to play with the Deepmind models and tinker with...",
+      "createdAt": "2026-03-19T17:48:19Z",
+      "summary_zh": "Google AI 团队分享在 Google AI Studio 中进行「氛围编码」（vibe-coding）的提示技巧，帮助用户更好地与 DeepMind 模型协作、快速构建应用。\n\n文章面向想用 AI 辅助开发但不知如何有效提示的开发者，提供实操建议。对使用 Gemini/DeepMind 模型的开发者，有直接参考价值。",
+      "title_zh": "在 Google AI Studio 中氛围编码：我的提示技巧",
+      "tags": [
+        "AI/ML",
+        "开发工具"
+      ],
+      "valueScore": 7,
+      "insight": "对使用 Google AI Studio 的开发者——官方提示工程经验。",
+      "commentary": "vibe-coding 这词挺贴切，官方出提示技巧总比瞎试强。",
+      "image": "assets/2026-03-19/178c2b4830.webp"
+    },
+    {
+      "id": "dt-3372910",
+      "title": "I Tried Vite+ and Replaced My Entire Frontend Toolchain",
+      "url": "https://dev.to/erikch/i-tried-vite-and-replaced-my-entire-frontend-toolchain-4cgb",
+      "source": "devto",
+      "score": 22,
+      "description": "If you're a frontend developer in 2026, you've probably had to deal with a lot of different tooling....",
+      "createdAt": "2026-03-19T17:02:19Z",
+      "summary_zh": "作者尝试 Vite+ 后，用其替换了整个前端工具链。\n\n2026 年前端开发者面对大量工具选择，Vite+ 作为新一代构建方案，在开发体验和构建速度上有明显优势。文章分享迁移过程和实际体验，对考虑简化前端工具链的团队有参考价值。",
+      "title_zh": "我试了 Vite+，然后换掉了整个前端工具链",
+      "tags": [
+        "Web",
+        "开发工具"
+      ],
+      "valueScore": 7,
+      "insight": "对前端开发者——Vite+ 的实战迁移经验。",
+      "commentary": "工具链越堆越多是通病，能一把换掉说明 Vite+ 确实能打。",
+      "image": "assets/2026-03-19/531e512d68.webp"
+    },
+    {
+      "id": "dt-3369943",
+      "title": "Why Your MCP Setup Keeps Timing Out in 60 Seconds (And How I Fixed It on Windows)",
+      "url": "https://dev.to/jonathanmeltonfusional/why-your-mcp-setup-keeps-timing-out-in-60-seconds-and-how-i-fixed-it-on-windows-367a",
+      "source": "devto",
+      "score": 16,
+      "description": "Every developer hits this wall: add more than 8 MCP servers to Claude Desktop (or Cursor, or VSCode)...",
+      "createdAt": "2026-03-19T03:39:57Z",
+      "summary_zh": "许多开发者会遇到：在 Claude Desktop、Cursor 或 VSCode 中添加超过 8 个 MCP 服务器后，连接在 60 秒内超时。\n\n作者在 Windows 上定位并解决了这一问题，分享了根因和修复方法。对使用多 MCP 服务器的开发者，尤其是 Windows 用户，有直接实用价值。",
+      "title_zh": "为什么你的 MCP 配置总在 60 秒超时（以及我在 Windows 上的修复方法）",
+      "tags": [
+        "AI/ML",
+        "开发工具",
+        "基础设施"
+      ],
+      "valueScore": 7,
+      "insight": "对 MCP 重度用户——Windows 上的超时问题有解了。",
+      "commentary": "8 个 MCP 就超时，这限制挺烦的，能修就好。",
+      "image": "assets/2026-03-19/c4de16779d.webp"
+    },
+    {
+      "id": "dt-3324229",
+      "title": "Your Agent Is Making Decisions Nobody Authorized",
+      "url": "https://dev.to/dannwaneri/your-agent-is-making-decisions-nobody-authorized-2bc7",
+      "source": "devto",
+      "score": 15,
+      "description": "A quant fund ran five independent strategies. Every one passed its individual risk limits. Every...",
+      "createdAt": "2026-03-19T18:02:23Z",
+      "summary_zh": "一家量化基金运行五套独立策略，每套都通过各自的风险限制，但组合起来却产生了无人授权的决策和意外风险。\n\n文章用这一案例说明：多 Agent 系统在各自合规的情况下，仍可能产生系统级的不合规行为。对部署 AI Agent 到生产环境的团队，是重要的风险警示。",
+      "title_zh": "你的 Agent 正在做出无人授权的决策",
+      "tags": [
+        "AI/ML",
+        "安全",
+        "思考"
+      ],
+      "valueScore": 7,
+      "insight": "对 Agent 部署者——组合效应可能绕过单点风控。",
+      "commentary": "每个策略都合规，合起来出事——这故事太典型了，Agent 时代会更多。",
+      "image": "assets/2026-03-19/99eabf2295.webp"
+    },
+    {
+      "id": "dt-3370011",
+      "title": "How I Built Aegis — A Credential Isolation Proxy for AI Agents",
+      "url": "https://dev.to/sjwarren91/how-i-built-aegis-a-credential-isolation-proxy-for-ai-agents-3bgb",
+      "source": "devto",
+      "score": 2,
+      "description": "AI agents are getting really good at calling APIs. But the way we usually give them access — pasting...",
+      "createdAt": "2026-03-19T13:30:00Z",
+      "summary_zh": "AI Agent 调用 API 的能力越来越强，但通常我们通过粘贴 API 密钥等方式直接授权，存在凭证泄露和滥用风险。\n\nAegis 是一个凭证隔离代理，让 Agent 通过代理访问 API，而不直接持有凭证。作者分享构建思路和实现，对做 Agent 安全架构的开发者有参考价值。",
+      "title_zh": "我如何构建 Aegis：AI Agent 的凭证隔离代理",
+      "tags": [
+        "AI/ML",
+        "安全",
+        "开源"
+      ],
+      "valueScore": 7,
+      "insight": "对 Agent 安全架构师——凭证隔离是刚需。",
+      "commentary": "Agent 拿全量 API 密钥太危险了，这类代理迟早成标配。",
+      "image": "assets/2026-03-19/6b199687f3.webp"
+    },
+    {
+      "id": "gh-mobile-dev-inc-Maestro",
+      "title": "mobile-dev-inc/Maestro",
+      "url": "https://github.com/mobile-dev-inc/Maestro",
+      "source": "github-trending",
+      "score": 0,
+      "description": "Painless E2E Automation for Mobile and Web [Kotlin]",
+      "createdAt": "2026-03-20T02:06:42.757Z",
+      "summary_zh": "Maestro 是一个面向移动端和 Web 的无痛 E2E 自动化框架，用 Kotlin 编写。\n\n相比传统 E2E 方案，Maestro 强调简单配置、快速上手，适合移动应用和跨端测试。在 GitHub 趋势榜上有一定关注度，对做移动端或全栈测试的团队有参考价值。",
+      "title_zh": "Maestro：移动端与 Web 的轻量 E2E 自动化",
+      "tags": [
+        "移动端",
+        "开发工具",
+        "开源"
+      ],
+      "valueScore": 7,
+      "insight": "对移动端和测试工程师——E2E 自动化的新选择。",
+      "commentary": "E2E 一直是个痛点，Maestro 主打无痛，值得一试。",
+      "image": "assets/2026-03-19/74982976ce.png"
+    },
+    {
+      "id": "gh-gsd-build-get-shit-done",
+      "title": "gsd-build/get-shit-done",
+      "url": "https://github.com/gsd-build/get-shit-done",
+      "source": "github-trending",
+      "score": 0,
+      "description": "A light-weight and powerful meta-prompting, context engineering and spec-driven development system for Claude Code by TÂCHES. [JavaScript]",
+      "createdAt": "2026-03-20T02:06:42.757Z",
+      "summary_zh": "get-shit-done 是 TÂCHES 为 Claude Code 打造的轻量级元提示、上下文工程与规范驱动开发系统。\n\n通过结构化规范和上下文管理，提升与 Claude Code 的协作效率。对使用 Claude Code 做复杂任务的开发者，有实用参考价值。",
+      "title_zh": "get-shit-done：Claude Code 的元提示与规范驱动开发",
+      "tags": [
+        "AI/ML",
+        "开发工具",
+        "开源"
+      ],
+      "valueScore": 7,
+      "insight": "对 Claude Code 重度用户——规范驱动可减少反复纠错。",
+      "commentary": "规范驱动 + 元提示，思路对，就看实际好不好用。",
+      "image": "assets/2026-03-19/a7ab3b1d50.png"
+    },
+    {
+      "id": "dt-3369946",
+      "title": "The OS-Paged Context Engine",
+      "url": "https://dev.to/talvinder/the-os-paged-context-engine-3d7g",
+      "source": "devto",
+      "score": 0,
+      "description": "Four techniques from 60 years of constrained computing, assembled into a composable context pipeline for LLM agents.",
+      "createdAt": "2026-03-19T03:40:11Z",
+      "summary_zh": "作者将 60 年受限计算史上的四种技术，组合成面向 LLM Agent 的可组合上下文管道。\n\n借鉴操作系统分页等思想，解决 Agent 上下文管理的效率与可扩展性问题。对做长上下文、RAG 或 Agent 架构的开发者，有跨领域启发性。",
+      "title_zh": "OS 风格分页的上下文引擎",
+      "tags": [
+        "AI/ML",
+        "基础设施",
+        "思考"
+      ],
+      "valueScore": 7,
+      "insight": "对 Agent 架构师——从 OS 借鉴上下文管理思路。",
+      "commentary": "60 年计算史里挖宝，这角度有意思。",
+      "image": "assets/2026-03-19/e1febd1748.webp"
+    },
+    {
+      "id": "lb-g1ktjl",
+      "title": "Android developer verification: Balancing openness and choice with safety",
+      "url": "https://android-developers.googleblog.com/2026/03/android-developer-verification.html",
+      "source": "lobsters",
+      "score": 26,
+      "createdAt": "2026-03-19T12:32:34.000-05:00",
+      "summary_zh": "Google 官方博客介绍 Android 开发者验证计划，在开放性与安全性之间寻求平衡。\n\n新政策影响应用上架、权限申请和开发者身份认证流程。对 Android 开发者和应用发布者，需要关注政策变化及合规要求。",
+      "title_zh": "Android 开发者验证：在开放与安全之间平衡",
+      "tags": [
+        "移动端",
+        "行业动态",
+        "安全"
+      ],
+      "valueScore": 6,
+      "insight": "对 Android 开发者——政策变化可能影响上架流程。",
+      "commentary": "Google 收紧验证是趋势，早点了解没坏处。",
+      "image": ""
+    },
+    {
+      "id": "dt-3370078",
+      "title": "How to Stop My Agent from Getting Me Fired",
+      "url": "https://dev.to/aws/how-to-stop-my-agent-from-getting-me-fired-5amc",
+      "source": "devto",
+      "score": 25,
+      "description": "This is fiction. For now.  I have an AI agent connected to my email and Slack. It can read...",
+      "createdAt": "2026-03-19T05:05:51Z",
+      "summary_zh": "AWS 团队的一篇虚构故事：主人公的 AI Agent 连接了邮箱和 Slack，能读写、能代发，但可能做出让主人丢工作的操作。\n\n文章以「如何不让 Agent 害我失业」为引，探讨 Agent 权限边界、人工审核和失败模式。虽是虚构，但对思考 Agent 部署风险有启发。",
+      "title_zh": "如何不让我的 Agent 害我失业",
+      "tags": [
+        "AI/ML",
+        "思考",
+        "安全"
+      ],
+      "valueScore": 6,
+      "insight": "对部署个人 Agent 的开发者——权限和审核很重要。",
+      "commentary": "「This is fiction. For now.」——这 disclaimer 意味深长。",
+      "image": "assets/2026-03-19/024855920a.webp"
+    },
+    {
+      "id": "lb-qsbva3",
+      "title": "Building an LSP Server with Rust is surprisingly easy and fun",
+      "url": "https://codeinput.com/blog/lsp-server",
+      "source": "lobsters",
+      "score": 12,
+      "createdAt": "2026-03-19T07:04:07.000-05:00",
+      "summary_zh": "作者分享用 Rust 构建 LSP（Language Server Protocol）服务器的经历，发现比预期简单且有趣。\n\nLSP 是 IDE 与语言工具之间的标准协议，Rust 生态有成熟支持。文章适合想为自定义语言或 DSL 做 IDE 支持的开发者。",
+      "title_zh": "用 Rust 构建 LSP 服务器： surprisingly 简单且有趣",
+      "tags": [
+        "开发工具",
+        "开源",
+        "基础设施"
+      ],
+      "valueScore": 6,
+      "insight": "对做语言工具和 IDE 的开发者——Rust + LSP 入门参考。",
+      "commentary": "LSP 门槛没想象中高，Rust 写起来也挺顺手。",
+      "image": "assets/2026-03-19/ec18f86558.webp"
+    },
+    {
+      "id": "dt-3359467",
+      "title": "Writing an agent skill",
+      "url": "https://dev.to/nfrankel/writing-an-agent-skill-3li2",
+      "source": "devto",
+      "score": 12,
+      "description": "Most developers now use coding assistants. I do too—Copilot at work, Claude Code at home. As a...",
+      "createdAt": "2026-03-19T09:02:00Z",
+      "summary_zh": "作者日常使用 Copilot 和 Claude Code，分享如何编写 Agent Skill 来扩展 AI 助手的能力。\n\nSkill 让 Agent 能执行特定任务、调用外部工具或遵循自定义流程。文章提供实操指南，对想为 Claude Code 等平台编写 Skill 的开发者有参考价值。",
+      "title_zh": "如何编写 Agent Skill",
+      "tags": [
+        "AI/ML",
+        "开发工具"
+      ],
+      "valueScore": 6,
+      "insight": "对 Agent 生态参与者——Skill 是扩展能力的关键。",
+      "commentary": "Skill 写好了，Agent 能做的事就多一截。",
+      "image": "assets/2026-03-19/4814d2ac80.webp"
+    }
+  ]
+}
