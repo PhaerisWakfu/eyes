@@ -1,0 +1,530 @@
+{
+  "date": "2026-03-22",
+  "fetchedAt": "2026-03-23T01:29:34.149Z",
+  "items": [
+    {
+      "id": "hn-47476422",
+      "title": "Flash-MoE: Running a 397B Parameter Model on a Laptop",
+      "url": "https://github.com/danveloper/flash-moe",
+      "source": "hackernews",
+      "score": 302,
+      "createdAt": "2026-03-22T11:30:03.000Z"
+    },
+    {
+      "id": "hn-47479962",
+      "title": "OpenClaw is a security nightmare dressed up as a daydream",
+      "url": "https://composio.dev/content/openclaw-security-and-vulnerabilities",
+      "source": "hackernews",
+      "score": 291,
+      "createdAt": "2026-03-22T17:35:28.000Z"
+    },
+    {
+      "id": "hn-47476315",
+      "title": "Reports of code's death are greatly exaggerated",
+      "url": "https://stevekrouse.com/precision",
+      "source": "hackernews",
+      "score": 236,
+      "createdAt": "2026-03-22T11:09:34.000Z"
+    },
+    {
+      "id": "hn-47482217",
+      "title": "GrapheneOS will remain usable by anyone without requiring personal information",
+      "url": "https://grapheneos.social/@GrapheneOS/116261301913660830",
+      "source": "hackernews",
+      "score": 211,
+      "createdAt": "2026-03-22T21:14:11.000Z"
+    },
+    {
+      "id": "hn-47477284",
+      "title": "Building an FPGA 3dfx Voodoo with Modern RTL Tools",
+      "url": "https://noquiche.fyi/voodoo",
+      "source": "hackernews",
+      "score": 160,
+      "createdAt": "2026-03-22T13:24:38.000Z"
+    },
+    {
+      "id": "hn-47478687",
+      "title": "MAUI Is Coming to Linux",
+      "url": "https://avaloniaui.net/blog/maui-avalonia-preview-1",
+      "source": "hackernews",
+      "score": 158,
+      "createdAt": "2026-03-22T15:43:21.000Z"
+    },
+    {
+      "id": "hn-47471271",
+      "title": "How to Attract AI Bots to Your Open Source Project",
+      "url": "https://nesbitt.io/2026/03/21/how-to-attract-ai-bots-to-your-open-source-project.html",
+      "source": "hackernews",
+      "score": 72,
+      "createdAt": "2026-03-21T20:58:01.000Z"
+    },
+    {
+      "id": "hn-47425874",
+      "title": "LLMs predict my coffee",
+      "url": "https://dynomight.net/coffee/",
+      "source": "hackernews",
+      "score": 69,
+      "createdAt": "2026-03-18T13:56:37.000Z"
+    },
+    {
+      "id": "hn-47480447",
+      "title": "What Young Workers Are Doing to AI-Proof Themselves",
+      "url": "https://www.wsj.com/economy/jobs/ai-jobs-young-people-careers-14282284",
+      "source": "hackernews",
+      "score": 67,
+      "createdAt": "2026-03-22T18:18:01.000Z"
+    },
+    {
+      "id": "lb-dhogio",
+      "title": "Thoughts on OpenAI acquiring Astral and uv/ruff/ty",
+      "url": "https://simonwillison.net/2026/Mar/19/openai-acquiring-astral/",
+      "source": "lobsters",
+      "score": 60,
+      "createdAt": "2026-03-21T04:38:09.000-05:00"
+    },
+    {
+      "id": "lb-gwp3b9",
+      "title": "I Hate Programming Wayland Applications",
+      "url": "https://www.p4m.dev/posts/29/index.html",
+      "source": "lobsters",
+      "score": 46,
+      "createdAt": "2026-03-22T11:11:14.000-05:00"
+    },
+    {
+      "id": "lb-hmb3mz",
+      "title": "Security advisory for Cargo",
+      "url": "https://blog.rust-lang.org/2026/03/21/cve-2026-33056/",
+      "source": "lobsters",
+      "score": 34,
+      "createdAt": "2026-03-22T02:12:14.000-05:00"
+    },
+    {
+      "id": "hn-47426857",
+      "title": "Show HN: Codala, a social network built on scanning barcodes",
+      "url": "https://play.google.com/store/apps/details?id=com.hsynkrkye.codala&hl=en",
+      "source": "hackernews",
+      "score": 26,
+      "createdAt": "2026-03-18T15:17:25.000Z"
+    },
+    {
+      "id": "hn-47482760",
+      "title": "They're Vibe-Coding Spam Now",
+      "url": "https://tedium.co/2026/02/25/vibe-coded-email-spam/",
+      "source": "hackernews",
+      "score": 25,
+      "createdAt": "2026-03-22T22:11:54.000Z"
+    },
+    {
+      "id": "lb-bc45sc",
+      "title": "Burrow - A gopher browser written in HTML",
+      "url": "https://burrow.din.gy/",
+      "source": "lobsters",
+      "score": 21,
+      "description": "<p>Just wanted to share my weekend project! I've been having fun with Gopher and wanted to build a 'fantasy' browser (technically a a Gopher to HTTP proxy). Design is difficult for me so this is as far as I could take it.</p>\n",
+      "createdAt": "2026-03-21T23:08:27.000-05:00"
+    },
+    {
+      "id": "lb-jr9zx6",
+      "title": "SSH certificates and git signing",
+      "url": "https://codon.org.uk/~mjg59/blog/p/ssh-certificates-and-git-signing/",
+      "source": "lobsters",
+      "score": 20,
+      "createdAt": "2026-03-21T16:37:27.000-05:00"
+    },
+    {
+      "id": "hn-47435127",
+      "title": "I Reverse-Engineered the TiinyAI Pocket Lab from Marketing Photos",
+      "url": "https://bay41.com/posts/tiiny-ai-pocket-lab-review/",
+      "source": "hackernews",
+      "score": 18,
+      "createdAt": "2026-03-19T04:56:25.000Z"
+    },
+    {
+      "id": "dt-3383654",
+      "title": "Inside SQLite’s Frontend: How the Query Optimizer Makes Your SQL Fast",
+      "url": "https://dev.to/lovestaco/inside-sqlites-frontend-how-the-query-optimizer-makes-your-sql-fast-3ij",
+      "source": "devto",
+      "score": 17,
+      "description": "Hello, I'm Maneshwar. I'm building git-lrc, an AI code reviewer that runs on every commit. It is...",
+      "createdAt": "2026-03-22T11:52:17Z"
+    },
+    {
+      "id": "lb-w2x9dq",
+      "title": "A Case Against Currying",
+      "url": "https://emi-h.com/articles/a-case-against-currying.html",
+      "source": "lobsters",
+      "score": 9,
+      "createdAt": "2026-03-22T10:29:02.000-05:00"
+    },
+    {
+      "id": "dt-3376700",
+      "title": "Arlo - I Built an AI Companion That Gives Blind Users the Same 3-Second Superpower Sighted People Have",
+      "url": "https://dev.to/zeshama/arlo-i-built-an-ai-companion-that-gives-blind-users-the-same-3-second-superpower-sighted-people-55co",
+      "source": "devto",
+      "score": 9,
+      "description": "This is a submission for the Notion MCP Challenge     I'm 24. I dropped out. I'm building an AI...",
+      "createdAt": "2026-03-22T12:16:40Z"
+    },
+    {
+      "id": "lb-n1h2tl",
+      "title": "Is Local the Future of AI?",
+      "url": "https://tombedor.dev/open-source-models/",
+      "source": "lobsters",
+      "score": 5,
+      "createdAt": "2026-03-22T17:32:15.000-05:00"
+    },
+    {
+      "id": "dt-3382645",
+      "title": "Raw Developer Stories: The Side Nobody Shows",
+      "url": "https://dev.to/pjdeveloper896/raw-developer-stories-the-side-nobody-shows-2941",
+      "source": "devto",
+      "score": 5,
+      "description": "Raw Developer Stories: The Side Nobody Shows   I thought learning to code would fix my...",
+      "createdAt": "2026-03-22T06:20:39Z"
+    },
+    {
+      "id": "dt-3382995",
+      "title": "Built a CLI that gives your codebase a memory",
+      "url": "https://dev.to/omtrimoco/built-a-cli-that-gives-your-codebase-a-memory-4b0o",
+      "source": "devto",
+      "score": 5,
+      "description": "Two weeks ago I was debugging a module I had written myself. Sat staring at it for twenty minutes....",
+      "createdAt": "2026-03-22T08:31:06Z"
+    },
+    {
+      "id": "dt-3383707",
+      "title": "When nothing seems to stick",
+      "url": "https://dev.to/vanshika1807/when-nothing-seems-to-stick-4463",
+      "source": "devto",
+      "score": 5,
+      "description": "There are versions of tech industry that nobody talk about   Not like cracked a Tier-1 Company in few...",
+      "createdAt": "2026-03-22T12:09:09Z"
+    },
+    {
+      "id": "dt-3382092",
+      "title": "I Built Free Unlimited S3-Compatible Storage Using Telegram as Backend",
+      "url": "https://dev.to/young_gao/i-built-free-unlimited-s3-compatible-storage-using-telegram-as-backend-h30",
+      "source": "devto",
+      "score": 5,
+      "description": "The Problem   Cloud storage is expensive. S3, GCS, Azure Blob — they all charge per GB...",
+      "createdAt": "2026-03-22T03:09:38Z"
+    },
+    {
+      "id": "lb-bgawym",
+      "title": "my first patch to the linux kernel",
+      "url": "https://pooladkhay.com/posts/first-kernel-patch/",
+      "source": "lobsters",
+      "score": 4,
+      "createdAt": "2026-03-22T11:03:42.000-05:00"
+    },
+    {
+      "id": "dt-3385423",
+      "title": "How I Built a PCI-Ready Merchant Onboarding API on AWS for Under $5/Month",
+      "url": "https://dev.to/escanut/how-i-built-a-pci-ready-merchant-onboarding-api-on-aws-for-under-5month-4958",
+      "source": "devto",
+      "score": 4,
+      "description": "Payment processors get rejected from enterprise contracts  because it wasn't auditable. PCI DSS cares...",
+      "createdAt": "2026-03-22T17:40:23Z"
+    },
+    {
+      "id": "dt-3385197",
+      "title": "Day 48 of #100DayOfCode — Deployment I: Deploy Backend",
+      "url": "https://dev.to/m_saad_ahmad/day-48-of-100dayofcode-deployment-i-deploy-backend-49pg",
+      "source": "devto",
+      "score": 3,
+      "description": "Earlier, on Day 40, I built the backend for my auth system. Then on Day 44, I improved it by adding...",
+      "createdAt": "2026-03-22T16:40:29Z"
+    },
+    {
+      "id": "lb-g4sj0m",
+      "title": "The diminished art of coding",
+      "url": "https://nolanlawson.com/2026/03/22/the-diminished-art-of-coding/",
+      "source": "lobsters",
+      "score": 2,
+      "createdAt": "2026-03-22T16:55:33.000-05:00"
+    },
+    {
+      "id": "dt-3382307",
+      "title": "I Built 3 Tools to Stop My AI from Being a Yes-Man (and forgetting everything)",
+      "url": "https://dev.to/dead1786/i-built-3-tools-to-stop-my-ai-from-being-a-yes-man-and-forgetting-everything-m3f",
+      "source": "devto",
+      "score": 2,
+      "description": "The Problem   If you use Claude Code (or any AI coding assistant) seriously, you've hit...",
+      "createdAt": "2026-03-22T04:43:17Z"
+    },
+    {
+      "id": "dt-3382331",
+      "title": "I found my \"Magic Wand\": Building a Private, Zero-Dependency Journaling PWA 🪄",
+      "url": "https://dev.to/yaninatrekhleb/i-found-my-magic-wand-building-a-private-zero-dependency-journaling-pwa-369f",
+      "source": "devto",
+      "score": 1,
+      "description": "For years, I’ve had ideas that fizzled out during the \"which framework should I use?\" phase. I’d get...",
+      "createdAt": "2026-03-22T04:53:40Z"
+    },
+    {
+      "id": "dt-3383797",
+      "title": "What is WebMCP? Chrome's browser-native API for AI agents",
+      "url": "https://dev.to/prasannagyde/what-is-webmcp-chromes-browser-native-api-for-ai-agents-2mmc",
+      "source": "devto",
+      "score": 1,
+      "description": "AI agents are getting good at using the web. But the way they interact with it today is fragile: CSS...",
+      "createdAt": "2026-03-22T12:38:31Z"
+    },
+    {
+      "id": "dt-3383651",
+      "title": "How to Secure MCP Tool Calls in n8n Workflows",
+      "url": "https://dev.to/razashariff/how-to-secure-mcp-tool-calls-in-n8n-workflows-3mch",
+      "source": "devto",
+      "score": 1,
+      "description": "n8n connects AI Agents to external tools via MCP. The tool definitions and tool call payloads flow...",
+      "createdAt": "2026-03-22T11:50:09Z"
+    },
+    {
+      "id": "gh-TauricResearch-TradingAgents",
+      "title": "TauricResearch/TradingAgents",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "source": "github-trending",
+      "score": 0,
+      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework [Python]",
+      "createdAt": "2026-03-23T01:29:28.643Z"
+    },
+    {
+      "id": "gh-vxcontrol-pentagi",
+      "title": "vxcontrol/pentagi",
+      "url": "https://github.com/vxcontrol/pentagi",
+      "source": "github-trending",
+      "score": 0,
+      "description": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks [Go]",
+      "createdAt": "2026-03-23T01:29:28.643Z"
+    },
+    {
+      "id": "gh-jamwithai-production-agentic-rag-course",
+      "title": "jamwithai/production-agentic-rag-course",
+      "url": "https://github.com/jamwithai/production-agentic-rag-course",
+      "source": "github-trending",
+      "score": 0,
+      "description": "Python",
+      "createdAt": "2026-03-23T01:29:28.643Z"
+    },
+    {
+      "id": "gh-affaan-m-everything-claude-code",
+      "title": "affaan-m/everything-claude-code",
+      "url": "https://github.com/affaan-m/everything-claude-code",
+      "source": "github-trending",
+      "score": 0,
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond. [JavaScript]",
+      "createdAt": "2026-03-23T01:29:28.643Z"
+    },
+    {
+      "id": "gh-systemd-systemd",
+      "title": "systemd/systemd",
+      "url": "https://github.com/systemd/systemd",
+      "source": "github-trending",
+      "score": 0,
+      "description": "The systemd System and Service Manager [C]",
+      "createdAt": "2026-03-23T01:29:28.643Z"
+    },
+    {
+      "id": "gh-browser-use-browser-use",
+      "title": "browser-use/browser-use",
+      "url": "https://github.com/browser-use/browser-use",
+      "source": "github-trending",
+      "score": 0,
+      "description": "🌐 Make websites accessible for AI agents. Automate tasks online with ease. [Python]",
+      "createdAt": "2026-03-23T01:29:28.643Z"
+    },
+    {
+      "id": "gh-HKUDS-LightRAG",
+      "title": "HKUDS/LightRAG",
+      "url": "https://github.com/HKUDS/LightRAG",
+      "source": "github-trending",
+      "score": 0,
+      "description": "[EMNLP2025] \"LightRAG: Simple and Fast Retrieval-Augmented Generation\" [Python]",
+      "createdAt": "2026-03-23T01:29:28.643Z"
+    },
+    {
+      "id": "gh-hsliuping-TradingAgents-CN",
+      "title": "hsliuping/TradingAgents-CN",
+      "url": "https://github.com/hsliuping/TradingAgents-CN",
+      "source": "github-trending",
+      "score": 0,
+      "description": "基于多智能体LLM的中文金融交易框架 - TradingAgents中文增强版 [Python]",
+      "createdAt": "2026-03-23T01:29:28.643Z"
+    },
+    {
+      "id": "gh-aquasecurity-trivy",
+      "title": "aquasecurity/trivy",
+      "url": "https://github.com/aquasecurity/trivy",
+      "source": "github-trending",
+      "score": 0,
+      "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more [Go]",
+      "createdAt": "2026-03-23T01:29:28.643Z"
+    },
+    {
+      "id": "gh-bytedance-deer-flow",
+      "title": "bytedance/deer-flow",
+      "url": "https://github.com/bytedance/deer-flow",
+      "source": "github-trending",
+      "score": 0,
+      "description": "An open-source SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skills and subagents, it handles different levels of tasks that could take minutes to hours. [Python]",
+      "createdAt": "2026-03-23T01:29:28.643Z"
+    },
+    {
+      "id": "gh-harry0703-MoneyPrinterTurbo",
+      "title": "harry0703/MoneyPrinterTurbo",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "source": "github-trending",
+      "score": 0,
+      "description": "利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM. [Python]",
+      "createdAt": "2026-03-23T01:29:28.643Z"
+    },
+    {
+      "id": "dt-3385668",
+      "title": "Why I Ditched Next.js and Rebuilt My Site with Astro",
+      "url": "https://dev.to/waseemrajashaik/why-i-ditched-nextjs-and-rebuilt-my-site-with-astro-2moh",
+      "source": "devto",
+      "score": 0,
+      "description": "Sometimes the best code is the code you don't ship to the browser.     // package.json diff -...",
+      "createdAt": "2026-03-22T18:49:33Z"
+    },
+    {
+      "id": "dt-3337146",
+      "title": "Agent Workflows on the JVM: Typed, Observable, and Composable",
+      "url": "https://dev.to/agentensemble/agent-workflows-on-the-jvm-typed-observable-and-composable-27kf",
+      "source": "devto",
+      "score": 0,
+      "description": "Three properties separate toy agent frameworks from real ones. Here's how to get type safety, observability, and composability for multi-agent systems on the JVM.",
+      "createdAt": "2026-03-22T14:00:00Z"
+    },
+    {
+      "id": "dt-3382305",
+      "title": "How I Run Claude Code in Docker with a Web UI and Headless Browser",
+      "url": "https://dev.to/coderluii/how-i-run-claude-code-in-docker-with-a-web-ui-and-headless-browser-5dko",
+      "source": "devto",
+      "score": 0,
+      "description": "You know the drill. You want Claude Code on a server. In a browser. With Playwright so it can...",
+      "createdAt": "2026-03-22T04:42:44Z"
+    },
+    {
+      "id": "dt-3382105",
+      "title": "Point at UI bugs instead of describing them to Claude Code",
+      "url": "https://dev.to/lokeshgrootan/point-at-ui-bugs-instead-of-describing-them-to-claude-code-48bm",
+      "source": "devto",
+      "score": 0,
+      "description": "I built a skill that lets you point at UI bugs instead of describing them to Claude Code  The...",
+      "createdAt": "2026-03-22T03:19:10Z"
+    },
+    {
+      "id": "hf-https://tldr.takara.ai/p/2603.17439",
+      "title": "Baguan-TS: A Sequence-Native In-Context Learning Model for Time Series Forecasting with Covariates",
+      "url": "https://tldr.takara.ai/p/2603.17439",
+      "source": "hf-papers",
+      "description": "Transformers enable in-context learning (ICL) for rapid, gradient-free adaptation in time series forecasting, yet most ICL-style approaches rely on tabularized, hand-crafted features, while end-to-end sequence models lack inference-time adaptation. We bridge this gap with a unified framework, Baguan",
+      "createdAt": "2026-03-18T07:24:19.000Z"
+    },
+    {
+      "id": "hf-https://tldr.takara.ai/p/2603.17087",
+      "title": "Ensemble Self-Training for Unsupervised Machine Translation",
+      "url": "https://tldr.takara.ai/p/2603.17087",
+      "source": "hf-papers",
+      "description": "We present an ensemble-driven self-training framework for unsupervised neural machine translation (UNMT). Starting from a primary language pair, we train multiple UNMT models that share the same translation task but differ in an auxiliary language, inducing structured diversity across models. We the",
+      "createdAt": "2026-03-17T19:16:13.000Z"
+    },
+    {
+      "id": "hf-https://tldr.takara.ai/p/2603.14646",
+      "title": "Dynamic Theory of Mind as a Temporal Memory Problem: Evidence from Large Language Models",
+      "url": "https://tldr.takara.ai/p/2603.14646",
+      "source": "hf-papers",
+      "description": "Theory of Mind (ToM) is central to social cognition and human-AI interaction, and Large Language Models (LLMs) have been used to help understand and represent ToM. However, most evaluations treat ToM as a static judgment at a single moment, primarily relying on tests of false beliefs. This overlooks",
+      "createdAt": "2026-03-15T22:54:03.000Z"
+    },
+    {
+      "id": "hf-https://tldr.takara.ai/p/2603.17370",
+      "title": "Material Magic Wand: Material-Aware Grouping of 3D Parts in Untextured Meshes",
+      "url": "https://tldr.takara.ai/p/2603.17370",
+      "source": "hf-papers",
+      "description": "We introduce the problem of material-aware part grouping in untextured meshes. Many real-world shapes, such as scales of pinecones or windows of buildings, contain repeated structures that share the same material but exhibit geometric variations. When assigning materials to such meshes, these repeat",
+      "createdAt": "2026-03-18T05:25:38.000Z"
+    },
+    {
+      "id": "hf-https://tldr.takara.ai/p/2603.14410",
+      "title": "BiT-MCTS: A Theme-based Bidirectional MCTS Approach to Chinese Fiction Generation",
+      "url": "https://tldr.takara.ai/p/2603.14410",
+      "source": "hf-papers",
+      "description": "Generating long-form linear fiction from open-ended themes remains a major challenge for large language models, which frequently fail to guarantee global structure and narrative diversity when using premise-based or linear outlining approaches. We present BiT-MCTS, a theme-driven framework that oper",
+      "createdAt": "2026-03-15T14:52:20.000Z"
+    },
+    {
+      "id": "hf-https://tldr.takara.ai/p/2603.15330",
+      "title": "MeMix: Writing Less, Remembering More for Streaming 3D Reconstruction",
+      "url": "https://tldr.takara.ai/p/2603.15330",
+      "source": "hf-papers",
+      "description": "Reconstruction is a fundamental task in 3D vision and a fundamental capability for spatial intelligence. Particularly, streaming 3D reconstruction is central to real-time spatial perception, yet existing recurrent online models often suffer from progressive degradation on long sequences due to state",
+      "createdAt": "2026-03-16T14:21:19.000Z"
+    },
+    {
+      "id": "hf-https://tldr.takara.ai/p/2603.19222",
+      "title": "Spectrally-Guided Diffusion Noise Schedules",
+      "url": "https://tldr.takara.ai/p/2603.19222",
+      "source": "hf-papers",
+      "description": "Denoising diffusion models are widely used for high-quality image and video generation. Their performance depends on noise schedules, which define the distribution of noise levels applied during training and the sequence of noise levels traversed during sampling. Noise schedules are typically handcr",
+      "createdAt": "2026-03-19T17:59:12.000Z"
+    },
+    {
+      "id": "hf-https://tldr.takara.ai/p/2603.19221",
+      "title": "Online Learning and Equilibrium Computation with Ranking Feedback",
+      "url": "https://tldr.takara.ai/p/2603.19221",
+      "source": "hf-papers",
+      "description": "Online learning in arbitrary, and possibly adversarial, environments has been extensively studied in sequential decision-making, and it is closely connected to equilibrium computation in game theory. Most existing online learning algorithms rely on \\emph{numeric} utility feedback from the environmen",
+      "createdAt": "2026-03-19T17:59:07.000Z"
+    },
+    {
+      "id": "hf-https://tldr.takara.ai/p/2603.16601",
+      "title": "Tarab: A Multi-Dialect Corpus of Arabic Lyrics and Poetry",
+      "url": "https://tldr.takara.ai/p/2603.16601",
+      "source": "hf-papers",
+      "description": "We introduce the Tarab Corpus, a large-scale cultural and linguistic resource that brings together Arabic song lyrics and poetry within a unified analytical framework. The corpus comprises 2.56 million verses and more than 13.5 million tokens, making it, to our knowledge, the largest open Arabic cor",
+      "createdAt": "2026-03-17T14:45:57.000Z"
+    },
+    {
+      "id": "hf-https://tldr.takara.ai/p/2603.16816",
+      "title": "WildDepth: A Multimodal Dataset for 3D Wildlife Perception and Depth Estimation",
+      "url": "https://tldr.takara.ai/p/2603.16816",
+      "source": "hf-papers",
+      "description": "Depth estimation and 3D reconstruction have been extensively studied as core topics in computer vision. Starting from rigid objects with relatively simple geometric shapes, such as vehicles, the research has expanded to address general objects, including challenging deformable objects, such as human",
+      "createdAt": "2026-03-17T17:19:43.000Z"
+    },
+    {
+      "id": "hf-https://tldr.takara.ai/p/2603.14833",
+      "title": "Ablate and Rescue: A Causal Analysis of Residual Stream Hyper-Connections",
+      "url": "https://tldr.takara.ai/p/2603.14833",
+      "source": "hf-papers",
+      "description": "Multi-stream transformer architectures have recently been proposed as a promising direction for managing representation collapse and the vanishing gradient problem for residual connections, yet their internal mechanisms remain unexplored. In particular, the recently introduced Manifold-Constrained H",
+      "createdAt": "2026-03-16T05:24:44.000Z"
+    },
+    {
+      "id": "hf-https://tldr.takara.ai/p/2603.14469",
+      "title": "Physics-Informed Policy Optimization via Analytic Dynamics Regularization",
+      "url": "https://tldr.takara.ai/p/2603.14469",
+      "source": "hf-papers",
+      "description": "Reinforcement learning (RL) has achieved strong performance in robotic control; however, state-of-the-art policy learning methods, such as actor-critic methods, still suffer from high sample complexity and often produce physically inconsistent actions. This limitation stems from neural policies impl",
+      "createdAt": "2026-03-15T16:20:45.000Z"
+    },
+    {
+      "id": "hf-https://tldr.takara.ai/p/2603.16052",
+      "title": "A Context Alignment Pre-processor for Enhancing the Coherence of Human-LLM Dialog",
+      "url": "https://tldr.takara.ai/p/2603.16052",
+      "source": "hf-papers",
+      "description": "Large language models (LLMs) have made remarkable progress in generating fluent text, but they still face a critical challenge of contextual misalignment in long-term and dynamic dialogue. When human users omit premises, simplify references, or shift context abruptly during interactions with LLMs, t",
+      "createdAt": "2026-03-17T01:36:14.000Z"
+    },
+    {
+      "id": "hf-https://tldr.takara.ai/p/2603.14700",
+      "title": "Design Space of Self--Consistent Electrostatic Machine Learning Interatomic Potentials",
+      "url": "https://tldr.takara.ai/p/2603.14700",
+      "source": "hf-papers",
+      "description": "Machine learning interatomic potentials (MLIPs) have become widely used tools in atomistic simulations. For much of the history of this field, the most commonly employed architectures were based on short-ranged atomic energy contributions, and the assumption of locality still persists in many modern",
+      "createdAt": "2026-03-16T01:16:08.000Z"
+    }
+  ]
+}
