@@ -1,0 +1,392 @@
+{
+  "date": "2026-03-29",
+  "fetchedAt": "2026-03-30T01:13:36.560Z",
+  "enrichedAt": "2026-03-30T01:25:00.000Z",
+  "items": [
+    {
+      "id": "hn-47567969",
+      "title": "Claude Code runs Git reset –hard origin/main against project repo every 10 mins",
+      "url": "https://github.com/anthropics/claude-code/issues/40710",
+      "source": "hackernews",
+      "score": 146,
+      "createdAt": "2026-03-29T22:15:06.000Z",
+      "summary_zh": "GitHub Issue 披露：在特定条件下，Claude Code 可能对项目仓库周期性执行 `git reset --hard origin/main`，相当于定时把本地未推送改动全部抹掉。\n\n若属实，这是比「误删文件」更隐蔽的灾难——工作树在后台被静默对齐远端，未提交或未备份的修改会瞬间消失。讨论集中在触发条件、是否与设计意图有关、以及团队应如何加防护（分支策略、钩子、只读沙箱）。\n\n对任何把 Agent 接进真实仓库的团队，这条都值得立刻核对版本与配置，而不是等踩雷。",
+      "title_zh": "Claude Code 被曝每 10 分钟对仓库执行 hard reset",
+      "tags": [
+        "AI/ML",
+        "开发工具",
+        "安全"
+      ],
+      "valueScore": 10,
+      "insight": "对用 AI 写代码的团队——Agent 与 Git 的交互必须可审计、可回滚。",
+      "commentary": "如果 Agent 能 silent 掉你一下午的 diff，那比写烂代码可怕一百倍——先确认是不是你这台复现。",
+      "image": ""
+    },
+    {
+      "id": "hn-47563384",
+      "title": "Police used AI facial recognition to wrongly arrest TN woman for crimes in ND",
+      "url": "https://www.cnn.com/2026/03/29/us/angela-lipps-ai-facial-recognition",
+      "source": "hackernews",
+      "score": 344,
+      "createdAt": "2026-03-29T14:20:23.000Z",
+      "summary_zh": "CNN 报道：执法部门依据人脸识别结果，将一名田纳西州女性错误关联到北达科他州的案件并实施逮捕，事后证明系误认。\n\n案件再次把「算法置信度 vs 司法程序」「跨州数据匹配误差」和「对公民生活的实际伤害」推到台前。技术圈讨论往往停在准确率曲线，而真实世界是一次误抓就足以毁掉信任链条。\n\n对 AI 从业者与政策观察者，这是「部署即政治」的鲜活案例，而非遥远的伦理脚注。",
+      "title_zh": "警方用人脸识别误捕：田纳西女子被错指北达科他州案件",
+      "tags": [
+        "AI/ML",
+        "安全",
+        "行业动态"
+      ],
+      "valueScore": 9,
+      "insight": "对算法与公共系统设计者——误识代价不对称，流程里必须有人类复核与救济。",
+      "commentary": "准确率 99% 听起来很高，落到某个人身上就是 100% 的冤案体验。",
+      "image": "assets/2026-03-29/b906e40f6a.jpg"
+    },
+    {
+      "id": "hn-47566865",
+      "title": "ChatGPT won't let you type until Cloudflare reads your React state",
+      "url": "https://www.buchodi.com/chatgpt-wont-let-you-type-until-cloudflare-reads-your-react-state-i-decrypted-the-program-that-does-it/",
+      "source": "hackernews",
+      "score": 310,
+      "createdAt": "2026-03-29T20:21:05.000Z",
+      "summary_zh": "作者逆向分析 ChatGPT 前端与 Cloudflare 防护链路，发现用户在能输入前，页面侧会经历复杂校验，其中涉及对 React 状态等的探测——本质是反机器人与风控脚本在「放行」前读取浏览器内状态。\n\n文章从技术细节讨论：这对隐私边界意味着什么、普通用户能否感知、以及安全研究者如何解密相关程序逻辑。HN 热度极高，反映社区对「用大模型前要先过一层黑箱探针」的敏感。\n\n具体实现随产品迭代会变，但「前端状态成为信任信号」这一趋势值得记录。",
+      "title_zh": "ChatGPT：在 Cloudflare「读完」你的 React 状态前不能打字？",
+      "tags": [
+        "Web",
+        "安全",
+        "AI/ML"
+      ],
+      "valueScore": 9,
+      "insight": "对前端与安全工程师——风控与隐私的交界正在钻进组件状态里。",
+      "commentary": "想聊个天，先被 Cloudflare 围观一遍 React——这画面既赛博又荒诞。",
+      "image": ""
+    },
+    {
+      "id": "hn-47561819",
+      "title": "Miasma: A tool to trap AI web scrapers in an endless poison pit",
+      "url": "https://github.com/austin-weeks/miasma",
+      "source": "hackernews",
+      "score": 286,
+      "createdAt": "2026-03-29T10:10:12.000Z",
+      "summary_zh": "Miasma 是面向「恶心 AI 爬虫」的开源实验：通过构造无限深度或垃圾化的链接结构，把不遵守礼仪的抓取器拖进资源黑洞。\n\n背后情绪很真实：站长厌倦了训练数据被无偿收割，又难以从法律上快速止损，于是用工程手段对抗工程手段。讨论也涉及伦理——误伤合规爬虫、缓存与 CDN、以及这是否会加剧网络军备竞赛。\n\n对关注 Web 生态与内容版权的读者，是「猫鼠游戏」的最新一章。",
+      "title_zh": "Miasma：把 AI 爬虫引进「毒坑」循环",
+      "tags": [
+        "开源",
+        "安全",
+        "Web"
+      ],
+      "valueScore": 9,
+      "insight": "对站长与爬虫作者——抓取礼仪和 robots 之外，对抗面在扩大。",
+      "commentary": "当训练数据变成战场，网站也开始武装到牙齿——Miasma 这名字起得够阴间。",
+      "image": ""
+    },
+    {
+      "id": "ch-changelog.com/16/2827",
+      "title": "Astral has been acquired by OpenAI",
+      "url": "https://changelog.com/news/184",
+      "source": "changelog",
+      "description": "Astral is joining OpenAI, which says a lot about where the center of gravity is moving for developer tools, LiteLLM got hit by a nasty supply-chain attack, and OpenCode blew up as the latest serious open source swing at the coding-agent stack. We've also got Rust doing a very public reality check on",
+      "createdAt": "2026-03-27T20:00:00.000Z",
+      "summary_zh": "Changelog 新闻稿聚焦：Astral（Python 生态里 uv、ruff 等工具背后的组织）加入 OpenAI，被视为开发者工具重心继续向「模型公司」靠拢的信号。\n\n同一期还提到 LiteLLM 遭遇供应链攻击、OpenCode 在开源编程 Agent 栈中的爆发，以及 Rust 社区的公开反思等摘要。对依赖 uv/ruff 的团队，收购后的路线图、开源承诺与发布节奏会成为日常议题。\n\n适合作为「一周技术风向」的入口，再按需深挖各条链接。",
+      "title_zh": "Changelog：Astral 被 OpenAI 收购等一周要闻",
+      "tags": [
+        "行业动态",
+        "开源",
+        "AI/ML"
+      ],
+      "valueScore": 9,
+      "insight": "对 Python 与工具链用户——收购是信号，供应链安全是硬成本。",
+      "commentary": "工具进大厂口袋，社区心里都会问一句：还能不能愉快地 `uv sync`。",
+      "image": "assets/2026-03-29/ba368112ec.jpg"
+    },
+    {
+      "id": "hn-47556290",
+      "title": "Pretext: TypeScript library for multiline text measurement and layout",
+      "url": "https://github.com/chenglou/pretext",
+      "source": "hackernews",
+      "score": 190,
+      "createdAt": "2026-03-28T16:52:45.000Z",
+      "summary_zh": "Pretext 是 chenglou 出品的 TypeScript 库，专注多行文本的测量与排版——在 Canvas、编辑器、设计工具里，「字符串到底占多宽、怎么折行」看似简单，实则全是坑。\n\n相比拍脑袋用字符数估算，库的目标是给出更可靠的几何布局基础。HN 近 200 分，说明前端与图形开发者对这类「底层积木」持续饥渴。\n\n若在做富文本、幻灯片渲染或自定义排版引擎，值得加入工具箱候选。",
+      "title_zh": "Pretext：多行文本测量与排版的 TS 库",
+      "tags": [
+        "Web",
+        "开源",
+        "开发工具"
+      ],
+      "valueScore": 8,
+      "insight": "对前端与图形开发者——排版正确性往往赢在测量层。",
+      "commentary": "多行文本是前端永远的魔鬼细节，有人认真封装就该鼓掌。",
+      "image": ""
+    },
+    {
+      "id": "hn-47531576",
+      "title": "The RISE RISC-V Runners: free, native RISC-V CI on GitHub",
+      "url": "https://riseproject.dev/2026/03/24/announcing-the-rise-risc-v-runners-free-native-risc-v-ci-on-github/",
+      "source": "hackernews",
+      "score": 111,
+      "createdAt": "2026-03-26T15:17:17.000Z",
+      "summary_zh": "RISE 项目宣布在 GitHub 上提供免费、原生的 RISC-V（RV64GC）Runner，让开源仓库能在真实 RISC-V 硬件（而非仅交叉编译）上跑 CI。\n\n对操作系统、工具链、嵌入式与语言运行时维护者，这是降低「第二架构」测试门槛的重要基础设施。也象征 RISC-V 在软件供应链里从「能编译」走向「能持续验证」。\n\n具体配额、稳定性与适用场景需读官方文档。",
+      "title_zh": "RISE：GitHub 上免费原生 RISC-V CI Runner",
+      "tags": [
+        "开源",
+        "基础设施",
+        "硬件"
+      ],
+      "valueScore": 8,
+      "insight": "对多架构与系统软件维护者——CI 里有真机是质量分水岭。",
+      "commentary": "RISC-V 缺的不是口号，是能在 PR 里跑绿的真实机器——这步很关键。",
+      "image": ""
+    },
+    {
+      "id": "hn-47568028",
+      "title": "Coding Agents Could Make Free Software Matter Again",
+      "url": "https://www.gjlondon.com/blog/ai-agents-could-make-free-software-matter-again/",
+      "source": "hackernews",
+      "score": 99,
+      "createdAt": "2026-03-29T22:21:34.000Z",
+      "summary_zh": "文章论证：编程 Agent 的普及可能反过来放大自由软件（Free Software）的意义——当生成代码变得廉价，许可证、可审计性、可分叉权与社区治理重新成为差异化来源。\n\n作者从「用户能否真正掌控运行环境」出发，讨论开源运动在 AI 时代的新叙事，而非简单「AI 取代程序员」的二元论。对关心 GPL/伦理开源与商业闭源边界的人，是一篇偏观念但有力的读物。\n\n可与近期工具链收购、供应链攻击新闻对照阅读。",
+      "title_zh": "编程 Agent 能否让自由软件再次重要？",
+      "tags": [
+        "开源",
+        "AI/ML",
+        "思考"
+      ],
+      "valueScore": 8,
+      "insight": "对开源参与者——叙事焦点可从「代码产量」转向「权利与治理」。",
+      "commentary": "代码越自动生成，「谁有权改、谁能 fork」反而越像真问题。",
+      "image": ""
+    },
+    {
+      "id": "lb-wy4ndf",
+      "title": "Linux is an interpreter",
+      "url": "https://astrid.tech/2026/03/28/0/linux-is-an-interpreter/",
+      "source": "lobsters",
+      "score": 46,
+      "createdAt": "2026-03-28T13:41:08.000-05:00",
+      "summary_zh": "作者从「解释器」视角重新描述 Linux：内核与用户态共同把硬件与 syscall 语义「解释」成程序可理解的世界，而发行版、容器与命名空间又叠上一层解释层。\n\n这类文章的价值在于心智模型——当你把 OS 看成多层解释器栈，很多设计（从 ELF 加载到 cgroup）会更容易串起来。适合系统编程爱好者与想跳出「Linux 就是内核+包管理」刻板印象的读者。\n\n行文偏随笔，但技术隐喻干净。",
+      "title_zh": "把 Linux 看作解释器",
+      "tags": [
+        "基础设施",
+        "思考",
+        "开源"
+      ],
+      "valueScore": 8,
+      "insight": "对系统方向学习者——好的类比比堆手册更能建立直觉。",
+      "commentary": "OS 课如果从这个角度开场，可能少睡一半人。",
+      "image": ""
+    },
+    {
+      "id": "lb-u4bws9",
+      "title": "BubbleWrap your dev env and agents",
+      "url": "https://dpc.pw/posts/bubblewrap-your-dev-env-and-agents/",
+      "source": "lobsters",
+      "score": 34,
+      "createdAt": "2026-03-28T14:13:02.000-05:00",
+      "summary_zh": "文章介绍用 Bubblewrap（bwrap）等 Linux 命名空间技术给开发环境与 AI Agent「套气泡」：限制文件系统可见性、网络与能力，降低「Agent 一键把家目录送走」的风险。\n\n在人人跑 Claude Code / Cursor Agent 的背景下，沙箱不再是服务器专属话题，而是笔记本上的刚需。作者从实践角度串联 bubblewrap、与容器方案的取舍。\n\n对要把 Agent 接进 shell 的开发者，是可操作的加固思路。",
+      "title_zh": "用 Bubblewrap 给开发环境和 Agent 加气泡沙箱",
+      "tags": [
+        "安全",
+        "基础设施",
+        "AI/ML"
+      ],
+      "valueScore": 8,
+      "insight": "对本地 Agent 用户——轻量沙箱比事后 grep 日志管用。",
+      "commentary": "Agent 越能干，越该住在气泡里——bwrap 这种老工具反而更香。",
+      "image": ""
+    },
+    {
+      "id": "hn-47568080",
+      "title": "There is No Spoon. A software engineers primer for demystified ML",
+      "url": "https://github.com/dreddnafious/thereisnospoon",
+      "source": "hackernews",
+      "score": 39,
+      "createdAt": "2026-03-29T22:28:11.000Z",
+      "summary_zh": "GitHub 上的「There is No Spoon」项目定位为软件工程师的机器学习入门：去神秘化梯度下降、张量、训练循环等概念，用程序员熟悉的抽象对齐 ML 术语。\n\n适合已经会写业务代码、却被论文符号劝退的读者。名字玩 Matrix 梗，态度是「ML 不是魔法，是另一套工程」。\n\n内容深度与更新节奏需直接浏览仓库；作为 HN 热门资源，适合加入自学清单。",
+      "title_zh": "There is No Spoon：给工程师的 ML 去神秘化读本",
+      "tags": [
+        "AI/ML",
+        "开源",
+        "职业"
+      ],
+      "valueScore": 7,
+      "insight": "对想跨界 ML 的后端与系统工程师——补齐语义比先啃框架重要。",
+      "commentary": "矩阵不是勺子，是你还没习惯的数组——这调调对工程师胃口。",
+      "image": ""
+    },
+    {
+      "id": "lb-bwyqi9",
+      "title": "Linux, finally for everyone",
+      "url": "https://yololinux.com",
+      "source": "lobsters",
+      "score": 56,
+      "createdAt": "2026-03-28T08:02:13.000-05:00",
+      "summary_zh": "yololinux.com 以「Linux 终于面向所有人」为卖点，主打降低桌面 Linux 的上手门槛——安装、驱动、日常软件与游戏兼容等老生常谈痛点。\n\n具体是发行版导购、脚本集合还是商业服务，需打开站点核实；Lobsters 上 56 分说明「桌面 Linux 可用性」仍是社区情绪按钮。\n\n对想把亲友从某闭源系统迁出来的技术人，这类聚合入口省得自己重复写教程。",
+      "title_zh": "YOLO Linux：面向大众的桌面 Linux 入口？",
+      "tags": [
+        "开源",
+        "产品设计",
+        "基础设施"
+      ],
+      "valueScore": 7,
+      "insight": "对 Linux 推广者——体验打包与叙事和内核一样影响采用率。",
+      "commentary": "名字带 YOLO，希望装系统不用真的「一条命」。",
+      "image": ""
+    },
+    {
+      "id": "lb-vodhvg",
+      "title": "AI Hot Takes From A Platform Engineer / SRE",
+      "url": "https://alienchow.dev/post/ai_takeaways_mar_2026/",
+      "source": "lobsters",
+      "score": 19,
+      "createdAt": "2026-03-28T23:47:03.000-05:00",
+      "summary_zh": "一位平台工程 / SRE 背景作者整理对 AI 在基础设施与运维场景中的「辣评」：哪些自动化是真省人力，哪些是会议幻灯片；模型输出如何进 on-call 流程才不误判。\n\n文章价值在一线视角——不是模型排行榜，而是「上线以后谁背锅」。适合正在评估 AIOps、日志摘要、工单分类等用例的团队。\n\n具体论点以原文为准，标题已标明 2026 年 3 月时间切片。",
+      "title_zh": "平台工程/SRE 视角的 AI 辣评",
+      "tags": [
+        "AI/ML",
+        "基础设施",
+        "思考"
+      ],
+      "valueScore": 7,
+      "insight": "对 SRE——AI 要先通过 on-call 可信性测试，再谈赋能。",
+      "commentary": "Hot takes 不可怕，可怕的是没跑过生产的人教你怎么用 AI 值班。",
+      "image": ""
+    },
+    {
+      "id": "dt-3423023",
+      "title": "Vibe with Code: Plan First, Build Second",
+      "url": "https://dev.to/abarron/vibe-with-code-plan-first-build-second-3n8o",
+      "source": "devto",
+      "score": 4,
+      "description": "The most expensive mistake engineers make with AI isn't the code. It's skipping the plan.  Software...",
+      "createdAt": "2026-03-29T03:18:42Z",
+      "summary_zh": "作者指出：用 AI 写代码最贵的错误往往不是生成烂代码，而是跳过计划直接让模型开干。\n\n软件工程里，规格、边界与验收标准一旦含糊，vibe coding 只会加速把技术债刷成高利贷。文章提倡「先规划、后生成」，把 Agent 当执行器而非算命机。\n\n与团队规范、设计文档传统相容，适合作为内部培训短文的语气。",
+      "title_zh": "氛围编程：先计划，再动手",
+      "tags": [
+        "AI/ML",
+        "思考",
+        "开发工具"
+      ],
+      "valueScore": 7,
+      "insight": "对 AI 辅助开发团队——计划质量是生成质量的上限。",
+      "commentary": "没有计划的 vibe，基本等于开盲盒——盒子里多半是债。",
+      "image": "assets/2026-03-29/533b408f4e.webp"
+    },
+    {
+      "id": "dt-3413992",
+      "title": "Gemini Tool Combo: Building a LINE Meetup Helper with Maps Grounding and Places API in a Single API Call",
+      "url": "https://dev.to/gde/gemini-tool-combo-building-a-line-meetup-helper-with-maps-grounding-and-places-api-in-a-single-api-call-3ppd",
+      "source": "devto",
+      "score": 8,
+      "description": "Reference articles:     Gemini API tooling updates: context circulation, tool combos and Maps...",
+      "createdAt": "2026-03-29T02:07:59Z",
+      "summary_zh": "作者演示 Gemini 的「工具组合」能力：在一次 API 调用链路里串联地图接地（Maps grounding）、地点 API 等，做一个 LINE 上的聚会助手原型。\n\n对应用开发者，这展示了「模型 + 多个结构化工具」在产品里的拼法，减少来回多轮编排的胶水代码。也反映 Google 在把地图生态嵌进模型工具面的策略。\n\n实现细节与配额以官方文档为准。",
+      "title_zh": "Gemini 工具组合：单次调用串联地图与地点 API",
+      "tags": [
+        "AI/ML",
+        "开发工具",
+        "产品设计"
+      ],
+      "valueScore": 7,
+      "insight": "对做对话式产品的开发者——tool combo 是降延迟与复杂度的关键。",
+      "commentary": "一次调用里把地图和地点串起来，聚会助手这种场景终于不那么拧巴了。",
+      "image": ""
+    },
+    {
+      "id": "dt-3423909",
+      "title": "Build a local RAG pipeline in 30 lines of Python (no Docker, no API keys)",
+      "url": "https://dev.to/wiscale-fr/build-a-local-rag-pipeline-in-30-lines-of-python-no-docker-no-api-keys-4e7d",
+      "source": "devto",
+      "score": 0,
+      "description": "Most RAG tutorials start with \"spin up Docker\" and \"get your API key.\" This one starts with pip...",
+      "createdAt": "2026-03-29T07:11:22Z",
+      "summary_zh": "教程主张：多数 RAG 示例一上来就 Docker + API Key，而这篇用纯 pip 依赖在本地几十行 Python 搭出最小可读流水线。\n\n价值在「可复现的学习路径」——先把索引、检索、拼接 prompt 跑通，再决定是否上容器与云端模型。对教学、原型和离线环境友好。\n\n生产级 RAG 还需评测、重排与监控，但入门曲线可以更平。",
+      "title_zh": "30 行 Python 搭本地 RAG：不用 Docker、不要 API Key",
+      "tags": [
+        "AI/ML",
+        "数据",
+        "开源"
+      ],
+      "valueScore": 7,
+      "insight": "对 RAG 初学者——先本地闭环，再谈工程化。",
+      "commentary": "RAG 教程卷到 Docker 里开派对，偶尔需要这种「pip 一把梭」的清醒剂。",
+      "image": "assets/2026-03-29/ed533c0b9d.webp"
+    },
+    {
+      "id": "dt-3425624",
+      "title": "Your Local LLM Just Learned to Think: Building an Autonomous ReAct Agent with Ollama + MCP",
+      "url": "https://dev.to/tsunamayo7/your-local-llm-just-learned-to-think-building-an-autonomous-react-agent-with-ollama-mcp-44ln",
+      "source": "devto",
+      "score": 0,
+      "description": "Your local Ollama model just learned to think for itself.  With helix-agent v0.4.0, your local LLM...",
+      "createdAt": "2026-03-29T14:29:42Z",
+      "summary_zh": "文章介绍用 Ollama 本地模型结合 MCP，搭建类 ReAct 的自主 Agent：模型在循环中决定调用哪些工具、观察结果再迭代。\n\n「Think」在工程上即结构化推理步骤 + 工具协议；本地跑的意义是数据不出机、成本可控。文中提到 helix-agent 等组件版本，实现时需核对兼容性。\n\n对想在笔记本上实验 Agent 协议而不依赖闭源 API 的开发者，是实践向入口。",
+      "title_zh": "Ollama + MCP：本地 LLM 搭自主 ReAct Agent",
+      "tags": [
+        "AI/ML",
+        "开源",
+        "开发工具"
+      ],
+      "valueScore": 7,
+      "insight": "对隐私敏感场景——本地模型 + MCP 是可行的 Agent 最小栈。",
+      "commentary": "本地模型也能 ReAct，只要别指望它跟云端大哥一样从不翻车。",
+      "image": "assets/2026-03-29/2af8014fdf.webp"
+    },
+    {
+      "id": "dt-3421975",
+      "title": "Building an ISO 27001-Ready MCP Security Scanner System on Notion MCP",
+      "url": "https://dev.to/terungwa007/whos-auditing-your-ais-tools-building-an-iso-27001-ready-mcp-security-system-on-notion-mcp-338g",
+      "source": "devto",
+      "score": 1,
+      "description": "This is a submission for the Notion MCP Challenge  What I Built  A question most organisations have...",
+      "createdAt": "2026-03-29T22:08:39Z",
+      "summary_zh": "作者面向企业场景，描述在 Notion MCP 之上搭建符合 ISO 27001 思路的 MCP 安全扫描与审计体系：谁接入了哪些工具、调用载荷是否越界、如何留痕。\n\n合规叙事下，核心仍是「Agent 工具链的可见性与治理」。对要把 MCP 推进金融、政务等强审计行业的团队，可参考其控制点拆分方式。\n\n具体是否满足认证要求需由审计方认定，文章侧重架构启发。",
+      "title_zh": "面向 ISO 27001 的 MCP 安全扫描与 Notion 集成",
+      "tags": [
+        "安全",
+        "AI/ML",
+        "SaaS"
+      ],
+      "valueScore": 7,
+      "insight": "对企业架构师——MCP 进生产前要有工具清单与调用审计。",
+      "commentary": "MCP 火到要写进 ISO 叙事里，说明它真进厂了，不是玩具。",
+      "image": "assets/2026-03-29/61ba562c32.webp"
+    },
+    {
+      "id": "hf-https://tldr.takara.ai/p/2603.25284",
+      "title": "SliderQuant: Accurate Post-Training Quantization for LLMs",
+      "url": "https://tldr.takara.ai/p/2603.25284",
+      "source": "hf-papers",
+      "description": "In this paper, we address post-training quantization (PTQ) for large language models (LLMs) from an overlooked perspective: given a pre-trained high-precision LLM, the predominant sequential quantization framework treats different layers equally, but this may be not optimal in challenging bit-width ",
+      "createdAt": "2026-03-26T10:21:38.000Z",
+      "summary_zh": "论文讨论大模型训练后量化（PTQ）：传统逐层顺序量化往往对各层「一视同仁」，在极低比特等苛刻设定下次优。SliderQuant 从层间敏感度差异出发，提出更精细的量化策略以提升精度—压缩权衡。\n\n对要在端侧、私有云部署 LLM 的工程团队，PTQ 是成本与延迟的关键杠杆；学术侧则补充了「为何一刀切量化会吃亏」的分析。\n\n实现与复现需阅读原文与代码（若有）。",
+      "title_zh": "SliderQuant：更精准的大模型训练后量化",
+      "tags": [
+        "AI/ML",
+        "基础设施",
+        "硬件"
+      ],
+      "valueScore": 7,
+      "insight": "对推理优化工程师——层间不均质是 PTQ 的重要抓手。",
+      "commentary": "量化不是「全体一起砍比特」，这层窗户纸捅破就有论文写。",
+      "image": "assets/2026-03-29/5dfc238ce5.png"
+    },
+    {
+      "id": "hf-https://tldr.takara.ai/p/2603.22563",
+      "title": "Privacy-Preserving Reinforcement Learning from Human Feedback via Decoupled Reward Modeling",
+      "url": "https://tldr.takara.ai/p/2603.22563",
+      "source": "hf-papers",
+      "description": "Preference-based fine-tuning has become an important component in training large language models, and the data used at this stage may contain sensitive user information. A central question is how to design a differentially private pipeline that is well suited to the distinct structure of reinforceme",
+      "createdAt": "2026-03-23T20:45:17.000Z",
+      "summary_zh": "人类反馈强化学习（RLHF）依赖偏好数据，其中常含敏感用户信息。论文探讨如何设计差分隐私流程，使之适配 RLHF 中奖励建模等环节的特殊结构。\n\n「解耦奖励建模」思路有助于在隐私预算与对齐效果之间做更可控的权衡。对关注合规与对齐的研究者、以及产品侧要做私有微调的团队，属于前沿交叉题。\n\n数学与算法细节见论文正文。",
+      "title_zh": "解耦奖励建模下的隐私保护 RLHF",
+      "tags": [
+        "AI/ML",
+        "安全",
+        "数据"
+      ],
+      "valueScore": 7,
+      "insight": "对对齐与隐私交叉领域——RLHF 管线需要专门的 DP 设计，而非套通用 API。",
+      "commentary": "又要对齐又要隐私，奖励模型还得拆开揉——这届 RLHF 真不轻松。",
+      "image": "assets/2026-03-29/65bdb723b3.png"
+    }
+  ]
+}
