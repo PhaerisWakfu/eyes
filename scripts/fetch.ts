@@ -1,3 +1,4 @@
+import "./load-env.ts";
 import { writeFileSync, mkdirSync, existsSync, readdirSync, readFileSync } from "node:fs";
 import { resolve, dirname } from "node:path";
 import { fileURLToPath } from "node:url";

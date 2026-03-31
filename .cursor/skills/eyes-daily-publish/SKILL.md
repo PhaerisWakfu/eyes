@@ -70,7 +70,7 @@ npm run wechat -- {DATE}
 2. **读取导出的 Markdown**：读取 `exports/{DATE}.md` 的完整内容作为正文。
 3. **调用 MCP 工具**：使用 `call_mcp_tool`，server 为 `user-wenyan-mcp`，toolName 为 `publish_article`，传入：
    - 正文内容（来自 `exports/{DATE}.md`）；
-   - 主题：**phycat**（按用户要求）；
+   - 主题：**替换为你的公众号主题标识**（按你方 MCP / 平台要求填写）；
    - 其他参数按 schema 填写（如标题可取自日期或「Eyes 日报 {DATE}」等）。
 
 若 MCP 要求标题、摘要等，可由 Agent 根据 `exports/{DATE}.md` 或 `data/enriched/{DATE}.json` 生成简短标题/摘要。
@@ -81,7 +81,7 @@ npm run wechat -- {DATE}
 - [ ] `data/enriched/{DATE}.json` 已存在且仅含 Top20，含 `valueScore`、`summary_zh`、`tags`、`commentary` 等
 - [ ] `data/assets/{DATE}/` 下已有配图（若 enriched 中填了 image）
 - [ ] `exports/{DATE}.md` 已生成且图片路径正确
-- [ ] wenyan-mcp `publish_article` 已使用主题 **phycat** 成功发布
+- [ ] wenyan-mcp `publish_article` 已使用正确主题标识成功发布
 
 ## 注意事项
 

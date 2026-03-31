@@ -2,7 +2,12 @@
   "name": "eyes",
   "type": "module",
   "version": "0.1.0",
+  "description": "多源科技资讯聚合、AI 增强日报、Astro + Cloudflare 站点与微信公众号 Markdown 导出",
+  "license": "MIT",
   "private": true,
+  "engines": {
+    "node": ">=18"
+  },
   "scripts": {
     "fetch": "tsx scripts/fetch.ts",
     "wechat": "tsx scripts/wechat-export.ts",
@@ -22,6 +27,7 @@
   },
   "devDependencies": {
     "@astrojs/cloudflare": "^12.6.13",
+    "dotenv": "^16.4.7",
     "tsx": "^4.19.0",
     "typescript": "^5.7.0",
     "@types/node": "^22.0.0",

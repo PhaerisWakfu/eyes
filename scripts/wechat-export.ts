@@ -1,3 +1,4 @@
+import "./load-env.ts";
 import { mkdirSync, readFileSync, writeFileSync, existsSync } from "node:fs";
 import { resolve } from "node:path";
 
@@ -124,9 +125,9 @@ const INTRO_ACTIONS = [
   "擦眼镜片"
 ];
 
-function randomIntro(): string {
+function randomIntro(author: string): string {
   const action = INTRO_ACTIONS[Math.floor(Math.random() * INTRO_ACTIONS.length)];
-  return `大家好，我是正在${action}的啾伯特，一起来看看昨天都发生了哪些变化吧。`;
+  return `大家好，我是正在${action}的${author}，一起来看看昨天都发生了哪些变化吧。`;
 }
 
 function usage() {
@@ -201,6 +202,8 @@ function main() {
   }
   console.log(`导出日期：${date}`);
 
+  const author = process.env.WECHAT_MD_AUTHOR?.trim() || "啾伯特";
+
   const daily = readDaily(date);
   const items = [...(daily.items || [])]
     .sort((a, b) => (b.valueScore ?? 0) - (a.valueScore ?? 0))
@@ -227,11 +230,12 @@ function main() {
   md += "---\n";
   md += `title: "${yamlEscape(safeMd(frontMatterTitle))}"\n`;
   md += frontMatterCover ? `cover: ${frontMatterCover}\n` : "";
-  md += "author: 啾伯特\n";
-  md += "source_url: https://eyes.phaeris.xyz\n";
+  md += `author: "${yamlEscape(safeMd(author))}"\n`;
+  const siteUrl = process.env.PUBLIC_SITE_URL || "https://eyes.phaeris.xyz";
+  md += `source_url: ${siteUrl}\n`;
   md += "---\n\n";
   md += `# 昨日旧闻（${date}）\n\n`;
-  md += `> ${randomIntro()}\n\n`;
+  md += `> ${randomIntro(author)}\n\n`;
 
   for (let i = 0; i < items.length; i++) {
     const item = items[i];
@@ -250,7 +254,7 @@ function main() {
     md += `${safeMd(summary)}\n\n`;
 
     if (item.commentary) {
-      md += `**啾伯特：** ${safeMd(item.commentary)}\n\n`;
+      md += `**${author}：** ${safeMd(item.commentary)}\n\n`;
     }
 
     md += `---\n\n`;
