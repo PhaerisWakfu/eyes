@@ -1,0 +1,392 @@
+{
+  "date": "2026-04-02",
+  "fetchedAt": "2026-04-03T07:20:05.547Z",
+  "enrichedAt": "2026-04-03T08:05:00.000Z",
+  "items": [
+    {
+      "id": "hn-47616361",
+      "title": "Google releases Gemma 4 open models",
+      "url": "https://deepmind.google/models/gemma/gemma-4/",
+      "source": "hackernews",
+      "score": 1367,
+      "createdAt": "2026-04-02T16:10:54.000Z",
+      "valueScore": 10,
+      "title_zh": "谷歌发布 Gemma 4 开放模型",
+      "tags": [
+        "AI/ML",
+        "开源",
+        "行业动态"
+      ],
+      "image": "",
+      "summary_zh": "Google DeepMind 公布新一代开放权重模型系列 Gemma 4，延续 Gemma 在可商用许可与生态工具链上的路线，面向开发者与研究机构在本地、云端与多场景部署。\n\n在开源/开放模型竞争白热化的当下，Gemma 系列的迭代直接影响「默认基座」选择、微调成本与多语言/多模态能力对比。\n\n具体参数量级、上下文长度与评测成绩需以官方页面为准；对国内读者而言，关注其许可证条款、硬件需求与和主流中文模型的相对位置尤为实际。",
+      "insight": "做模型选型、私有化部署与 RAG 基座的团队建议当日必读：开放模型格局又一重要变量。",
+      "commentary": "HN 一千多分说明大家真的在看「开放模型春晚」——Gemma 4 一来，显卡和 README 又要加班了。"
+    },
+    {
+      "id": "hn-47615002",
+      "title": "Qwen3.6-Plus: Towards real world agents",
+      "url": "https://qwen.ai/blog?id=qwen3.6",
+      "source": "hackernews",
+      "score": 500,
+      "createdAt": "2026-04-02T14:28:52.000Z",
+      "valueScore": 9,
+      "title_zh": "Qwen3.6-Plus：走向真实世界的智能体",
+      "tags": [
+        "AI/ML",
+        "开源",
+        "产品设计"
+      ],
+      "image": "",
+      "summary_zh": "通义 Qwen 团队发布 Qwen3.6-Plus，博文强调在真实场景 Agent 能力上的提升，包括工具使用、长任务与可靠性等方向（细节以官方博客为准）。\n\n国产开放模型在「能聊」之外 increasingly 卷「能办事」，与全球前沿在 Agent 评测与产品形态上正面交锋。\n\n对已在用 Qwen 做应用与微调的开发者，这是跟进 API/权重更新与提示词迁移窗口的信号。",
+      "insight": "构建中文 Agent、工具链与多步工作流的工程师应优先阅读官方能力说明与限制。",
+      "commentary": "「真实世界」四个字比任何 benchmark 标题都狠——毕竟用户的世界从不按数据集分布出题。"
+    },
+    {
+      "id": "hn-47612724",
+      "title": "Lemonade by AMD: a fast and open source local LLM server using GPU and NPU",
+      "url": "https://lemonade-server.ai",
+      "source": "hackernews",
+      "score": 497,
+      "createdAt": "2026-04-02T11:04:51.000Z",
+      "valueScore": 9,
+      "title_zh": "AMD Lemonade：利用 GPU 与 NPU 的开源本地 LLM 服务",
+      "tags": [
+        "AI/ML",
+        "开源",
+        "硬件"
+      ],
+      "image": "",
+      "summary_zh": "AMD 推出名为 Lemonade 的开源本地大模型推理服务方案，强调在消费级与工作站硬件上同时利用 GPU 与 NPU 加速，降低本机部署门槛。\n\n端侧推理一直是「能跑」与「好用」的拉锯：驱动、量化、上下文与功耗都要过一遍；官方若打通 NPU 路径，对笔记本用户意义不小。\n\n可与 llama.cpp、Ollama 等生态对照，关注兼容性、模型格式与性能数据是否经得起实测。",
+      "insight": "关注 Windows/Linux 本机 AI 与 AMD 平台的用户值得安装试用并对比延迟与功耗。",
+      "commentary": "名字很夏日，活很硬核——终于有人认真喊 NPU 下来一起挤柠檬（汁）。"
+    },
+    {
+      "id": "hn-47617376",
+      "title": "OpenAI Acquires TBPN",
+      "url": "https://openai.com/index/openai-acquires-tbpn/",
+      "source": "hackernews",
+      "score": 198,
+      "createdAt": "2026-04-02T17:26:49.000Z",
+      "valueScore": 8,
+      "title_zh": "OpenAI 收购 TBPN",
+      "tags": [
+        "行业动态",
+        "AI/ML",
+        "商业模式"
+      ],
+      "image": "",
+      "summary_zh": "OpenAI 宣布收购 TBPN（具体业务与产品以官方公告为准），属于大模型龙头持续通过并购补齐人才、媒体或分发能力的常规动作。\n\n此类交易往往伴随对内容生态、品牌与监管叙事的布局，而不仅是技术收购。\n\n对观察 AI 产业整合节奏的读者，可结合过往收购案例看「模型公司」如何向平台化演进。",
+      "insight": "媒体、内容与战略岗位可跟踪：收购后产品线与用户触达会如何并入 ChatGPT 生态。",
+      "commentary": "并购新闻永远像 DLC——你永远不知道这一包买的是团队、牌照还是叙事权。"
+    },
+    {
+      "id": "hn-47621792",
+      "title": "Post Mortem: axios NPM supply chain compromise",
+      "url": "https://github.com/axios/axios/issues/10636",
+      "source": "hackernews",
+      "score": 85,
+      "createdAt": "2026-04-03T00:00:19.000Z",
+      "valueScore": 8,
+      "title_zh": "复盘：axios npm 供应链入侵事件",
+      "tags": [
+        "安全",
+        "开源",
+        "Web"
+      ],
+      "image": "",
+      "summary_zh": "axios 维护者在 GitHub issue 中发布供应链攻击事后复盘，梳理恶意版本如何进入 npm、影响范围、用户应采取的升级与校验步骤。\n\n作为 JS 生态最常用的 HTTP 客户端之一，此类事件会沿依赖树级联放大，是「锁文件 + CI 审计 + 应急沟通」的综合考题。\n\n建议团队以官方 issue 为唯一信源，核对发布时间线与哈希，并复盘内部拉包策略。",
+      "insight": "前端与平台工程应立即对照官方 post mortem 检查 lockfile、镜像源与发布流水线。",
+      "commentary": "axios 出事等于全网 HTTP 客户端集体做体检——这次复盘写得清楚，比恐慌推文值钱。"
+    },
+    {
+      "id": "lb-j6uemk",
+      "title": "Every dependency you add is a supply chain attack waiting to happen",
+      "url": "https://benhoyt.com/writings/dependencies/",
+      "source": "lobsters",
+      "score": 65,
+      "createdAt": "2026-04-02T06:58:52.000-05:00",
+      "valueScore": 8,
+      "title_zh": "你加的每个依赖都是一次潜在的供应链攻击",
+      "tags": [
+        "安全",
+        "思考",
+        "开源"
+      ],
+      "image": "",
+      "summary_zh": "Ben Hoyt 从工程哲学角度讨论依赖膨胀：每引入一个包，就把信任边界外移一层，事故面随之扩大；与近日 npm 事件形成互文。\n\n文章并非反对复用，而是呼吁在「省时间」与「承担他人代码风险」之间显式权衡，并辅以最小依赖、vendor、审计等策略。\n\n适合在团队里当「技术债安全教育」读本，比单纯禁令更有说服力。",
+      "insight": "技术负责人可用此文推动依赖治理规范（评审、钉版本、应急演练）。",
+      "commentary": "读完想 `npm uninstall 焦虑`——可惜 npm 没有这包，只有更多 transitive deps。"
+    },
+    {
+      "id": "ar-oai:arXiv.org:2604.01235v1",
+      "title": "Runtime Burden Allocation for Structured LLM Routing in Agentic Expert Systems: A Full-Factorial Cross-Backend Methodology",
+      "url": "https://arxiv.org/abs/2604.01235",
+      "source": "arxiv",
+      "description": "arXiv:2604.01235v1 Announce Type: new \nAbstract: Structured LLM routing is often treated as a prompt-engineering problem. We argue that it is, more fundamentally, a systems-level burden-allocation problem. As large language models (LLMs) become core control components in agentic AI systems, reliable",
+      "createdAt": "2026-04-03T04:00:00.000Z",
+      "valueScore": 8,
+      "title_zh": "Agent 专家系统中结构化 LLM 路由的运行时负担分配",
+      "tags": [
+        "AI/ML",
+        "基础设施",
+        "数据"
+      ],
+      "image": "assets/2026-04-02/88f5088404.png",
+      "summary_zh": "论文将多模型/多后端的结构化路由从「提示工程题」提升为「系统级负担分配」：在 Agent 体系里，LLM 既是推理单元也是控制面，延迟、成本与失败模式要在运行时显式分配。\n\n作者采用跨后端全因子实验方法论，比较不同路由策略在真实约束下的行为，超越单一 benchmark 叙事。\n\n对搭建生产级 Agent 平台的团队，这是把路由问题从 demo 拉回系统工程的一篇参考。",
+      "insight": "做多模型网关与 Agent 编排的工程师可读：如何把路由当成资源调度而非几句 prompt。",
+      "commentary": "终于有人把 router 从「玄学提示词」拽回「调度理论」——Agent 越像 OS，论文越像操作系统课。"
+    },
+    {
+      "id": "hf-https://tldr.takara.ai/p/2604.01496",
+      "title": "From SWE-ZERO to SWE-HERO: Execution-free to Execution-based Fine-tuning for Software Engineering Agents",
+      "url": "https://tldr.takara.ai/p/2604.01496",
+      "source": "hf-papers",
+      "description": "We introduce SWE-ZERO to SWE-HERO, a two-stage SFT recipe that achieves state-of-the-art results on SWE-bench by distilling open-weight frontier LLMs. Our pipeline replaces resource-heavy dependencies with an evolutionary refinement strategy: (1) SWE-ZERO utilizes large-scale, execution-free traject",
+      "createdAt": "2026-04-02T00:11:17.000Z",
+      "valueScore": 8,
+      "title_zh": "从 SWE-ZERO 到 SWE-HERO：软件工程智能体的免执行到基于执行微调",
+      "tags": [
+        "AI/ML",
+        "开源",
+        "开发工具"
+      ],
+      "image": "assets/2026-04-02/4a3325c622.png",
+      "summary_zh": "工作提出两阶段 SFT 配方：先大规模免执行轨迹蒸馏，再进化到基于执行的精修，在 SWE-bench 上报告强劲结果，并强调用开放权重前沿模型做知识蒸馏。\n\n对「Coding Agent 到底靠什么变强」这一问题，把数据配方与执行反馈闭环写清楚，比单纯堆模型参数更可复现。\n\n工程团队可关注其是否降低对封闭 API 的依赖，以及训练成本与数据管线能否借鉴。",
+      "insight": "做代码 Agent、微调与评测的研究/工程双线读者的高优先级论文型进展。",
+      "commentary": "名字从 ZERO 到 HERO，像极了你我调 prompt 的心路历程——只不过他们真的刷榜了。"
+    },
+    {
+      "id": "hn-47618189",
+      "title": "Tailscale's new macOS home",
+      "url": "https://tailscale.com/blog/macos-notch-escape",
+      "source": "hackernews",
+      "score": 426,
+      "createdAt": "2026-04-02T18:22:03.000Z",
+      "valueScore": 7,
+      "title_zh": "Tailscale 的 macOS 新「家」",
+      "tags": [
+        "基础设施",
+        "开源",
+        "产品设计"
+      ],
+      "image": "assets/2026-04-02/be2e4419f4.png",
+      "summary_zh": "Tailscale 介绍 macOS 客户端的新界面与交互「落脚点」，涉及菜单栏、刘海区域可用性与状态展示等体验细节。\n\n对重度 VPN/组网用户，客户端易用性直接影响是否愿意长期开机常驻。\n\n也可从中观察一家基础设施公司如何在 Apple 人机规范与专业功能密度之间找平衡。",
+      "insight": "日常用 Tailscale 的开发者可直接升级体验并反馈 UI 回归问题。",
+      "commentary": "连刘海都要写进博客标题——苹果生态受害者与受益者的叠加态。"
+    },
+    {
+      "id": "dt-3442345",
+      "title": "9 Things You’re Overengineering (The Browser Already Solved Them)",
+      "url": "https://dev.to/sylwia-lask/9-things-youre-overengineering-the-browser-already-solved-them-o99",
+      "source": "devto",
+      "score": 64,
+      "description": "I love writing philosophical essays — thoughts about code, work, all that stuff. I also love deep...",
+      "createdAt": "2026-04-02T07:53:11Z",
+      "valueScore": 7,
+      "title_zh": "九件你在过度工程化的事（浏览器早就解决了）",
+      "tags": [
+        "Web",
+        "思考",
+        "产品设计"
+      ],
+      "image": "assets/2026-04-02/f64f6c243f.webp",
+      "summary_zh": "作者列举前端中常见「重复造轮子」场景：表单、导航、可访问性、缓存等，提醒优先用平台能力与浏览器原生 API，而不是先上重型抽象。\n\n在框架层出不穷的背景下，这是一剂「回到 Web 平台」的清醒剂，也有助于减少 bundle 体积与长期维护成本。\n\n具体九条需对照原文，但主旨是：默认优先简单与标准。",
+      "insight": "前端团队可做一轮「浏览器原生能否覆盖」的架构复盘。",
+      "commentary": "读完想给每个新脚手架自动插入「先读 MDN 再装依赖」的 git hook。"
+    },
+    {
+      "id": "lb-7d8dxv",
+      "title": "I used AI. It worked. I hated it",
+      "url": "https://taggart-tech.com/reckoning/",
+      "source": "lobsters",
+      "score": 28,
+      "createdAt": "2026-04-02T15:29:18.000-05:00",
+      "valueScore": 7,
+      "title_zh": "我用了 AI，它管用，但我讨厌这样",
+      "tags": [
+        "AI/ML",
+        "思考",
+        "职业"
+      ],
+      "image": "assets/2026-04-02/be9cbe9ef7.png",
+      "summary_zh": "作者从个人工作流出发，记录 AI 确实提升产出却带来疏离感、审美与主体性受损等复杂情绪，并非简单的「拥抱或拒绝」二元叙事。\n\n这类文本补充了产业话语里少见的「使用者心理」维度：效率曲线上升时，意义感曲线未必同步。\n\n对管理者与工具设计者，提醒关注节奏、可选性与「人仍感到自己在创作」的体验设计。",
+      "insight": "团队推行 AI 编码规范时，可搭配此类讨论避免把抵触简单归为保守。",
+      "commentary": "「worked but hated」比任何 KPI 都难汇报——但可能是接下来十年最真实的用户反馈。"
+    },
+    {
+      "id": "dt-3443896",
+      "title": "We crammed a 24GB AI 3D-generation pipeline into a completely offline desktop app (and the Demo is live)",
+      "url": "https://dev.to/raseiri/we-crammed-a-24gb-ai-3d-generation-pipeline-into-a-completely-offline-desktop-app-and-the-demo-is-12i5",
+      "source": "devto",
+      "score": 6,
+      "description": "If you are an indie game developer right now, you know the pain of 3D asset generation.  The current...",
+      "createdAt": "2026-04-02T07:39:26Z",
+      "valueScore": 7,
+      "title_zh": "把约 24GB 的 AI 3D 管线塞进完全离线的桌面应用",
+      "tags": [
+        "AI/ML",
+        "独立开发",
+        "硬件"
+      ],
+      "image": "assets/2026-04-02/41211eb752.webp",
+      "summary_zh": "团队展示将大规模 AI 三维生成管线打包为离线桌面应用的经验，强调独立游戏开发者在资产生产上对「可控、可离线、可迭代」的需求。\n\n技术挑战涵盖模型体积、推理加速、更新分发与 UX；Demo 可用性需读者自行验证。\n\n对「AI 工具必须联网订阅」的刻板印象是一则反例，也涉及合规与版权边界。",
+      "insight": "独立游戏与三维内容创作者可评估是否适合其工作流与磁盘预算。",
+      "commentary": "24GB 离线管线——硬盘在哭，但飞机上的你在笑。"
+    },
+    {
+      "id": "hf-https://tldr.takara.ai/p/2604.02288",
+      "title": "Unifying Group-Relative and Self-Distillation Policy Optimization via Sample Routing",
+      "url": "https://tldr.takara.ai/p/2604.02288",
+      "source": "hf-papers",
+      "description": "Reinforcement learning with verifiable rewards (RLVR) has become a standard paradigm for post-training large language models. While Group Relative Policy Optimization (GRPO) is widely adopted, its coarse credit assignment uniformly penalizes failed rollouts, lacking the token-level focus needed to e",
+      "createdAt": "2026-04-02T17:29:18.000Z",
+      "valueScore": 7,
+      "title_zh": "用样本路由统一组相对与自蒸馏策略优化",
+      "tags": [
+        "AI/ML",
+        "数据",
+        "基础设施"
+      ],
+      "image": "assets/2026-04-02/1ef91a1290.png",
+      "summary_zh": "论文针对 RLVR 后训练中的信用分配问题：GRPO 等对失败 rollout 的粗粒度惩罚可能浪费可学习信号；提出通过样本路由统一组相对与自蒸馏式策略优化思路。\n\n这与近期「细粒度 credit」「步级奖励」等方向一脉相承，目标是在可验证任务上更高效地榨干数据。\n\n对大模型后训练团队，属于方法论文档中值得标记的一条。",
+      "insight": "做 GRPO/DPO/RLHF 管线优化的研究工程可读：路由如何改写信用分配。",
+      "commentary": "RL 论文越来越像快递公司分拣中心——关键是谁该背锅、谁该升级。"
+    },
+    {
+      "id": "hf-https://tldr.takara.ai/p/2604.02119",
+      "title": "AA-SVD : Anchored and Adaptive SVD for Large Language Model Compression",
+      "url": "https://tldr.takara.ai/p/2604.02119",
+      "source": "hf-papers",
+      "description": "We introduce a fast low-rank factorization-based framework for compressing large language models that enables rapid compression of billion-parameter models without retraining. Unlike existing factorization-based approaches that optimize only on the original inputs, ignoring distribution shifts from ",
+      "createdAt": "2026-04-02T14:55:49.000Z",
+      "valueScore": 7,
+      "title_zh": "AA-SVD：面向大模型压缩的锚定自适应 SVD",
+      "tags": [
+        "AI/ML",
+        "硬件",
+        "基础设施"
+      ],
+      "image": "assets/2026-04-02/f912ac857a.png",
+      "summary_zh": "工作提出基于低秩分解的快速压缩框架，声称可在免重训练前提下压缩十亿参数级模型，并通过锚定与自适应 SVD 缓解分布偏移带来的分解失效。\n\n推理侧压缩直接关系到端侧部署与成本；是否与量化、剪枝组合需看实验。\n\n对关注「快压一把就能上线」的工程路径，这类因子分解路线是重要备选。",
+      "insight": "推理优化与模型交付团队可跟进：免训练压缩的精度—速度折中是否满足业务。",
+      "commentary": "SVD 老树发新芽——矩阵分解看了二十年深度学习，终于又坐回主桌。"
+    },
+    {
+      "id": "dt-3445554",
+      "title": "ContextCore: AI Agents conversations to an MCP-queryable memory layer",
+      "url": "https://dev.to/kyliathy/contextcore-ai-agents-conversations-to-an-mcp-queryable-memory-layer-4h1p",
+      "source": "devto",
+      "score": 5,
+      "description": "Hello :). This OSS product is for you (or future-you) who reached the point of wanting to tap into...",
+      "createdAt": "2026-04-02T13:31:35Z",
+      "valueScore": 7,
+      "title_zh": "ContextCore：把 Agent 对话变成可 MCP 查询的记忆层",
+      "tags": [
+        "AI/ML",
+        "开发工具",
+        "开源"
+      ],
+      "image": "assets/2026-04-02/c6e746be1a.webp",
+      "summary_zh": "开源项目 ContextCore 尝试把多轮 Agent 对话沉淀为可被 MCP 查询的记忆层，解决「关掉会话即失忆」与跨工具复用上下文的问题。\n\n在 MCP 成为 IDE 与助手互联事实标准的背景下，记忆与检索是下一层拼图：如何 schema 化、如何做权限与遗忘同样关键。\n\n适合已在 Cursor/Claude 生态里拼工具链的开发者评估是否接入。",
+      "insight": "构建 Agent 中间件与内部知识助手的人可直接试用其查询模型与存储策略。",
+      "commentary": "MCP 火了之后，大家发现缺的不是插头，是「脑子里的抽屉」——这类项目就是在做抽屉柜。"
+    },
+    {
+      "id": "dt-3446720",
+      "title": "You're spending money on Claude Code and have no idea how much",
+      "url": "https://dev.to/edwardkubiak/youre-spending-money-on-claude-code-and-have-no-idea-how-much-2d56",
+      "source": "devto",
+      "score": 3,
+      "description": "I've been running Claude Code heavily for a few weeks — multi-agent orchestration, parallel...",
+      "createdAt": "2026-04-02T21:12:53Z",
+      "valueScore": 7,
+      "title_zh": "你在 Claude Code 上花钱却心里没数",
+      "tags": [
+        "AI/ML",
+        "SaaS",
+        "职业"
+      ],
+      "image": "assets/2026-04-02/4097aa2feb.webp",
+      "summary_zh": "作者反思重度使用 Claude Code、多 Agent 并行与自动化编排时的费用黑洞：token、工具调用与重试叠加后，账单感知严重滞后。\n\n当编码助手从「偶尔问一句」变成「默认同事」，FinOps 要从云服务器延伸到模型 API。\n\n文章呼吁建立用量仪表、预算告警与任务级成本归因——与个人开发者和小团队都相关。",
+      "insight": "技术负责人应把「AI 编码预算」纳入月度成本复盘，而非只看云主机。",
+      "commentary": "多 Agent 一起卷的时候，烧的不是电，是老板的微笑曲线。"
+    },
+    {
+      "id": "dt-3445792",
+      "title": "How I Built Persistent Memory for Claude Code",
+      "url": "https://dev.to/mikeadolan/how-i-built-persistent-memory-for-claude-code-1dn7",
+      "source": "devto",
+      "score": 2,
+      "description": "Every Claude Code session starts from zero. Close the terminal and everything is gone. Decisions you...",
+      "createdAt": "2026-04-02T14:41:41Z",
+      "valueScore": 7,
+      "title_zh": "我如何为 Claude Code 做持久记忆",
+      "tags": [
+        "AI/ML",
+        "开发工具",
+        "基础设施"
+      ],
+      "image": "assets/2026-04-02/78000d0d35.webp",
+      "summary_zh": "作者分享为 Claude Code 会话构建持久记忆的实践：在终端会话之间保留决策、偏好与项目语境，减少重复解释与风格漂移。\n\n实现路径可能涉及本地存储、结构化笔记或与仓库文档联动，细节以原文为准。\n\n与 ContextCore 等方案同属「Agent 工程化」热潮：记忆不是炫技，是可靠性的底座。",
+      "insight": "日常用 Claude Code 的开发者可抄作业并评估隐私与同步策略。",
+      "commentary": "会话一关就失忆——这哪是 AI，分明是金鱼；持久化就是在鱼缸里放记事本。"
+    },
+    {
+      "id": "hf-https://tldr.takara.ai/p/2604.01594",
+      "title": "Do Large Language Models Mentalize When They Teach?",
+      "url": "https://tldr.takara.ai/p/2604.01594",
+      "source": "hf-papers",
+      "description": "How do LLMs decide what to teach next: by reasoning about a learner's knowledge, or by using simpler rules of thumb? We test this in a controlled task previously used to study human teaching strategies. On each trial, a teacher LLM sees a hypothetical learner's trajectory through a reward-annotated ",
+      "createdAt": "2026-04-02T04:04:20.000Z",
+      "valueScore": 7,
+      "title_zh": "大模型在「教学」时会心智化吗？",
+      "tags": [
+        "AI/ML",
+        "思考",
+        "数据"
+      ],
+      "image": "assets/2026-04-02/3bafcf9ea2.png",
+      "summary_zh": "研究在受控任务中检验教师模型选择下一步教学内容时，是在推理学习者的知识状态，还是依赖简单启发式；借用人类教学策略实验范式。\n\n对 AI 教育、辅导系统与对齐研究，「是否真正 modeling 对方」关乎体验与安全。\n\n结论以论文实验为准，但问题本身已点出交互式 LLM 的核心：对方模型是否被显式维护。",
+      "insight": "教育科技与 HCI 方向可关注：教学型 Agent 的评测是否应加入心智理论指标。",
+      "commentary": "问 LLM 会不会 mentalize，就像在问补习班老师是懂你还是背教案——答案可能两种都有。"
+    },
+    {
+      "id": "lb-veyrwi",
+      "title": "A Rave Review of Superpowers (for Claude Code)",
+      "url": "https://emschwartz.me/a-rave-review-of-superpowers-for-claude-code/",
+      "source": "lobsters",
+      "score": 7,
+      "createdAt": "2026-04-02T17:05:05.000-05:00",
+      "valueScore": 7,
+      "title_zh": "盛赞面向 Claude Code 的 Superpowers",
+      "tags": [
+        "AI/ML",
+        "开发工具",
+        "开源"
+      ],
+      "image": "assets/2026-04-02/3af29e887c.webp",
+      "summary_zh": "作者热情推荐 Superpowers 这一 Claude Code 扩展/技能集合（具体功能以项目为准），描述其如何增强工作流、减少摩擦并提高在代码库中的「有效动手能力」。\n\n在插件与 skills 爆炸期，高质量测评帮助读者筛选值得装的组合，而非全盘尝试。\n\n若你正在搭个人或团队的 Claude Code 标配栈，可作为候选阅读。",
+      "insight": "Claude Code 深度用户可依此文缩短插件试错路径。",
+      "commentary": "「Rave review」在 HN 系文章里少见——要么真香，要么作者刚喝完咖啡；无论哪种都值得一翻。"
+    },
+    {
+      "id": "ar-oai:arXiv.org:2604.01329v1",
+      "title": "Model Merging via Data-Free Covariance Estimation",
+      "url": "https://arxiv.org/abs/2604.01329",
+      "source": "arxiv",
+      "description": "arXiv:2604.01329v1 Announce Type: new \nAbstract: Model merging provides a way of cheaply combining individual models to produce a model that inherits each individual's capabilities. While some merging methods can approach the performance of multitask training, they are often heuristically motivated ",
+      "createdAt": "2026-04-03T04:00:00.000Z",
+      "valueScore": 7,
+      "title_zh": "通过无数据协方差估计的模型合并",
+      "tags": [
+        "AI/ML",
+        "数据",
+        "开源"
+      ],
+      "image": "assets/2026-04-02/88f5088404.png",
+      "summary_zh": "模型合并（merge）用较低成本把多个专用模型合成一个多能力模型；论文探讨在无原始训练数据条件下，通过协方差估计等方式改进合并质量，减少纯启发式调参。\n\n这对开源社区「拼模型」、快速迭代与边缘部署都有现实意义：数据不可得时仍能组合能力。\n\n与 task vectors、TIES 等线并列，属于 merge 子方向的持续细化。",
+      "insight": "做模型融合与高效微调的读者可跟进：无数据假设下 merge 的理论与实证边界。",
+      "commentary": "合并模型像调鸡尾酒——这篇试图用统计配方少尝几口（数据）也能兑出好味道。"
+    }
+  ]
+}

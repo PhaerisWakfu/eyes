@@ -1,0 +1,532 @@
+{
+  "date": "2026-04-02",
+  "fetchedAt": "2026-04-03T07:20:05.547Z",
+  "items": [
+    {
+      "id": "hn-47616361",
+      "title": "Google releases Gemma 4 open models",
+      "url": "https://deepmind.google/models/gemma/gemma-4/",
+      "source": "hackernews",
+      "score": 1367,
+      "createdAt": "2026-04-02T16:10:54.000Z"
+    },
+    {
+      "id": "hn-47615002",
+      "title": "Qwen3.6-Plus: Towards real world agents",
+      "url": "https://qwen.ai/blog?id=qwen3.6",
+      "source": "hackernews",
+      "score": 500,
+      "createdAt": "2026-04-02T14:28:52.000Z"
+    },
+    {
+      "id": "hn-47612724",
+      "title": "Lemonade by AMD: a fast and open source local LLM server using GPU and NPU",
+      "url": "https://lemonade-server.ai",
+      "source": "hackernews",
+      "score": 497,
+      "createdAt": "2026-04-02T11:04:51.000Z"
+    },
+    {
+      "id": "hn-47618189",
+      "title": "Tailscale's new macOS home",
+      "url": "https://tailscale.com/blog/macos-notch-escape",
+      "source": "hackernews",
+      "score": 426,
+      "createdAt": "2026-04-02T18:22:03.000Z"
+    },
+    {
+      "id": "hn-47617415",
+      "title": "Good ideas do not need lots of lies in order to gain public acceptance (2008)",
+      "url": "https://blog.danieldavies.com/2004/05/d-squared-digest-one-minute-mba.html",
+      "source": "hackernews",
+      "score": 234,
+      "createdAt": "2026-04-02T17:29:03.000Z"
+    },
+    {
+      "id": "hn-47617376",
+      "title": "OpenAI Acquires TBPN",
+      "url": "https://openai.com/index/openai-acquires-tbpn/",
+      "source": "hackernews",
+      "score": 198,
+      "createdAt": "2026-04-02T17:26:49.000Z"
+    },
+    {
+      "id": "hn-47621792",
+      "title": "Post Mortem: axios NPM supply chain compromise",
+      "url": "https://github.com/axios/axios/issues/10636",
+      "source": "hackernews",
+      "score": 85,
+      "createdAt": "2026-04-03T00:00:19.000Z"
+    },
+    {
+      "id": "lb-j6uemk",
+      "title": "Every dependency you add is a supply chain attack waiting to happen",
+      "url": "https://benhoyt.com/writings/dependencies/",
+      "source": "lobsters",
+      "score": 65,
+      "createdAt": "2026-04-02T06:58:52.000-05:00"
+    },
+    {
+      "id": "lb-m3b3fk",
+      "title": "Email obfuscation: What works in 2026?",
+      "url": "https://spencermortensen.com/articles/email-obfuscation/",
+      "source": "lobsters",
+      "score": 65,
+      "createdAt": "2026-04-01T17:07:10.000-05:00"
+    },
+    {
+      "id": "dt-3442345",
+      "title": "9 Things You’re Overengineering (The Browser Already Solved Them)",
+      "url": "https://dev.to/sylwia-lask/9-things-youre-overengineering-the-browser-already-solved-them-o99",
+      "source": "devto",
+      "score": 64,
+      "description": "I love writing philosophical essays — thoughts about code, work, all that stuff. I also love deep...",
+      "createdAt": "2026-04-02T07:53:11Z"
+    },
+    {
+      "id": "hn-47620933",
+      "title": "Memo: A language that remembers only the last 12 lines of code",
+      "url": "https://danieltemkin.com/Esolangs/Memo/",
+      "source": "hackernews",
+      "score": 45,
+      "createdAt": "2026-04-02T22:21:24.000Z"
+    },
+    {
+      "id": "hn-47593861",
+      "title": "Maze Algorithms (1997)",
+      "url": "https://www.astrolog.org/labyrnth/algrithm.htm",
+      "source": "hackernews",
+      "score": 41,
+      "createdAt": "2026-03-31T21:43:15.000Z"
+    },
+    {
+      "id": "hn-47560959",
+      "title": "Show HN: Home Maker: Declare Your Dev Tools in a Makefile",
+      "url": "https://thottingal.in/blog/2026/03/29/home-maker/",
+      "source": "hackernews",
+      "score": 32,
+      "createdAt": "2026-03-29T06:56:04.000Z"
+    },
+    {
+      "id": "lb-idoeyr",
+      "title": "Running out of Disk Space in Production",
+      "url": "https://alt-romes.github.io/posts/2026-04-01-running-out-of-disk-space-on-launch.html",
+      "source": "lobsters",
+      "score": 31,
+      "createdAt": "2026-04-02T03:21:40.000-05:00"
+    },
+    {
+      "id": "lb-7d8dxv",
+      "title": "I used AI. It worked. I hated it",
+      "url": "https://taggart-tech.com/reckoning/",
+      "source": "lobsters",
+      "score": 28,
+      "createdAt": "2026-04-02T15:29:18.000-05:00"
+    },
+    {
+      "id": "lb-8lbmm8",
+      "title": "Activating Two Trap Cards at Once, or: A Gentle Response to the Popularity of Vibecoding",
+      "url": "https://gist.github.com/MostAwesomeDude/560185c24f959f6fec229739cb5a6735",
+      "source": "lobsters",
+      "score": 17,
+      "createdAt": "2026-04-02T11:25:28.000-05:00"
+    },
+    {
+      "id": "lb-thfvnd",
+      "title": "pGenie – SQL-first code generator for PostgreSQL (Haskell, Rust, Java)",
+      "url": "https://pgenie.io/",
+      "source": "lobsters",
+      "score": 17,
+      "createdAt": "2026-04-02T03:24:11.000-05:00"
+    },
+    {
+      "id": "hn-47562455",
+      "title": "The True Shape of Io's Steeple Mountain",
+      "url": "https://www.weareinquisitive.com/news/hidden-in-the-shadow",
+      "source": "hackernews",
+      "score": 13,
+      "createdAt": "2026-03-29T12:07:24.000Z"
+    },
+    {
+      "id": "lb-veyrwi",
+      "title": "A Rave Review of Superpowers (for Claude Code)",
+      "url": "https://emschwartz.me/a-rave-review-of-superpowers-for-claude-code/",
+      "source": "lobsters",
+      "score": 7,
+      "createdAt": "2026-04-02T17:05:05.000-05:00"
+    },
+    {
+      "id": "lb-6rq90r",
+      "title": "A CSS Engine in OCaml",
+      "url": "https://gazagnaire.org/blog/2026-04-02-cascade.html",
+      "source": "lobsters",
+      "score": 7,
+      "createdAt": "2026-04-02T21:14:29.000-05:00"
+    },
+    {
+      "id": "dt-3443896",
+      "title": "We crammed a 24GB AI 3D-generation pipeline into a completely offline desktop app (and the Demo is live)",
+      "url": "https://dev.to/raseiri/we-crammed-a-24gb-ai-3d-generation-pipeline-into-a-completely-offline-desktop-app-and-the-demo-is-12i5",
+      "source": "devto",
+      "score": 6,
+      "description": "If you are an indie game developer right now, you know the pain of 3D asset generation.  The current...",
+      "createdAt": "2026-04-02T07:39:26Z"
+    },
+    {
+      "id": "lb-1jf9b5",
+      "title": "1SubMl: experimental ML-like programming language with a unified module and value language, and more",
+      "url": "https://github.com/Storyyeller/1subml?tab=readme-ov-file",
+      "source": "lobsters",
+      "score": 5,
+      "createdAt": "2026-04-02T23:54:13.000-05:00"
+    },
+    {
+      "id": "dt-3445554",
+      "title": "ContextCore: AI Agents conversations to an MCP-queryable memory layer",
+      "url": "https://dev.to/kyliathy/contextcore-ai-agents-conversations-to-an-mcp-queryable-memory-layer-4h1p",
+      "source": "devto",
+      "score": 5,
+      "description": "Hello :). This OSS product is for you (or future-you) who reached the point of wanting to tap into...",
+      "createdAt": "2026-04-02T13:31:35Z"
+    },
+    {
+      "id": "lb-gie57r",
+      "title": "Rewrites.bio: 60x speedup in Genomics QC + AI rewrite guidelines for Science",
+      "url": "https://rewrites.bio/",
+      "source": "lobsters",
+      "score": 4,
+      "createdAt": "2026-04-02T11:28:45.000-05:00"
+    },
+    {
+      "id": "dt-3445266",
+      "title": "What I Found When I Stopped Performing My Career",
+      "url": "https://dev.to/namish_saxena/what-i-found-when-i-stopped-performing-my-career-1imb",
+      "source": "devto",
+      "score": 4,
+      "description": "This is a submission for the 2026 WeCoded Challenge: Echoes of Experience     I used to scroll...",
+      "createdAt": "2026-04-02T12:11:18Z"
+    },
+    {
+      "id": "lb-x1mejy",
+      "title": "samply: Command-line sampling profiler for macOS, Linux, and Windows",
+      "url": "https://github.com/mstange/samply",
+      "source": "lobsters",
+      "score": 3,
+      "createdAt": "2026-04-02T19:59:37.000-05:00"
+    },
+    {
+      "id": "dt-3446720",
+      "title": "You're spending money on Claude Code and have no idea how much",
+      "url": "https://dev.to/edwardkubiak/youre-spending-money-on-claude-code-and-have-no-idea-how-much-2d56",
+      "source": "devto",
+      "score": 3,
+      "description": "I've been running Claude Code heavily for a few weeks — multi-agent orchestration, parallel...",
+      "createdAt": "2026-04-02T21:12:53Z"
+    },
+    {
+      "id": "lb-cwzmdl",
+      "title": "Offensive Cybersecurity Time Horizons",
+      "url": "https://lyptusresearch.org/research/offensive-cyber-time-horizons",
+      "source": "lobsters",
+      "score": 2,
+      "createdAt": "2026-04-03T00:01:26.000-05:00"
+    },
+    {
+      "id": "dt-3446997",
+      "title": "PURESLOP.md — teach your AI agent to write terrible code.",
+      "url": "https://dev.to/alonsarias/pureslopmd-54ek",
+      "source": "devto",
+      "score": 2,
+      "description": "This is a submission for the DEV April Fools Challenge           What I Built   A CLI that drops a...",
+      "createdAt": "2026-04-03T00:55:59Z"
+    },
+    {
+      "id": "dt-3446544",
+      "title": "The Type System: What You Know, What's New, and What's Weird",
+      "url": "https://dev.to/gabrielanhaia/the-type-system-what-you-know-whats-new-and-whats-weird-3ojd",
+      "source": "devto",
+      "score": 2,
+      "description": "A backend developer's guide to TypeScript's type system: unions, literal types, discriminated unions, and why you won't miss class hierarchies.",
+      "createdAt": "2026-04-02T19:39:57Z"
+    },
+    {
+      "id": "dt-3445792",
+      "title": "How I Built Persistent Memory for Claude Code",
+      "url": "https://dev.to/mikeadolan/how-i-built-persistent-memory-for-claude-code-1dn7",
+      "source": "devto",
+      "score": 2,
+      "description": "Every Claude Code session starts from zero. Close the terminal and everything is gone. Decisions you...",
+      "createdAt": "2026-04-02T14:41:41Z"
+    },
+    {
+      "id": "dt-3446507",
+      "title": "I Was Engineering Around AI Emotions Before Anyone Proved They Existed",
+      "url": "https://dev.to/webdevtodayjason/i-was-engineering-around-ai-emotions-before-anyone-proved-they-existed-10n9",
+      "source": "devto",
+      "score": 2,
+      "description": "On April 2nd, Anthropic's Interpretability team dropped a paper that stopped me mid-scroll: Emotion...",
+      "createdAt": "2026-04-02T19:17:37Z"
+    },
+    {
+      "id": "dt-3447053",
+      "title": "Claude Code Skills Have a Model Field. Here's Why You Should Be Using It.",
+      "url": "https://dev.to/ithiria894/claude-code-skills-have-a-model-field-heres-why-you-should-be-using-it-iha",
+      "source": "devto",
+      "score": 1,
+      "description": "I've been building Claude Code skills for a few weeks. Writing the prompts, testing them, tweaking...",
+      "createdAt": "2026-04-03T01:09:48Z"
+    },
+    {
+      "id": "dt-3377167",
+      "title": "Design DEGRADE (Defer) and Your Agent Becomes “Operations”",
+      "url": "https://dev.to/kanaria007/design-degrade-defer-and-your-agent-becomes-operations-5gie",
+      "source": "devto",
+      "score": 1,
+      "description": "Most agents don’t break because they violated a rule.  They break because they kept going while...",
+      "createdAt": "2026-04-02T17:00:00Z"
+    },
+    {
+      "id": "dt-3443741",
+      "title": "Show HN: ZKAuth – Zero-Knowledge identity on Android using Rust + Plonky2 (39ms proofs)",
+      "url": "https://dev.to/hamid_iqbal_75c855b7c8375/show-hn-zkauth-zero-knowledge-identity-on-android-using-rust-plonky2-39ms-proofs-2jne",
+      "source": "devto",
+      "score": 0,
+      "description": "Built a ZK identity system that lets you prove  who you are without revealing any data.  Tech: Rust...",
+      "createdAt": "2026-04-02T07:09:37Z"
+    },
+    {
+      "id": "dt-3446548",
+      "title": "Bringing Blink Cameras and SmartRent Devices to Apple HomeKit with Homebridge",
+      "url": "https://dev.to/bitwise0x/bringing-blink-cameras-and-smartrent-devices-to-apple-homekit-with-homebridge-142g",
+      "source": "devto",
+      "score": 0,
+      "description": "If you've ever wished your Blink security cameras or SmartRent apartment devices showed up in Apple...",
+      "createdAt": "2026-04-02T20:21:25Z"
+    },
+    {
+      "id": "dt-3445500",
+      "title": "I Built ClipSpeedAI: What 18 Months of Building an AI Video Tool Actually Taught Me",
+      "url": "https://dev.to/kyle_clipspeedai/i-built-clipspeedai-what-18-months-of-building-an-ai-video-tool-actually-taught-me-p4c",
+      "source": "devto",
+      "score": 0,
+      "description": "I Built ClipSpeedAI: What 18 Months of Building an AI Video Tool Actually Taught Me   This...",
+      "createdAt": "2026-04-02T13:21:13Z"
+    },
+    {
+      "id": "ar-oai:arXiv.org:2604.01235v1",
+      "title": "Runtime Burden Allocation for Structured LLM Routing in Agentic Expert Systems: A Full-Factorial Cross-Backend Methodology",
+      "url": "https://arxiv.org/abs/2604.01235",
+      "source": "arxiv",
+      "description": "arXiv:2604.01235v1 Announce Type: new \nAbstract: Structured LLM routing is often treated as a prompt-engineering problem. We argue that it is, more fundamentally, a systems-level burden-allocation problem. As large language models (LLMs) become core control components in agentic AI systems, reliable",
+      "createdAt": "2026-04-03T04:00:00.000Z"
+    },
+    {
+      "id": "ar-oai:arXiv.org:2604.01261v1",
+      "title": "DySCo: Dynamic Semantic Compression for Effective Long-term Time Series Forecasting",
+      "url": "https://arxiv.org/abs/2604.01261",
+      "source": "arxiv",
+      "description": "arXiv:2604.01261v1 Announce Type: new \nAbstract: Time series forecasting (TSF) is critical across domains such as finance, meteorology, and energy. While extending the lookback window theoretically provides richer historical context, in practice, it often introduces irrelevant noise and computationa",
+      "createdAt": "2026-04-03T04:00:00.000Z"
+    },
+    {
+      "id": "ar-oai:arXiv.org:2604.01279v1",
+      "title": "Sven: Singular Value Descent as a Computationally Efficient Natural Gradient Method",
+      "url": "https://arxiv.org/abs/2604.01279",
+      "source": "arxiv",
+      "description": "arXiv:2604.01279v1 Announce Type: new \nAbstract: We introduce Sven (Singular Value dEsceNt), a new optimization algorithm for neural networks that exploits the natural decomposition of loss functions into a sum over individual data points, rather than reducing the full loss to a single scalar before",
+      "createdAt": "2026-04-03T04:00:00.000Z"
+    },
+    {
+      "id": "ar-oai:arXiv.org:2604.01298v1",
+      "title": "Forecasting Supply Chain Disruptions with Foresight Learning",
+      "url": "https://arxiv.org/abs/2604.01298",
+      "source": "arxiv",
+      "description": "arXiv:2604.01298v1 Announce Type: new \nAbstract: Anticipating supply chain disruptions before they materialize is a core challenge for firms and policymakers alike. A key difficulty is learning to reason reliably about infrequent, high-impact events from noisy and unstructured inputs - a setting whe",
+      "createdAt": "2026-04-03T04:00:00.000Z"
+    },
+    {
+      "id": "ar-oai:arXiv.org:2604.01305v1",
+      "title": "UQ-SHRED: uncertainty quantification of shallow recurrent decoder networks for sparse sensing via engression",
+      "url": "https://arxiv.org/abs/2604.01305",
+      "source": "arxiv",
+      "description": "arXiv:2604.01305v1 Announce Type: new \nAbstract: Reconstructing high-dimensional spatiotemporal fields from sparse sensor measurements is critical in a wide range of scientific applications. The SHallow REcurrent Decoder (SHRED) architecture is a recent state-of-the-art architecture that reconstruct",
+      "createdAt": "2026-04-03T04:00:00.000Z"
+    },
+    {
+      "id": "ar-oai:arXiv.org:2604.01308v1",
+      "title": "An Online Machine Learning Multi-resolution Optimization Framework for Energy System Design Limit of Performance Analysis",
+      "url": "https://arxiv.org/abs/2604.01308",
+      "source": "arxiv",
+      "description": "arXiv:2604.01308v1 Announce Type: new \nAbstract: Designing reliable integrated energy systems for industrial processes requires optimization and verification models across multiple fidelities, from architecture-level sizing to high-fidelity dynamic operation. However, model mismatch across fidelitie",
+      "createdAt": "2026-04-03T04:00:00.000Z"
+    },
+    {
+      "id": "ar-oai:arXiv.org:2604.01315v1",
+      "title": "Detecting Complex Money Laundering Patterns with Incremental and Distributed Graph Modeling",
+      "url": "https://arxiv.org/abs/2604.01315",
+      "source": "arxiv",
+      "description": "arXiv:2604.01315v1 Announce Type: new \nAbstract: Money launderers take advantage of limitations in existing detection approaches by hiding their financial footprints in a deceitful manner. They manage this by replicating transaction patterns that the monitoring systems cannot easily distinguish. As ",
+      "createdAt": "2026-04-03T04:00:00.000Z"
+    },
+    {
+      "id": "ar-oai:arXiv.org:2604.01325v1",
+      "title": "The Digital Twin Counterfactual Framework: A Validation Architecture for Simulated Potential Outcomes",
+      "url": "https://arxiv.org/abs/2604.01325",
+      "source": "arxiv",
+      "description": "arXiv:2604.01325v1 Announce Type: new \nAbstract: The fundamental problem of causal inference - that the counterfactual outcome for any individual is never observed - has shaped the entire methodology of the field. Every existing approach substitutes assumptions for missing data: ignorability, parall",
+      "createdAt": "2026-04-03T04:00:00.000Z"
+    },
+    {
+      "id": "ar-oai:arXiv.org:2604.01329v1",
+      "title": "Model Merging via Data-Free Covariance Estimation",
+      "url": "https://arxiv.org/abs/2604.01329",
+      "source": "arxiv",
+      "description": "arXiv:2604.01329v1 Announce Type: new \nAbstract: Model merging provides a way of cheaply combining individual models to produce a model that inherits each individual's capabilities. While some merging methods can approach the performance of multitask training, they are often heuristically motivated ",
+      "createdAt": "2026-04-03T04:00:00.000Z"
+    },
+    {
+      "id": "ar-oai:arXiv.org:2604.01337v1",
+      "title": "SECURE: Stable Early Collision Understanding via Robust Embeddings in Autonomous Driving",
+      "url": "https://arxiv.org/abs/2604.01337",
+      "source": "arxiv",
+      "description": "arXiv:2604.01337v1 Announce Type: new \nAbstract: While deep learning has significantly advanced accident anticipation, the robustness of these safety-critical systems against real-world perturbations remains a major challenge. We reveal that state-of-the-art models like CRASH, despite their high per",
+      "createdAt": "2026-04-03T04:00:00.000Z"
+    },
+    {
+      "id": "ar-oai:arXiv.org:2604.01342v1",
+      "title": "Massively Parallel Exact Inference for Hawkes Processes",
+      "url": "https://arxiv.org/abs/2604.01342",
+      "source": "arxiv",
+      "description": "arXiv:2604.01342v1 Announce Type: new \nAbstract: Multivariate Hawkes processes are a widely used class of self-exciting point processes, but maximum likelihood estimation naively scales as $O(N^2)$ in the number of events. The canonical linear exponential Hawkes process admits a faster $O(N)$ recurr",
+      "createdAt": "2026-04-03T04:00:00.000Z"
+    },
+    {
+      "id": "ar-oai:arXiv.org:2604.01344v1",
+      "title": "IDEA2: Expert-in-the-loop competency question elicitation for collaborative ontology engineering",
+      "url": "https://arxiv.org/abs/2604.01344",
+      "source": "arxiv",
+      "description": "arXiv:2604.01344v1 Announce Type: new \nAbstract: Competency question (CQ) elicitation represents a critical but resource-intensive bottleneck in ontology engineering. This foundational phase is often hampered by the communication gap between domain experts, who possess the necessary knowledge, and o",
+      "createdAt": "2026-04-03T04:00:00.000Z"
+    },
+    {
+      "id": "ar-oai:arXiv.org:2604.01345v1",
+      "title": "Malliavin Calculus for Counterfactual Gradient Estimation in Adaptive Inverse Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2604.01345",
+      "source": "arxiv",
+      "description": "arXiv:2604.01345v1 Announce Type: new \nAbstract: Inverse reinforcement learning (IRL) recovers the loss function of a forward learner from its observed responses adaptive IRL aims to reconstruct the loss function of a forward learner by passively observing its gradients as it performs reinforcement ",
+      "createdAt": "2026-04-03T04:00:00.000Z"
+    },
+    {
+      "id": "hf-https://tldr.takara.ai/p/2604.02288",
+      "title": "Unifying Group-Relative and Self-Distillation Policy Optimization via Sample Routing",
+      "url": "https://tldr.takara.ai/p/2604.02288",
+      "source": "hf-papers",
+      "description": "Reinforcement learning with verifiable rewards (RLVR) has become a standard paradigm for post-training large language models. While Group Relative Policy Optimization (GRPO) is widely adopted, its coarse credit assignment uniformly penalizes failed rollouts, lacking the token-level focus needed to e",
+      "createdAt": "2026-04-02T17:29:18.000Z"
+    },
+    {
+      "id": "hf-https://tldr.takara.ai/p/2604.02265",
+      "title": "Modular Energy Steering for Safe Text-to-Image Generation with Foundation Models",
+      "url": "https://tldr.takara.ai/p/2604.02265",
+      "source": "hf-papers",
+      "description": "Controlling the behavior of text-to-image generative models is critical for safe and practical deployment. Existing safety approaches typically rely on model fine-tuning or curated datasets, which can degrade generation quality or limit scalability. We propose an inference-time steering framework th",
+      "createdAt": "2026-04-02T16:59:28.000Z"
+    },
+    {
+      "id": "hf-https://tldr.takara.ai/p/2604.02119",
+      "title": "AA-SVD : Anchored and Adaptive SVD for Large Language Model Compression",
+      "url": "https://tldr.takara.ai/p/2604.02119",
+      "source": "hf-papers",
+      "description": "We introduce a fast low-rank factorization-based framework for compressing large language models that enables rapid compression of billion-parameter models without retraining. Unlike existing factorization-based approaches that optimize only on the original inputs, ignoring distribution shifts from ",
+      "createdAt": "2026-04-02T14:55:49.000Z"
+    },
+    {
+      "id": "hf-https://tldr.takara.ai/p/2604.01594",
+      "title": "Do Large Language Models Mentalize When They Teach?",
+      "url": "https://tldr.takara.ai/p/2604.01594",
+      "source": "hf-papers",
+      "description": "How do LLMs decide what to teach next: by reasoning about a learner's knowledge, or by using simpler rules of thumb? We test this in a controlled task previously used to study human teaching strategies. On each trial, a teacher LLM sees a hypothetical learner's trajectory through a reward-annotated ",
+      "createdAt": "2026-04-02T04:04:20.000Z"
+    },
+    {
+      "id": "hf-https://tldr.takara.ai/p/2604.01747",
+      "title": "Unifying UAV Cross-View Geo-Localization via 3D Geometric Perception",
+      "url": "https://tldr.takara.ai/p/2604.01747",
+      "source": "hf-papers",
+      "description": "Cross-view geo-localization for Unmanned Aerial Vehicles (UAVs) operating in GNSS-denied environments remains challenging due to the severe geometric discrepancy between oblique UAV imagery and orthogonal satellite maps. Most existing methods address this problem through a decoupled pipeline of plac",
+      "createdAt": "2026-04-02T08:08:41.000Z"
+    },
+    {
+      "id": "hf-https://tldr.takara.ai/p/2604.01936",
+      "title": "Reliable News or Propagandist News? A Neurosymbolic Model Using Genre, Topic, and Persuasion Techniques to Improve Robustness in Classification",
+      "url": "https://tldr.takara.ai/p/2604.01936",
+      "source": "hf-papers",
+      "description": "Among news disorders, propagandist news are particularly insidious, because they tend to mix oriented messages with factual reports intended to look like reliable news. To detect propaganda, extant approaches based on Language Models such as BERT are promising but often overfit their training datase",
+      "createdAt": "2026-04-02T11:57:18.000Z"
+    },
+    {
+      "id": "hf-https://tldr.takara.ai/p/2604.02188",
+      "title": "Lightweight Spatiotemporal Highway Lane Detection via 3D-ResNet and PINet with ROI-Aware Attention",
+      "url": "https://tldr.takara.ai/p/2604.02188",
+      "source": "hf-papers",
+      "description": "This paper presents a lightweight, end-to-end highway lane detection architecture that jointly captures spatial and temporal information for robust performance in real-world driving scenarios. Building on the strengths of 3D convolutional neural networks and instance segmentation, we propose two mod",
+      "createdAt": "2026-04-02T15:47:16.000Z"
+    },
+    {
+      "id": "hf-https://tldr.takara.ai/p/2604.02176",
+      "title": "Adam's Law: Textual Frequency Law on Large Language Models",
+      "url": "https://tldr.takara.ai/p/2604.02176",
+      "source": "hf-papers",
+      "description": "While textual frequency has been validated as relevant to human cognition in reading speed, its relatedness to Large Language Models (LLMs) is seldom studied. We propose a novel research direction in terms of textual data frequency, which is an understudied topic, to the best of our knowledge. Our f",
+      "createdAt": "2026-04-02T15:39:25.000Z"
+    },
+    {
+      "id": "hf-https://tldr.takara.ai/p/2604.02090",
+      "title": "Center-Aware Detection with Swin-based Co-DETR Framework for Cervical Cytology",
+      "url": "https://tldr.takara.ai/p/2604.02090",
+      "source": "hf-papers",
+      "description": "Automated analysis of Pap smear images is critical for cervical cancer screening but remains challenging due to dense cell distribution and complex morphology. In this paper, we present our winning solution for the RIVA Cervical Cytology Challenge, achieving 1st place in Track B and 2nd place in Tra",
+      "createdAt": "2026-04-02T14:18:42.000Z"
+    },
+    {
+      "id": "hf-https://tldr.takara.ai/p/2604.02282",
+      "title": "Deep Neural Network Based Roadwork Detection for Autonomous Driving",
+      "url": "https://tldr.takara.ai/p/2604.02282",
+      "source": "hf-papers",
+      "description": "Road construction sites create major challenges for both autonomous vehicles and human drivers due to their highly dynamic and heterogeneous nature. This paper presents a real-time system that detects and localizes roadworks by combining a YOLO neural network with LiDAR data. The system identifies i",
+      "createdAt": "2026-04-02T17:18:17.000Z"
+    },
+    {
+      "id": "hf-https://tldr.takara.ai/p/2604.01496",
+      "title": "From SWE-ZERO to SWE-HERO: Execution-free to Execution-based Fine-tuning for Software Engineering Agents",
+      "url": "https://tldr.takara.ai/p/2604.01496",
+      "source": "hf-papers",
+      "description": "We introduce SWE-ZERO to SWE-HERO, a two-stage SFT recipe that achieves state-of-the-art results on SWE-bench by distilling open-weight frontier LLMs. Our pipeline replaces resource-heavy dependencies with an evolutionary refinement strategy: (1) SWE-ZERO utilizes large-scale, execution-free traject",
+      "createdAt": "2026-04-02T00:11:17.000Z"
+    },
+    {
+      "id": "hf-https://tldr.takara.ai/p/2604.02093",
+      "title": "GroundVTS: Visual Token Sampling in Multimodal Large Language Models for Video Temporal Grounding",
+      "url": "https://tldr.takara.ai/p/2604.02093",
+      "source": "hf-papers",
+      "description": "Video temporal grounding (VTG) is a critical task in video understanding and a key capability for extending video large language models (Vid-LLMs) to broader applications. However, existing Vid-LLMs rely on uniform frame sampling to extract video information, resulting in a sparse distribution of ke",
+      "createdAt": "2026-04-02T14:19:58.000Z"
+    },
+    {
+      "id": "hf-https://tldr.takara.ai/p/2604.01538",
+      "title": "Countering Catastrophic Forgetting of Large Language Models for Better Instruction Following via Weight-Space Model Merging",
+      "url": "https://tldr.takara.ai/p/2604.01538",
+      "source": "hf-papers",
+      "description": "Large language models have been adopted in the medical domain for clinical documentation to reduce clinician burden. However, studies have reported that LLMs often \"forget\" a significant amount of instruction-following ability when fine-tuned using a task-specific medical dataset, a critical challen",
+      "createdAt": "2026-04-02T02:18:49.000Z"
+    },
+    {
+      "id": "hf-https://tldr.takara.ai/p/2604.01554",
+      "title": "EXHIB: A Benchmark for Realistic and Diverse Evaluation of Function Similarity in the Wild",
+      "url": "https://tldr.takara.ai/p/2604.01554",
+      "source": "hf-papers",
+      "description": "Binary Function Similarity Detection (BFSD) is a core problem in software security, supporting tasks such as vulnerability analysis, malware classification, and patch provenance. In the past few decades, numerous models and tools have been developed for this application; however, due to the lack of ",
+      "createdAt": "2026-04-02T02:58:55.000Z"
+    }
+  ]
+}
