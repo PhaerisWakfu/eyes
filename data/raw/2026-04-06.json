@@ -1,0 +1,718 @@
+{
+  "date": "2026-04-06",
+  "fetchedAt": "2026-04-07T02:32:15.553Z",
+  "items": [
+    {
+      "id": "lb-gpqkcx",
+      "title": "Eight years of wanting, three months of building with AI",
+      "url": "https://lalitm.com/post/building-syntaqlite-ai/",
+      "source": "lobsters",
+      "score": 87,
+      "createdAt": "2026-04-05T10:12:55.000-05:00"
+    },
+    {
+      "id": "dt-3416936",
+      "title": "Google Maps for Codebases: Paste a GitHub URL, Ask Anything",
+      "url": "https://dev.to/copilotkit/google-maps-for-codebases-paste-a-github-url-ask-anything-3hk8",
+      "source": "devto",
+      "score": 78,
+      "description": "Navigating a large codebase for the first time is painful. You clone the repo, realize there are 300...",
+      "createdAt": "2026-04-06T13:09:38Z"
+    },
+    {
+      "id": "lb-7qqnze",
+      "title": "Someone at BrowserStack is Leaking Users' Email Address",
+      "url": "https://shkspr.mobi/blog/2026/04/someone-at-browserstack-is-leaking-users-email-address/",
+      "source": "lobsters",
+      "score": 64,
+      "createdAt": "2026-04-06T05:20:56.000-05:00"
+    },
+    {
+      "id": "dt-3460935",
+      "title": "Move over, Vibe-Coding: I built an AI editor for STRESS-CODING",
+      "url": "https://dev.to/phalkmin/move-over-vibe-coding-i-built-an-ai-editor-for-stress-coding-4243",
+      "source": "devto",
+      "score": 27,
+      "description": "This is a submission for the DEV April Fools Challenge  Quantum Collapse is a React editor that...",
+      "createdAt": "2026-04-06T13:07:11Z"
+    },
+    {
+      "id": "lb-dpkqgr",
+      "title": "dev.css: tiny, simple, classless CSS framework inspired by new.css",
+      "url": "https://tangled.org/devins.page/dev.css",
+      "source": "lobsters",
+      "score": 23,
+      "createdAt": "2026-04-06T01:13:31.000-05:00"
+    },
+    {
+      "id": "lb-xvz6m7",
+      "title": "Git’s Magic Files",
+      "url": "https://nesbitt.io/2026/02/05/git-magic-files.html",
+      "source": "lobsters",
+      "score": 19,
+      "createdAt": "2026-04-06T12:53:46.000-05:00"
+    },
+    {
+      "id": "lb-hxiivt",
+      "title": "An Elm-inspired language that compiles to Go, Hindley-Milner types, server-driven UI, single binary output",
+      "url": "https://github.com/anzellai/sky",
+      "source": "lobsters",
+      "score": 17,
+      "createdAt": "2026-04-06T03:12:51.000-05:00"
+    },
+    {
+      "id": "lb-nnh9qk",
+      "title": "Easters - an adventofcode-like challenge for easter",
+      "url": "https://easters.dev/",
+      "source": "lobsters",
+      "score": 14,
+      "createdAt": "2026-04-06T02:03:43.000-05:00"
+    },
+    {
+      "id": "dt-3327881",
+      "title": "Building a Production-Ready Composable AI Agent System with CopilotKit and LangGraph",
+      "url": "https://dev.to/ayushgupta/building-a-production-ready-composable-ai-agent-system-with-copilotkit-and-langgraph-141f",
+      "source": "devto",
+      "score": 14,
+      "description": "Introduction   Building AI agents is one thing. Building agents that actually work together...",
+      "createdAt": "2026-04-06T08:43:38Z"
+    },
+    {
+      "id": "dt-3461516",
+      "title": "Observability at Scale: Mastering ADK Callbacks for Cost, Latency, and Auditability [GDE]",
+      "url": "https://dev.to/gde/observability-at-scale-mastering-adk-callbacks-for-cost-latency-and-auditability-1mo5",
+      "source": "devto",
+      "score": 12,
+      "description": "AI orchestrators receive significant attention; however, when deployments become latent and costly,...",
+      "createdAt": "2026-04-06T16:02:04Z"
+    },
+    {
+      "id": "lb-q49re5",
+      "title": "Returning to work after a year-long illness - what AI tools & workflows are you using nowadays?",
+      "url": "https://lobste.rs/s/q49re5/returning_work_after_year_long_illness",
+      "source": "lobsters",
+      "score": 6,
+      "description": "<p>I'm getting ready to return to work after a pretty intense year. Last May I was diagnosed with Guillain-Barré Syndrome, an autoimmune condition where the body attacks the nervous system. I spent two months in a wheelchair and about 10 months in rehab/day hospitalization working to get my body back to where it was.</p>\n<p>Things are much better now (I'm even back to running), though my hands are still quite weak, but improving slowly.</p>\n<p>During this year I wasn’t working, focusing mostly on recovery while the industry kept evolving.</p>\n<p>I did my best to stay up to date but I'd love to hear what tools you're using these days (Claude Code, Cursor, etc.) and what workflows are working best for you.</p>\n<p>Before I got sick, Cursor was my main tool, but there was still a lot of hands-on coding. Now it seems like people barely write code except for specific cases or interesting problems.</p>\n<p>Would really appreciate as much detail as possible.\nAlso happy to answer any questions about what I went through this past year.</p>\n",
+      "createdAt": "2026-04-06T11:38:37.000-05:00"
+    },
+    {
+      "id": "dt-3460442",
+      "title": "Why I Built TracerKit",
+      "url": "https://dev.to/helderberto/why-i-built-tracerkit-fmo",
+      "source": "devto",
+      "score": 6,
+      "description": "In a previous post, I described a workflow for building features with Claude Code: plan in...",
+      "createdAt": "2026-04-06T11:20:24Z"
+    },
+    {
+      "id": "dt-3456793",
+      "title": "AI-Powered Repository Security Check with Antigravity Workflow",
+      "url": "https://dev.to/gdg/ai-powered-repository-security-check-with-antigravity-workflow-5hee",
+      "source": "devto",
+      "score": 6,
+      "description": "When teams want to \"move fast and break things,\" security is often the first thing they forget. I've...",
+      "createdAt": "2026-04-06T09:46:09Z"
+    },
+    {
+      "id": "lb-etfkgx",
+      "title": "Retargeting JIT compilers by using C-compiler generated executable code (2004)",
+      "url": "https://www.cs.arizona.edu/~collberg/Teaching/553/2011/Resources/jit.pdf",
+      "source": "lobsters",
+      "score": 5,
+      "description": "<p>Abstract: JIT compilers produce fast code, whereas interpreters are easy to port between architectures. We propose to combine the advantages of these language implementation techniques as follows: we generate native code by concatenating and patching machine code fragments taken from interpreter-derived code (generated by a C compiler); we completely eliminate the interpreter dispatch overhead and accesses to the interpreted code by patching jump target addresses and other constants into the fragments. In this paper we present the basic idea, discuss some issues in more detail, and present results from a proof-of-concept implementation, providing speedups of up to 1.87 over the fastest previous interpreter-based technique, and performance comparable to simple native-code compilers. The effort required for retargeting our implementation from the 386 to the PPC architecture was less than a person-day.</p>\n",
+      "createdAt": "2026-04-06T16:35:29.000-05:00"
+    },
+    {
+      "id": "dt-3461936",
+      "title": "I built a linter that proves 74% of your AGENTS.md is wasting your AI agent's time",
+      "url": "https://dev.to/vamshidhar_reddy_392c2302/i-built-a-linter-that-proves-74-of-your-agentsmd-is-wasting-your-ai-agents-time-46an",
+      "source": "devto",
+      "score": 4,
+      "description": "If you use Claude Code, Cursor, Codex, or Gemini CLI, you probably have an AGENTS.md or CLAUDE.md...",
+      "createdAt": "2026-04-06T18:11:34Z"
+    },
+    {
+      "id": "dt-3458428",
+      "title": "6 Claude Code Permission Traps I Found Answering GitHub Issues This Week",
+      "url": "https://dev.to/yurukusa/6-claude-code-permission-traps-i-found-answering-github-issues-this-week-3ja2",
+      "source": "devto",
+      "score": 2,
+      "description": "I answered 57 GitHub Issues this week about Claude Code permissions not working as expected. Here are...",
+      "createdAt": "2026-04-06T03:00:05Z"
+    },
+    {
+      "id": "dt-3458799",
+      "title": "The 5 Most Common EAA Violations I Found Auditing 14 Production Sites (And How to Fix Each One)",
+      "url": "https://dev.to/agentkit/the-5-most-common-eaa-violations-i-found-auditing-14-production-sites-and-how-to-fix-each-one-1lhf",
+      "source": "devto",
+      "score": 1,
+      "description": "I spent the last three months auditing 14 production websites for European Accessibility Act...",
+      "createdAt": "2026-04-06T05:41:02Z"
+    },
+    {
+      "id": "dt-3451775",
+      "title": "Fortress in a Box: Kubernetes Security for the Organizations That Can't Afford It",
+      "url": "https://dev.to/joselorenzana272/fortress-in-a-box-kubernetes-security-for-the-organizations-that-cant-afford-it-206e",
+      "source": "devto",
+      "score": 1,
+      "description": "In January, a tweet stopped me mid-scroll.  Someone was remembering a breach from 2022. The Red...",
+      "createdAt": "2026-04-06T14:00:00Z"
+    },
+    {
+      "id": "dt-3445931",
+      "title": "The Axios Supply Chain Attack: What Happened, How to Check, and What to Do Next",
+      "url": "https://dev.to/rverwey/the-axios-supply-chain-attack-what-happened-how-to-check-and-what-to-do-next-18n",
+      "source": "devto",
+      "score": 1,
+      "description": "Two malicious versions of Axios were published to npm on March 31, 2026, hiding a dependency that...",
+      "createdAt": "2026-04-06T14:09:00Z"
+    },
+    {
+      "id": "dt-3462158",
+      "title": "Your Claude Code Batches Don't Have to Wait for Each Other",
+      "url": "https://dev.to/edwardkubiak/git-worktrees-headless-ai-sessions-a-pattern-for-parallel-code-generation-2i5",
+      "source": "devto",
+      "score": 1,
+      "description": "The serial bottleneck   You have a plan with six batches of AI-driven work: build the auth...",
+      "createdAt": "2026-04-06T19:41:15Z"
+    },
+    {
+      "id": "dt-3455504",
+      "title": "MCP Dev Summit 2026: What Actually Changed for Python Developers",
+      "url": "https://dev.to/peytongreen_dev/mcp-dev-summit-2026-what-actually-changed-for-python-developers-16ep",
+      "source": "devto",
+      "score": 1,
+      "description": "The MCP Dev Summit NYC wrapped April 3. Here's the signal — what shipped, what changed in the auth landscape, and what it means for your Python MCP code right now.",
+      "createdAt": "2026-04-06T14:49:35Z"
+    },
+    {
+      "id": "gh-abhigyanpatwari-GitNexus",
+      "title": "abhigyanpatwari/GitNexus",
+      "url": "https://github.com/abhigyanpatwari/GitNexus",
+      "source": "github-trending",
+      "score": 0,
+      "description": "GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a GitHub repo or ZIP file, and get an interactive knowledge graph wit a built in Graph RAG Agent. Perfect for code exploration [TypeScript]",
+      "createdAt": "2026-04-07T02:32:06.537Z"
+    },
+    {
+      "id": "gh-google-ai-edge-gallery",
+      "title": "google-ai-edge/gallery",
+      "url": "https://github.com/google-ai-edge/gallery",
+      "source": "github-trending",
+      "score": 0,
+      "description": "A gallery that showcases on-device ML/GenAI use cases and allows people to try and use models locally. [Kotlin]",
+      "createdAt": "2026-04-07T02:32:06.537Z"
+    },
+    {
+      "id": "gh-google-ai-edge-LiteRT-LM",
+      "title": "google-ai-edge/LiteRT-LM",
+      "url": "https://github.com/google-ai-edge/LiteRT-LM",
+      "source": "github-trending",
+      "score": 0,
+      "description": "C++",
+      "createdAt": "2026-04-07T02:32:06.537Z"
+    },
+    {
+      "id": "gh-immich-app-immich",
+      "title": "immich-app/immich",
+      "url": "https://github.com/immich-app/immich",
+      "source": "github-trending",
+      "score": 0,
+      "description": "High performance self-hosted photo and video management solution. [TypeScript]",
+      "createdAt": "2026-04-07T02:32:06.537Z"
+    },
+    {
+      "id": "gh-KeygraphHQ-shannon",
+      "title": "KeygraphHQ/shannon",
+      "url": "https://github.com/KeygraphHQ/shannon",
+      "source": "github-trending",
+      "score": 0,
+      "description": "Shannon Lite is an autonomous, white-box AI pentester for web applications and APIs. It analyzes your source code, identifies attack vectors, and executes real exploits to prove vulnerabilities before they reach production. [TypeScript]",
+      "createdAt": "2026-04-07T02:32:06.537Z"
+    },
+    {
+      "id": "gh-NousResearch-hermes-agent",
+      "title": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "source": "github-trending",
+      "score": 0,
+      "description": "The agent that grows with you [Python]",
+      "createdAt": "2026-04-07T02:32:06.537Z"
+    },
+    {
+      "id": "gh-tobi-qmd",
+      "title": "tobi/qmd",
+      "url": "https://github.com/tobi/qmd",
+      "source": "github-trending",
+      "score": 0,
+      "description": "mini cli search engine for your docs, knowledge bases, meeting notes, whatever. Tracking current sota approaches while being all local [TypeScript]",
+      "createdAt": "2026-04-07T02:32:06.537Z"
+    },
+    {
+      "id": "gh-TelegramMessenger-Telegram-iOS",
+      "title": "TelegramMessenger/Telegram-iOS",
+      "url": "https://github.com/TelegramMessenger/Telegram-iOS",
+      "source": "github-trending",
+      "score": 0,
+      "description": "Telegram-iOS [Swift]",
+      "createdAt": "2026-04-07T02:32:06.537Z"
+    },
+    {
+      "id": "gh-kepano-obsidian-skills",
+      "title": "kepano/obsidian-skills",
+      "url": "https://github.com/kepano/obsidian-skills",
+      "source": "github-trending",
+      "score": 0,
+      "description": "Agent skills for Obsidian. Teach your agent to use Markdown, Bases, JSON Canvas, and use the CLI.",
+      "createdAt": "2026-04-07T02:32:06.537Z"
+    },
+    {
+      "id": "gh-ollama-ollama",
+      "title": "ollama/ollama",
+      "url": "https://github.com/ollama/ollama",
+      "source": "github-trending",
+      "score": 0,
+      "description": "Get up and running with Kimi-K2.5, GLM-5, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models. [Go]",
+      "createdAt": "2026-04-07T02:32:06.537Z"
+    },
+    {
+      "id": "gh-ggml-org-llama.cpp",
+      "title": "ggml-org/llama.cpp",
+      "url": "https://github.com/ggml-org/llama.cpp",
+      "source": "github-trending",
+      "score": 0,
+      "description": "LLM inference in C/C++ [C++]",
+      "createdAt": "2026-04-07T02:32:06.537Z"
+    },
+    {
+      "id": "gh-siddharthvaddem-openscreen",
+      "title": "siddharthvaddem/openscreen",
+      "url": "https://github.com/siddharthvaddem/openscreen",
+      "source": "github-trending",
+      "score": 0,
+      "description": "Create stunning demos for free. Open-source, no subscriptions, no watermarks, and free for commercial use. An alternative to Screen Studio. [TypeScript]",
+      "createdAt": "2026-04-07T02:32:06.537Z"
+    },
+    {
+      "id": "gh-NVIDIA-personaplex",
+      "title": "NVIDIA/personaplex",
+      "url": "https://github.com/NVIDIA/personaplex",
+      "source": "github-trending",
+      "score": 0,
+      "description": "PersonaPlex code. [Python]",
+      "createdAt": "2026-04-07T02:32:06.537Z"
+    },
+    {
+      "id": "dt-3458800",
+      "title": "ARIA Labels Are Probably Making Your Site Less Accessible. Here's When to Use Them (And When to Delete Them).",
+      "url": "https://dev.to/agentkit/aria-labels-are-probably-making-your-site-less-accessible-heres-when-to-use-them-and-when-to-gio",
+      "source": "devto",
+      "score": 0,
+      "description": "There's a rule in the ARIA specification that most developers never read. It's the first rule,...",
+      "createdAt": "2026-04-06T05:41:03Z"
+    },
+    {
+      "id": "dt-3461637",
+      "title": "Normalizing Flight Statuses Across 7 Languages: What I Learned Building a Global Airport API",
+      "url": "https://dev.to/jfcaba/normalizing-flight-statuses-across-7-languages-what-i-learned-building-a-global-airport-api-po0",
+      "source": "devto",
+      "score": 0,
+      "description": "When you scrape flight data from airport websites across 85+ countries, you quickly discover that...",
+      "createdAt": "2026-04-06T16:39:30Z"
+    },
+    {
+      "id": "dt-3461149",
+      "title": "The trick to AI coding memory isn't a bigger instruction file — it's smaller, layered knoledge",
+      "url": "https://dev.to/runaway_ideas/the-trick-to-ai-coding-memory-isnt-a-bigger-instruction-file-its-smaller-layered-knoledge-15jl",
+      "source": "devto",
+      "score": 0,
+      "description": "Something I see constantly is people trying to solve the \"my AI forgets everything\" problem by making...",
+      "createdAt": "2026-04-06T14:13:31Z"
+    },
+    {
+      "id": "dt-3459922",
+      "title": "Good software thinking doesn’t age. Tools do",
+      "url": "https://dev.to/mili_hunjic_70cb2c5dd0e49/good-software-thinking-doesnt-age-tools-do-4i6g",
+      "source": "devto",
+      "score": 0,
+      "description": "I built an informatics quiz back in 2009.    At the time, it was just a small student project —...",
+      "createdAt": "2026-04-06T13:39:46Z"
+    },
+    {
+      "id": "ch-changelog.com/16/2827",
+      "title": "Astral has been acquired by OpenAI",
+      "url": "https://changelog.com/news/184",
+      "source": "changelog",
+      "description": "Astral is joining OpenAI, which says a lot about where the center of gravity is moving for developer tools, LiteLLM got hit by a nasty supply-chain attack, and OpenCode blew up as the latest serious open source swing at the coding-agent stack. We've also got Rust doing a very public reality check on",
+      "createdAt": "2026-03-27T20:00:00.000Z"
+    },
+    {
+      "id": "ch-changelog.com/16/2825",
+      "title": "Big change brings big change",
+      "url": "https://changelog.com/news/183",
+      "source": "changelog",
+      "description": "This week's been wild — Iran bombed AWS data centers to take down Claude, OpenAI dropped GPT-5.4 (and it's seriously good for coding), and living brain cells are literally playing DOOM. We've also got a heartfelt take on what it feels like to be a 10x engineer in the age of AI, plus some cool new to",
+      "createdAt": "2026-03-10T20:00:00.000Z"
+    },
+    {
+      "id": "ch-changelog.com/16/2818",
+      "title": "The mythical agent-month",
+      "url": "https://changelog.com/news/182",
+      "source": "changelog",
+      "description": "Wes McKinney on the mythical agent-month, install Peon Ping to employ a Peon today, Andreas Kling explains why Ladybird is adopting Rust, Cloudflare has a new MCP server that's quite efficient, and Elliot Bonneville thinks the only moat left is money.",
+      "createdAt": "2026-02-23T20:45:00.000Z"
+    },
+    {
+      "id": "ch-changelog.com/16/2816",
+      "title": "All the Claw things",
+      "url": "https://changelog.com/news/181",
+      "source": "changelog",
+      "description": "Peter Steinberger joins OpenAI, ZeroClaw is \"claw done right\", MimiClaw runs on a $5 chip, Steve Yegge on managing the AI Vampire, and the day the telnet died.",
+      "createdAt": "2026-02-16T19:30:00.000Z"
+    },
+    {
+      "id": "ch-changelog.com/16/2813",
+      "title": "Vouch for an open source web of trust",
+      "url": "https://changelog.com/news/180",
+      "source": "changelog",
+      "description": "Mitchell Hashimoto's trust management system for open source, Nicholas Carlini has a team of Claudes build a C compiler, Stephan Schwab recounts the history of attempted developer replacement, NanClaw is an alternative to OpenClaw, and Sophie Koonin can't wrap her head around so many people going so",
+      "createdAt": "2026-02-09T19:00:00.000Z"
+    },
+    {
+      "id": "ch-changelog.com/16/2811",
+      "title": "The tech monoculture is finally breaking",
+      "url": "https://changelog.com/news/179",
+      "source": "changelog",
+      "description": "Jason Willems believes the tech monoculture is finally breaking, Don Ho shares some bad Notepad++ news, Tailscale's Avery Pennarun pens a great downtime apology, Milan Milanović explains why you can only code 4 hours per day, and Addy Osmani on managing comprehension debt when leaning on AI to code.",
+      "createdAt": "2026-02-02T20:30:00.000Z"
+    },
+    {
+      "id": "ch-changelog.com/16/2808",
+      "title": "Clawdbot triggers a run on Mac Minis",
+      "url": "https://changelog.com/news/178",
+      "source": "changelog",
+      "description": "Clawdbot drives Mac Mini sales, Swizec Teller on the future of software engineering being SRE, Daniel Stenberg decided to end curl's bug bounty program, zerobrew takes some of the best ideas from uv and applies them to Homebrew, and Phil Eaton on LLMs and your career.",
+      "createdAt": "2026-01-26T20:00:00.000Z"
+    },
+    {
+      "id": "ch-changelog.com/16/2804",
+      "title": "Agent psychosis: are we going insane?",
+      "url": "https://changelog.com/news/177",
+      "source": "changelog",
+      "description": "Armin Ronacher thinks AI agent psychosis might be driving us insane, Dan Abramov explains how AT Protocol is a social filesystem, RepoBar keeps your GitHub work in view without opening a browser, Ethan McCue shares some life altering Postgres patterns, and Lea Verou says web dependencies are broken ",
+      "createdAt": "2026-01-19T20:30:00.000Z"
+    },
+    {
+      "id": "ch-changelog.com/16/2802",
+      "title": "Linus Torvalds gets the AI coding bug",
+      "url": "https://changelog.com/news/176",
+      "source": "changelog",
+      "description": "Linus Torvalds pushes AI generated code, Jordan Fulghum thinks this is the year of self-hosting, FracturedJson formats for compact / human readability, Scott Werner believes a flood of adequate software is coming, and Sean Goedecke explains why generic software design advice is useless.",
+      "createdAt": "2026-01-12T19:35:00.000Z"
+    },
+    {
+      "id": "ch-changelog.com/16/2800",
+      "title": "The move faster manifesto",
+      "url": "https://changelog.com/news/175",
+      "source": "changelog",
+      "description": "Brian Guthrie lists his seven rules for moving faster in software, Continuous-Claude-v2 is a context management system for Claude Code, Gas Town is Steve Yegge's multi-agent orchestrator for Claude Code, Paul Dix sees a great engineering divergence in 2026, and Mattias Geniar thinks web development ",
+      "createdAt": "2026-01-05T20:00:00.000Z"
+    },
+    {
+      "id": "ch-changelog.com/16/2798",
+      "title": "The code, prose & pods that shaped 2025",
+      "url": "https://changelog.com/news/174",
+      "source": "changelog",
+      "description": "This episodes diverges from our traditional fare. I’ve reviewed the 49 previous editions and picked (IMHO) the coolest code, best prose & my favorite podcast episode from each month!",
+      "createdAt": "2025-12-15T20:00:00.000Z"
+    },
+    {
+      "id": "ch-changelog.com/16/2796",
+      "title": "The \"confident idiot\" problem",
+      "url": "https://changelog.com/news/173",
+      "source": "changelog",
+      "description": "Why AI needs hard rules (not vibe checks), what Anthropic's acquisition of Bun's creators tells us about the AI takeover, Jonah Glover couldn't get Claude to recreate Space Jam's 1996 website, Google finally unkills something, and Bazzite is a distro for the next generation of Linux gaming.",
+      "createdAt": "2025-12-08T20:00:00.000Z"
+    },
+    {
+      "id": "ch-changelog.com/16/2791",
+      "title": "What actually makes you senior",
+      "url": "https://changelog.com/news/172",
+      "source": "changelog",
+      "description": "Matheus Lima on what makes senior developers actually senior, Tega Brain created a browser extension for avoiding AI slop, Andrew Kelley moves Zig from GitHub to Codeberg, Matias Heikkilä says there's no free lunch for vibe coding, and your SSD data at rest might be at risk.",
+      "createdAt": "2025-12-01T20:30:00.000Z"
+    },
+    {
+      "id": "ch-changelog.com/16/2787",
+      "title": "What is a tech bubble anyway?",
+      "url": "https://changelog.com/news/171",
+      "source": "changelog",
+      "description": "Cedric Chin says comparisons of our current AI *maybe-bubble* to the dot-com bubble and the 2008 GFC are limiting, Matthew Prince does a post-mortem on last week's Cloudflare outage, \"hl\" is a fast / powerful log viewer for humans, Enthusiast Guy's Continuum 93 is a fantasy computer emulator, and a ",
+      "createdAt": "2025-11-24T20:45:00.000Z"
+    },
+    {
+      "id": "ch-changelog.com/16/2784",
+      "title": "Why is Zig so cool?",
+      "url": "https://changelog.com/news/170",
+      "source": "changelog",
+      "description": "Nilo Stolte explains why Zig is \"a totally new way to write programs\", George Mack gives twelve actionable ways to be more creative, Mario Zechner shares his findings on using MCP vs Bash tools, Josh Collinsworth compares creating AI art to medieval alchemy, LibrePods unlocks AirPods features for An",
+      "createdAt": "2025-11-17T20:30:00.000Z"
+    },
+    {
+      "id": "ch-changelog.com/16/2781",
+      "title": "This new AI role is exploding",
+      "url": "https://changelog.com/news/169",
+      "source": "changelog",
+      "description": "A new AI-led tech role has emerged with a massive increase of job postings, Corey Quinn explains why younger devs won't tolerate pain in the AWS, Thomas Ptacek makes the case that you should write an agent, Paul Kinlan goes deeper on his dead framework theory, and Andrew Gallagher says to stop vibe ",
+      "createdAt": "2025-11-10T20:00:00.000Z"
+    },
+    {
+      "id": "ch-changelog.com/16/2779",
+      "title": "The overlooked power of URLs",
+      "url": "https://changelog.com/news/168",
+      "source": "changelog",
+      "description": "Ahmad Alfy explains how URLs are state containers, Shrivu Shankar shares how he uses every Claude Code feature, Yusuf Aytas laments how AI broke technical interviews, Wu Xiaoyun tells how he saved TikTok $300k during his internship, and TOON is a new serialization format to save us some LLM tokens.",
+      "createdAt": "2025-11-03T20:00:00.000Z"
+    },
+    {
+      "id": "ch-changelog.com/16/2776",
+      "title": "Code like a surgeon",
+      "url": "https://changelog.com/news/167",
+      "source": "changelog",
+      "description": "The Dead Internet Theory dies, Geoffrey Litt tries to code like a surgeon, Matt Sephton thinks spreadsheets are great for UI design, Nate Meyvis advocates for front-end maximalism, Hemant Pandey thinks 9-5 employment is a great option for most, David Miranda compares React to Backbone in 2025.",
+      "createdAt": "2025-10-27T19:45:00.000Z"
+    },
+    {
+      "id": "ch-changelog.com/16/2773",
+      "title": "The science behind developer flow states",
+      "url": "https://changelog.com/news/166",
+      "source": "changelog",
+      "description": "Csaba Okrona lays out exactly what Flow is (then shows you how to engineer your way back to it), a smart vacuum turned against an innocent hacker, Matz and the Ruby core team step up to steward RubyGems, Simon Willison things Claude Skills could be bigger than MCP, and Luke Plant looks at technical ",
+      "createdAt": "2025-10-20T19:00:00.000Z"
+    },
+    {
+      "id": "ch-changelog.com/16/2770",
+      "title": "The great software quality collapse",
+      "url": "https://changelog.com/news/165",
+      "source": "changelog",
+      "description": "Denis Stetskov describes how we've \"normalized catastrophe\" in the software industry, Meta is officially handing React and React Native over to a foundation, The New Stack reports on GitHub's Azure migration priority, Miguel Grinberg benchmarks Python 3.14, and The Oatmeal's Matthew Inman published ",
+      "createdAt": "2025-10-13T18:00:00.000Z"
+    },
+    {
+      "id": "ar-oai:arXiv.org:2604.02334v1",
+      "title": "Holos: A Web-Scale LLM-Based Multi-Agent System for the Agentic Web",
+      "url": "https://arxiv.org/abs/2604.02334",
+      "source": "arxiv",
+      "description": "arXiv:2604.02334v1 Announce Type: new \nAbstract: As large language models (LLM)-driven agents transition from isolated task solvers to persistent digital entities, the emergence of the Agentic Web, an ecosystem where heterogeneous agents autonomously interact and co-evolve, marks a pivotal shift tow",
+      "createdAt": "2026-04-06T04:00:00.000Z"
+    },
+    {
+      "id": "ar-oai:arXiv.org:2604.02335v1",
+      "title": "Convolutional Surrogate for 3D Discrete Fracture-Matrix Tensor Upscaling",
+      "url": "https://arxiv.org/abs/2604.02335",
+      "source": "arxiv",
+      "description": "arXiv:2604.02335v1 Announce Type: new \nAbstract: Modeling groundwater flow in three-dimensional fractured crystalline media requires accounting for strong spatial heterogeneity induced by fractures. Fine-scale discrete fracture-matrix (DFM) simulations can capture this complexity but are computation",
+      "createdAt": "2026-04-06T04:00:00.000Z"
+    },
+    {
+      "id": "ar-oai:arXiv.org:2604.02337v1",
+      "title": "Generating Counterfactual Patient Timelines from Real-World Data",
+      "url": "https://arxiv.org/abs/2604.02337",
+      "source": "arxiv",
+      "description": "arXiv:2604.02337v1 Announce Type: new \nAbstract: Counterfactual simulation - exploring hypothetical consequences under alternative clinical scenarios - holds promise for transformative applications such as personalized medicine and in silico trials. However, it remains challenging due to methodologi",
+      "createdAt": "2026-04-06T04:00:00.000Z"
+    },
+    {
+      "id": "ar-oai:arXiv.org:2604.02338v1",
+      "title": "LiME: Lightweight Mixture of Experts for Efficient Multimodal Multi-task Learning",
+      "url": "https://arxiv.org/abs/2604.02338",
+      "source": "arxiv",
+      "description": "arXiv:2604.02338v1 Announce Type: new \nAbstract: MoE-PEFT methods combine Mixture of Experts with parameter-efficient fine-tuning for multi-task adaptation, but require separate adapters per expert causing trainable parameters to scale linearly with expert count and limiting applicability to adapter",
+      "createdAt": "2026-04-06T04:00:00.000Z"
+    },
+    {
+      "id": "ar-oai:arXiv.org:2604.02339v1",
+      "title": "SIEVE: Sample-Efficient Parametric Learning from Natural Language",
+      "url": "https://arxiv.org/abs/2604.02339",
+      "source": "arxiv",
+      "description": "arXiv:2604.02339v1 Announce Type: new \nAbstract: Natural language context-such as instructions, knowledge, or feedback-contains rich signal for adapting language models. While in-context learning provides adaptation via the prompt, parametric learning persists into model weights and can improve perf",
+      "createdAt": "2026-04-06T04:00:00.000Z"
+    },
+    {
+      "id": "ar-oai:arXiv.org:2604.02340v1",
+      "title": "Not All Denoising Steps Are Equal: Model Scheduling for Faster Masked Diffusion Language Models",
+      "url": "https://arxiv.org/abs/2604.02340",
+      "source": "arxiv",
+      "description": "arXiv:2604.02340v1 Announce Type: new \nAbstract: Recent advances in masked diffusion language models (MDLMs) narrow the quality gap to autoregressive LMs, but their sampling remains expensive because generation requires many full-sequence denoising passes with a large Transformer and, unlike autoreg",
+      "createdAt": "2026-04-06T04:00:00.000Z"
+    },
+    {
+      "id": "ar-oai:arXiv.org:2604.02341v1",
+      "title": "LLM Reasoning with Process Rewards for Outcome-Guided Steps",
+      "url": "https://arxiv.org/abs/2604.02341",
+      "source": "arxiv",
+      "description": "arXiv:2604.02341v1 Announce Type: new \nAbstract: Mathematical reasoning in large language models has improved substantially with reinforcement learning using verifiable rewards, where final answers can be checked automatically and converted into reliable training signals. Most such pipelines optimiz",
+      "createdAt": "2026-04-06T04:00:00.000Z"
+    },
+    {
+      "id": "ar-oai:arXiv.org:2604.02342v1",
+      "title": "Homophily-aware Supervised Contrastive Counterfactual Augmented Fair Graph Neural Network",
+      "url": "https://arxiv.org/abs/2604.02342",
+      "source": "arxiv",
+      "description": "arXiv:2604.02342v1 Announce Type: new \nAbstract: In recent years, Graph Neural Networks (GNNs) have achieved remarkable success in tasks such as node classification, link prediction, and graph representation learning. However, they remain susceptible to biases that can arise not only from node attri",
+      "createdAt": "2026-04-06T04:00:00.000Z"
+    },
+    {
+      "id": "ar-oai:arXiv.org:2604.02343v1",
+      "title": "Haiku to Opus in Just 10 bits: LLMs Unlock Massive Compression Gains",
+      "url": "https://arxiv.org/abs/2604.02343",
+      "source": "arxiv",
+      "description": "arXiv:2604.02343v1 Announce Type: new \nAbstract: We study the compression of LLM-generated text across lossless and lossy regimes, characterizing a compression-compute frontier where more compression is possible at the cost of more compute. For lossless compression, domain-adapted LoRA adapters can ",
+      "createdAt": "2026-04-06T04:00:00.000Z"
+    },
+    {
+      "id": "ar-oai:arXiv.org:2604.02344v1",
+      "title": "Characterizing WebGPU Dispatch Overhead for LLM Inference Across Four GPU Vendors, Three Backends, and Three Browsers",
+      "url": "https://arxiv.org/abs/2604.02344",
+      "source": "arxiv",
+      "description": "arXiv:2604.02344v1 Announce Type: new \nAbstract: WebGPU's security-focused design imposes per-operation validation that compounds across the many small dispatches in neural network inference, yet the true cost of this overhead is poorly characterized. We present a systematic characterization of WebG",
+      "createdAt": "2026-04-06T04:00:00.000Z"
+    },
+    {
+      "id": "ar-oai:arXiv.org:2604.02345v1",
+      "title": "UI-Oceanus: Scaling GUI Agents with Synthetic Environmental Dynamics",
+      "url": "https://arxiv.org/abs/2604.02345",
+      "source": "arxiv",
+      "description": "arXiv:2604.02345v1 Announce Type: new \nAbstract: Scaling generalist GUI agents is hindered by the data scalability bottleneck of expensive human demonstrations and the \"distillation ceiling\" of synthetic teacher supervision. To transcend these limitations, we propose UI-Oceanus, a framework that shi",
+      "createdAt": "2026-04-06T04:00:00.000Z"
+    },
+    {
+      "id": "ar-oai:arXiv.org:2604.02346v1",
+      "title": "DrugPlayGround: Benchmarking Large Language Models and Embeddings for Drug Discovery",
+      "url": "https://arxiv.org/abs/2604.02346",
+      "source": "arxiv",
+      "description": "arXiv:2604.02346v1 Announce Type: new \nAbstract: Large language models (LLMs) are in the ascendancy for research in drug discovery, offering unprecedented opportunities to reshape drug research by accelerating hypothesis generation, optimizing candidate prioritization, and enabling more scalable and",
+      "createdAt": "2026-04-06T04:00:00.000Z"
+    },
+    {
+      "id": "ar-oai:arXiv.org:2604.02347v1",
+      "title": "FTimeXer: Frequency-aware Time-series Transformer with Exogenous variables for Robust Carbon Footprint Forecasting",
+      "url": "https://arxiv.org/abs/2604.02347",
+      "source": "arxiv",
+      "description": "arXiv:2604.02347v1 Announce Type: new \nAbstract: Accurate and up-to-date forecasting of the power grid's carbon footprint is crucial for effective product carbon footprint (PCF) accounting and informed decarbonization decisions. However, the carbon intensity of the grid exhibits high non-stationarit",
+      "createdAt": "2026-04-06T04:00:00.000Z"
+    },
+    {
+      "id": "ar-oai:arXiv.org:2604.02348v1",
+      "title": "Contextual Intelligence The Next Leap for Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2604.02348",
+      "source": "arxiv",
+      "description": "arXiv:2604.02348v1 Announce Type: new \nAbstract: Reinforcement learning (RL) has produced spectacular results in games, robotics, and continuous control. Yet, despite these successes, learned policies often fail to generalize beyond their training distribution, limiting real-world impact. Recent wor",
+      "createdAt": "2026-04-06T04:00:00.000Z"
+    },
+    {
+      "id": "ar-oai:arXiv.org:2604.02349v1",
+      "title": "OPRIDE: Offline Preference-based Reinforcement Learning via In-Dataset Exploration",
+      "url": "https://arxiv.org/abs/2604.02349",
+      "source": "arxiv",
+      "description": "arXiv:2604.02349v1 Announce Type: new \nAbstract: Preference-based reinforcement learning (PbRL) can help avoid sophisticated reward designs and align better with human intentions, showing great promise in various real-world applications. However, obtaining human feedback for preferences can be expen",
+      "createdAt": "2026-04-06T04:00:00.000Z"
+    },
+    {
+      "id": "hf-https://tldr.takara.ai/p/2603.28370",
+      "title": "Tailoring AI-Driven Reading Scaffolds to the Distinct Needs of Neurodiverse Learners",
+      "url": "https://tldr.takara.ai/p/2603.28370",
+      "source": "hf-papers",
+      "description": "Neurodiverse learners often require reading supports, yet increasing scaffold richness can sometimes overload attention and working memory rather than improve comprehension. Grounded in the Construction-Integration model and a contingent scaffolding perspective, we examine how structural versus sema",
+      "createdAt": "2026-03-30T12:38:41.000Z"
+    },
+    {
+      "id": "hf-https://tldr.takara.ai/p/2603.28931",
+      "title": "Decoding Functional Networks for Visual Categories via GNNs",
+      "url": "https://tldr.takara.ai/p/2603.28931",
+      "source": "hf-papers",
+      "description": "Understanding how large-scale brain networks represent visual categories is fundamental to linking perception and cortical organization. Using high-resolution 7T fMRI from the Natural Scenes Dataset, we construct parcel-level functional graphs and train a signed Graph Neural Network that models both",
+      "createdAt": "2026-03-30T19:10:28.000Z"
+    },
+    {
+      "id": "hf-https://tldr.takara.ai/p/2604.02654",
+      "title": "Drift-Resilient Temporal Priors for Visual Tracking",
+      "url": "https://tldr.takara.ai/p/2604.02654",
+      "source": "hf-papers",
+      "description": "Temporal information is crucial for visual tracking, but existing multi-frame trackers are vulnerable to model drift caused by naively aggregating noisy historical predictions. In this paper, we introduce DTPTrack, a lightweight and generalizable module designed to be seamlessly integrated into exis",
+      "createdAt": "2026-04-03T02:35:32.000Z"
+    },
+    {
+      "id": "hf-https://tldr.takara.ai/p/2603.27507",
+      "title": "Chat-Scene++: Exploiting Context-Rich Object Identification for 3D LLM",
+      "url": "https://tldr.takara.ai/p/2603.27507",
+      "source": "hf-papers",
+      "description": "Recent advancements in multi-modal large language models (MLLMs) have shown strong potential for 3D scene understanding. However, existing methods struggle with fine-grained object grounding and contextual reasoning, limiting their ability to interpret and interact with complex 3D environments. In t",
+      "createdAt": "2026-03-29T04:16:04.000Z"
+    },
+    {
+      "id": "hf-https://tldr.takara.ai/p/2603.29185",
+      "title": "Hierarchical Visual Relocalization with Nearest View Synthesis from Feature Gaussian Splatting",
+      "url": "https://tldr.takara.ai/p/2603.29185",
+      "source": "hf-papers",
+      "description": "Visual relocalization is a fundamental task in the field of 3D computer vision, estimating a camera's pose when it revisits a previously known scene. While point-based hierarchical relocalization methods have shown strong scalability and efficiency, they are often limited by sparse image observation",
+      "createdAt": "2026-03-31T02:51:14.000Z"
+    },
+    {
+      "id": "hf-https://tldr.takara.ai/p/2604.00590",
+      "title": "UniMixer: A Unified Architecture for Scaling Laws in Recommendation Systems",
+      "url": "https://tldr.takara.ai/p/2604.00590",
+      "source": "hf-papers",
+      "description": "In recent years, the scaling laws of recommendation models have attracted increasing attention, which govern the relationship between performance and parameters/FLOPs of recommenders. Currently, there are three mainstream architectures for achieving scaling in recommendation models, namely attention",
+      "createdAt": "2026-04-01T07:57:40.000Z"
+    },
+    {
+      "id": "hf-https://tldr.takara.ai/p/2603.29062",
+      "title": "CivicShield: A Cross-Domain Defense-in-Depth Framework for Securing Government-Facing AI Chatbots Against Multi-Turn Adversarial Attacks",
+      "url": "https://tldr.takara.ai/p/2603.29062",
+      "source": "hf-papers",
+      "description": "LLM-based chatbots in government services face critical security gaps. Multi-turn adversarial attacks achieve over 90% success against current defenses, and single-layer guardrails are bypassed with similar rates. We present CivicShield, a cross-domain defense-in-depth framework for government-facin",
+      "createdAt": "2026-03-30T22:58:04.000Z"
+    },
+    {
+      "id": "hf-https://tldr.takara.ai/p/2603.27666",
+      "title": "Gated Condition Injection without Multimodal Attention: Towards Controllable Linear-Attention Transformers",
+      "url": "https://tldr.takara.ai/p/2603.27666",
+      "source": "hf-papers",
+      "description": "Recent advances in diffusion-based controllable visual generation have led to remarkable improvements in image quality. However, these powerful models are typically deployed on cloud servers due to their large computational demands, raising serious concerns about user data privacy. To enable secure ",
+      "createdAt": "2026-03-29T12:31:34.000Z"
+    },
+    {
+      "id": "hf-https://tldr.takara.ai/p/2604.02651",
+      "title": "Communication-free Sampling and 4D Hybrid Parallelism for Scalable Mini-batch GNN Training",
+      "url": "https://tldr.takara.ai/p/2604.02651",
+      "source": "hf-papers",
+      "description": "Graph neural networks (GNNs) are widely used for learning on graph datasets derived from various real-world scenarios. Learning from extremely large graphs requires distributed training, and mini-batching with sampling is a popular approach for parallelizing GNN training. Existing distributed mini-b",
+      "createdAt": "2026-04-03T02:30:27.000Z"
+    },
+    {
+      "id": "hf-https://tldr.takara.ai/p/2603.27527",
+      "title": "Visualization of Machine Learning Models through Their Spatial and Temporal Listeners",
+      "url": "https://tldr.takara.ai/p/2603.27527",
+      "source": "hf-papers",
+      "description": "Model visualization (ModelVis) has emerged as a major research direction, yet existing taxonomies are largely organized by data or tasks, making it difficult to treat models as first-class analysis objects. We present a model-centric two-stage framework that employs abstract listeners to capture spa",
+      "createdAt": "2026-03-29T05:41:37.000Z"
+    },
+    {
+      "id": "hf-https://tldr.takara.ai/p/2603.29474",
+      "title": "From Big Data to Fast Data: Towards High-Quality Datasets for Machine Learning Applications from Closed-Loop Data Collection",
+      "url": "https://tldr.takara.ai/p/2603.29474",
+      "source": "hf-papers",
+      "description": "The increasing capabilities of machine learning models, such as vision-language and multimodal language models, are placing growing demands on data in automotive systems engineering, making the quality and relevance of collected data enablers for the development and validation of such systems. Tradi",
+      "createdAt": "2026-03-31T09:20:36.000Z"
+    },
+    {
+      "id": "hf-https://tldr.takara.ai/p/2604.02327",
+      "title": "Steerable Visual Representations",
+      "url": "https://tldr.takara.ai/p/2604.02327",
+      "source": "hf-papers",
+      "description": "Pretrained Vision Transformers (ViTs) such as DINOv2 and MAE provide generic image features that can be applied to a variety of downstream tasks such as retrieval, classification, and segmentation. However, such representations tend to focus on the most salient visual cues in the image, with no way ",
+      "createdAt": "2026-04-02T17:59:49.000Z"
+    }
+  ]
+}

@@ -26,6 +26,9 @@ type AnyDaily = {
 
 const MAX_EXPORT = 20;
 
+/** 首条无配图或仅有 webp 时，公众号封面固定使用该图（相对项目内 `data/`） */
+const DEFAULT_COVER_ASSETS_PATH = "assets/default.png";
+
 /** 人味俏皮动作，用于随机生成引言 */
 const INTRO_ACTIONS = [
   "削苹果",
@@ -213,15 +216,14 @@ function main() {
   mkdirSync(outDir, { recursive: true });
   const outPath = resolve(outDir, `${date}.md`);
 
-  const firstWithImage = items.find((it) => it.image && !isWebp(it.image));
-  const frontMatterTitle = firstWithImage
-    ? (firstWithImage.title_zh || firstWithImage.title)
-    : items[0]
-      ? (items[0].title_zh || items[0].title)
-      : `昨日旧闻（${date}）`;
-  const frontMatterCover = firstWithImage
-    ? imagePathForMd(firstWithImage.image!)
-    : "";
+  const first = items[0];
+  const frontMatterTitle = first
+    ? first.title_zh || first.title
+    : `昨日旧闻（${date}）`;
+  const frontMatterCover =
+    first?.image && !isWebp(first.image)
+      ? imagePathForMd(first.image)
+      : imagePathForMd(DEFAULT_COVER_ASSETS_PATH);
 
   function yamlEscape(s: string): string {
     return s.replace(/"/g, '\\"');
@@ -229,7 +231,7 @@ function main() {
   let md = "";
   md += "---\n";
   md += `title: "${yamlEscape(safeMd(frontMatterTitle))}"\n`;
-  md += frontMatterCover ? `cover: ${frontMatterCover}\n` : "";
+  md += `cover: ${frontMatterCover}\n`;
   md += `author: "${yamlEscape(safeMd(author))}"\n`;
   const siteUrl = process.env.PUBLIC_SITE_URL || "https://eyes.phaeris.xyz";
   md += `source_url: ${siteUrl}\n`;
