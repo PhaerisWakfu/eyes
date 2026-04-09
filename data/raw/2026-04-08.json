@@ -1,0 +1,594 @@
+{
+  "date": "2026-04-08",
+  "fetchedAt": "2026-04-09T01:58:30.540Z",
+  "items": [
+    {
+      "id": "hn-47687273",
+      "title": "Git commands I run before reading any code",
+      "url": "https://piechowski.io/post/git-commands-before-reading-code/",
+      "source": "hackernews",
+      "score": 1806,
+      "createdAt": "2026-04-08T08:53:42.000Z"
+    },
+    {
+      "id": "hn-47689237",
+      "title": "US cities are axing Flock Safety surveillance technology",
+      "url": "https://www.cnet.com/home/security/when-flock-comes-to-town-why-cities-are-axing-the-controversial-surveillance-technology/",
+      "source": "hackernews",
+      "score": 635,
+      "createdAt": "2026-04-08T12:26:14.000Z"
+    },
+    {
+      "id": "hn-47689648",
+      "title": "ML promises to be profoundly weird",
+      "url": "https://aphyr.com/posts/411-the-future-of-everything-is-lies-i-guess",
+      "source": "hackernews",
+      "score": 374,
+      "createdAt": "2026-04-08T13:06:33.000Z"
+    },
+    {
+      "id": "hn-47693679",
+      "title": "I've been waiting over a month for Anthropic to respond to my billing issue",
+      "url": "https://nickvecchioni.github.io/thoughts/2026/04/08/anthropic-support-doesnt-exist/",
+      "source": "hackernews",
+      "score": 280,
+      "createdAt": "2026-04-08T17:44:25.000Z"
+    },
+    {
+      "id": "hn-47689174",
+      "title": "MegaTrain: Full Precision Training of 100B+ Parameter LLMs on a Single GPU",
+      "url": "https://arxiv.org/abs/2604.05091",
+      "source": "hackernews",
+      "score": 261,
+      "createdAt": "2026-04-08T12:19:00.000Z"
+    },
+    {
+      "id": "hn-47695012",
+      "title": "USB for Software Developers: An introduction to writing userspace USB drivers",
+      "url": "https://werwolv.net/posts/usb_for_sw_devs/",
+      "source": "hackernews",
+      "score": 185,
+      "createdAt": "2026-04-08T19:23:34.000Z"
+    },
+    {
+      "id": "hn-47685945",
+      "title": "We moved Railway's frontend off Next.js. Builds went from 10+ mins to under 2",
+      "url": "https://blog.railway.com/p/moving-railways-frontend-off-nextjs",
+      "source": "hackernews",
+      "score": 177,
+      "createdAt": "2026-04-08T06:01:00.000Z"
+    },
+    {
+      "id": "hn-47696035",
+      "title": "John Deere to pay $99M in right-to-repair settlement",
+      "url": "https://www.thedrive.com/news/john-deere-to-pay-99-million-in-monumental-right-to-repair-settlement",
+      "source": "hackernews",
+      "score": 174,
+      "createdAt": "2026-04-08T20:46:27.000Z"
+    },
+    {
+      "id": "hn-47697870",
+      "title": "LittleSnitch for Linux",
+      "url": "https://obdev.at/products/littlesnitch-linux/index.html",
+      "source": "hackernews",
+      "score": 121,
+      "createdAt": "2026-04-09T00:26:08.000Z"
+    },
+    {
+      "id": "hn-47648538",
+      "title": "Pgit: I Imported the Linux Kernel into PostgreSQL",
+      "url": "https://oseifert.ch/blog/linux-kernel-pgit",
+      "source": "hackernews",
+      "score": 73,
+      "createdAt": "2026-04-05T12:08:55.000Z"
+    },
+    {
+      "id": "lb-aw2jr4",
+      "title": "Assessing Claude Mythos Preview’s cybersecurity capabilities",
+      "url": "https://red.anthropic.com/2026/mythos-preview/",
+      "source": "lobsters",
+      "score": 68,
+      "createdAt": "2026-04-07T13:21:32.000-05:00"
+    },
+    {
+      "id": "lb-m5ufxm",
+      "title": "Blackholing My Email",
+      "url": "https://www.johnsto.co.uk/blog/blackholing-my-email/",
+      "source": "lobsters",
+      "score": 53,
+      "createdAt": "2026-04-07T15:24:13.000-05:00"
+    },
+    {
+      "id": "lb-2zrhn4",
+      "title": "Little Snitch for Linux",
+      "url": "https://obdev.at/blog/little-snitch-for-linux/",
+      "source": "lobsters",
+      "score": 47,
+      "createdAt": "2026-04-08T15:18:34.000-05:00"
+    },
+    {
+      "id": "lb-vq6o44",
+      "title": "What text editor (cli or gui) are you using for writing non-code?",
+      "url": "https://lobste.rs/s/vq6o44/what_text_editor_cli_gui_are_you_using_for",
+      "source": "lobsters",
+      "score": 47,
+      "description": "<p>Papers, books, and notes.</p>\n<p>I’ve being using Trilium (not Next) but find writing simple markdown notes very enjoyable in CLI. Been trying Nano and now micro recently, both enjoyable.</p>\n",
+      "createdAt": "2026-04-07T09:40:14.000-05:00"
+    },
+    {
+      "id": "dt-3470559",
+      "title": "AIMock: One Mock Server For Your Entire AI Stack",
+      "url": "https://dev.to/copilotkit/aimock-one-mock-server-for-your-entire-ai-stack-1jhp",
+      "source": "devto",
+      "score": 45,
+      "description": "TL;DR Our CI was flaky, our tests hit live APIs, and every run burned tokens unnecessarily. So the...",
+      "createdAt": "2026-04-08T17:14:01Z"
+    },
+    {
+      "id": "lb-lwdzn1",
+      "title": "Nix security advisory: Privilege escalation via symlink following during FOD output registration",
+      "url": "https://discourse.nixos.org/t/nix-security-advisory-privilege-escalation-via-symlink-following-during-fod-output-registration/76900",
+      "source": "lobsters",
+      "score": 40,
+      "createdAt": "2026-04-07T17:41:54.000-05:00"
+    },
+    {
+      "id": "lb-ejaimk",
+      "title": "Applying \"Programming Without Pointers\" to an mbox indexer using Zig",
+      "url": "https://simonhartcher.com/posts/2026-04-08-applying-programming-without-pointers-to-an-mbox-indexer-using-zig",
+      "source": "lobsters",
+      "score": 30,
+      "createdAt": "2026-04-08T02:40:46.000-05:00"
+    },
+    {
+      "id": "lb-qayr1f",
+      "title": "Open source security at Astral",
+      "url": "https://astral.sh/blog/open-source-security-at-astral",
+      "source": "lobsters",
+      "score": 23,
+      "createdAt": "2026-04-08T10:25:29.000-05:00"
+    },
+    {
+      "id": "dt-3466256",
+      "title": "The Mental Cost of Always Being On as a Developer",
+      "url": "https://dev.to/harsh2644/the-mental-cost-of-always-being-on-as-a-developer-2el4",
+      "source": "devto",
+      "score": 20,
+      "description": "It Started With Just One Thing   Last month, I closed my laptop at 11 PM.  Then I opened it...",
+      "createdAt": "2026-04-08T13:33:41Z"
+    },
+    {
+      "id": "lb-9pipxp",
+      "title": "tailslayer: Library for reducing tail latency in RAM reads",
+      "url": "https://github.com/LaurieWired/tailslayer",
+      "source": "lobsters",
+      "score": 18,
+      "createdAt": "2026-04-08T12:11:40.000-05:00"
+    },
+    {
+      "id": "dt-3472952",
+      "title": "Converting old home movie DVDs into a private streaming site",
+      "url": "https://dev.to/peter/converting-old-home-movie-dvds-into-a-private-streaming-site-5bmb",
+      "source": "devto",
+      "score": 17,
+      "description": "A relative sent me a few DVDs containing really old home videos that were at one point saved to DVDs....",
+      "createdAt": "2026-04-08T19:46:46Z"
+    },
+    {
+      "id": "hn-47697952",
+      "title": "Little Snitch for Linux – Because Nothing Else Came Close",
+      "url": "https://obdev.at/blog/little-snitch-for-linux/",
+      "source": "hackernews",
+      "score": 13,
+      "createdAt": "2026-04-09T00:39:31.000Z"
+    },
+    {
+      "id": "dt-3470737",
+      "title": "I Built a Website Whose Only Feature Is Explaining How It Builds Itself",
+      "url": "https://dev.to/dtannen/i-built-a-website-whose-only-feature-is-explaining-how-it-builds-itself-4l92",
+      "source": "devto",
+      "score": 12,
+      "description": "This is a submission for the DEV April Fools Challenge           What I Built   I built the most...",
+      "createdAt": "2026-04-08T10:00:18Z"
+    },
+    {
+      "id": "dt-3470481",
+      "title": "AS’ HTCPCP AI Butler™ — The AI That Brews Chaos, Not Coffee 418% Chaos: Your Useless AI Butler",
+      "url": "https://dev.to/asamaes/as-htcpcp-ai-butler-the-ai-that-brews-chaos-not-coffee-418-chaos-your-useless-ai-butler-18m0",
+      "source": "devto",
+      "score": 11,
+      "description": "This is a submission for the DEV April Fools Challenge           🍵 AS’ HTCPCP AI Butler™ 🤖   ...    ...",
+      "createdAt": "2026-04-08T09:04:25Z"
+    },
+    {
+      "id": "dt-3467297",
+      "title": "I Built an Open-Source Visual Kubernetes Orchestration Platform — No YAML Required",
+      "url": "https://dev.to/mohit_nagaraj/i-built-an-open-source-visual-kubernetes-orchestration-platform-no-yaml-required-26hm",
+      "source": "devto",
+      "score": 11,
+      "description": "If you've ever stared at a 400-line Kubernetes YAML file at 2am trying to figure out why your service...",
+      "createdAt": "2026-04-08T02:49:08Z"
+    },
+    {
+      "id": "lb-i32p79",
+      "title": "AWS Engineer Reports PostgreSQL Performance Halved By Linux 7.0, But A Fix May Not Be Easy",
+      "url": "https://www.phoronix.com/news/Linux-7.0-AWS-PostgreSQL-Drop",
+      "source": "lobsters",
+      "score": 9,
+      "createdAt": "2026-04-08T12:46:45.000-05:00"
+    },
+    {
+      "id": "dt-3472146",
+      "title": "I Built an Agent to Run Live Event Raffles (then tried to rig it)",
+      "url": "https://dev.to/kimmaida/i-built-an-agent-to-run-live-event-raffles-then-tried-to-rig-it-al5",
+      "source": "devto",
+      "score": 9,
+      "description": "I just came back from a great RSAC 2026. I work at Keycard, and at our expo booth, attendees could...",
+      "createdAt": "2026-04-08T14:32:18Z"
+    },
+    {
+      "id": "lb-3a1dpx",
+      "title": "Tailslayer: A technique for reducing tail latency in DRAM operations",
+      "url": "https://www.youtube.com/watch?v=KKbgulTp3FE",
+      "source": "lobsters",
+      "score": 8,
+      "createdAt": "2026-04-08T12:58:26.000-05:00"
+    },
+    {
+      "id": "hn-47697679",
+      "title": "I built a tool to let you export your X bookmarks and categorize them",
+      "url": "https://x-archive.netlify.app/",
+      "source": "hackernews",
+      "score": 7,
+      "createdAt": "2026-04-08T23:54:33.000Z"
+    },
+    {
+      "id": "dt-3459827",
+      "title": "Dafuq did I just installed?",
+      "url": "https://dev.to/aloisseckar/dafuq-did-i-just-installed-3bch",
+      "source": "devto",
+      "score": 6,
+      "description": "During the recent Axios Supply Chain Attack I have accidentally observed couple of devs checking...",
+      "createdAt": "2026-04-08T08:31:41Z"
+    },
+    {
+      "id": "dt-3470504",
+      "title": "My AI Kept Recommending Pajamas for Date Night — Here's Why",
+      "url": "https://dev.to/alimafana/my-ai-kept-recommending-pajamas-for-date-night-heres-why-1o3b",
+      "source": "devto",
+      "score": 4,
+      "description": "I'm Ali, building Provia — an AI-powered sales platform — from Gaza. This is one of the bugs that...",
+      "createdAt": "2026-04-08T09:09:34Z"
+    },
+    {
+      "id": "lb-fu9wcm",
+      "title": "Giving LLMs a Formal Reasoning Engine for Code Analysis",
+      "url": "https://yogthos.net/posts/2026-04-08-neurosymbolic-mcp.html",
+      "source": "lobsters",
+      "score": 1,
+      "createdAt": "2026-04-08T16:39:09.000-05:00"
+    },
+    {
+      "id": "dt-3469093",
+      "title": "I Built a CLI AI Coding Assistant from Scratch — Here's What I Learned",
+      "url": "https://dev.to/jiayu_fd0917c8f896ea39ab9/i-built-a-cli-ai-coding-assistant-from-scratch-heres-what-i-learned-2ma7",
+      "source": "devto",
+      "score": 1,
+      "description": "I Built a CLI AI Coding Assistant from Scratch — Here's What I Learned    TL;DR: I spent...",
+      "createdAt": "2026-04-08T02:48:08Z"
+    },
+    {
+      "id": "gh-forrestchang-andrej-karpathy-skills",
+      "title": "forrestchang/andrej-karpathy-skills",
+      "url": "https://github.com/forrestchang/andrej-karpathy-skills",
+      "source": "github-trending",
+      "score": 0,
+      "createdAt": "2026-04-09T01:58:25.549Z"
+    },
+    {
+      "id": "gh-TheCraigHewitt-seomachine",
+      "title": "TheCraigHewitt/seomachine",
+      "url": "https://github.com/TheCraigHewitt/seomachine",
+      "source": "github-trending",
+      "score": 0,
+      "description": "A specialized Claude Code workspace for creating long-form, SEO-optimized blog content for any business. This system helps you research, write, analyze, and optimize content that ranks well and serves your target audience. [Python]",
+      "createdAt": "2026-04-09T01:58:25.549Z"
+    },
+    {
+      "id": "gh-elebumm-RedditVideoMakerBot",
+      "title": "elebumm/RedditVideoMakerBot",
+      "url": "https://github.com/elebumm/RedditVideoMakerBot",
+      "source": "github-trending",
+      "score": 0,
+      "description": "Create Reddit Videos with just✨ one command ✨ [Python]",
+      "createdAt": "2026-04-09T01:58:25.549Z"
+    },
+    {
+      "id": "gh-obra-superpowers",
+      "title": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "source": "github-trending",
+      "score": 0,
+      "description": "An agentic skills framework &amp; software development methodology that works. [Shell]",
+      "createdAt": "2026-04-09T01:58:25.549Z"
+    },
+    {
+      "id": "gh-newton-physics-newton",
+      "title": "newton-physics/newton",
+      "url": "https://github.com/newton-physics/newton",
+      "source": "github-trending",
+      "score": 0,
+      "description": "An open-source, GPU-accelerated physics simulation engine built upon NVIDIA Warp, specifically targeting roboticists and simulation researchers. [Python]",
+      "createdAt": "2026-04-09T01:58:25.549Z"
+    },
+    {
+      "id": "gh-virattt-ai-hedge-fund",
+      "title": "virattt/ai-hedge-fund",
+      "url": "https://github.com/virattt/ai-hedge-fund",
+      "source": "github-trending",
+      "score": 0,
+      "description": "An AI Hedge Fund Team [Python]",
+      "createdAt": "2026-04-09T01:58:25.549Z"
+    },
+    {
+      "id": "gh-goharbor-harbor",
+      "title": "goharbor/harbor",
+      "url": "https://github.com/goharbor/harbor",
+      "source": "github-trending",
+      "score": 0,
+      "description": "An open source trusted cloud native registry project that stores, signs, and scans content. [Go]",
+      "createdAt": "2026-04-09T01:58:25.549Z"
+    },
+    {
+      "id": "dt-3471621",
+      "title": "Why I Built a New Vite Env Plugin",
+      "url": "https://dev.to/pyyupsk/why-i-built-a-new-vite-env-plugin-3c8f",
+      "source": "devto",
+      "score": 0,
+      "description": "The four problems with plain Vite environment variables — and the plugin I wrote to fix them.  This...",
+      "createdAt": "2026-04-08T13:09:28Z"
+    },
+    {
+      "id": "dt-3473310",
+      "title": "Building an AI Invoice Generator in a Week (Week 8 of My NanoCrafts Build Curriculum)",
+      "url": "https://dev.to/azeezroheem/building-an-ai-invoice-generator-in-a-week-week-8-of-my-nanocrafts-build-curriculum-43i4",
+      "source": "devto",
+      "score": 0,
+      "description": "Week 8 of my NanoCrafts build curriculum had one goal: ship a second SaaS product fast. After...",
+      "createdAt": "2026-04-08T23:06:39Z"
+    },
+    {
+      "id": "dt-3472786",
+      "title": "How We Use Gherkin, Envelopes, and Schemas to Shape Agent Behavior",
+      "url": "https://dev.to/lihsuanlung/how-we-use-gherkin-envelopes-and-schemas-to-shape-agent-behavior-3obe",
+      "source": "devto",
+      "score": 0,
+      "description": "Instead of writing rules agents ignore, we describe the behaviors we want. A look at how Gherkin...",
+      "createdAt": "2026-04-08T18:28:45Z"
+    },
+    {
+      "id": "ar-oai:arXiv.org:2604.04937v1",
+      "title": "Pramana: Fine-Tuning Large Language Models for Epistemic Reasoning through Navya-Nyaya",
+      "url": "https://arxiv.org/abs/2604.04937",
+      "source": "arxiv",
+      "description": "arXiv:2604.04937v1 Announce Type: new \nAbstract: Large language models produce fluent text but struggle with systematic reasoning, often hallucinating confident but unfounded claims. When Apple researchers added irrelevant context to mathematical problems, LLM performance degraded by 65% Apple Machi",
+      "createdAt": "2026-04-08T04:00:00.000Z"
+    },
+    {
+      "id": "ar-oai:arXiv.org:2604.04938v1",
+      "title": "Operational Noncommutativity in Sequential Metacognitive Judgments",
+      "url": "https://arxiv.org/abs/2604.04938",
+      "source": "arxiv",
+      "description": "arXiv:2604.04938v1 Announce Type: new \nAbstract: Metacognition, understood as the monitoring and regulation of one's own cognitive processes, is inherently sequential: an agent evaluates an internal state, updates it, and may then re-evaluate under modified criteria. Order effects in cognition are w",
+      "createdAt": "2026-04-08T04:00:00.000Z"
+    },
+    {
+      "id": "ar-oai:arXiv.org:2604.04940v1",
+      "title": "ReVEL: Multi-Turn Reflective LLM-Guided Heuristic Evolution via Structured Performance Feedback",
+      "url": "https://arxiv.org/abs/2604.04940",
+      "source": "arxiv",
+      "description": "arXiv:2604.04940v1 Announce Type: new \nAbstract: Designing effective heuristics for NP-hard combinatorial optimization problems remains a challenging and expertise-intensive task. Existing applications of large language models (LLMs) primarily rely on one-shot code synthesis, yielding brittle heuris",
+      "createdAt": "2026-04-08T04:00:00.000Z"
+    },
+    {
+      "id": "ar-oai:arXiv.org:2604.04941v1",
+      "title": "Algebraic Structure Discovery for Real World Combinatorial Optimisation Problems: A General Framework from Abstract Algebra to Quotient Space Learning",
+      "url": "https://arxiv.org/abs/2604.04941",
+      "source": "arxiv",
+      "description": "arXiv:2604.04941v1 Announce Type: new \nAbstract: Many combinatorial optimisation problems hide algebraic structures that, once exposed, shrink the search space and improve the chance of finding the global optimal solution. We present a general framework that (i) identifies algebraic structure, (ii) ",
+      "createdAt": "2026-04-08T04:00:00.000Z"
+    },
+    {
+      "id": "ar-oai:arXiv.org:2604.04971v1",
+      "title": "A Theory-guided Weighted $L^2$ Loss for solving the BGK model via Physics-informed neural networks",
+      "url": "https://arxiv.org/abs/2604.04971",
+      "source": "arxiv",
+      "description": "arXiv:2604.04971v1 Announce Type: new \nAbstract: While Physics-Informed Neural Networks offer a promising framework for solving partial differential equations, the standard $L^2$ loss formulation is fundamentally insufficient when applied to the Bhatnagar-Gross-Krook (BGK) model. Specifically, simpl",
+      "createdAt": "2026-04-08T04:00:00.000Z"
+    },
+    {
+      "id": "ar-oai:arXiv.org:2604.04983v1",
+      "title": "Territory Paint Wars: Diagnosing and Mitigating Failure Modes in Competitive Multi-Agent PPO",
+      "url": "https://arxiv.org/abs/2604.04983",
+      "source": "arxiv",
+      "description": "arXiv:2604.04983v1 Announce Type: new \nAbstract: We present Territory Paint Wars, a minimal competitive multi-agent reinforcement learning environment implemented in Unity, and use it to systematically investigate failure modes of Proximal Policy Optimisation (PPO) under self-play. A first agent tra",
+      "createdAt": "2026-04-08T04:00:00.000Z"
+    },
+    {
+      "id": "ar-oai:arXiv.org:2604.04986v1",
+      "title": "Enhancing sample efficiency in reinforcement-learning-based flow control: replacing the critic with an adaptive reduced-order model",
+      "url": "https://arxiv.org/abs/2604.04986",
+      "source": "arxiv",
+      "description": "arXiv:2604.04986v1 Announce Type: new \nAbstract: Model-free deep reinforcement learning (DRL) methods suffer from poor sample efficiency. To overcome this limitation, this work introduces an adaptive reduced-order-model (ROM)-based reinforcement learning framework for active flow control. In contras",
+      "createdAt": "2026-04-08T04:00:00.000Z"
+    },
+    {
+      "id": "ar-oai:arXiv.org:2604.04987v1",
+      "title": "Cactus: Accelerating Auto-Regressive Decoding with Constrained Acceptance Speculative Sampling",
+      "url": "https://arxiv.org/abs/2604.04987",
+      "source": "arxiv",
+      "description": "arXiv:2604.04987v1 Announce Type: new \nAbstract: Speculative sampling (SpS) has been successful in accelerating the decoding throughput of auto-regressive large language models by leveraging smaller draft models. SpS strictly enforces the generated distribution to match that of the verifier LLM. Thi",
+      "createdAt": "2026-04-08T04:00:00.000Z"
+    },
+    {
+      "id": "ar-oai:arXiv.org:2604.04988v1",
+      "title": "Prune-Quantize-Distill: An Ordered Pipeline for Efficient Neural Network Compression",
+      "url": "https://arxiv.org/abs/2604.04988",
+      "source": "arxiv",
+      "description": "arXiv:2604.04988v1 Announce Type: new \nAbstract: Modern deployment often requires trading accuracy for efficiency under tight CPU and memory constraints, yet common compression proxies such as parameter count or FLOPs do not reliably predict wall-clock inference time. In particular, unstructured spa",
+      "createdAt": "2026-04-08T04:00:00.000Z"
+    },
+    {
+      "id": "ar-oai:arXiv.org:2604.04996v1",
+      "title": "Learning-Based Multi-Criteria Decision Making Model for Sawmill Location Problems",
+      "url": "https://arxiv.org/abs/2604.04996",
+      "source": "arxiv",
+      "description": "arXiv:2604.04996v1 Announce Type: new \nAbstract: Strategically locating a sawmill is vital for enhancing the efficiency, profitability, and sustainability of timber supply chains. Our study proposes a Learning-Based Multi-Criteria Decision-Making (LB-MCDM) framework that integrates machine learning ",
+      "createdAt": "2026-04-08T04:00:00.000Z"
+    },
+    {
+      "id": "ar-oai:arXiv.org:2604.04998v1",
+      "title": "El Nino Prediction Based on Weather Forecast and Geographical Time-series Data",
+      "url": "https://arxiv.org/abs/2604.04998",
+      "source": "arxiv",
+      "description": "arXiv:2604.04998v1 Announce Type: new \nAbstract: This paper proposes a novel framework for enhancing the prediction accuracy and lead time of El Ni\\~no events, crucial for mitigating their global climatic, economic, and societal impacts. Traditional prediction models often rely on oceanic and atmosp",
+      "createdAt": "2026-04-08T04:00:00.000Z"
+    },
+    {
+      "id": "ar-oai:arXiv.org:2604.04999v1",
+      "title": "PRIME: Prototype-Driven Multimodal Pretraining for Cancer Prognosis with Missing Modalities",
+      "url": "https://arxiv.org/abs/2604.04999",
+      "source": "arxiv",
+      "description": "arXiv:2604.04999v1 Announce Type: new \nAbstract: Multimodal self-supervised pretraining offers a promising route to cancer prognosis by integrating histopathology whole-slide images, gene expression, and pathology reports, yet most existing approaches require fully paired and complete inputs. In pra",
+      "createdAt": "2026-04-08T04:00:00.000Z"
+    },
+    {
+      "id": "ar-oai:arXiv.org:2604.05002v1",
+      "title": "Learning Stable Predictors from Weak Supervision under Distribution Shift",
+      "url": "https://arxiv.org/abs/2604.05002",
+      "source": "arxiv",
+      "description": "arXiv:2604.05002v1 Announce Type: new \nAbstract: Learning from weak or proxy supervision is common when ground-truth labels are unavailable, yet robustness under distribution shift remains poorly understood, especially when the supervision mechanism itself changes. We formalize this as supervision d",
+      "createdAt": "2026-04-08T04:00:00.000Z"
+    },
+    {
+      "id": "ar-oai:arXiv.org:2604.05018v1",
+      "title": "PaperOrchestra: A Multi-Agent Framework for Automated AI Research Paper Writing",
+      "url": "https://arxiv.org/abs/2604.05018",
+      "source": "arxiv",
+      "description": "arXiv:2604.05018v1 Announce Type: new \nAbstract: Synthesizing unstructured research materials into manuscripts is an essential yet under-explored challenge in AI-driven scientific discovery. Existing autonomous writers are rigidly coupled to specific experimental pipelines, and produce superficial l",
+      "createdAt": "2026-04-08T04:00:00.000Z"
+    },
+    {
+      "id": "hf-https://tldr.takara.ai/p/2604.05564",
+      "title": "THIVLVC: Retrieval Augmented Dependency Parsing for Latin",
+      "url": "https://tldr.takara.ai/p/2604.05564",
+      "source": "hf-papers",
+      "description": "We describe THIVLVC, a two-stage system for the EvaLatin 2026 Dependency Parsing task. Given a Latin sentence, we retrieve structurally similar entries from the CIRCSE treebank using sentence length and POS n-gram similarity, then prompt a large language model to refine the baseline parse from UDPip",
+      "createdAt": "2026-04-07T08:05:12.000Z"
+    },
+    {
+      "id": "hf-https://tldr.takara.ai/p/2604.05674",
+      "title": "From Incomplete Architecture to Quantified Risk: Multimodal LLM-Driven Security Assessment for Cyber-Physical Systems",
+      "url": "https://tldr.takara.ai/p/2604.05674",
+      "source": "hf-papers",
+      "description": "Cyber-physical systems often contend with incomplete architectural documentation or outdated information resulting from legacy technologies, knowledge management gaps, and the complexity of integrating diverse subsystems over extended operational lifecycles. This architectural incompleteness impedes",
+      "createdAt": "2026-04-07T10:25:04.000Z"
+    },
+    {
+      "id": "hf-https://tldr.takara.ai/p/2604.05845",
+      "title": "JD-BP: A Joint-Decision Generative Framework for Auto-Bidding and Pricing",
+      "url": "https://tldr.takara.ai/p/2604.05845",
+      "source": "hf-papers",
+      "description": "Auto-bidding services optimize real-time bidding strategies for advertisers under key performance indicator (KPI) constraints such as target return on investment and budget. However, uncertainties such as model prediction errors and feedback latency can cause bidding strategies to deviate from ex-po",
+      "createdAt": "2026-04-07T13:11:12.000Z"
+    },
+    {
+      "id": "hf-https://tldr.takara.ai/p/2604.05468",
+      "title": "OntoTKGE: Ontology-Enhanced Temporal Knowledge Graph Extrapolation",
+      "url": "https://tldr.takara.ai/p/2604.05468",
+      "source": "hf-papers",
+      "description": "Temporal knowledge graph (TKG) extrapolation is an important task that aims to predict future facts through historical interaction information within KG snapshots. A key challenge for most existing TKG extrapolation models is handling entities with sparse historical interaction. The ontological know",
+      "createdAt": "2026-04-07T06:06:45.000Z"
+    },
+    {
+      "id": "hf-https://tldr.takara.ai/p/2604.05939",
+      "title": "Context-Value-Action Architecture for Value-Driven Large Language Model Agents",
+      "url": "https://tldr.takara.ai/p/2604.05939",
+      "source": "hf-papers",
+      "description": "Large Language Models (LLMs) have shown promise in simulating human behavior, yet existing agents often exhibit behavioral rigidity, a flaw frequently masked by the self-referential bias of current \"LLM-as-a-judge\" evaluations. By evaluating against empirical ground truth, we reveal a counter-intuit",
+      "createdAt": "2026-04-07T14:34:20.000Z"
+    },
+    {
+      "id": "hf-https://tldr.takara.ai/p/2604.06148",
+      "title": "Who Governs the Machine? A Machine Identity Governance Taxonomy (MIGT) for AI Systems Operating Across Enterprise and Geopolitical Boundaries",
+      "url": "https://tldr.takara.ai/p/2604.06148",
+      "source": "hf-papers",
+      "description": "The governance of artificial intelligence has a blind spot: the machine identities that AI systems use to act. AI agents, service accounts, API tokens, and automated workflows now outnumber human identities in enterprise environments by ratios exceeding 80 to 1, yet no integrated framework exists to",
+      "createdAt": "2026-04-07T17:51:56.000Z"
+    },
+    {
+      "id": "hf-https://tldr.takara.ai/p/2604.05523",
+      "title": "Market-Bench: Benchmarking Large Language Models on Economic and Trade Competition",
+      "url": "https://tldr.takara.ai/p/2604.05523",
+      "source": "hf-papers",
+      "description": "The ability of large language models (LLMs) to manage and acquire economic resources remains unclear. In this paper, we introduce \\textbf{Market-Bench}, a comprehensive benchmark that evaluates the capabilities of LLMs in economically-relevant tasks through economic and trade competition. Specifical",
+      "createdAt": "2026-04-07T07:23:51.000Z"
+    },
+    {
+      "id": "hf-https://tldr.takara.ai/p/2604.05963",
+      "title": "QiMeng-PRepair: Precise Code Repair via Edit-Aware Reward Optimization",
+      "url": "https://tldr.takara.ai/p/2604.05963",
+      "source": "hf-papers",
+      "description": "Large Language Models (LLMs) achieve strong program repair performance but often suffer from over-editing, where excessive modifications overwrite correct code and hinder bug localization. We systematically quantify its impact and introduce precise repair task, which maximizes reuse of correct code ",
+      "createdAt": "2026-04-07T14:56:38.000Z"
+    },
+    {
+      "id": "hf-https://tldr.takara.ai/p/2604.05663",
+      "title": "CuraLight: Debate-Guided Data Curation for LLM-Centered Traffic Signal Control",
+      "url": "https://tldr.takara.ai/p/2604.05663",
+      "source": "hf-papers",
+      "description": "Traffic signal control (TSC) is a core component of intelligent transportation systems (ITS), aiming to reduce congestion, emissions, and travel time. Recent approaches based on reinforcement learning (RL) and large language models (LLMs) have improved adaptivity, but still suffer from limited inter",
+      "createdAt": "2026-04-07T10:05:43.000Z"
+    },
+    {
+      "id": "hf-https://tldr.takara.ai/p/2604.05397",
+      "title": "Confidence Should Be Calibrated More Than One Turn Deep",
+      "url": "https://tldr.takara.ai/p/2604.05397",
+      "source": "hf-papers",
+      "description": "Large Language Models (LLMs) are increasingly applied in high-stakes domains such as finance, healthcare, and education, where reliable multi-turn interactions with users are essential. However, existing work on confidence estimation and calibration, a major approach to building trustworthy LLM syst",
+      "createdAt": "2026-04-07T03:48:33.000Z"
+    },
+    {
+      "id": "hf-https://tldr.takara.ai/p/2604.06170",
+      "title": "Paper Circle: An Open-source Multi-agent Research Discovery and Analysis Framework",
+      "url": "https://tldr.takara.ai/p/2604.06170",
+      "source": "hf-papers",
+      "description": "The rapid growth of scientific literature has made it increasingly difficult for researchers to efficiently discover, evaluate, and synthesize relevant work. Recent advances in multi-agent large language models (LLMs) have demonstrated strong potential for understanding user intent and are being tra",
+      "createdAt": "2026-04-07T17:59:58.000Z"
+    },
+    {
+      "id": "hf-https://tldr.takara.ai/p/2604.06168",
+      "title": "Action Images: End-to-End Policy Learning via Multiview Video Generation",
+      "url": "https://tldr.takara.ai/p/2604.06168",
+      "source": "hf-papers",
+      "description": "World action models (WAMs) have emerged as a promising direction for robot policy learning, as they can leverage powerful video backbones to model the future states. However, existing approaches often rely on separate action modules, or use action representations that are not pixel-grounded, making ",
+      "createdAt": "2026-04-07T17:59:30.000Z"
+    },
+    {
+      "id": "hf-https://tldr.takara.ai/p/2604.06155",
+      "title": "Toward Consistent World Models with Multi-Token Prediction and Latent Semantic Enhancement",
+      "url": "https://tldr.takara.ai/p/2604.06155",
+      "source": "hf-papers",
+      "description": "Whether Large Language Models (LLMs) develop coherent internal world models remains a core debate. While conventional Next-Token Prediction (NTP) focuses on one-step-ahead supervision, Multi-Token Prediction (MTP) has shown promise in learning more structured representations. In this work, we provid",
+      "createdAt": "2026-04-07T17:54:22.000Z"
+    },
+    {
+      "id": "hf-https://tldr.takara.ai/p/2604.05908",
+      "title": "Appearance Decomposition Gaussian Splatting for Multi-Traversal Reconstruction",
+      "url": "https://tldr.takara.ai/p/2604.05908",
+      "source": "hf-papers",
+      "description": "Multi-traversal scene reconstruction is important for high-fidelity autonomous driving simulation and digital twin construction. This task involves integrating multiple sequences captured from the same geographical area at different times. In this context, a primary challenge is the significant appe",
+      "createdAt": "2026-04-07T14:11:54.000Z"
+    }
+  ]
+}

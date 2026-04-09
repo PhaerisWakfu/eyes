@@ -186,6 +186,14 @@ function isWebp(image: string): boolean {
 }
 
 /**
+ * 是否为 svg（微信公众号素材通常不支持，导出时不配图）
+ */
+function isSvg(image: string): boolean {
+  const lower = image.toLowerCase();
+  return lower.endsWith(".svg") || lower.includes(".svg?");
+}
+
+/**
  * 将 item.image 转为 Markdown 可引用的路径。
  * - 本地路径 assets/xxx.webp -> ../data/assets/xxx.webp（相对 exports/）
  * - 外部 URL -> 原样
@@ -221,7 +229,7 @@ function main() {
     ? first.title_zh || first.title
     : `昨日旧闻（${date}）`;
   const frontMatterCover =
-    first?.image && !isWebp(first.image)
+    first?.image && !isWebp(first.image) && !isSvg(first.image)
       ? imagePathForMd(first.image)
       : imagePathForMd(DEFAULT_COVER_ASSETS_PATH);
 
@@ -244,7 +252,7 @@ function main() {
     const title = item.title_zh || item.title;
     md += `## [${escapeLinkText(safeMd(title))}](${item.url})\n\n`;
 
-    if (item.image && !isWebp(item.image)) {
+    if (item.image && !isWebp(item.image) && !isSvg(item.image)) {
       md += `![配图](${imagePathForMd(item.image)})\n\n`;
     }
 

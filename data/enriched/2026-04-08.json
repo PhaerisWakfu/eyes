@@ -1,0 +1,389 @@
+{
+  "date": "2026-04-08",
+  "fetchedAt": "2026-04-09T01:58:30.540Z",
+  "enrichedAt": "2026-04-09T02:35:00.000Z",
+  "items": [
+    {
+      "id": "hn-47687273",
+      "title": "Git commands I run before reading any code",
+      "url": "https://piechowski.io/post/git-commands-before-reading-code/",
+      "source": "hackernews",
+      "score": 1806,
+      "createdAt": "2026-04-08T08:53:42.000Z",
+      "valueScore": 9,
+      "title_zh": "读任何代码之前我会先跑的 Git 命令",
+      "tags": [
+        "开发工具",
+        "开源",
+        "职业"
+      ],
+      "image": "assets/2026-04-08/a747978462.png",
+      "summary_zh": "作者总结在深入阅读陌生仓库前先执行的一组 Git 命令与观察习惯：从提交图、分支策略、变更热点到 blame 路径，用最小成本建立「代码地图」再下手改。\n\n大仓库 onboarding 的痛点往往不是语法，而是历史与约定；先看清谁在什么时候为什么改，能避免误伤与重复劳动。\n\n这类可复制的检查清单比「多读源码」更具操作性，适合团队写入内部 wiki 或新人手册。",
+      "insight": "负责 code review 与架构梳理的技术负责人可直接采纳为默认 onboarding 流程。",
+      "commentary": "HN 一千八百赞说明大家都曾在 clone 后迷路——这篇基本是「先开灯再拆墙」的装修指南。"
+    },
+    {
+      "id": "hn-47689648",
+      "title": "ML promises to be profoundly weird",
+      "url": "https://aphyr.com/posts/411-the-future-of-everything-is-lies-i-guess",
+      "source": "hackernews",
+      "score": 374,
+      "createdAt": "2026-04-08T13:06:33.000Z",
+      "valueScore": 9,
+      "title_zh": "机器学习承诺会变得极度怪异",
+      "tags": [
+        "AI/ML",
+        "思考",
+        "安全"
+      ],
+      "image": "",
+      "summary_zh": "Aphyr 长文从分布式系统与工程经验出发，讨论机器学习系统在生产中如何放大不确定性、统计诡谲与人类对「可解释」的错觉，语气尖锐且带文学性。\n\n核心不是唱衰技术，而是提醒：当模型成为基础设施，错误形态会从 bug 变成分布与激励问题，需要新的运维伦理与验证手段。\n\n适合已有系统背景、想把 AI 从 demo 拉到严肃工程的读者慢读。",
+      "insight": "平台与风控架构师可用此文对齐团队对「ML 可靠性」的预期管理。",
+      "commentary": "Aphyr 写文章像拆分布式炸弹——读得爽，读完更不敢乱 vibe 部署。"
+    },
+    {
+      "id": "hn-47689174",
+      "title": "MegaTrain: Full Precision Training of 100B+ Parameter LLMs on a Single GPU",
+      "url": "https://arxiv.org/abs/2604.05091",
+      "source": "hackernews",
+      "score": 261,
+      "createdAt": "2026-04-08T12:19:00.000Z",
+      "valueScore": 9,
+      "title_zh": "MegaTrain：单卡全精度训练百亿参数以上 LLM",
+      "tags": [
+        "AI/ML",
+        "硬件",
+        "基础设施"
+      ],
+      "image": "assets/2026-04-08/88f5088404.png",
+      "summary_zh": "论文提出 MegaTrain，声称在单块 GPU 上以全精度训练超大规模语言模型成为可能，依赖显存与计算调度上的激进优化（细节以论文与复现为准）。\n\n若属实，将冲击「大模型训练=集群标配」的常识，也会影响学术与小团队的实验门槛。\n\n读者需结合独立评测与实现可用性审慎看待 headline，但方向无疑是训练工程的前沿热点。",
+      "insight": "训练系统与推理优化工程师应跟踪：是否改变显存分片与 offload 的主流配方。",
+      "commentary": "单卡百亿——标题像科幻，脚注里大概写满了数学与眼泪。"
+    },
+    {
+      "id": "hn-47693679",
+      "title": "I've been waiting over a month for Anthropic to respond to my billing issue",
+      "url": "https://nickvecchioni.github.io/thoughts/2026/04/08/anthropic-support-doesnt-exist/",
+      "source": "hackernews",
+      "score": 280,
+      "createdAt": "2026-04-08T17:44:25.000Z",
+      "valueScore": 8,
+      "title_zh": "Anthropic 账单问题一个多月仍未回复",
+      "tags": [
+        "行业动态",
+        "SaaS",
+        "AI/ML"
+      ],
+      "image": "",
+      "summary_zh": "作者记录向 Anthropic 申诉计费/账户问题却长期得不到有效客服响应的经历，在 HN 引发对「API 巨头支持渠道」的广泛讨论。\n\n当模型成为生产依赖，SLA 与工单响应与 uptime 同样关键；个人开发者与小团队尤其脆弱。\n\n个案不等同于官方政策，但提醒买方：采购 AI API 时要评估争议解决路径与备选供应商。",
+      "insight": "技术负责人做供应商风险评估时应把支持可达性写入 RFP，而非只看 token 价。",
+      "commentary": "模型再聪明，账单扯皮时你也只想找得到人——这篇是 B2B 残酷文学。"
+    },
+    {
+      "id": "hn-47695012",
+      "title": "USB for Software Developers: An introduction to writing userspace USB drivers",
+      "url": "https://werwolv.net/posts/usb_for_sw_devs/",
+      "source": "hackernews",
+      "score": 185,
+      "createdAt": "2026-04-08T19:23:34.000Z",
+      "valueScore": 8,
+      "title_zh": "写给软件开发者的 USB：用户态驱动入门",
+      "tags": [
+        "硬件",
+        "开源",
+        "基础设施"
+      ],
+      "image": "assets/2026-04-08/6c0efbf95e.png",
+      "summary_zh": "文章从软件开发者视角讲解 USB 协议栈、描述符与在用户态与设备通信的基本路径，降低切入固件相邻领域的门槛。\n\n对做嵌入式工具、逆向或硬件交互应用的工程师，USB 是绕不开的地基。\n\n行文偏教程向，适合作为「从不会到能写个 demo」的第一站。",
+      "insight": "需要写调试器、刷机工具或自定义外设软件的开发者可按文补齐 USB 常识。",
+      "commentary": "用户态驱动——内核听了松一口气，硬件小白听了终于敢插线。"
+    },
+    {
+      "id": "hn-47685945",
+      "title": "We moved Railway's frontend off Next.js. Builds went from 10+ mins to under 2",
+      "url": "https://blog.railway.com/p/moving-railways-frontend-off-nextjs",
+      "source": "hackernews",
+      "score": 177,
+      "createdAt": "2026-04-08T06:01:00.000Z",
+      "valueScore": 8,
+      "title_zh": "Railway 前端迁离 Next.js：构建从 10+ 分钟降到 2 分钟内",
+      "tags": [
+        "Web",
+        "基础设施",
+        "SaaS"
+      ],
+      "image": "assets/2026-04-08/453328022b.png",
+      "summary_zh": "Railway 团队分享将营销/控制台前端从 Next.js 迁移到其他栈（文中详述选型）后，构建时间从十余分钟降至两分钟以内的工程决策与收益。\n\n案例意义在于：框架流行度不等于组织约束下的最优解；CI 时间、缓存与部署模型会放大差异。\n\n读者应结合自身产品形态评估，而非简单「反 Next」或「挺 Next」。",
+      "insight": "前端平台与 DX 负责人可用作推动构建流水线审计的业务案例。",
+      "commentary": "又一篇「我们和爱框架和平分手」——分手理由通常是 CI 在哭。"
+    },
+    {
+      "id": "hn-47648538",
+      "title": "Pgit: I Imported the Linux Kernel into PostgreSQL",
+      "url": "https://oseifert.ch/blog/linux-kernel-pgit",
+      "source": "hackernews",
+      "score": 73,
+      "createdAt": "2026-04-05T12:08:55.000Z",
+      "valueScore": 8,
+      "title_zh": "Pgit：我把 Linux 内核导进了 PostgreSQL",
+      "tags": [
+        "数据",
+        "开源",
+        "基础设施"
+      ],
+      "image": "assets/2026-04-08/05616af623.png",
+      "summary_zh": "作者展示将 Linux 内核 Git 历史导入 PostgreSQL 的实验项目 Pgit，用 SQL 与关系模型探索大规模提交图、路径查询与代码考古。\n\n把 Git 当作图/时序数据放进成熟数据库，是「用错工具」还是「打开新查询语言」，取决于你的问题定义。\n\n对喜欢异质系统拼接的工程师，这是高娱乐性与启发性兼具的 hack。",
+      "insight": "做代码分析、合规审计或研究软件演化的团队可借鉴其数据建模思路。",
+      "commentary": "Postgres：我存过钱存过用户，今天存整个内核——职业生涯高光时刻。"
+    },
+    {
+      "id": "lb-aw2jr4",
+      "title": "Assessing Claude Mythos Preview’s cybersecurity capabilities",
+      "url": "https://red.anthropic.com/2026/mythos-preview/",
+      "source": "lobsters",
+      "score": 68,
+      "createdAt": "2026-04-07T13:21:32.000-05:00",
+      "valueScore": 8,
+      "title_zh": "评估 Claude Mythos Preview 的网络安全能力",
+      "tags": [
+        "AI/ML",
+        "安全",
+        "行业动态"
+      ],
+      "image": "",
+      "summary_zh": "Anthropic 红队文章披露对 Claude Mythos Preview 在网络安全场景下的系统评测方法与发现，属于厂商官方安全透明度的一部分。\n\n对买家而言，这类材料比营销话术更能支撑威胁模型：模型在哪些攻击面仍不可靠。\n\n具体结论以原文图表为准，适合安全研究与蓝队读者细读。",
+      "insight": "企业安全与合规团队评估「把最强模型交给谁用」时的必读参考之一。",
+      "commentary": "官方自己晒红队成绩——像餐厅主动贴厨房监控，勇气可嘉，菜还得一口口尝。"
+    },
+    {
+      "id": "lb-lwdzn1",
+      "title": "Nix security advisory: Privilege escalation via symlink following during FOD output registration",
+      "url": "https://discourse.nixos.org/t/nix-security-advisory-privilege-escalation-via-symlink-following-during-fod-output-registration/76900",
+      "source": "lobsters",
+      "score": 40,
+      "createdAt": "2026-04-07T17:41:54.000-05:00",
+      "valueScore": 8,
+      "title_zh": "Nix 安全公告：FOD 输出注册时符号链接跟随导致提权",
+      "tags": [
+        "安全",
+        "开源",
+        "基础设施"
+      ],
+      "image": "assets/2026-04-08/a5e0d7873e.svg",
+      "summary_zh": "Nix 社区发布安全通告：在固定输出推导（FOD）输出注册阶段不当跟随符号链接可能导致本地权限提升；受影响版本与修复以公告为准。\n\n供应链与构建系统同样是攻击面，尤其在多用户构建农场与 CI。\n\nNixOS 与重度 Nix 用户应尽快升级并审查构建隔离配置。",
+      "insight": "平台工程与维护 Nix 缓存的团队应按公告优先级打补丁并通报开发者。",
+      "commentary": "连「可复现构建」都能被 symlink 偷袭——说明黑客真的很努力。"
+    },
+    {
+      "id": "lb-fu9wcm",
+      "title": "Giving LLMs a Formal Reasoning Engine for Code Analysis",
+      "url": "https://yogthos.net/posts/2026-04-08-neurosymbolic-mcp.html",
+      "source": "lobsters",
+      "score": 1,
+      "createdAt": "2026-04-08T16:39:09.000-05:00",
+      "valueScore": 8,
+      "title_zh": "给 LLM 接一套形式化推理引擎做代码分析",
+      "tags": [
+        "AI/ML",
+        "开发工具",
+        "安全"
+      ],
+      "image": "",
+      "summary_zh": "作者探讨神经符号路线：让大模型在代码分析任务中调用形式化/逻辑引擎（通过 MCP 等接口），把「概率生成」与「可验证推导」拼接，减少胡编与漏报。\n\n对静态分析、合约验证与高危重构，纯 LLM 往往不够硬；外挂定理证明或约束求解是务实折中。\n\n实现细节与适用范围需读原文，方向代表 Agent 工具链的下一波深化。",
+      "insight": "做代码安全与形式化工具的产品化团队可关注 MCP 作为「第二大脑」插槽。",
+      "commentary": "LLM 负责脑洞，定理证明器负责打脸——分工明确，友谊长存。"
+    },
+    {
+      "id": "ar-oai:arXiv.org:2604.04987v1",
+      "title": "Cactus: Accelerating Auto-Regressive Decoding with Constrained Acceptance Speculative Sampling",
+      "url": "https://arxiv.org/abs/2604.04987",
+      "source": "arxiv",
+      "description": "arXiv:2604.04987v1 Announce Type: new \nAbstract: Speculative sampling (SpS) has been successful in accelerating the decoding throughput of auto-regressive large language models by leveraging smaller draft models. SpS strictly enforces the generated distribution to match that of the verifier LLM. Thi",
+      "createdAt": "2026-04-08T04:00:00.000Z",
+      "valueScore": 8,
+      "title_zh": "Cactus：约束接受式投机采样加速自回归解码",
+      "tags": [
+        "AI/ML",
+        "硬件",
+        "基础设施"
+      ],
+      "image": "assets/2026-04-08/88f5088404.png",
+      "summary_zh": "投机采样用小模型起草、大模型校验以提升吞吐，但严格匹配目标分布会带来接受率瓶颈；Cactus 引入约束接受策略，在保持分布一致性的前提下提高有效加速比。\n\n推理侧创新直接决定 token 单价与交互延迟，是 2024–2026 年论文主战场之一。\n\n工程落地需与现有推理框架内核融合，关注与并行解码、草稿模型选择的配合。",
+      "insight": "推理框架与芯片厂商应跟踪：新接受策略能否在 kernel 层吃到满血加速。",
+      "commentary": "投机采样像双人自行车——Cactus 大概是给后座加了离合。"
+    },
+    {
+      "id": "hf-https://tldr.takara.ai/p/2604.06148",
+      "title": "Who Governs the Machine? A Machine Identity Governance Taxonomy (MIGT) for AI Systems Operating Across Enterprise and Geopolitical Boundaries",
+      "url": "https://tldr.takara.ai/p/2604.06148",
+      "source": "hf-papers",
+      "description": "The governance of artificial intelligence has a blind spot: the machine identities that AI systems use to act. AI agents, service accounts, API tokens, and automated workflows now outnumber human identities in enterprise environments by ratios exceeding 80 to 1, yet no integrated framework exists to",
+      "createdAt": "2026-04-07T17:51:56.000Z",
+      "valueScore": 8,
+      "title_zh": "谁在治理机器？面向跨企业与地缘边界的机器身份治理分类法 MIGT",
+      "tags": [
+        "安全",
+        "AI/ML",
+        "行业动态"
+      ],
+      "image": "assets/2026-04-08/be806081df.png",
+      "summary_zh": "论文指出企业里机器身份（服务账号、API 令牌、Agent 工作流）数量已远超人类账号，但缺乏统一治理框架；提出 MIGT 分类法连接 IAM、合规与 AI 系统跨境部署。\n\nAgent 时代「谁有权代表组织行动」成为核心风险，与密钥泄露、越权调用紧密相关。\n\n对 CISO 与平台架构师，这是把 AI 治理从政策宣讲落到身份层的尝试。",
+      "insight": "Identity 与零信任团队应将其与现有 SPOD、Workload ID 方案对照落地。",
+      "commentary": "当 bot 比员工多，HR 管不着，IAM 再不上场就要集体加班到脱发。"
+    },
+    {
+      "id": "hf-https://tldr.takara.ai/p/2604.05939",
+      "title": "Context-Value-Action Architecture for Value-Driven Large Language Model Agents",
+      "url": "https://tldr.takara.ai/p/2604.05939",
+      "source": "hf-papers",
+      "description": "Large Language Models (LLMs) have shown promise in simulating human behavior, yet existing agents often exhibit behavioral rigidity, a flaw frequently masked by the self-referential bias of current \"LLM-as-a-judge\" evaluations. By evaluating against empirical ground truth, we reveal a counter-intuit",
+      "createdAt": "2026-04-07T14:34:20.000Z",
+      "valueScore": 8,
+      "title_zh": "面向价值驱动的 LLM 智能体的 Context-Value-Action 架构",
+      "tags": [
+        "AI/ML",
+        "思考",
+        "产品设计"
+      ],
+      "image": "assets/2026-04-08/56c6a41fc7.png",
+      "summary_zh": "研究批评仅靠 LLM-as-judge 会掩盖智能体行为僵化，提出 Context-Value-Action 架构，把情境感知、价值对齐与动作选择分层，并用更接近真实任务的 ground truth 评测暴露问题。\n\n对「像人」与「做对事」之间的缝隙，架构分层比单 prompt 更可持续。\n\n适合正在设计多角色模拟、游戏 AI 或社会仿真平台的读者。",
+      "insight": "做 Agent 评测与行为设计的团队可借鉴分层结构，减少对自举评判的依赖。",
+      "commentary": "又是拆架构救世界——但这次对准了「LLM 评委给自己打高分」的老毛病。"
+    },
+    {
+      "id": "hn-47689237",
+      "title": "US cities are axing Flock Safety surveillance technology",
+      "url": "https://www.cnet.com/home/security/when-flock-comes-to-town-why-cities-are-axing-the-controversial-surveillance-technology/",
+      "source": "hackernews",
+      "score": 635,
+      "createdAt": "2026-04-08T12:26:14.000Z",
+      "valueScore": 7,
+      "title_zh": "美国多城弃用 Flock Safety 监控技术",
+      "tags": [
+        "行业动态",
+        "安全",
+        "思考"
+      ],
+      "image": "",
+      "summary_zh": "媒体报道美国部分城市因隐私、治理成本与公众反对，终止或缩减与 Flock Safety 等车牌/公共监控方案的合作，反映智慧城市与执法科技的政策反弹。\n\n对科技从业者，这是「技术可行」与「社会许可」脱钩的典型案例：数据基础设施一旦政治化，合同与舆论同样决定生死。\n\n细节以各地市政决议与报道为准。",
+      "insight": "做 GovTech 与安防产品的团队应研究：合规叙事与社区沟通如何进入路线图。",
+      "commentary": "摄像头卖得多快，拆得就有多快——政界翻脸比 OTA 还狠。"
+    },
+    {
+      "id": "hn-47696035",
+      "title": "John Deere to pay $99M in right-to-repair settlement",
+      "url": "https://www.thedrive.com/news/john-deere-to-pay-99-million-in-monumental-right-to-repair-settlement",
+      "source": "hackernews",
+      "score": 174,
+      "createdAt": "2026-04-08T20:46:27.000Z",
+      "valueScore": 7,
+      "title_zh": "约翰迪尔就维修权和解支付约 9900 万美元",
+      "tags": [
+        "行业动态",
+        "硬件",
+        "开源"
+      ],
+      "image": "assets/2026-04-08/73bae30008.jpg",
+      "summary_zh": "约翰迪尔就维修权相关集体诉讼达成约 9900 万美元和解（具体条款以司法文件为准），被视为农业机械「右修」运动的里程碑之一。\n\n软件锁、诊断工具与配件渠道长期影响农民与独立维修商；和解可能推动更多文档与接口开放。\n\n对 IoT 与嵌入式行业，这是硬件厂商如何在订阅/锁定与监管压力间找平衡的样本。",
+      "insight": "做设备联网与固件锁定的产品经理应关注全球维修权立法风向。",
+      "commentary": "拖拉机上的 DRM 终于撞到犁——农民和黑客都等了太久。"
+    },
+    {
+      "id": "dt-3470559",
+      "title": "AIMock: One Mock Server For Your Entire AI Stack",
+      "url": "https://dev.to/copilotkit/aimock-one-mock-server-for-your-entire-ai-stack-1jhp",
+      "source": "devto",
+      "score": 45,
+      "description": "TL;DR Our CI was flaky, our tests hit live APIs, and every run burned tokens unnecessarily. So the...",
+      "createdAt": "2026-04-08T17:14:01Z",
+      "valueScore": 7,
+      "title_zh": "AIMock：覆盖整条 AI 栈的一个 Mock 服务",
+      "tags": [
+        "AI/ML",
+        "开发工具",
+        "SaaS"
+      ],
+      "image": "assets/2026-04-08/2754ae0d68.webp",
+      "summary_zh": "CopilotKit 侧介绍 AIMock：在 CI 中模拟多厂商 LLM 与工具调用，避免 flaky 测试、真实打 API 与无谓 token 消耗。\n\nAgent 应用测试需要契约化：响应结构、流式事件、错误码都应可伪造与回放。\n\n对已在生产使用 AI 管道的团队，这是把「测模型」纳入常规软件工程的关键拼图。",
+      "insight": "平台与 QA 工程师可将其与 contract testing、VCR 式夹具结合。",
+      "commentary": "CI 里烧真 token——财务看了会心梗，AIMock 像是给流水线买医保。"
+    },
+    {
+      "id": "lb-qayr1f",
+      "title": "Open source security at Astral",
+      "url": "https://astral.sh/blog/open-source-security-at-astral",
+      "source": "lobsters",
+      "score": 23,
+      "createdAt": "2026-04-08T10:25:29.000-05:00",
+      "valueScore": 7,
+      "title_zh": "Astral 的开源安全实践",
+      "tags": [
+        "开源",
+        "安全",
+        "基础设施"
+      ],
+      "image": "assets/2026-04-08/c2d2024747.jpg",
+      "summary_zh": "Astral 博客阐述其在 uv、ruff 等高速迭代开源项目中的安全流程：漏洞披露、发布签名、依赖与 CI 防护等，回应社区对「被收购后是否仍可信」的关注。\n\n明星工具链一旦成为默认路径，其供应链本身就是全网风险点。\n\n其他维护者可对照检查自己的安全基线是否跟得上 star 增长速度。",
+      "insight": "维护热门 OSS 的团队可直接借用其公开清单做差距分析。",
+      "commentary": "被 OpenAI 收下之后发安全博客——像新婚夫妇晒婚前协议，务实又微妙。"
+    },
+    {
+      "id": "ar-oai:arXiv.org:2604.04937v1",
+      "title": "Pramana: Fine-Tuning Large Language Models for Epistemic Reasoning through Navya-Nyaya",
+      "url": "https://arxiv.org/abs/2604.04937",
+      "source": "arxiv",
+      "description": "arXiv:2604.04937v1 Announce Type: new \nAbstract: Large language models produce fluent text but struggle with systematic reasoning, often hallucinating confident but unfounded claims. When Apple researchers added irrelevant context to mathematical problems, LLM performance degraded by 65% Apple Machi",
+      "createdAt": "2026-04-08T04:00:00.000Z",
+      "valueScore": 7,
+      "title_zh": "Pramana：借 Navya-Nyāya 微调 LLM 做认识论式推理",
+      "tags": [
+        "AI/ML",
+        "思考",
+        "数据"
+      ],
+      "image": "assets/2026-04-08/88f5088404.png",
+      "summary_zh": "论文探索将印度正理—新正理（Navya-Nyāya）传统中的论证结构引入大模型微调，以增强系统性、可检验的「认识论推理」，减少流利但空洞的断言。\n\n这是跨学科提示：对齐与推理不仅是西方逻辑学框架，也可从其他形式传统汲取结构归纳。\n\n实验规模与泛化需读原文，但问题意识对 RAG 与事实性研究有启发。",
+      "insight": "做推理数据集与哲学交叉 AI 的研究者可关注其标注与训练范式是否可迁移。",
+      "commentary": "用六百年前的论式训练今天的模型——学术浪漫拉满，算力账单也拉满。"
+    },
+    {
+      "id": "ar-oai:arXiv.org:2604.05018v1",
+      "title": "PaperOrchestra: A Multi-Agent Framework for Automated AI Research Paper Writing",
+      "url": "https://arxiv.org/abs/2604.05018",
+      "source": "arxiv",
+      "description": "arXiv:2604.05018v1 Announce Type: new \nAbstract: Synthesizing unstructured research materials into manuscripts is an essential yet under-explored challenge in AI-driven scientific discovery. Existing autonomous writers are rigidly coupled to specific experimental pipelines, and produce superficial l",
+      "createdAt": "2026-04-08T04:00:00.000Z",
+      "valueScore": 7,
+      "title_zh": "PaperOrchestra：多智能体自动撰写 AI 研究论文的框架",
+      "tags": [
+        "AI/ML",
+        "数据",
+        "行业动态"
+      ],
+      "image": "assets/2026-04-08/88f5088404.png",
+      "summary_zh": "论文提出 PaperOrchestra，用多 Agent 流水线把实验笔记、图表与非结构化材料编排成稿件，试图突破「与特定实验管线紧耦合」的自动写作局限。\n\n科研写作自动化触及学术诚信、引用准确性与审稿生态，技术与社会影响需并行讨论。\n\n对实验室 PI 与出版平台，这是观察「AI 科研助理」边界的前沿样本。",
+      "insight": "科研信息化与编辑工具方向可跟踪：人机共写工作流如何嵌入审稿与数据溯源。",
+      "commentary": "多 Agent 写论文——作者栏以后可能要加一行：「致谢：GPU 与八个吵架的小模型」。"
+    },
+    {
+      "id": "dt-3472786",
+      "title": "How We Use Gherkin, Envelopes, and Schemas to Shape Agent Behavior",
+      "url": "https://dev.to/lihsuanlung/how-we-use-gherkin-envelopes-and-schemas-to-shape-agent-behavior-3obe",
+      "source": "devto",
+      "score": 0,
+      "description": "Instead of writing rules agents ignore, we describe the behaviors we want. A look at how Gherkin...",
+      "createdAt": "2026-04-08T18:28:45Z",
+      "valueScore": 7,
+      "title_zh": "我们用 Gherkin、信封消息与 Schema 约束 Agent 行为",
+      "tags": [
+        "AI/ML",
+        "产品设计",
+        "基础设施"
+      ],
+      "image": "assets/2026-04-08/0d7a464345.webp",
+      "summary_zh": "作者分享在工程里用 Gherkin 行为描述、信封化消息与 JSON Schema 等结构化契约，把 Agent 的输入输出与分支行为「写成可测规范」，减少模型自由发挥。\n\n与纯自然语言规则相比，可执行规范更利于 CI、回归与跨团队协作。\n\n适合已在生产跑 Agent 的团队借鉴「规范即护栏」的思路。",
+      "insight": "做 Agent 编排与测试的同学可对照 BDD 工具链扩展出专用回归集。",
+      "commentary": "让 Agent 读 Gherkin——终于轮到 Cucumber 在 AI 时代复仇。"
+    }
+  ]
+}
