@@ -26,8 +26,8 @@ type AnyDaily = {
 
 const MAX_EXPORT = 20;
 
-/** 首条无配图或仅有 webp 时，公众号封面固定使用该图（相对项目内 `data/`） */
-const DEFAULT_COVER_ASSETS_PATH = "assets/default.png";
+/** 首条无配图或仅有 webp 时，公众号封面使用该仓库内静态文件（相对 `exports/`） */
+const DEFAULT_COVER_MD_PATH = "../static/wechat-default-cover.png";
 
 /** 人味俏皮动作，用于随机生成引言 */
 const INTRO_ACTIONS = [
@@ -227,11 +227,11 @@ function main() {
   const first = items[0];
   const frontMatterTitle = first
     ? first.title_zh || first.title
-    : `昨日旧闻（${date}）`;
+    : `科技前沿`;
   const frontMatterCover =
     first?.image && !isWebp(first.image) && !isSvg(first.image)
       ? imagePathForMd(first.image)
-      : imagePathForMd(DEFAULT_COVER_ASSETS_PATH);
+      : DEFAULT_COVER_MD_PATH;
 
   function yamlEscape(s: string): string {
     return s.replace(/"/g, '\\"');
@@ -239,12 +239,10 @@ function main() {
   let md = "";
   md += "---\n";
   md += `title: "${yamlEscape(safeMd(frontMatterTitle))}"\n`;
+  md += `description: "${randomIntro(author)}"\n`;
   md += `cover: ${frontMatterCover}\n`;
   md += `author: "${yamlEscape(safeMd(author))}"\n`;
-  const siteUrl = process.env.PUBLIC_SITE_URL || "https://eyes.phaeris.xyz";
-  md += `source_url: ${siteUrl}\n`;
   md += "---\n\n";
-  md += `# 昨日旧闻（${date}）\n\n`;
   md += `> ${randomIntro(author)}\n\n`;
 
   for (let i = 0; i < items.length; i++) {

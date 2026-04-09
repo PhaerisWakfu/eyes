@@ -2,7 +2,7 @@
   "name": "eyes",
   "type": "module",
   "version": "0.1.0",
-  "description": "多源科技资讯聚合、AI 增强日报、Astro + Cloudflare 站点与微信公众号 Markdown 导出",
+  "description": "多源科技资讯聚合、AI 增强日报与微信公众号 Markdown 导出",
   "license": "MIT",
   "private": true,
   "engines": {
@@ -11,26 +11,16 @@
   "scripts": {
     "fetch": "tsx scripts/fetch.ts",
     "wechat": "tsx scripts/wechat-export.ts",
-    "dev": "npm run copy-data && astro dev",
-    "copy-data": "tsx scripts/copy-data.ts",
     "download-images": "tsx scripts/download-images.ts",
-    "download-images:verbose": "tsx scripts/download-images.ts --verbose",
-    "build": "npm run copy-data && astro build",
-    "postbuild": "tsx scripts/cf-assetsignore.ts",
-    "preview": "astro preview",
-    "preview:cf": "npm run build && wrangler dev",
-    "deploy": "npm run build && wrangler deploy"
+    "download-images:verbose": "tsx scripts/download-images.ts --verbose"
   },
   "dependencies": {
-    "astro": "^5.5.0",
     "rss-parser": "^3.13.0"
   },
   "devDependencies": {
-    "@astrojs/cloudflare": "^12.6.13",
     "dotenv": "^16.4.7",
     "tsx": "^4.19.0",
     "typescript": "^5.7.0",
-    "@types/node": "^22.0.0",
-    "wrangler": "^4.72.0"
+    "@types/node": "^22.0.0"
   }
 }

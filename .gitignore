@@ -2,9 +2,10 @@
 node_modules/
 dist/
 .astro/
-public/data/
+data/
 .env
 .env.*
+!.env.example
 
 # Logs
 npm-debug.log*
