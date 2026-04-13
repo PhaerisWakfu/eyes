@@ -243,7 +243,6 @@ function main() {
   md += `cover: ${frontMatterCover}\n`;
   md += `author: "${yamlEscape(safeMd(author))}"\n`;
   md += "---\n\n";
-  md += `> ${randomIntro(author)}\n\n`;
 
   for (let i = 0; i < items.length; i++) {
     const item = items[i];
